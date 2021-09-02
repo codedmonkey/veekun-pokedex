@@ -1,0 +1,91 @@
+{
+    "name": {
+        "cs": null,
+        "de": "Waumpel",
+        "en": "Wurmple",
+        "es": "Wurmple",
+        "fr": "Chenipotte",
+        "it": "Wurmple",
+        "ja": "\u30b1\u30e0\u30c3\u30bd",
+        "ja-Hrkt": "\u30b1\u30e0\u30c3\u30bd",
+        "ko": "\uac1c\ubb34\uc18c",
+        "roomaji": "Kemusso",
+        "zh-Hans": "\u523a\u5c3e\u866b",
+        "zh-Hant": "\u523a\u5c3e\u87f2"
+    },
+    "dexNumbers": {
+        "national": "386",
+        "hoenn": "202"
+    },
+    "classification": {
+        "cs": "\u010cerv\u00ed",
+        "de": "Wurm",
+        "en": "Worm Pok\u00e9mon",
+        "es": "Pok\u00e9mon Gusano",
+        "fr": "Pok\u00e9mon Ver",
+        "it": "Pok\u00e9mon Baco",
+        "ja": "\u3044\u3082\u3080\u3057\u30dd\u30b1\u30e2\u30f3",
+        "ja-Hrkt": "\u3044\u3082\u3080\u3057\u30dd\u30b1\u30e2\u30f3",
+        "ko": "\uc560\ubc8c\ub808\ud3ec\ucf13\ubaac",
+        "roomaji": null,
+        "zh-Hans": "\u866b\u5b9d\u5b9d\u5b9d\u53ef\u68a6",
+        "zh-Hant": "\u87f2\u5bf6\u5bf6\u5bf6\u53ef\u5922"
+    },
+    "evolvesFrom": null,
+    "eggGroups": [
+        "bug"
+    ],
+    "defaultForm": "wurmple",
+    "forms": {
+        "wurmple": {
+            "name": false,
+            "type": [
+                "bug"
+            ],
+            "height": "3",
+            "weight": "36",
+            "isBattleOnly": false,
+            "isMega": false,
+            "baseStats": {
+                "hp": "45",
+                "attack": "45",
+                "defense": "35",
+                "specialAttack": "20",
+                "specialDefense": "30",
+                "speed": "20"
+            },
+            "baseExperience": "56",
+            "effortValues": {
+                "hp": "1"
+            },
+            "abilities": [
+                {
+                    "ability": "shield-dust",
+                    "hidden": false
+                },
+                {
+                    "ability": "run-away",
+                    "hidden": true
+                }
+            ],
+            "heldItems": [],
+            "moves": [
+                {
+                    "move": "tackle",
+                    "level": "1",
+                    "method": "level-up"
+                },
+                {
+                    "move": "string-shot",
+                    "level": "1",
+                    "method": "level-up"
+                },
+                {
+                    "move": "poison-sting",
+                    "level": "5",
+                    "method": "level-up"
+                }
+            ]
+        }
+    }
+}

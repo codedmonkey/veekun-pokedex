@@ -1,0 +1,85 @@
+{
+    "name": {
+        "de": "Hornliu",
+        "en": "Weedle",
+        "es": "Weedle",
+        "fr": "Aspicot",
+        "it": "Weedle",
+        "ja": "\u30d3\u30fc\u30c9\u30eb",
+        "ja-Hrkt": "\u30d3\u30fc\u30c9\u30eb",
+        "ko": "\ubfd4\ucda9\uc774",
+        "roomaji": "Beedle",
+        "zh-Hans": "\u72ec\u89d2\u866b",
+        "zh-Hant": "\u7368\u89d2\u87f2"
+    },
+    "dexNumbers": {
+        "national": "386",
+        "hoenn": "202"
+    },
+    "classification": {
+        "de": "Raupe",
+        "en": "Hairy Bug Pok\u00e9mon",
+        "es": "Pok\u00e9mon Oruga",
+        "fr": "Pok\u00e9mon Insectopic",
+        "it": "Pok\u00e9mon Millepiedi",
+        "ja": "\u3051\u3080\u3057\u30dd\u30b1\u30e2\u30f3",
+        "ja-Hrkt": "\u3051\u3080\u3057\u30dd\u30b1\u30e2\u30f3",
+        "ko": "\uc1a1\ucda9\uc774\ud3ec\ucf13\ubaac",
+        "roomaji": null,
+        "zh-Hans": "\u6bdb\u6bdb\u866b\u5b9d\u53ef\u68a6",
+        "zh-Hant": "\u6bdb\u6bdb\u87f2\u5bf6\u53ef\u5922"
+    },
+    "evolvesFrom": null,
+    "eggGroups": [
+        "bug"
+    ],
+    "defaultForm": "weedle",
+    "forms": {
+        "weedle": {
+            "name": false,
+            "type": [
+                "bug",
+                "poison"
+            ],
+            "height": "3",
+            "weight": "32",
+            "isBattleOnly": false,
+            "isMega": false,
+            "baseStats": {
+                "hp": "40",
+                "attack": "35",
+                "defense": "30",
+                "specialAttack": "20",
+                "specialDefense": "20",
+                "speed": "50"
+            },
+            "baseExperience": "39",
+            "effortValues": {
+                "speed": "1"
+            },
+            "abilities": [
+                {
+                    "ability": "shield-dust",
+                    "hidden": false
+                },
+                {
+                    "ability": "run-away",
+                    "hidden": true
+                }
+            ],
+            "heldItems": [],
+            "moves": [
+                {
+                    "move": "poison-sting",
+                    "level": "1",
+                    "method": "level-up"
+                },
+                {
+                    "move": "string-shot",
+                    "level": "1",
+                    "method": "level-up"
+                }
+            ]
+        }
+    }
+}
