@@ -1,0 +1,193 @@
+magic-guard:
+  changelog:
+    black-white:
+      effect:
+        en: '[Paralysis]{mechanic:paralysis} cannot prevent the Pokémon from moving, though the [Speed]{mechanic:speed} cut is unaffected.  [Poison]{mechanic:poison} still damages the Pokémon outside of battle.'
+        de: '[]{mechanic:paralysis} hindert das Pokémon nicht daran sich zu bewegen, aber der []{mechanic:speed} Malus bleibt. []{mechanic:poison} schadet dem Pokémon außerhalb vom Kampf.'
+  effect:
+    en: |-
+      This Pokémon is immune to damage not directly caused by a move.
+
+      For example, this Pokémon takes no damage from from [weather]{mechanic:weather}, recoil, [status ailments]{mechanic:status-ailments}, or []{move:spikes}, but it still suffers from the [Attack]{mechanic:attack} cut when [burned]{mechanic:burn}, and a []{item:life-orb} will still power up this Pokémon's moves without damaging it.  Anything that directly depends on such damage will also not happen; for example, []{move:leech-seed} will neither hurt this Pokémon nor heal the opponent, and Pokémon with a []{item:jaboca-berry} or []{item:rowap-berry} will not consume the berry when hit by this Pokémon.
+
+      The following are unaffected: []{move:struggle}, []{move:pain-split} (whether used by or against this Pokémon), []{move:belly-drum}, []{move:substitute}, []{move:curse}, moves that knock the user out, and damage from [confusion]{mechanic:confusion}.
+
+      This Pokémon will neither lose nor regain [HP]{mechanic:hp} if it drains HP from a Pokémon with []{ability:liquid-ooze}.
+
+      If this Pokémon is [badly poisoned]{mechanic:poison}, the poison counter is still increased each turn; if the Pokémon loses this ability, it will begin taking as much damage as it would be if it had been taking increasing damage each turn.
+    de: |-
+      Pokémon mit dieser Fähigkeit sind immun gegen alle Schäden die nicht direkt von Attacken verursacht werden.
+
+      Zum Beispiel nimmt ein Pokémon mit dieser Fähigkeit keinen Schaden durch [Wettereffekte]{mechanic:weather}, Rückstoß, []{mechanic:status-ailments} oder []{move:spikes}, aber es leidet trotzdem unter dem [Angriffsverlust]{mechanic:attack} durch []{mechanic:burn}. Ein []{item:life-orb} verstärkt die Attacken des Pokémons ohne ihm zu schaden. Alles was direkt von solchem Schaden abhängt hat ebenfalls keinen Effekt. []{move:leech-seed} z.B. wird weder das Pokémon mit dieser Fähigkeit verletzen, noch wird der Gegner geheilt und Gegner die eine []{item:jaboca-berry} oder eine []{item:rowap-berry} tragen werden diese nicht verbrauchen wenn sie von diesem Pokémon getroffen werden.
+
+      Die folgenden Attacken sind nicht betroffen: []{move:struggle}, []{move:pain-split} (egal ob von dem oder gegen das Pokémon benutzt), []{move:belly-drum}, []{move:substitute}, []{move:curse}, Attacken die den Anwender ausknocken sowie Schaden durch []{mechanic:confusion}.
+
+      Pokémon mit dieser Fähigkeit werden durhc weder []{mechanic:hp} verlieren noch dazugewinnen wenn sie []{mechanic:hp} von einem Pokémon mit []{ability:liquid-ooze} absaugen.
+
+      Wenn das Pokémon schwer [vergiftet]{mechanic:poison} wurde, wird der Vergiftungstimer trotzdem jede Runde erhöht. Verliert das Pokémon die Fähigkeit wird es so viel Schaden verlieren wie es ohne die Fähigkeit verlieren würde.
+  flavor_text:
+    diamond-pearl:
+      en: |-
+        The Pokémon only takes
+        damage from attacks.
+    platinum:
+      en: |-
+        The Pokémon only takes
+        damage from attacks.
+    heartgold-soulsilver:
+      en: |-
+        The Pokémon only takes
+        damage from attacks.
+    black-white:
+      en: |-
+        The Pokémon only takes
+        damage from attacks.
+      fr: |-
+        Seule une attaque directe
+        peut blesser le Pokémon.
+    black-2-white-2:
+      en: |-
+        The Pokémon only takes
+        damage from attacks.
+    x-y:
+      ja-Hrkt: |-
+        こうげき　いがいでは
+        ダメージを　うけない。
+      ja: |-
+        攻撃　以外では
+        ダメージを　受けない。
+      ko: |-
+        공격 이외에는
+        데미지를 입지 않는다.
+      en: |-
+        The Pokémon only takes
+        damage from attacks.
+      fr: |-
+        Seule une attaque directe peut
+        blesser le Pokémon.
+      de: |-
+        Das Pokémon nimmt nur durch
+        Offensiv-Attacken Schaden.
+      es: |-
+        Solo dañan al Pokémon los
+        ataques directos.
+      it: |-
+        Il Pokémon subisce danni solo
+        da attacchi diretti.
+    omega-ruby-alpha-sapphire:
+      ja-Hrkt: |-
+        こうげき　いがいでは
+        ダメージを　うけない。
+      ja: |-
+        攻撃　以外では
+        ダメージを　受けない。
+      ko: |-
+        공격 이외에는
+        데미지를 입지 않는다.
+      en: |-
+        The Pokémon only takes
+        damage from attacks.
+      fr: |-
+        Seule une attaque directe peut
+        blesser le Pokémon.
+      de: |-
+        Das Pokémon nimmt nur durch
+        Offensiv-Attacken Schaden.
+      es: |-
+        Solo dañan al Pokémon los
+        ataques directos.
+      it: |-
+        Il Pokémon subisce danni solo
+        da attacchi diretti.
+    sun-moon:
+      ja-Hrkt: |-
+        こうげき　いがいでは
+        ダメージを　うけない。
+      ja: |-
+        攻撃　以外では
+        ダメージを　受けない。
+      ko: |-
+        공격 이외에는
+        데미지를 입지 않는다.
+      zh-Hant: 不會受到攻擊以外的傷害。
+      zh-Hans: 不会受到攻击以外的伤害。
+      en: 'The Pokémon only takes damage from attacks.'
+      fr: 'Seules les attaques peuvent blesser le Pokémon.'
+      de: |-
+        Das Pokémon nimmt nur durch Offensiv-Attacken
+        Schaden.
+      es: 'El Pokémon solo recibe daño de ataques.'
+      it: 'Il Pokémon subisce danni solo dagli attacchi.'
+    ultra-sun-ultra-moon:
+      ja-Hrkt: |-
+        こうげき　いがいでは
+        ダメージを　うけない。
+      ja: |-
+        攻撃　以外では
+        ダメージを　受けない。
+      ko: |-
+        공격 이외에는
+        데미지를 입지 않는다.
+      zh-Hant: 不會受到攻擊以外的傷害。
+      zh-Hans: 不会受到攻击以外的伤害。
+      en: 'The Pokémon only takes damage from attacks.'
+      fr: 'Seules les attaques peuvent blesser le Pokémon.'
+      de: |-
+        Das Pokémon nimmt nur durch Offensiv-Attacken
+        Schaden.
+      es: 'El Pokémon solo recibe daño de ataques.'
+      it: 'Il Pokémon subisce danni solo dagli attacchi.'
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        こうげき　いがいでは
+        ダメージを　うけない。
+      ja: |-
+        攻撃　以外では
+        ダメージを　受けない。
+      ko: |-
+        공격 이외에는
+        데미지를 입지 않는다.
+      zh-Hant: 不會受到攻擊以外的傷害。
+      zh-Hans: 不会受到攻击以外的伤害。
+      en: 'The Pokémon only takes damage from attacks.'
+      fr: 'Seules les attaques peuvent blesser le Pokémon.'
+      de: |-
+        Das Pokémon nimmt nur durch Offensiv-Attacken
+        Schaden.
+      es: 'El Pokémon solo recibe daño de ataques.'
+      it: 'Il Pokémon subisce danni solo dagli attacchi.'
+    sword-shield:
+      ja-Hrkt: |-
+        こうげき　いがいでは
+        ダメージを　うけない。
+      ja: |-
+        攻撃　以外では
+        ダメージを　受けない。
+      ko: |-
+        공격 이외에는
+        데미지를 입지 않는다.
+      zh-Hant: 不會受到攻擊以外的傷害。
+      zh-Hans: 不会受到攻击以外的伤害。
+      en: 'The Pokémon only takes damage from attacks.'
+      fr: 'Seules les attaques peuvent blesser le Pokémon.'
+      de: |-
+        Das Pokémon nimmt nur durch Offensiv-Attacken
+        Schaden.
+      es: 'Solo recibe daño de ataques.'
+      it: 'Il Pokémon subisce danni solo dagli attacchi.'
+  generation: generation-iv
+  is_main_series: true
+  name:
+    ja-Hrkt: マジックガード
+    ja: マジックガード
+    ko: 매직가드
+    zh-Hant: 魔法防守
+    zh-Hans: 魔法防守
+    en: 'Magic Guard'
+    fr: 'Garde Magik'
+    de: Magieschild
+    es: 'Muro Mágico'
+    it: Magicscudo
+  short_effect:
+    en: 'Protects against damage not directly caused by a move.'
+    de: 'Schützt vor jeglichem Schaden der nicht direkt von Attacken verursacht wird.'

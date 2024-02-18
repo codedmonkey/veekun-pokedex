@@ -1,0 +1,552 @@
+meteor-falls:
+  areas:
+    main_area:
+      encounter_rates:
+        ruby:
+          walk: 10
+          old-rod: 30
+          good-rod: 30
+          super-rod: 30
+          surf: 4
+        sapphire:
+          walk: 10
+          old-rod: 30
+          good-rod: 30
+          super-rod: 30
+          surf: 4
+        emerald:
+          walk: 10
+          old-rod: 30
+          good-rod: 30
+          super-rod: 30
+          surf: 4
+      encounters:
+        ruby:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          goldeen:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 30
+            slot: 2
+          barboach:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          zubat:
+            encounter_method: walk
+            max_level: 20
+            min_level: 20
+            rarity: 1
+            slot: 12
+          solrock:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 5
+            slot: 8
+        sapphire:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          goldeen:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 30
+            slot: 2
+          barboach:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          zubat:
+            encounter_method: walk
+            max_level: 20
+            min_level: 20
+            rarity: 1
+            slot: 12
+          lunatone:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 5
+            slot: 8
+        emerald:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          goldeen:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 30
+            slot: 2
+          barboach:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          zubat:
+            encounter_method: walk
+            max_level: 20
+            min_level: 20
+            rarity: 1
+            slot: 12
+          solrock:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 5
+            slot: 8
+      game_index: 6
+      name:
+        en: 'Main Area'
+    back:
+      encounter_rates:
+        ruby:
+          walk: 10
+          old-rod: 30
+          good-rod: 30
+          super-rod: 30
+          surf: 4
+        sapphire:
+          walk: 10
+          old-rod: 30
+          good-rod: 30
+          super-rod: 30
+          surf: 4
+        emerald:
+          walk: 10
+          old-rod: 30
+          good-rod: 30
+          super-rod: 30
+          surf: 4
+      encounters:
+        ruby:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          goldeen:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 30
+            slot: 2
+          barboach:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 30
+            rarity: 40
+            slot: 2
+          whiscash:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          solrock:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 5
+            slot: 8
+        sapphire:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          goldeen:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 30
+            slot: 2
+          barboach:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 30
+            rarity: 40
+            slot: 2
+          whiscash:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          lunatone:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 5
+            slot: 8
+        emerald:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          goldeen:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 30
+            slot: 2
+          barboach:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 30
+            rarity: 40
+            slot: 2
+          whiscash:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          solrock:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 5
+            slot: 8
+      game_index: 7
+      name:
+        en: back
+    b1f:
+      encounter_rates:
+        ruby:
+          walk: 10
+          old-rod: 30
+          good-rod: 30
+          super-rod: 30
+          surf: 4
+        sapphire:
+          walk: 10
+          old-rod: 30
+          good-rod: 30
+          super-rod: 30
+          surf: 4
+        emerald:
+          walk: 10
+          old-rod: 30
+          good-rod: 30
+          super-rod: 30
+          surf: 4
+      encounters:
+        ruby:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          goldeen:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 30
+            slot: 2
+          barboach:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 30
+            rarity: 40
+            slot: 2
+          whiscash:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          solrock:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 5
+            slot: 8
+        sapphire:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          goldeen:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 30
+            slot: 2
+          barboach:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 30
+            rarity: 40
+            slot: 2
+          whiscash:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          lunatone:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 5
+            slot: 8
+        emerald:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          goldeen:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 30
+            slot: 2
+          barboach:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 30
+            rarity: 40
+            slot: 2
+          whiscash:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          solrock:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 5
+            slot: 8
+      game_index: 8
+      name:
+        en: B1F
+    backsmall-room:
+      encounter_rates:
+        ruby:
+          walk: 10
+          old-rod: 30
+          good-rod: 30
+          super-rod: 30
+          surf: 4
+        sapphire:
+          walk: 10
+          old-rod: 30
+          good-rod: 30
+          super-rod: 30
+          surf: 4
+        emerald:
+          walk: 10
+          old-rod: 30
+          good-rod: 30
+          super-rod: 30
+          surf: 4
+      encounters:
+        ruby:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          goldeen:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 30
+            slot: 2
+          barboach:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 30
+            rarity: 40
+            slot: 2
+          whiscash:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          solrock:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 5
+            slot: 8
+          bagon:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 5
+            slot: 7
+        sapphire:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          goldeen:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 30
+            slot: 2
+          barboach:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 30
+            rarity: 40
+            slot: 2
+          whiscash:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          lunatone:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 5
+            slot: 8
+          bagon:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 5
+            slot: 7
+        emerald:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          goldeen:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 30
+            slot: 2
+          barboach:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 30
+            rarity: 40
+            slot: 2
+          whiscash:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          solrock:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 5
+            slot: 8
+          bagon:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 5
+            slot: 7
+      game_index: 9
+      name:
+        en: 'back/small room'
+  name:
+    ja-Hrkt: りゅうせいのたき
+    ja: 流星の滝
+    ko: '유성의 폭포'
+    en: 'Meteor Falls'
+    fr: 'Site Météore'
+    de: Meteorfälle
+    es: 'Cascada Meteoro'
+    it: 'Cascate Meteora'
+  region: hoenn

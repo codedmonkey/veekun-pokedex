@@ -1,0 +1,131 @@
+driftveil-city:
+  areas:
+    main_area:
+      encounter_rates:
+        black:
+          super-rod: 50
+          surf: 3
+        white:
+          super-rod: 50
+          surf: 3
+      encounters:
+        black:
+          krabby:
+            encounter_method: super-rod
+            max_level: 55
+            min_level: 35
+            rarity: 15
+            slot: 3
+          chinchou:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 40
+            slot: 1
+          luvdisc:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 40
+            slot: 2
+          kingler:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 35
+            rarity: 15
+            slot: 3
+          lanturn:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 45
+            rarity: 1
+            slot: 5
+          frillish:
+            encounter_method: surf
+            max_level: 25
+            min_level: 10
+            rarity: 1
+            slot: 5
+          alomomola:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 5
+            slot: 3
+          jellicent:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 1
+            slot: 5
+        white:
+          krabby:
+            encounter_method: super-rod
+            max_level: 55
+            min_level: 35
+            rarity: 15
+            slot: 3
+          chinchou:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 40
+            slot: 1
+          luvdisc:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 40
+            slot: 2
+          kingler:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 35
+            rarity: 15
+            slot: 3
+          lanturn:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 45
+            rarity: 1
+            slot: 5
+          frillish:
+            encounter_method: surf
+            max_level: 25
+            min_level: 10
+            rarity: 1
+            slot: 5
+          alomomola:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 5
+            slot: 3
+          jellicent:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 1
+            slot: 5
+        black-2:
+          zorua:
+            encounter_method: gift
+            max_level: 25
+            min_level: 25
+            rarity: 100
+            slot: ~
+        white-2:
+          zorua:
+            encounter_method: gift
+            max_level: 25
+            min_level: 25
+            rarity: 100
+            slot: ~
+      game_index: 1
+      name:
+        en: 'Main Area'
+  name:
+    ja-Hrkt: ホドモエシティ
+    en: 'Driftveil City'
+    fr: 'Port Yoneuve'
+  region: unova

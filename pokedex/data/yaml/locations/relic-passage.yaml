@@ -1,0 +1,335 @@
+relic-passage:
+  areas:
+    castelia-sewers-entrance:
+      encounter_rates:
+        black-2:
+          walk: 7
+        white-2:
+          walk: 7
+      encounters:
+        black-2:
+          drilbur:
+            encounter_method: cave-spots
+            max_level: 19
+            min_level: 19
+            rarity: 1
+            slot: 12
+          onix:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 1
+            slot: 12
+          roggenrola:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 4
+            slot: 9
+          woobat:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 1
+            slot: 11
+          timburr:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 10
+            slot: 6
+          rattata:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 5
+            slot: 8
+        white-2:
+          drilbur:
+            encounter_method: cave-spots
+            max_level: 19
+            min_level: 19
+            rarity: 1
+            slot: 12
+          onix:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 1
+            slot: 12
+          roggenrola:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 4
+            slot: 9
+          woobat:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 1
+            slot: 11
+          timburr:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 10
+            slot: 6
+          rattata:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 5
+            slot: 8
+      game_index: 81
+      name:
+        en: 'Castelia Sewers entrance'
+    relic-castle-entrance:
+      encounter_rates:
+        black-2:
+          walk: 7
+          super-rod: 50
+          surf: 10
+        white-2:
+          walk: 7
+          super-rod: 50
+          surf: 10
+      encounters:
+        black-2:
+          drilbur:
+            encounter_method: cave-spots
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          onix:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          poliwag:
+            encounter_method: super-rod
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf
+            max_level: 30
+            min_level: 10
+            rarity: 1
+            slot: 5
+          poliwhirl:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 15
+            slot: 3
+          basculin-blue-striped:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 5
+            slot: 3
+          poliwrath:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          marill:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 60
+            slot: 1
+          azumarill:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 1
+            slot: 5
+          boldore:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 4
+            slot: 9
+          woobat:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 11
+          gurdurr:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 6
+          raticate:
+            encounter_method: walk
+            max_level: 29
+            min_level: 29
+            rarity: 5
+            slot: 8
+        white-2:
+          drilbur:
+            encounter_method: cave-spots
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          onix:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          poliwag:
+            encounter_method: super-rod
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf
+            max_level: 30
+            min_level: 10
+            rarity: 1
+            slot: 5
+          poliwhirl:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 15
+            slot: 3
+          basculin-red-striped:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 5
+            slot: 3
+          poliwrath:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          marill:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 60
+            slot: 1
+          azumarill:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 1
+            slot: 5
+          boldore:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 4
+            slot: 9
+          woobat:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 11
+          gurdurr:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 6
+          raticate:
+            encounter_method: walk
+            max_level: 29
+            min_level: 29
+            rarity: 5
+            slot: 8
+      game_index: 82
+      name:
+        en: 'Relic Castle entrance'
+    pwt-entrance:
+      encounter_rates:
+        black-2:
+          walk: 7
+        white-2:
+          walk: 7
+      encounters:
+        black-2:
+          drilbur:
+            encounter_method: cave-spots
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          onix:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          boldore:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 4
+            slot: 9
+          woobat:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 11
+          gurdurr:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 6
+        white-2:
+          drilbur:
+            encounter_method: cave-spots
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          onix:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          boldore:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 4
+            slot: 9
+          woobat:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 11
+          gurdurr:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 6
+      game_index: 83
+      name:
+        en: 'PWT entrance'
+  name:
+    ja-Hrkt: 古代の抜け道
+    en: 'Relic Passage'
+    fr: 'Chemin Enfoui'
+  region: unova

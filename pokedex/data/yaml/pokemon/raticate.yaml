@@ -1,0 +1,3514 @@
+raticate:
+  abilities:
+    run-away:
+      is_hidden: false
+      slot: 1
+    guts:
+      is_hidden: false
+      slot: 2
+    hustle:
+      is_hidden: true
+      slot: 3
+  base_experience: 145
+  base_stats:
+    hp: 55
+    attack: 81
+    defense: 60
+    special-attack: 50
+    special-defense: 70
+    speed: 97
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 2
+  game_index:
+    red: 166
+    blue: 166
+    yellow: 166
+    gold: 20
+    silver: 20
+    crystal: 20
+    ruby: 20
+    sapphire: 20
+    emerald: 20
+    firered: 20
+    leafgreen: 20
+    diamond: 20
+    pearl: 20
+    platinum: 20
+    heartgold: 20
+    soulsilver: 20
+    black: 20
+    white: 20
+    black-2: 20
+    white-2: 20
+  height: 7
+  is_default: true
+  moves:
+    red-blue:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tail-whip:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      water-gun:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rage:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 27
+        order: ~
+        pokemon_move_method: level-up
+      bide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      skull-bash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 14
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    yellow:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tail-whip:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      water-gun:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rage:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 27
+        order: ~
+        pokemon_move_method: level-up
+      bide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      skull-bash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 14
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    gold-silver:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      defense-curl:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    crystal:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      defense-curl:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ruby-sapphire:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 50
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    emerald:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      tail-whip:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      counter:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      defense-curl:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 50
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    firered-leafgreen:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      tail-whip:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      counter:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 50
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    diamond-pearl:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      double-edge:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pluck:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      sucker-punch:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    platinum:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      double-edge:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pluck:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      last-resort:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sucker-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zen-headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    heartgold-soulsilver:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      tackle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      double-edge:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pluck:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      last-resort:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sucker-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zen-headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    black-white:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      double-edge:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      pluck:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      sucker-punch:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      retaliate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      work-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    colosseum:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 50
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    xd:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      tail-whip:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 50
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    black-2-white-2:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      double-edge:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      pluck:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      last-resort:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sucker-punch:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zen-headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      retaliate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      work-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    x-y:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      double-edge:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      sucker-punch:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      retaliate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      double-edge:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      last-resort:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sucker-punch:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zen-headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      retaliate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      double-edge:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      sucker-punch:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      work-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      double-edge:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      last-resort:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sucker-punch:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zen-headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      work-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      throat-chop:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      stomping-tantrum:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    lets-go-pikachu-lets-go-eevee:
+      swords-dance:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      double-edge:
+        level: 42
+        order: ~
+        pokemon_move_method: level-up
+      tail-whip:
+        level: 3
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      counter:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      focus-energy:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      fury-swipes:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-fang:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      super-fang:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sucker-punch:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+  order: 27
+  species: raticate
+  type:
+    - normal
+  weight: 185

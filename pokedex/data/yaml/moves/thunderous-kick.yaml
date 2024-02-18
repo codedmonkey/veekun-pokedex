@@ -1,0 +1,87 @@
+thunderous-kick:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: 100
+  flags:
+    - contact
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        かみなりの　ような　うごきで
+        あいてを　ほんろう　しながら　キックする。
+        あいての　ぼうぎょを　さげる。
+      ja: |-
+        雷の　ような　動きで
+        相手を　翻弄しながら　キックする。
+        相手の　防御を　さげる。
+      ko: |-
+        번개 같은 움직임으로
+        상대를 농락하며 킥을 날린다.
+        상대의 방어를 떨어뜨린다.
+      zh-Hant: |-
+        以雷電般的動作
+        一邊戲弄對手一邊使出踢擊。
+        可降低對手的防禦。
+      zh-Hans: |-
+        以雷电般的动作
+        戏耍对手的同时使出脚踢。
+        可降低对手的防御。
+      en: |-
+        The user overwhelms the target with lightning-like
+        movement before delivering a kick. This also lowers
+        the target’s Defense stat.
+      fr: |-
+        Le lanceur assène un coup de pied à la cible
+        à la vitesse de l’éclair. Baisse aussi la Défense
+        de la cible.
+      de: |-
+        Der Anwender bringt das Ziel mit blitzschnellen
+        Bewegungen durcheinander und tritt dann zu.
+        Senkt die Verteidigung des Zieles.
+      es: |-
+        El usuario desconcierta al rival con movimientos
+        centelleantes y le propina una patada. Baja la Defensa
+        del objetivo.
+      it: |-
+        Il Pokémon sferra calci al bersaglio dopo averlo
+        distratto con movimenti fulminei, riducendone
+        la Difesa.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 100
+    meta_ailment: none
+    meta_category: damage+lower
+    stat_changes:
+      defense: -1
+  name:
+    ja-Hrkt: らいめいげり
+    ja: らいめいげり
+    ko: 천둥차기
+    zh-Hant: 雷鳴蹴擊
+    zh-Hans: 雷鸣蹴击
+    en: 'Thunderous Kick'
+    fr: 'Coup Fulgurant'
+    de: 'Donnernder Tritt'
+    es: 'Patada Relámpago'
+    it: 'Calcio Tonante'
+  power: 90
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: fighting

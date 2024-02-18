@@ -1,0 +1,84 @@
+grassy-glide:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - contact
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        じめんを　すべるように　あいてを　こうげき。
+        グラスフィールドの　とき
+        かならず　せんせい　こうげき　できる。
+      ja: |-
+        地面を　滑るように　相手を　攻撃。
+        グラスフィールドの時
+        必ず　先制攻撃　できる。
+      ko: |-
+        지면에 미끄러지듯 상대를 공격한다.
+        그래스필드일 때
+        반드시 선제공격할 수 있다.
+      zh-Hant: |-
+        在地面上滑行般地攻擊對手。
+        在青草場地時，
+        必定能夠發動先制攻擊。
+      zh-Hans: |-
+        仿佛在地面上滑行般地攻击对手。
+        在青草场地上，
+        必定能够先制攻击。
+      en: |-
+        Gliding on the ground, the user attacks the target.
+        This move always goes first on Grassy Terrain.
+      fr: |-
+        Le lanceur attaque l’ennemi en glissant sur le terrain.
+        Frappe toujours en priorité si un Champ Herbu est actif.
+      de: |-
+        Der Anwender rutscht über den Boden und greift das
+        Ziel an. Ermöglicht den Erstschlag, wenn ein Grasfeld
+        aktiv ist.
+      es: |-
+        Ataca al objetivo deslizándose sobre el terreno de
+        combate. Este movimiento tiene prioridad alta cuando
+        el terreno está cubierto por un campo de hierba.
+      it: |-
+        Chi la usa attacca il bersaglio scivolando sul terreno.
+        Se utilizzata quando è attivo un Campo Erboso,
+        ha priorità alta.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: グラススライダー
+    ja: グラススライダー
+    ko: 그래스슬라이더
+    zh-Hant: 青草滑梯
+    zh-Hans: 青草滑梯
+    en: 'Grassy Glide'
+    fr: Gliss’Herbe
+    de: Grasrutsche
+    es: Fitoimpulso
+    it: Erboscivolata
+  power: 70
+  pp: 20
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: grass

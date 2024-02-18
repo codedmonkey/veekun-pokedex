@@ -1,0 +1,79 @@
+clangorous-soul:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: status
+  effect: move-effect-433
+  effect_chance: 100
+  flags:
+    - snatch
+    - sound
+    - dance
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        じぶんの　ＨＰを　すこし　けずって
+        すべての　のうりょくを　あげる。
+      ja: |-
+        自分の　ＨＰを　少し　削って
+        すべての　能力を　上げる。
+      ko: |-
+        자신의 HP를 조금 깎아서
+        모든 능력을 올린다.
+      zh-Hant: |-
+        消耗一些自己的ＨＰ，
+        提高自己的所有能力。
+      zh-Hans: |-
+        削减少许自己的ＨＰ，
+        使所有能力都提高。
+      en: 'The user raises all its stats by using some of its HP.'
+      fr: |-
+        Le lanceur sacrifie une partie de ses PV
+        pour augmenter toutes ses stats.
+      de: |-
+        Der Anwender setzt eine kleine Menge an KP ein,
+        um alle seine Statuswerte zu erhöhen.
+      es: |-
+        Utiliza parte de los PS propios para subir sus
+        características.
+      it: |-
+        Chi la usa sacrifica un po’ dei suoi PS per aumentare
+        tutte le sue statistiche.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: -33
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 100
+    meta_ailment: none
+    meta_category: net-good-stats
+    stat_changes:
+      attack: 1
+      defense: 1
+      special-attack: 1
+      special-defense: 1
+      speed: 1
+  name:
+    ja-Hrkt: ソウルビート
+    ja: ソウルビート
+    ko: 소울비트
+    zh-Hant: 魂舞烈音爆
+    zh-Hans: 魂舞烈音爆
+    en: 'Clangorous Soul'
+    fr: Dracacophonie
+    de: Seelentanz
+    es: 'Estruendo Escama'
+    it: Dracofonia
+  power: ~
+  pp: 5
+  priority: 0
+  super_contest_effect: ~
+  target: user
+  type: dragon

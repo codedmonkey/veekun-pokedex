@@ -1,0 +1,3712 @@
+farfetchd:
+  abilities:
+    keen-eye:
+      is_hidden: false
+      slot: 1
+    inner-focus:
+      is_hidden: false
+      slot: 2
+    defiant:
+      is_hidden: true
+      slot: 3
+  base_experience: 132
+  base_stats:
+    hp: 52
+    attack: 90
+    defense: 55
+    special-attack: 58
+    special-defense: 62
+    speed: 60
+  effort_values:
+    hp: 0
+    attack: 1
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index:
+    red: 64
+    blue: 64
+    yellow: 64
+    gold: 83
+    silver: 83
+    crystal: 83
+    ruby: 83
+    sapphire: 83
+    emerald: 83
+    firered: 83
+    leafgreen: 83
+    diamond: 83
+    pearl: 83
+    platinum: 83
+    heartgold: 83
+    soulsilver: 83
+    black: 83
+    white: 83
+    black-2: 83
+    white-2: 83
+  height: 8
+  is_default: true
+  moves:
+    red-blue:
+      razor-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlwind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leer:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      rage:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      reflect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      skull-bash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    yellow:
+      razor-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlwind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leer:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      rage:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      reflect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      skull-bash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    gold-silver:
+      swords-dance:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-attack:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      detect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      false-swipe:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    crystal:
+      swords-dance:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-attack:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      detect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      false-swipe:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ruby-sapphire:
+      swords-dance:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      false-swipe:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      fury-cutter:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    emerald:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      leer:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      false-swipe:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      fury-cutter:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    firered-leafgreen:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      leer:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      false-swipe:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      fury-cutter:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    diamond-pearl:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-cutter:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pluck:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      night-slash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-slash:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      defog:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    platinum:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      heat-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-cutter:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feint:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      pluck:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      last-resort:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      night-slash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-slash:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      defog:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ominous-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    heartgold-soulsilver:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      fury-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      heat-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-cutter:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leaf-blade:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feint:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      pluck:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      last-resort:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      night-slash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-slash:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ominous-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    black-white:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      revenge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      knock-off:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-cutter:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leaf-blade:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      feint:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      pluck:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trump-card:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      night-slash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-slash:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      brave-bird:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acrobatics:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      retaliate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      work-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    colosseum:
+      swords-dance:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      false-swipe:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      fury-cutter:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    xd:
+      swords-dance:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      leer:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      false-swipe:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      fury-cutter:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    black-2-white-2:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      sky-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      heat-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      revenge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-cutter:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      leaf-blade:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      feint:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      pluck:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tailwind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trump-card:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      last-resort:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      night-slash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-slash:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      brave-bird:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acrobatics:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      retaliate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      work-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    x-y:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      revenge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      knock-off:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-cutter:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leaf-blade:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feint:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trump-card:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      night-slash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-slash:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      brave-bird:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      simple-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acrobatics:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      retaliate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      sky-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      heat-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      revenge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-cutter:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      leaf-blade:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feint:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      tailwind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trump-card:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      last-resort:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      night-slash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-slash:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      brave-bird:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      simple-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acrobatics:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      retaliate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      revenge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      knock-off:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-cutter:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leaf-blade:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feint:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trump-card:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      night-slash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-slash:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      brave-bird:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      simple-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acrobatics:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      work-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brutal-swing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      fury-attack:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-move:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      sky-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      foresight:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      heat-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      revenge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-cutter:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      leaf-blade:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feint:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      tailwind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trump-card:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      last-resort:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      night-slash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-slash:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      brave-bird:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      defog:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      simple-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acrobatics:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      final-gambit:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      work-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      first-impression:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      laser-focus:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      throat-chop:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      brutal-swing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    lets-go-pikachu-lets-go-eevee:
+      swords-dance:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      cut:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-attack:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      quick-attack:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      reflect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      mirror-move:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      sky-attack:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 27
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feint:
+        level: 1
+        order: 7
+        pokemon_move_method: level-up
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      air-slash:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+    sword-shield:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cut:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      gust:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fly:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sand-attack:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leer:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      peck:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      agility:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      focus-energy:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sky-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flail:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      steel-wing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      baton-pass:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-tail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      heat-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      revenge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      feather-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-cutter:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      aerial-ace:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leaf-blade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      feint:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      close-combat:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      night-slash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      air-slash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brave-bird:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      simple-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acrobatics:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      retaliate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      final-gambit:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      work-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      first-impression:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      solar-blade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      throat-chop:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brutal-swing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dual-wingbeat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 135
+  species: farfetchd
+  type:
+    - normal
+    - flying
+  weight: 150

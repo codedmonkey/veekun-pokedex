@@ -1,0 +1,491 @@
+lostlorn-forest:
+  areas:
+    main_area:
+      encounter_rates:
+        black:
+          walk: 8
+          super-rod: 50
+          surf: 3
+        white:
+          walk: 8
+          super-rod: 50
+          surf: 3
+        black-2:
+          walk: 1
+          super-rod: 50
+          surf: 10
+          dark-grass: 3
+        white-2:
+          walk: 1
+          super-rod: 50
+          surf: 10
+          dark-grass: 3
+      encounters:
+        black:
+          cottonee:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 11
+          swadloon:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 12
+          tranquill:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 5
+            slot: 7
+          venipede:
+            encounter_method: walk
+            max_level: 21
+            min_level: 21
+            rarity: 5
+            slot: 8
+          audino:
+            encounter_method: grass-spots
+            max_level: 21
+            min_level: 21
+            rarity: 5
+            slot: 7
+          emolga:
+            encounter_method: grass-spots
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 3
+          pansage:
+            encounter_method: grass-spots
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 4
+          pansear:
+            encounter_method: grass-spots
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 5
+          panpour:
+            encounter_method: grass-spots
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 6
+          unfezant:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 5
+            slot: 8
+          leavanny:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 11
+          whimsicott:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 12
+          goldeen:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 35
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf
+            max_level: 20
+            min_level: 5
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf-spots
+            max_level: 20
+            min_level: 5
+            rarity: 1
+            slot: 5
+        white:
+          petilil:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 11
+          swadloon:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 12
+          tranquill:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 5
+            slot: 7
+          venipede:
+            encounter_method: walk
+            max_level: 21
+            min_level: 21
+            rarity: 5
+            slot: 8
+          audino:
+            encounter_method: grass-spots
+            max_level: 21
+            min_level: 21
+            rarity: 5
+            slot: 7
+          emolga:
+            encounter_method: grass-spots
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 3
+          pansage:
+            encounter_method: grass-spots
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 4
+          pansear:
+            encounter_method: grass-spots
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 5
+          panpour:
+            encounter_method: grass-spots
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 6
+          unfezant:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 5
+            slot: 8
+          leavanny:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 11
+          lilligant:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 12
+          goldeen:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 35
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf
+            max_level: 20
+            min_level: 5
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf-spots
+            max_level: 20
+            min_level: 5
+            rarity: 1
+            slot: 5
+        black-2:
+          cottonee:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 1
+            slot: 11
+          swadloon:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 1
+            slot: 12
+          combee:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 3
+          whirlipede:
+            encounter_method: dark-grass
+            max_level: 23
+            min_level: 23
+            rarity: 10
+            slot: 6
+          roselia:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 5
+            slot: 7
+          heracross:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 5
+            slot: 8
+          audino:
+            encounter_method: grass-spots
+            max_level: 23
+            min_level: 23
+            rarity: 20
+            slot: 2
+          emolga:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 3
+          pansage:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 4
+          pansear:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 5
+          panpour:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 6
+          vespiquen:
+            encounter_method: grass-spots
+            max_level: 24
+            min_level: 24
+            rarity: 5
+            slot: 7
+          roserade:
+            encounter_method: grass-spots
+            max_level: 24
+            min_level: 24
+            rarity: 5
+            slot: 8
+          leavanny:
+            encounter_method: grass-spots
+            max_level: 24
+            min_level: 24
+            rarity: 1
+            slot: 11
+          whimsicott:
+            encounter_method: grass-spots
+            max_level: 24
+            min_level: 24
+            rarity: 1
+            slot: 12
+          poliwag:
+            encounter_method: super-rod
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf
+            max_level: 25
+            min_level: 10
+            rarity: 1
+            slot: 5
+          poliwhirl:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 15
+            slot: 3
+          basculin-blue-striped:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 30
+            slot: 2
+          politoed:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          buizel:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 60
+            slot: 1
+          floatzel:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 1
+            slot: 5
+          venipede:
+            encounter_method: walk
+            max_level: 21
+            min_level: 21
+            rarity: 10
+            slot: 6
+        white-2:
+          petilil:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 1
+            slot: 11
+          swadloon:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 1
+            slot: 12
+          combee:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 3
+          whirlipede:
+            encounter_method: dark-grass
+            max_level: 23
+            min_level: 23
+            rarity: 10
+            slot: 6
+          roselia:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 5
+            slot: 7
+          pinsir:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 5
+            slot: 8
+          audino:
+            encounter_method: grass-spots
+            max_level: 23
+            min_level: 23
+            rarity: 20
+            slot: 2
+          emolga:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 3
+          pansage:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 4
+          pansear:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 5
+          panpour:
+            encounter_method: grass-spots
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 6
+          vespiquen:
+            encounter_method: grass-spots
+            max_level: 24
+            min_level: 24
+            rarity: 5
+            slot: 7
+          roserade:
+            encounter_method: grass-spots
+            max_level: 24
+            min_level: 24
+            rarity: 5
+            slot: 8
+          leavanny:
+            encounter_method: grass-spots
+            max_level: 24
+            min_level: 24
+            rarity: 1
+            slot: 11
+          lilligant:
+            encounter_method: grass-spots
+            max_level: 24
+            min_level: 24
+            rarity: 1
+            slot: 12
+          poliwag:
+            encounter_method: super-rod
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf
+            max_level: 25
+            min_level: 10
+            rarity: 1
+            slot: 5
+          poliwhirl:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 15
+            slot: 3
+          basculin-red-striped:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 30
+            slot: 2
+          politoed:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          buizel:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 60
+            slot: 1
+          floatzel:
+            encounter_method: surf-spots
+            max_level: 30
+            min_level: 10
+            rarity: 1
+            slot: 5
+          venipede:
+            encounter_method: walk
+            max_level: 21
+            min_level: 21
+            rarity: 10
+            slot: 6
+      game_index: 108
+      name:
+        en: 'Main Area'
+  name:
+    ja-Hrkt: 迷いの森
+    en: 'Lostlorn Forest'
+    fr: 'Bois des Illusions'
+  region: unova

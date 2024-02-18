@@ -1,0 +1,426 @@
+lurantis-totem:
+  abilities:
+    leaf-guard:
+      is_hidden: false
+      slot: 1
+    contrary:
+      is_hidden: true
+      slot: 3
+  base_experience: 168
+  base_stats:
+    hp: 70
+    attack: 105
+    defense: 90
+    special-attack: 80
+    special-defense: 90
+    speed: 45
+  effort_values:
+    hp: 0
+    attack: 2
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index: {  }
+  height: 15
+  is_default: false
+  moves:
+    sun-moon:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      growth:
+        level: 14
+        order: ~
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leech-life:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sweet-scent:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      synthesis:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ingrain:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leaf-blade:
+        level: 23
+        order: ~
+        pokemon_move_method: level-up
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      x-scissor:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      low-sweep:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      petal-blizzard:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      solar-blade:
+        level: 47
+        order: ~
+        pokemon_move_method: level-up
+      leafage:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+    ultra-sun-ultra-moon:
+      swords-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      growth:
+        level: 14
+        order: ~
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leech-life:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sweet-scent:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      synthesis:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ingrain:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      superpower:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leaf-blade:
+        level: 23
+        order: ~
+        pokemon_move_method: level-up
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      worry-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      night-slash:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      x-scissor:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      defog:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      low-sweep:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dual-chop:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      petal-blizzard:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      solar-blade:
+        level: 47
+        order: ~
+        pokemon_move_method: level-up
+      leafage:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      laser-focus:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 912
+  species: lurantis
+  type:
+    - grass
+  weight: 580

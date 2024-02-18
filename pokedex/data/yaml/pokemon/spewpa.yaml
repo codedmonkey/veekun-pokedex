@@ -1,0 +1,92 @@
+spewpa:
+  abilities:
+    shed-skin:
+      is_hidden: false
+      slot: 1
+    friend-guard:
+      is_hidden: true
+      slot: 3
+  base_experience: 75
+  base_stats:
+    hp: 45
+    attack: 22
+    defense: 60
+    special-attack: 27
+    special-defense: 30
+    speed: 29
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 2
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index: {  }
+  height: 3
+  is_default: true
+  moves:
+    x-y:
+      harden:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      harden:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    sun-moon:
+      harden:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      harden:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 797
+  species: spewpa
+  type:
+    - bug
+  weight: 84

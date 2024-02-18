@@ -1,0 +1,250 @@
+kricketot:
+  abilities:
+    shed-skin:
+      is_hidden: false
+      slot: 1
+    run-away:
+      is_hidden: true
+      slot: 3
+  base_experience: 39
+  base_stats:
+    hp: 37
+    attack: 25
+    defense: 41
+    special-attack: 25
+    special-defense: 41
+    speed: 25
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 1
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index:
+    diamond: 401
+    pearl: 401
+    platinum: 401
+    heartgold: 401
+    soulsilver: 401
+    black: 401
+    white: 401
+    black-2: 401
+    white-2: 401
+  height: 3
+  is_default: true
+  moves:
+    diamond-pearl:
+      growl:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bide:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    platinum:
+      growl:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bide:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+    heartgold-soulsilver:
+      growl:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bide:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    black-white:
+      growl:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bide:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      struggle-bug:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+    black-2-white-2:
+      growl:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bide:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      struggle-bug:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+    x-y:
+      growl:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bide:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      growl:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bide:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      growl:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bide:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      struggle-bug:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+    ultra-sun-ultra-moon:
+      growl:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bide:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      struggle-bug:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+  order: 532
+  species: kricketot
+  type:
+    - bug
+  weight: 22

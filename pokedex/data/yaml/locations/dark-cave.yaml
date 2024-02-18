@@ -1,0 +1,626 @@
+dark-cave:
+  areas:
+    violet-city-entrance:
+      encounter_rates:
+        heartgold:
+          walk: 10
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+          rock-smash: 50
+        soulsilver:
+          walk: 10
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+          rock-smash: 50
+      encounters:
+        heartgold:
+          geodude:
+            encounter_method: rock-smash
+            max_level: 14
+            min_level: 8
+            rarity: 10
+            slot: 2
+          dunsparce:
+            encounter_method: rock-smash
+            max_level: 8
+            min_level: 4
+            rarity: 90
+            slot: 1
+          zubat:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 1
+            slot: 11
+          absol:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 10
+            slot: 4
+          makuhita:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 10
+            slot: 6
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          goldeen:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        soulsilver:
+          geodude:
+            encounter_method: rock-smash
+            max_level: 14
+            min_level: 8
+            rarity: 10
+            slot: 2
+          dunsparce:
+            encounter_method: rock-smash
+            max_level: 8
+            min_level: 4
+            rarity: 90
+            slot: 1
+          zubat:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 1
+            slot: 11
+          absol:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 10
+            slot: 4
+          makuhita:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 10
+            slot: 6
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          goldeen:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        gold:
+          geodude:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 10
+            slot: 4
+          zubat:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 20
+            slot: 3
+          dunsparce:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 7
+          magikarp:
+            encounter_method: surf
+            max_level: 9
+            min_level: 5
+            rarity: 10
+            slot: 3
+          goldeen:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          krabby:
+            encounter_method: rock-smash
+            max_level: 15
+            min_level: 15
+            rarity: 90
+            slot: 1
+          shuckle:
+            encounter_method: rock-smash
+            max_level: 15
+            min_level: 15
+            rarity: 10
+            slot: 2
+        silver:
+          geodude:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 10
+            slot: 4
+          zubat:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 20
+            slot: 3
+          dunsparce:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 7
+          magikarp:
+            encounter_method: surf
+            max_level: 9
+            min_level: 5
+            rarity: 10
+            slot: 3
+          goldeen:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          krabby:
+            encounter_method: rock-smash
+            max_level: 15
+            min_level: 15
+            rarity: 90
+            slot: 1
+          shuckle:
+            encounter_method: rock-smash
+            max_level: 15
+            min_level: 15
+            rarity: 10
+            slot: 2
+        crystal:
+          geodude:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 10
+            slot: 4
+          zubat:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 20
+            slot: 3
+          dunsparce:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 7
+          teddiursa:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 5
+            slot: 5
+          magikarp:
+            encounter_method: surf
+            max_level: 9
+            min_level: 5
+            rarity: 10
+            slot: 3
+          goldeen:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          krabby:
+            encounter_method: rock-smash
+            max_level: 15
+            min_level: 15
+            rarity: 90
+            slot: 1
+          shuckle:
+            encounter_method: rock-smash
+            max_level: 15
+            min_level: 15
+            rarity: 10
+            slot: 2
+      game_index: 70
+      name:
+        en: 'Violet City entrance'
+        cs: 'vstup do Violetu'
+    blackthorn-city-entrance:
+      encounter_rates:
+        heartgold:
+          walk: 10
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+        soulsilver:
+          walk: 10
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+      encounters:
+        heartgold:
+          geodude:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 10
+            slot: 3
+          zubat:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 10
+            slot: 4
+          absol:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 10
+            slot: 4
+          graveler:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 10
+            slot: 6
+          makuhita:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 10
+            slot: 6
+          wobbuffet:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 1
+            slot: 11
+          golbat:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 1
+            slot: 12
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          goldeen:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        soulsilver:
+          geodude:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 10
+            slot: 3
+          zubat:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 10
+            slot: 4
+          absol:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 10
+            slot: 4
+          graveler:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 10
+            slot: 6
+          makuhita:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 10
+            slot: 6
+          wobbuffet:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 1
+            slot: 11
+          golbat:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 1
+            slot: 12
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          goldeen:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        gold:
+          geodude:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 30
+            slot: 1
+          zubat:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 30
+            slot: 2
+          graveler:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 20
+            slot: 3
+          wobbuffet:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 5
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 1
+            slot: 7
+          magikarp:
+            encounter_method: surf
+            max_level: 9
+            min_level: 5
+            rarity: 10
+            slot: 3
+          goldeen:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        silver:
+          geodude:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 30
+            slot: 1
+          zubat:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 30
+            slot: 2
+          graveler:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 20
+            slot: 3
+          wobbuffet:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 5
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 1
+            slot: 7
+          magikarp:
+            encounter_method: surf
+            max_level: 9
+            min_level: 5
+            rarity: 10
+            slot: 3
+          goldeen:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        crystal:
+          geodude:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 30
+            slot: 1
+          zubat:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 30
+            slot: 2
+          graveler:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 20
+            slot: 3
+          ursaring:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 10
+            slot: 4
+          golbat:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 1
+            slot: 7
+          teddiursa:
+            encounter_method: walk
+            max_level: 20
+            min_level: 20
+            rarity: 5
+            slot: 5
+          wobbuffet:
+            encounter_method: walk
+            max_level: 25
+            min_level: 25
+            rarity: 5
+            slot: 5
+          magikarp:
+            encounter_method: surf
+            max_level: 9
+            min_level: 5
+            rarity: 10
+            slot: 3
+          goldeen:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+      game_index: 71
+      name:
+        en: 'Blackthorn City entrance'
+        cs: 'vstup do Blackthornu '
+  name:
+    en: 'Dark Cave'
+    fr: 'Antre Noir'
+  region: johto

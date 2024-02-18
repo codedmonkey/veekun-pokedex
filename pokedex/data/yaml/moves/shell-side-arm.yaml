@@ -1,0 +1,84 @@
+shell-side-arm:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: special
+  effect: move-effect-1
+  effect_chance: 20
+  flags:
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        ぶつりか　とくしゅか　よりおおく　ダメージを
+        あたえられる　のうりょくで　こうげきする。
+        どく　じょうたいに　することが　ある。
+      ja: |-
+        物理か　特殊か　より多く　ダメージを
+        与えられる　能力で　攻撃する。
+        毒状態に　することが　ある。
+      ko: |-
+        물리와 특수 중 더 많은 데미지를
+        줄 수 있는 능력으로 공격한다.
+        독 상태로 만들 때가 있다.
+      zh-Hant: |-
+        用物理攻擊和特殊攻擊中
+        能夠給予更大傷害的能力進行攻擊。
+        有時會讓對手陷入中毒狀態。
+      zh-Hans: |-
+        从物理攻击和特殊攻击中选择
+        可造成较多伤害的方式进行攻击。
+        有时会让对手陷入中毒状态。
+      en: |-
+        This move inflicts physical or special damage,
+        whichever will be more effective. This may also poison
+        the target.
+      fr: |-
+        Une attaque physique ou spéciale, en fonction
+        de ce qui est le plus efficace contre la cible.
+        Peut aussi empoisonner.
+      de: |-
+        Je nachdem, was höher ausfällt, richtet diese Attacke
+        entweder physischen oder Spezial-Schaden an.
+        Das Ziel wird eventuell vergiftet.
+      es: |-
+        El usuario lanza un ataque físico o especial en función
+        de cuál inflija más daño. Puede envenenar al objetivo.
+      it: |-
+        Il Pokémon esegue un attacco fisico o speciale, in base
+        a quale causa danni maggiori. Può anche avvelenare
+        il bersaglio.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 20
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: poison
+    meta_category: damage+ailment
+    stat_changes: {  }
+  name:
+    ja-Hrkt: シェルアームズ
+    ja: シェルアームズ
+    ko: 셸암즈
+    zh-Hant: 臂貝武器
+    zh-Hans: 臂贝武器
+    en: 'Shell Side Arm'
+    fr: Kokiyarme
+    de: Muschelwaffe
+    es: Moluscañón
+    it: Armaguscio
+  power: 90
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: poison

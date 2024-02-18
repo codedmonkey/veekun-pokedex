@@ -1,0 +1,591 @@
+toxapex:
+  abilities:
+    merciless:
+      is_hidden: false
+      slot: 1
+    limber:
+      is_hidden: false
+      slot: 2
+    regenerator:
+      is_hidden: true
+      slot: 3
+  base_experience: 173
+  base_stats:
+    hp: 50
+    attack: 63
+    defense: 152
+    special-attack: 53
+    special-defense: 142
+    speed: 35
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 2
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index: {  }
+  height: 7
+  is_default: true
+  moves:
+    sun-moon:
+      poison-sting:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      pin-missile:
+        level: 51
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      peck:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spike-cannon:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic-spikes:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wide-guard:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      smack-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scald:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frost-breath:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      venom-drench:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      baneful-bunker:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      liquidation:
+        level: 58
+        order: ~
+        pokemon_move_method: level-up
+    ultra-sun-ultra-moon:
+      poison-sting:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      pin-missile:
+        level: 51
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      peck:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spike-cannon:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      spite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pain-split:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      magic-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      snatch:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      block:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gastro-acid:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      toxic-spikes:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gunk-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      wide-guard:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      smack-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      after-you:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scald:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frost-breath:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      venom-drench:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      baneful-bunker:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      liquidation:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    sword-shield:
+      poison-sting:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      pin-missile:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bite:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      peck:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      toxic:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      recover:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      muddy-water:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brine:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic-spikes:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cross-poison:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gunk-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wide-guard:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scald:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hex:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      venom-drench:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      baneful-bunker:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      liquidation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+  order: 904
+  species: toxapex
+  type:
+    - poison
+    - water
+  weight: 145

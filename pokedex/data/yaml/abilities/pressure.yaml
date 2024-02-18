@@ -1,0 +1,243 @@
+pressure:
+  changelog:
+    emerald:
+      effect:
+        en: 'Has no overworld effect.'
+        de: 'Hat außerhalb vom Kampf keinen Effekt.'
+        cs: 'Nemá žádný účinek v poli.'
+    diamond-pearl:
+      effect:
+        en: "Does not affect friendly Pokémon's moves that target all other Pokémon.  This ability's presence is not announced upon entering battle."
+        de: 'Betrifft keine Attacken von Teammitgliedern die alle anderen Pokémon als Ziel haben. Diese Fähigkeit wird im Kampf nicht angekündigt.'
+  effect:
+    en: |-
+      Moves targetting this Pokémon use one extra [PP]{mechanic:pp}.
+
+      This ability stacks if multiple targets have it.  This ability still affects moves that fail or miss.  This ability does not affect ally moves that target either the entire field or just its side, nor this Pokémon's self-targetted moves; it does, however, affect single-targetted ally moves aimed at this Pokémon, ally moves that target all other Pokémon, and opponents' moves that target the entire field.  If this ability raises a move's PP cost above its remaining PP, it will use all remaining PP.
+
+      When this Pokémon enters battle, all participating trainers are notified that it has this ability.
+
+      Overworld: If the lead Pokémon has this ability, higher-levelled Pokémon have their encounter rate increased.
+    de: |-
+      Attacken die ein Pokémon mit dieser Fähigkeit zum Ziel haben, kosten 1 []{mechanic:pp} mehr als sonst.
+
+      Die Fähigkeit löst für jeden Treffer von Attacken die öfters treffen aus. Die Fähigkeit löst auch bei Attacken aus die fehlschlagen oder daneben gehen. Der Effekt zählt nicht für Attacken desselben Teams die das Ganze Feld oder nur die eigene Seite treffen, sowie die eigenen Attacken die sich selbst treffen. Der Effekt löst dafür bei Attacken von Teammitgliedern aus die nur das Pokémon mit dieser Fähigkeit zum Ziel haben, die alle anderen zum Ziel haben und Attacken von Gegnern die das ganze Feld treffen. Wenn diese Fähigkeit die Kosten auf einen Wert erhöht, der die verbleibenden []{mechanic:pp} übersteigt, wird es alle verbrauchen.
+
+      Wenn ein Pokémon mit dieser Fähigkeit den Kampf betritt, werden alle Trainer über diese Fähigkeit benachrichtigt.
+
+      Außerhalb vom Kampf: Wenn ein Pokémon mit dieser Fähigkeit an erster Stelle im Team steht, tauchen Pokémon mit einem höheren Level häufiger auf.
+  flavor_text:
+    ruby-sapphire:
+      en: 'Raises foe’s PP usage.'
+    emerald:
+      en: 'Raises foe’s PP usage.'
+    firered-leafgreen:
+      en: 'Raises foe’s PP usage.'
+    diamond-pearl:
+      en: |-
+        The Pokémon raises the
+        foe’s PP usage.
+    platinum:
+      en: |-
+        The Pokémon raises the
+        foe’s PP usage.
+    heartgold-soulsilver:
+      en: |-
+        The Pokémon raises the
+        foe’s PP usage.
+    black-white:
+      en: |-
+        The Pokémon raises the
+        foe’s PP usage.
+      fr: |-
+        Force l’ennemi à
+        dépenser plus de PP.
+    black-2-white-2:
+      en: |-
+        The Pokémon raises the
+        foe’s PP usage.
+    x-y:
+      ja-Hrkt: |-
+        あいての　つかう　わざの
+        ＰＰを　おおく　へらす。
+      ja: |-
+        相手の　使う　技の
+        ＰＰを　多く　減らす。
+      ko: |-
+        상대가 사용하는 기술의
+        PP를 많이 줄인다.
+      en: |-
+        The Pokémon raises opposing
+        Pokémon’s PP usage.
+      fr: |-
+        Force l’ennemi à dépenser plus
+        de PP.
+      de: |-
+        Steigert den AP-Verbrauch
+        des Gegners.
+      es: |-
+        Hace que los PP del rival se
+        acaben antes.
+      it: 'Il nemico usa più PP.'
+    omega-ruby-alpha-sapphire:
+      ja-Hrkt: |-
+        あいての　つかう　わざの
+        ＰＰを　おおく　へらす。
+      ja: |-
+        相手の　使う　技の
+        ＰＰを　多く　減らす。
+      ko: |-
+        상대가 사용하는 기술의
+        PP를 많이 줄인다.
+      en: |-
+        The Pokémon raises opposing
+        Pokémon’s PP usage.
+      fr: |-
+        Force l’ennemi à dépenser plus
+        de PP.
+      de: |-
+        Steigert den AP-Verbrauch
+        des Gegners.
+      es: |-
+        Hace que los PP del rival se
+        acaben antes.
+      it: 'Il nemico usa più PP.'
+    sun-moon:
+      ja-Hrkt: |-
+        プレッシャーを　あたえて
+        あいての　つかう　わざの　ＰＰを
+        おおく　へらす。
+      ja: |-
+        プレッシャーを　あたえて
+        相手の　使う　技の　ＰＰを
+        多く　減らす。
+      ko: |-
+        프레셔를 줘서
+        상대가 쓰는 기술의 PP를
+        많이 줄인다.
+      zh-Hant: |-
+        給予對手壓迫感，
+        大量減少其使用招式的ＰＰ。
+      zh-Hans: |-
+        给予对手压迫感，
+        大量减少其使用招式的ＰＰ。
+      en: |-
+        By putting pressure on the opposing Pokémon, it
+        raises their PP usage.
+      fr: 'Force l’ennemi à dépenser plus de PP.'
+      de: |-
+        Zwingt den Gegner dazu, beim Einsatz von Attacken
+        mehr AP zu verbrauchen.
+      es: 'Presiona al rival para que sus PP se acaben antes.'
+      it: |-
+        Mette pressione al nemico, facendogli consumare
+        più PP.
+    ultra-sun-ultra-moon:
+      ja-Hrkt: |-
+        プレッシャーを　あたえて
+        あいての　つかう　わざの　ＰＰを
+        おおく　へらす。
+      ja: |-
+        プレッシャーを　あたえて
+        相手の　使う　技の　ＰＰを
+        多く　減らす。
+      ko: |-
+        프레셔를 줘서
+        상대가 쓰는 기술의 PP를
+        많이 줄인다.
+      zh-Hant: |-
+        給予對手壓迫感，
+        大量減少其使用招式的ＰＰ。
+      zh-Hans: |-
+        给予对手压迫感，
+        大量减少其使用招式的ＰＰ。
+      en: |-
+        By putting pressure on the opposing Pokémon, it
+        raises their PP usage.
+      fr: 'Force l’ennemi à dépenser plus de PP.'
+      de: |-
+        Zwingt den Gegner dazu, beim Einsatz von Attacken
+        mehr AP zu verbrauchen.
+      es: 'Presiona al rival para que sus PP se acaben antes.'
+      it: |-
+        Mette pressione al nemico, facendogli consumare
+        più PP.
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        プレッシャーを　あたえて
+        あいての　つかう　わざの　ＰＰを
+        おおく　へらす。
+      ja: |-
+        プレッシャーを　あたえて
+        相手の　使う　技の　ＰＰを
+        多く　減らす。
+      ko: |-
+        프레셔를 줘서
+        상대가 쓰는 기술의 PP를
+        많이 줄인다.
+      zh-Hant: |-
+        給予對手壓迫感，
+        大量減少其使用招式的PP。
+      zh-Hans: |-
+        给予对手压迫感，
+        大量减少其使用招式的PP。
+      en: |-
+        By putting pressure on the opposing Pokémon, it
+        raises their PP usage.
+      fr: 'Force l’ennemi à dépenser plus de PP.'
+      de: |-
+        Zwingt den Gegner dazu, beim Einsatz von Attacken
+        mehr AP zu verbrauchen.
+      es: 'Presiona al rival para que sus PP se acaben antes.'
+      it: |-
+        Mette pressione al nemico, facendogli consumare
+        più PP.
+    sword-shield:
+      ja-Hrkt: |-
+        プレッシャーを　あたえて
+        あいての　つかう　わざの　ＰＰを
+        おおく　へらす。
+      ja: |-
+        プレッシャーを　あたえて
+        相手の　使う　技の　ＰＰを
+        多く　減らす。
+      ko: |-
+        프레셔를 줘서
+        상대가 쓰는 기술의 PP를
+        많이 줄인다.
+      zh-Hant: |-
+        給予對手壓迫感，
+        大量減少其使用招式的ＰＰ。
+      zh-Hans: |-
+        给予对手压迫感，
+        大量减少其使用招式的ＰＰ。
+      en: |-
+        By putting pressure on the opposing Pokémon, it
+        raises their PP usage.
+      fr: |-
+        Met la pression à l’ennemi pour le forcer
+        à dépenser plus de PP.
+      de: |-
+        Zwingt Gegner dazu, beim Einsatz von Attacken
+        mehr AP zu verbrauchen.
+      es: 'Presiona al rival para que sus PP se acaben antes.'
+      it: |-
+        Il Pokémon mette pressione al nemico, facendogli
+        consumare più PP.
+  generation: generation-iii
+  is_main_series: true
+  name:
+    ja-Hrkt: プレッシャー
+    ja: プレッシャー
+    ko: 프레셔
+    zh-Hant: 壓迫感
+    zh-Hans: 压迫感
+    en: Pressure
+    fr: Pression
+    de: Erzwinger
+    es: Presión
+    it: Pressione
+    cs: Tlak
+  short_effect:
+    en: 'Increases the [PP]{mechanic:pp} cost of moves targetting the Pokémon by one.'
+    de: 'Erhöht die []{mechanic:pp} Kosten des Gegners um 1.'

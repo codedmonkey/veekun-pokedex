@@ -1,0 +1,206 @@
+water-path:
+  areas:
+    main_area:
+      encounter_rates:
+        firered:
+          walk: 21
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+        leafgreen:
+          walk: 21
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+      encounters:
+        firered:
+          horsea:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          qwilfish:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          seadra:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 4
+            slot: 4
+          psyduck:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 5
+            slot: 8
+          tentacool:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 5
+            slot: 3
+          tentacruel:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 1
+            slot: 5
+          spearow:
+            encounter_method: walk
+            max_level: 44
+            min_level: 44
+            rarity: 20
+            slot: 1
+          sentret:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 10
+            slot: 5
+          oddish:
+            encounter_method: walk
+            max_level: 44
+            min_level: 44
+            rarity: 10
+            slot: 3
+          fearow:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 11
+          meowth:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 10
+            slot: 6
+          gloom:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 5
+            slot: 7
+          persian:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+        leafgreen:
+          krabby:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          remoraid:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          kingler:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 4
+            slot: 4
+          slowpoke:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 5
+            slot: 8
+          tentacool:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 5
+            slot: 3
+          tentacruel:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 1
+            slot: 5
+          spearow:
+            encounter_method: walk
+            max_level: 44
+            min_level: 44
+            rarity: 20
+            slot: 1
+          sentret:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 10
+            slot: 5
+          bellsprout:
+            encounter_method: walk
+            max_level: 44
+            min_level: 44
+            rarity: 10
+            slot: 3
+          fearow:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 11
+          meowth:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 10
+            slot: 6
+          weepinbell:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 5
+            slot: 7
+          persian:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+      game_index: 81
+      name:
+        en: 'Main Area'
+  name:
+    en: 'Water Path'
+    fr: Agualcanal
+  region: kanto

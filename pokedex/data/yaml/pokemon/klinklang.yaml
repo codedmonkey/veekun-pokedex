@@ -1,0 +1,1266 @@
+klinklang:
+  abilities:
+    plus:
+      is_hidden: false
+      slot: 1
+    minus:
+      is_hidden: false
+      slot: 2
+    clear-body:
+      is_hidden: true
+      slot: 3
+  base_experience: 260
+  base_stats:
+    hp: 60
+    attack: 100
+    defense: 115
+    special-attack: 70
+    special-defense: 85
+    speed: 90
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 3
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index:
+    black: 601
+    white: 601
+    black-2: 601
+    white-2: 601
+  height: 6
+  is_default: true
+  moves:
+    black-white:
+      vice-grip:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bind:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-shock:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zap-cannon:
+        level: 66
+        order: ~
+        pokemon_move_method: level-up
+      lock-on:
+        level: 60
+        order: ~
+        pokemon_move_method: level-up
+      sandstorm:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      metal-sound:
+        level: 48
+        order: ~
+        pokemon_move_method: level-up
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-shot:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      flash-cannon:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trick-room:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      autotomize:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shift-gear:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gear-grind:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+    black-2-white-2:
+      vice-grip:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-shock:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zap-cannon:
+        level: 66
+        order: ~
+        pokemon_move_method: level-up
+      lock-on:
+        level: 60
+        order: ~
+        pokemon_move_method: level-up
+      sandstorm:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      magic-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      recycle:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      metal-sound:
+        level: 48
+        order: ~
+        pokemon_move_method: level-up
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      gravity:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      magnet-rise:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-shot:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      flash-cannon:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trick-room:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      autotomize:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shift-gear:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gear-grind:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+    x-y:
+      vice-grip:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      bind:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-shock:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zap-cannon:
+        level: 66
+        order: ~
+        pokemon_move_method: level-up
+      lock-on:
+        level: 60
+        order: ~
+        pokemon_move_method: level-up
+      sandstorm:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      metal-sound:
+        level: 48
+        order: ~
+        pokemon_move_method: level-up
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-shot:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      flash-cannon:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trick-room:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      autotomize:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shift-gear:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gear-grind:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      magnetic-flux:
+        level: 76
+        order: ~
+        pokemon_move_method: level-up
+    omega-ruby-alpha-sapphire:
+      vice-grip:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      bind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-shock:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zap-cannon:
+        level: 66
+        order: ~
+        pokemon_move_method: level-up
+      lock-on:
+        level: 60
+        order: ~
+        pokemon_move_method: level-up
+      sandstorm:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      magic-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      recycle:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      metal-sound:
+        level: 48
+        order: ~
+        pokemon_move_method: level-up
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      gravity:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      magnet-rise:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-shot:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      flash-cannon:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trick-room:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      autotomize:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shift-gear:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gear-grind:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      magnetic-flux:
+        level: 76
+        order: ~
+        pokemon_move_method: level-up
+    sun-moon:
+      vice-grip:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      bind:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-shock:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zap-cannon:
+        level: 66
+        order: ~
+        pokemon_move_method: level-up
+      lock-on:
+        level: 60
+        order: ~
+        pokemon_move_method: level-up
+      sandstorm:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      metal-sound:
+        level: 48
+        order: ~
+        pokemon_move_method: level-up
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-shot:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      flash-cannon:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trick-room:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      autotomize:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shift-gear:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gear-grind:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      magnetic-flux:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      gear-up:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    ultra-sun-ultra-moon:
+      vice-grip:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      bind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-shock:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zap-cannon:
+        level: 66
+        order: ~
+        pokemon_move_method: level-up
+      lock-on:
+        level: 60
+        order: ~
+        pokemon_move_method: level-up
+      sandstorm:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      magic-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      recycle:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      metal-sound:
+        level: 48
+        order: ~
+        pokemon_move_method: level-up
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      gravity:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      magnet-rise:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-shot:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      flash-cannon:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trick-room:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      autotomize:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      telekinesis:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ally-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      shift-gear:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gear-grind:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      magnetic-flux:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      gear-up:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    sword-shield:
+      vice-grip:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      bind:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-shock:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zap-cannon:
+        level: 48
+        order: ~
+        pokemon_move_method: level-up
+      lock-on:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      sandstorm:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      uproar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charge:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      metal-sound:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      power-gem:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flash-cannon:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      trick-room:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      autotomize:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ally-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shift-gear:
+        level: 42
+        order: ~
+        pokemon_move_method: level-up
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gear-grind:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      magnetic-flux:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      electric-terrain:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gear-up:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      steel-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      steel-roller:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rising-voltage:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 723
+  species: klinklang
+  type:
+    - steel
+  weight: 810

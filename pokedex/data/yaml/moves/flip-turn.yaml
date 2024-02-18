@@ -1,0 +1,80 @@
+flip-turn:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - contact
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        こうげきした　あと
+        ものすごい　スピードで　もどってきて
+        ひかえの　ポケモンと　いれかわる。
+      ja: |-
+        攻撃した　あと
+        ものすごい　スピードで　戻ってきて
+        控えの　ポケモンと　入れ替わる。
+      ko: |-
+        공격한 뒤
+        굉장한 스피드로 돌아와서
+        교대 포켓몬과 교체한다.
+      zh-Hant: |-
+        攻擊後迅速返回，
+        和後備寶可夢進行替換。
+      zh-Hans: |-
+        在攻击之后急速返回，
+        和后备宝可梦进行替换。
+      en: |-
+        After making its attack, the user rushes back to
+        switch places with a party Pokémon in waiting.
+      fr: |-
+        Après son attaque, le lanceur revient à toute vitesse
+        et change de place avec un Pokémon de l’équipe prêt
+        au combat.
+      de: |-
+        Nach der Attacke eilt der Anwender zurück und
+        tauscht den Platz mit einem anderen Pokémon.
+      es: |-
+        Tras atacar, el usuario da paso a toda prisa a otro
+        Pokémon del equipo.
+      it: |-
+        Chi usa questa mossa fa marcia indietro per farsi
+        sostituire dopo aver sferrato l’attacco.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: クイックターン
+    ja: クイックターン
+    ko: 퀵턴
+    zh-Hant: 快速折返
+    zh-Hans: 快速折返
+    en: 'Flip Turn'
+    fr: 'Eau Revoir'
+    de: Rollwende
+    es: Viraje
+    it: Virata
+  power: 60
+  pp: 20
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: water

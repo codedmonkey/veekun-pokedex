@@ -1,0 +1,1391 @@
+cottonee:
+  abilities:
+    prankster:
+      is_hidden: false
+      slot: 1
+    infiltrator:
+      is_hidden: false
+      slot: 2
+    chlorophyll:
+      is_hidden: true
+      slot: 3
+  base_experience: 56
+  base_stats:
+    hp: 40
+    attack: 27
+    defense: 60
+    special-attack: 37
+    special-defense: 50
+    speed: 66
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 1
+  game_index:
+    black: 546
+    white: 546
+    black-2: 546
+    white-2: 546
+  height: 3
+  is_default: true
+  moves:
+    black-white:
+      absorb:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      leech-seed:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      growth:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-powder:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      stun-spore:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cotton-spore:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      charm:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      beat-up:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      memento:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      endeavor:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      fake-tears:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-whistle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      worry-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      switcheroo:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cotton-guard:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+    black-2-white-2:
+      absorb:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      leech-seed:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      growth:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-powder:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      stun-spore:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      cotton-spore:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      charm:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      beat-up:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      memento:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      fake-tears:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-whistle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tailwind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      worry-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      switcheroo:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cotton-guard:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+    x-y:
+      absorb:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      leech-seed:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      growth:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-powder:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      stun-spore:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cotton-spore:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      charm:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      beat-up:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      memento:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      endeavor:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      fake-tears:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-whistle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      worry-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      switcheroo:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cotton-guard:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      fairy-wind:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dazzling-gleam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      absorb:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      leech-seed:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      growth:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-powder:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      stun-spore:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      cotton-spore:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      charm:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      beat-up:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      memento:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fake-tears:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-whistle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tailwind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      worry-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      switcheroo:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cotton-guard:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      fairy-wind:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dazzling-gleam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      absorb:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      leech-seed:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      growth:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-powder:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      stun-spore:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cotton-spore:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      charm:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      beat-up:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      memento:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      endeavor:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      fake-tears:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-whistle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      worry-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      switcheroo:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cotton-guard:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      fairy-wind:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dazzling-gleam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      absorb:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      leech-seed:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      growth:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-powder:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      stun-spore:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      cotton-spore:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      charm:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      beat-up:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      memento:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      fake-tears:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-whistle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      covet:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tailwind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      worry-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      switcheroo:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      defog:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cotton-guard:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      misty-terrain:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      fairy-wind:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dazzling-gleam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sword-shield:
+      absorb:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      leech-seed:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      growth:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-powder:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      stun-spore:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cotton-spore:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      charm:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      beat-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      memento:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 42
+        order: ~
+        pokemon_move_method: level-up
+      fake-tears:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      worry-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      switcheroo:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cotton-guard:
+        level: 45
+        order: ~
+        pokemon_move_method: level-up
+      grassy-terrain:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      misty-terrain:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fairy-wind:
+        level: 3
+        order: ~
+        pokemon_move_method: level-up
+      dazzling-gleam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grassy-glide:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 662
+  species: cottonee
+  type:
+    - grass
+    - fairy
+  weight: 6

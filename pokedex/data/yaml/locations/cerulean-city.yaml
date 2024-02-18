@@ -1,0 +1,294 @@
+cerulean-city:
+  areas:
+    main_area:
+      encounter_rates:
+        firered:
+          old-rod: 10
+          good-rod: 10
+          super-rod: 10
+          surf: 1
+        leafgreen:
+          old-rod: 10
+          good-rod: 10
+          super-rod: 10
+          surf: 1
+        heartgold:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+        soulsilver:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+      encounters:
+        heartgold:
+          goldeen:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+        soulsilver:
+          goldeen:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+        red:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 17
+            slot: ~
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          psyduck:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 8
+            slot: ~
+          krabby:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 25
+            slot: ~
+        blue:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 17
+            slot: ~
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          psyduck:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 8
+            slot: ~
+          krabby:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 25
+            slot: ~
+        yellow:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 30
+            rarity: 30
+            slot: 2
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          bulbasaur:
+            encounter_method: gift
+            max_level: 10
+            min_level: 10
+            rarity: 100
+            slot: ~
+        firered:
+          horsea:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 4
+            slot: 4
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          krabby:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          psyduck:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 1
+            slot: 5
+          tentacool:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 1
+            slot: 5
+        leafgreen:
+          krabby:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 4
+            slot: 4
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          horsea:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          slowpoke:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 1
+            slot: 5
+          tentacool:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 1
+            slot: 5
+        gold:
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          goldeen:
+            encounter_method: surf
+            max_level: 9
+            min_level: 5
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: surf
+            max_level: 14
+            min_level: 10
+            rarity: 10
+            slot: 3
+        silver:
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          goldeen:
+            encounter_method: surf
+            max_level: 9
+            min_level: 5
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: surf
+            max_level: 14
+            min_level: 10
+            rarity: 10
+            slot: 3
+        crystal:
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          goldeen:
+            encounter_method: surf
+            max_level: 9
+            min_level: 5
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: surf
+            max_level: 14
+            min_level: 10
+            rarity: 10
+            slot: 3
+      game_index: 98
+      name:
+        en: 'Main Area'
+  name:
+    en: 'Cerulean City'
+    fr: Azuria
+  region: kanto

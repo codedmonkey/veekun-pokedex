@@ -1,0 +1,79 @@
+max-strike:
+  accuracy: ~
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: ~
+  flags: {  }
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        ダイマックスした　ポケモンが
+        くりだす　ノーマルタイプの　こうげき。
+        あいての　すばやさを　さげる。
+      ja: |-
+        ダイマックスした　ポケモンが
+        繰りだす　ノーマルタイプの　攻撃。
+        相手の　素早さを　下げる。
+      ko: |-
+        다이맥스한 포켓몬이 날리는
+        노말타입의 공격.
+        상대의 스피드를 떨어뜨린다.
+      zh-Hant: |-
+        極巨化寶可夢
+        所使出的一般屬性攻擊。
+        可降低對手的速度。
+      zh-Hans: |-
+        极巨化宝可梦使出的一般属性攻击。
+        会降低对手的速度。
+      en: |-
+        This is a Normal-type attack Dynamax Pokémon use.
+        This lowers the target’s Speed stat.
+      fr: |-
+        Une attaque de type Normal que seuls
+        les Pokémon Dynamax peuvent utiliser.
+        Baisse la Vitesse de la cible.
+      de: |-
+        Eine Normal-Attacke, die nur Dynamax-Pokémon
+        einsetzen können. Senkt die Initiative des Zieles.
+      es: |-
+        Ataque de tipo Normal ejecutado por un Pokémon
+        Dinamax. Reduce la Velocidad del objetivo.
+      it: |-
+        Un attacco di tipo Normale che può essere eseguito
+        dai Pokémon dynamaxizzati. Riduce la Velocità
+        dei nemici intorno.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: ダイアタック
+    ja: ダイアタック
+    ko: 다이어택
+    zh-Hant: 極巨攻擊
+    zh-Hans: 极巨攻击
+    en: 'Max Strike'
+    fr: Normalomax
+    de: Dyna-Angriff
+    es: Maxiataque
+    it: Dynattacco
+  power: 10
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon-me-first
+  type: normal

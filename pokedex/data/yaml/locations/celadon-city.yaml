@@ -1,0 +1,263 @@
+celadon-city:
+  areas:
+    main_area:
+      encounter_rates:
+        firered:
+          old-rod: 10
+          good-rod: 10
+          super-rod: 10
+          surf: 1
+        leafgreen:
+          old-rod: 10
+          good-rod: 10
+          super-rod: 10
+          surf: 1
+        heartgold:
+          surf: 15
+        soulsilver:
+          surf: 15
+      encounters:
+        heartgold:
+          grimer:
+            encounter_method: surf
+            max_level: 15
+            min_level: 15
+            rarity: 30
+            slot: 2
+          muk:
+            encounter_method: surf
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 5
+        soulsilver:
+          grimer:
+            encounter_method: surf
+            max_level: 15
+            min_level: 15
+            rarity: 30
+            slot: 2
+          muk:
+            encounter_method: surf
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 5
+        red:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 17
+            slot: ~
+          slowpoke:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 25
+            slot: ~
+        blue:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 17
+            slot: ~
+          slowpoke:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 25
+            slot: ~
+        yellow:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: super-rod
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 4
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+        firered:
+          magikarp:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 4
+            slot: 4
+          grimer:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          psyduck:
+            encounter_method: surf
+            max_level: 40
+            min_level: 30
+            rarity: 4
+            slot: 4
+          koffing:
+            encounter_method: surf
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+        leafgreen:
+          magikarp:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 4
+            slot: 4
+          grimer:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          slowpoke:
+            encounter_method: surf
+            max_level: 40
+            min_level: 30
+            rarity: 4
+            slot: 4
+          koffing:
+            encounter_method: surf
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+        gold:
+          grimer:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 30
+            slot: 2
+          muk:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 10
+            slot: 3
+        silver:
+          grimer:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 30
+            slot: 2
+          muk:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 10
+            slot: 3
+        crystal:
+          grimer:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 30
+            slot: 2
+          muk:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 10
+            slot: 3
+      game_index: 100
+      name:
+        en: 'Main Area'
+    celadon-mansion:
+      encounter_rates: {  }
+      encounters:
+        red:
+          eevee:
+            encounter_method: gift
+            max_level: 25
+            min_level: 25
+            rarity: 100
+            slot: ~
+        blue:
+          eevee:
+            encounter_method: gift
+            max_level: 25
+            min_level: 25
+            rarity: 100
+            slot: ~
+        yellow:
+          eevee:
+            encounter_method: gift
+            max_level: 25
+            min_level: 25
+            rarity: 100
+            slot: ~
+        firered:
+          eevee:
+            encounter_method: gift
+            max_level: 25
+            min_level: 25
+            rarity: 100
+            slot: ~
+        leafgreen:
+          eevee:
+            encounter_method: gift
+            max_level: 25
+            min_level: 25
+            rarity: 100
+            slot: ~
+      game_index: 0
+      name:
+        en: 'Celadon Mansion rooftop'
+  name:
+    en: 'Celadon City'
+    fr: Céladopole
+  region: kanto

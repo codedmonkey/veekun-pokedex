@@ -1,0 +1,575 @@
+morelull:
+  abilities:
+    illuminate:
+      is_hidden: false
+      slot: 1
+    effect-spore:
+      is_hidden: false
+      slot: 2
+    rain-dish:
+      is_hidden: true
+      slot: 3
+  base_experience: 57
+  base_stats:
+    hp: 40
+    attack: 35
+    defense: 55
+    special-attack: 65
+    special-defense: 75
+    speed: 15
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 0
+    special-attack: 0
+    special-defense: 1
+    speed: 0
+  game_index: {  }
+  height: 2
+  is_default: true
+  moves:
+    sun-moon:
+      absorb:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      leech-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      growth:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-powder:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      stun-spore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      sleep-powder:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confuse-ray:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      amnesia:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spore:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      flash:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      moonlight:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ingrain:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      astonish:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      moonblast:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dazzling-gleam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength-sap:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      spotlight:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+    ultra-sun-ultra-moon:
+      absorb:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      leech-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      growth:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-powder:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      stun-spore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      sleep-powder:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confuse-ray:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      amnesia:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spore:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      flash:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      synthesis:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      moonlight:
+        level: 11
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ingrain:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      magic-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      recycle:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      astonish:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      worry-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wonder-room:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      magic-room:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      after-you:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      moonblast:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dazzling-gleam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength-sap:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      spotlight:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+    sword-shield:
+      absorb:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      leech-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      growth:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-powder:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      stun-spore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      sleep-powder:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confuse-ray:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      amnesia:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      spore:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      moonlight:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ingrain:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      astonish:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wonder-room:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      magic-room:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      draining-kiss:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      moonblast:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      dazzling-gleam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength-sap:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      pollen-puff:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+  order: 913
+  species: morelull
+  type:
+    - grass
+    - fairy
+  weight: 15

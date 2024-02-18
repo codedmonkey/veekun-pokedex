@@ -1,0 +1,882 @@
+swadloon:
+  abilities:
+    leaf-guard:
+      is_hidden: false
+      slot: 1
+    chlorophyll:
+      is_hidden: false
+      slot: 2
+    overcoat:
+      is_hidden: true
+      slot: 3
+  base_experience: 133
+  base_stats:
+    hp: 55
+    attack: 63
+    defense: 90
+    special-attack: 50
+    special-defense: 80
+    speed: 42
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 2
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index:
+    black: 541
+    white: 541
+    black-2: 541
+    white-2: 541
+  height: 5
+  is_default: true
+  moves:
+    black-white:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      string-shot:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-whistle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      calm-mind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    black-2-white-2:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      string-shot:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      synthesis:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      magic-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      grass-whistle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      calm-mind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      worry-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    x-y:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      string-shot:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-whistle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      calm-mind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      string-shot:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      synthesis:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      magic-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-whistle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      calm-mind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      worry-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      tackle:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      string-shot:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-whistle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      calm-mind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      tackle:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      razor-leaf:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      string-shot:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dream-eater:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      synthesis:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      nature-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      magic-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      grass-whistle:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      calm-mind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      worry-seed:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      grass-knot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+  order: 657
+  species: swadloon
+  type:
+    - bug
+    - grass
+  weight: 73

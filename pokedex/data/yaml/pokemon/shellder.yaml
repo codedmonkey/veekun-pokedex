@@ -1,0 +1,3079 @@
+shellder:
+  abilities:
+    shell-armor:
+      is_hidden: false
+      slot: 1
+    skill-link:
+      is_hidden: false
+      slot: 2
+    overcoat:
+      is_hidden: true
+      slot: 3
+  base_experience: 61
+  base_stats:
+    hp: 30
+    attack: 65
+    defense: 100
+    special-attack: 45
+    special-defense: 25
+    speed: 40
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 1
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index:
+    red: 23
+    blue: 23
+    yellow: 23
+    gold: 90
+    silver: 90
+    crystal: 90
+    ruby: 90
+    sapphire: 90
+    emerald: 90
+    firered: 90
+    leafgreen: 90
+    diamond: 90
+    pearl: 90
+    platinum: 90
+    heartgold: 90
+    soulsilver: 90
+    black: 90
+    white: 90
+    black-2: 90
+    white-2: 90
+  height: 3
+  is_default: true
+  moves:
+    red-blue:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leer:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      water-gun:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aurora-beam:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      teleport:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      reflect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      self-destruct:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      clamp:
+        level: 23
+        order: ~
+        pokemon_move_method: level-up
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tri-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    yellow:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leer:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      water-gun:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aurora-beam:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      teleport:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      reflect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      self-destruct:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      clamp:
+        level: 23
+        order: ~
+        pokemon_move_method: level-up
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tri-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    gold-silver:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leer:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    crystal:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leer:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ruby-sapphire:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leer:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    emerald:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      leer:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    firered-leafgreen:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      leer:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    diamond-pearl:
+      tackle:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leer:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      iron-defense:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      mud-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brine:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-shard:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    platinum:
+      tackle:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leer:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      mud-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brine:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-shard:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    heartgold-soulsilver:
+      tackle:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leer:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      mud-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rock-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brine:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-shard:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    black-white:
+      tackle:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      twineedle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leer:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      hydro-pump:
+        level: 61
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      iron-defense:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      mud-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rock-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      brine:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aqua-ring:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      avalanche:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      ice-shard:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shell-smash:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      razor-shell:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+    colosseum:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      leer:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aurora-beam:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      clamp:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    xd:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      leer:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aurora-beam:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      self-destruct:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      clamp:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    black-2-white-2:
+      tackle:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      twineedle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leer:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      hydro-pump:
+        level: 61
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      mud-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rock-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      brine:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aqua-ring:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      avalanche:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      ice-shard:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shell-smash:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      razor-shell:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+    x-y:
+      tackle:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      twineedle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leer:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      hydro-pump:
+        level: 61
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      iron-defense:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      mud-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rock-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      brine:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aqua-ring:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      avalanche:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      ice-shard:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shell-smash:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      razor-shell:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      tackle:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      twineedle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leer:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      hydro-pump:
+        level: 61
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      mud-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rock-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      brine:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aqua-ring:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      avalanche:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      ice-shard:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shell-smash:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      razor-shell:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      twineedle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leer:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      water-gun:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      hydro-pump:
+        level: 61
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      iron-defense:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      mud-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rock-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      brine:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aqua-ring:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      avalanche:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      ice-shard:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shell-smash:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      razor-shell:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      twineedle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leer:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      water-gun:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      hydro-pump:
+        level: 61
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      clamp:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      mud-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rock-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      brine:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aqua-ring:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      avalanche:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      ice-shard:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shell-smash:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      razor-shell:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      liquidation:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    lets-go-pikachu-lets-go-eevee:
+      headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      leer:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      water-gun:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      hydro-pump:
+        level: 45
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aurora-beam:
+        level: 27
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      teleport:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      reflect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      self-destruct:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      clamp:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tri-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-shard:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      shell-smash:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+    sword-shield:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      leer:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      supersonic:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      water-gun:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bubble-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      aurora-beam:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      withdraw:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      self-destruct:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tri-attack:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      brine:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aqua-ring:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      avalanche:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-shard:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shell-smash:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      razor-shell:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      liquidation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      life-dew:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+  order: 145
+  species: shellder
+  type:
+    - water
+  weight: 40

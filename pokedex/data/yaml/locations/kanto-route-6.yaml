@@ -1,0 +1,658 @@
+kanto-route-6:
+  areas:
+    main_area:
+      encounter_rates:
+        firered:
+          walk: 21
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+        leafgreen:
+          walk: 21
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+        heartgold:
+          walk: 20
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 15
+        soulsilver:
+          walk: 20
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 15
+      encounters:
+        heartgold:
+          pidgey:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 10
+            slot: 6
+          oddish:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 10
+            slot: 4
+          bellsprout:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 10
+            slot: 6
+          whismur:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 10
+            slot: 4
+          buizel:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 10
+            slot: 4
+          linoone:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 10
+            slot: 6
+          bidoof:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 10
+            slot: 6
+          magnemite:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 5
+            slot: 8
+          abra:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 1
+            slot: 12
+          psyduck:
+            encounter_method: surf
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          golduck:
+            encounter_method: surf
+            max_level: 10
+            min_level: 10
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        soulsilver:
+          pidgey:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 10
+            slot: 3
+          oddish:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 10
+            slot: 3
+          bellsprout:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 10
+            slot: 6
+          meowth:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 10
+            slot: 6
+          whismur:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 10
+            slot: 4
+          buizel:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 10
+            slot: 4
+          linoone:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 10
+            slot: 6
+          bidoof:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 10
+            slot: 6
+          magnemite:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 5
+            slot: 8
+          abra:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 1
+            slot: 12
+          psyduck:
+            encounter_method: surf
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          golduck:
+            encounter_method: surf
+            max_level: 10
+            min_level: 10
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        red:
+          oddish:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 5
+            slot: 7
+          pidgey:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 5
+            slot: 8
+          mankey:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 1
+            slot: 10
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          krabby:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 17
+            slot: ~
+          shellder:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 25
+            slot: ~
+        blue:
+          bellsprout:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 5
+            slot: 7
+          pidgey:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 5
+            slot: 8
+          meowth:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 1
+            slot: 10
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          krabby:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 17
+            slot: ~
+          shellder:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 25
+            slot: ~
+        yellow:
+          pidgey:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 10
+            slot: 6
+          rattata:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 10
+            slot: 5
+          abra:
+            encounter_method: walk
+            max_level: 7
+            min_level: 7
+            rarity: 15
+            slot: 3
+          pidgeotto:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 5
+            slot: 7
+          jigglypuff:
+            encounter_method: walk
+            max_level: 7
+            min_level: 7
+            rarity: 1
+            slot: 10
+          psyduck:
+            encounter_method: surf
+            max_level: 15
+            min_level: 15
+            rarity: 5
+            slot: 8
+          golduck:
+            encounter_method: surf
+            max_level: 20
+            min_level: 20
+            rarity: 1
+            slot: 10
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: super-rod
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 4
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+        firered:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 20
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          psyduck:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 1
+            slot: 5
+          meowth:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 1
+            slot: 12
+          pidgey:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 11
+          oddish:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 5
+            slot: 7
+        leafgreen:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 20
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          slowpoke:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 1
+            slot: 5
+          meowth:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 1
+            slot: 12
+          pidgey:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 11
+          bellsprout:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 5
+            slot: 7
+        gold:
+          pidgey:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 20
+            slot: 3
+          bellsprout:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 20
+            slot: 3
+          magnemite:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 10
+            slot: 4
+          abra:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 1
+            slot: 7
+          oddish:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 30
+            slot: 2
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          psyduck:
+            encounter_method: surf
+            max_level: 9
+            min_level: 5
+            rarity: 30
+            slot: 2
+          golduck:
+            encounter_method: surf
+            max_level: 14
+            min_level: 10
+            rarity: 10
+            slot: 3
+        silver:
+          pidgey:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 30
+            slot: 1
+          bellsprout:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 20
+            slot: 3
+          meowth:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 30
+            slot: 2
+          magnemite:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 10
+            slot: 4
+          abra:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 1
+            slot: 7
+          oddish:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 30
+            slot: 1
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          psyduck:
+            encounter_method: surf
+            max_level: 9
+            min_level: 5
+            rarity: 30
+            slot: 2
+          golduck:
+            encounter_method: surf
+            max_level: 14
+            min_level: 10
+            rarity: 10
+            slot: 3
+        crystal:
+          rattata:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 30
+            slot: 1
+          snubbull:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 30
+            slot: 2
+          magnemite:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 20
+            slot: 3
+          raticate:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 7
+          jigglypuff:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 5
+            slot: 5
+          granbull:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 7
+          meowth:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 30
+            slot: 1
+          drowzee:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 30
+            slot: 2
+          psyduck:
+            encounter_method: surf
+            max_level: 9
+            min_level: 5
+            rarity: 30
+            slot: 2
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          golduck:
+            encounter_method: surf
+            max_level: 14
+            min_level: 10
+            rarity: 10
+            slot: 3
+      game_index: 117
+      name:
+        en: 'Main Area'
+  name:
+    en: 'Route 6'
+    fr: 'Route 6'
+  region: kanto

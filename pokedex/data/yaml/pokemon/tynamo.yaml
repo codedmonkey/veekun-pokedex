@@ -1,0 +1,147 @@
+tynamo:
+  abilities:
+    levitate:
+      is_hidden: false
+      slot: 1
+  base_experience: 55
+  base_stats:
+    hp: 35
+    attack: 55
+    defense: 40
+    special-attack: 45
+    special-defense: 40
+    speed: 60
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 1
+  game_index:
+    black: 602
+    white: 602
+    black-2: 602
+    white-2: 602
+  height: 2
+  is_default: true
+  moves:
+    black-white:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      thunder-wave:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      spark:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+    black-2-white-2:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      thunder-wave:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      spark:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      magnet-rise:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      charge-beam:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+    x-y:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spark:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spark:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      magnet-rise:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spark:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spark:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      magnet-rise:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+  order: 724
+  species: tynamo
+  type:
+    - electric
+  weight: 3

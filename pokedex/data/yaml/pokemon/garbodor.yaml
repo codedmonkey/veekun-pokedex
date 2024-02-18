@@ -1,0 +1,1438 @@
+garbodor:
+  abilities:
+    stench:
+      is_hidden: false
+      slot: 1
+    weak-armor:
+      is_hidden: false
+      slot: 2
+    aftermath:
+      is_hidden: true
+      slot: 3
+  base_experience: 166
+  base_stats:
+    hp: 80
+    attack: 95
+    defense: 82
+    special-attack: 60
+    special-defense: 82
+    speed: 75
+  effort_values:
+    hp: 0
+    attack: 2
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index:
+    black: 569
+    white: 569
+    black-2: 569
+    white-2: 569
+  height: 19
+  is_default: true
+  moves:
+    black-white:
+      pound:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      double-slap:
+        level: 14
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      amnesia:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      poison-gas:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stockpile:
+        level: 23
+        order: 1
+        pokemon_move_method: level-up
+      swallow:
+        level: 23
+        order: 2
+        pokemon_move_method: level-up
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recycle:
+        level: 3
+        order: ~
+        pokemon_move_method: level-up
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic-spikes:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gunk-shot:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      smack-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acid-spray:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      clear-smog:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+    black-2-white-2:
+      pound:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      double-slap:
+        level: 14
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      amnesia:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      poison-gas:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      spite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pain-split:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stockpile:
+        level: 23
+        order: 1
+        pokemon_move_method: level-up
+      swallow:
+        level: 23
+        order: 2
+        pokemon_move_method: level-up
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recycle:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic-spikes:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dark-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      drain-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      focus-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gunk-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      smack-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acid-spray:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      clear-smog:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+    x-y:
+      pound:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      double-slap:
+        level: 14
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      amnesia:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      poison-gas:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stockpile:
+        level: 23
+        order: 1
+        pokemon_move_method: level-up
+      swallow:
+        level: 23
+        order: 2
+        pokemon_move_method: level-up
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recycle:
+        level: 3
+        order: ~
+        pokemon_move_method: level-up
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic-spikes:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dark-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gunk-shot:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      smack-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acid-spray:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      clear-smog:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      belch:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      pound:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      double-slap:
+        level: 14
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      amnesia:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      poison-gas:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      spite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pain-split:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stockpile:
+        level: 23
+        order: 1
+        pokemon_move_method: level-up
+      swallow:
+        level: 23
+        order: 2
+        pokemon_move_method: level-up
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recycle:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic-spikes:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dark-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      drain-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      focus-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gunk-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      smack-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acid-spray:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      clear-smog:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      belch:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      pound:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      double-slap:
+        level: 14
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      amnesia:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      poison-gas:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stockpile:
+        level: 23
+        order: 1
+        pokemon_move_method: level-up
+      swallow:
+        level: 23
+        order: 2
+        pokemon_move_method: level-up
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recycle:
+        level: 3
+        order: ~
+        pokemon_move_method: level-up
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic-spikes:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dark-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gunk-shot:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      smack-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acid-spray:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      clear-smog:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      belch:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      pound:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      double-slap:
+        level: 14
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      amnesia:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      poison-gas:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      spite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pain-split:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stockpile:
+        level: 23
+        order: 1
+        pokemon_move_method: level-up
+      swallow:
+        level: 23
+        order: 2
+        pokemon_move_method: level-up
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recycle:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic-spikes:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dark-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      drain-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      focus-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gunk-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      smack-down:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acid-spray:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      clear-smog:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      belch:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stomping-tantrum:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    sword-shield:
+      pound:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      take-down:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      solar-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      self-destruct:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      amnesia:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-gas:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      explosion:
+        level: 48
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spikes:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pain-split:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      metal-claw:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stockpile:
+        level: 21
+        order: 1
+        pokemon_move_method: level-up
+      swallow:
+        level: 21
+        order: 2
+        pokemon_move_method: level-up
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recycle:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      rock-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic-spikes:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dark-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      seed-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      drain-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      cross-poison:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gunk-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acid-spray:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      clear-smog:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      belch:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      venom-drench:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stomping-tantrum:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      body-press:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      corrosive-gas:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 691
+  species: garbodor
+  type:
+    - poison
+  weight: 1073

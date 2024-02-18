@@ -1,0 +1,185 @@
+sizzlipede:
+  abilities:
+    flash-fire:
+      is_hidden: false
+      slot: 1
+    white-smoke:
+      is_hidden: false
+      slot: 2
+    flame-body:
+      is_hidden: true
+      slot: 3
+  base_experience: 61
+  base_stats:
+    hp: 50
+    attack: 65
+    defense: 45
+    special-attack: 50
+    special-defense: 50
+    speed: 45
+  effort_values:
+    hp: 0
+    attack: 1
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index: {  }
+  height: 7
+  is_default: true
+  moves:
+    sword-shield:
+      slam:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      wrap:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      ember:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      fire-spin:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      smokescreen:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      defense-curl:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      leech-life:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flame-wheel:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rollout:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      heat-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      bug-buzz:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      power-whip:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      coil:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scald:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      heat-crash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      lunge:
+        level: 50
+        order: ~
+        pokemon_move_method: level-up
+      fire-lash:
+        level: 45
+        order: ~
+        pokemon_move_method: level-up
+      burn-up:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      brutal-swing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      skitter-smack:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      scorching-sands:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 1034
+  species: sizzlipede
+  type:
+    - fire
+    - bug
+  weight: 10

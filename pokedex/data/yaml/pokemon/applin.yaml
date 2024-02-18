@@ -1,0 +1,73 @@
+applin:
+  abilities:
+    ripen:
+      is_hidden: false
+      slot: 1
+    gluttony:
+      is_hidden: false
+      slot: 2
+    bulletproof:
+      is_hidden: true
+      slot: 3
+  base_experience: 52
+  base_stats:
+    hp: 40
+    attack: 40
+    defense: 80
+    special-attack: 40
+    special-defense: 40
+    speed: 20
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 1
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index: {  }
+  height: 2
+  is_default: true
+  moves:
+    sword-shield:
+      withdraw:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      defense-curl:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rollout:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recycle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      astonish:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      sucker-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      draco-meteor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      grassy-glide:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 1021
+  species: applin
+  type:
+    - grass
+    - dragon
+  weight: 5

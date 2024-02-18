@@ -1,0 +1,113 @@
+toxel:
+  abilities:
+    rattled:
+      is_hidden: false
+      slot: 1
+    static:
+      is_hidden: false
+      slot: 2
+    klutz:
+      is_hidden: true
+      slot: 3
+  base_experience: 48
+  base_stats:
+    hp: 40
+    attack: 38
+    defense: 35
+    special-attack: 54
+    special-defense: 35
+    speed: 40
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 0
+    special-attack: 1
+    special-defense: 0
+    speed: 0
+  game_index: {  }
+  height: 4
+  is_default: true
+  moves:
+    sword-shield:
+      growl:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      acid:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flail:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      metal-sound:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      belch:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      nuzzle:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      power-up-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tearful-look:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+  order: 1031
+  species: toxel
+  type:
+    - electric
+    - poison
+  weight: 110

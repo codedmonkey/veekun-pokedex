@@ -1,0 +1,87 @@
+fishious-rend:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-431
+  effect_chance: ~
+  flags:
+    - contact
+    - protect
+    - mirror
+    - bite
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        かたい　エラで　かみつく。
+        あいてより　さきに　こうげきできると
+        わざの　いりょくは　２ばいに　なる。
+      ja: |-
+        かたい　エラで　かみつく。
+        相手より　先に　攻撃できると
+        技の　威力は　２倍に　なる。
+      ko: |-
+        단단한 아가미로 문다.
+        상대보다 먼저 공격하면
+        기술의 위력은 2배가 된다.
+      zh-Hant: |-
+        用堅硬的鰓咬住對手。
+        若在對手之前進行攻擊，
+        招式的威力會變成２倍。
+      zh-Hans: |-
+        用坚硬的腮咬住对手。
+        如果比对手先出手攻击，
+        招式的威力会变成２倍。
+      en: |-
+        The user rends the target with its hard gills.
+        If the user attacks before the target, the power of this
+        move is doubled.
+      fr: |-
+        Le lanceur mord sa cible avec ses solides branchies.
+        Si cette capacité est lancée avant que la cible n’attaque,
+        elle infligera deux fois plus de dégâts.
+      de: |-
+        Der Anwender beißt mit seinen harten Kiemen zu.
+        Kommt er vor dem Ziel zum Zug, verdoppelt sich die
+        Stärke der Attacke.
+      es: |-
+        El usuario agarra al objetivo con sus duras branquias.
+        En caso de atacar antes que este último, la potencia del
+        movimiento se duplica.
+      it: |-
+        Chi la usa morde il bersaglio con le dure branchie.
+        Se attacca per primo, la potenza della mossa
+        raddoppia.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: エラがみ
+    ja: エラがみ
+    ko: 아가미물기
+    zh-Hant: 鰓咬
+    zh-Hans: 鳃咬
+    en: 'Fishious Rend'
+    fr: Branchicrok
+    de: Kiemenbiss
+    es: Branquibocado
+    it: Branchiomorso
+  power: 85
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: water

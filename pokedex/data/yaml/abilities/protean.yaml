@@ -1,0 +1,192 @@
+protean:
+  changelog: {  }
+  effect:
+    en: |-
+      Changes the bearer's type to match each move it uses.
+
+      The type change takes place just before the move is used.
+    de: |-
+      Wenn ein Pokémon mit dieser Fähigkeit eine Attacke einsetzt, ändert sich sein Typ in den der Attacke.
+
+      Die Typumwandlung erfolgt unmittelbar vor dem Einsatz der Attacke, der Anwender erhält dadurch den []{mechanic:same-type-attack-bonus} Bonus für jede Attacke die er einsetzt und []{move:toxic} trifft immer. Die Typumwandlung bleibt bestehen, bis der Typ erneut gewandelt wird oder das Pokémon ausgetauscht wird, nicht aber durch deaktivieren oder austauschen der Fähigkeit.
+
+      Wenn der Typ der Attacke geändert wird, zum Beispiel weil die Attacke eine andere Attacke benutzt, wie []{move:nature-power}, weil die Attacke selbst ihren Typ ändern kann oder weil der Typ der Attacke vom Gegner verändert wird, wie z.B. durch []{move:electrify} oder []{move:ion-deluge}, dann wird der geänderte Typ herangezogen. Wenn eine Attacke eingesetzt wird, die den Typ des Anwenders ändert, wie []{move:camouflage}, dann löst zuerst die Fähigkeit aus und ändert den Typ des Anwenders in den der Attacke, danach wird die Attacke entweder fehlschlagen oder den Typ des Anwenders wieder ändern. Wird []{move:curse} eingesetzt und der Anwender ist nicht bereits vom Typ []{type:ghost} wird er zum Typ []{type:ghost}.
+
+      Die Fähigkeit löst nicht aus, wenn die Attacke fehlschlägt, außer sie geht wegen der Fähigkeit selbst daneben, wenn die Ausführung unterbrochen wird, z.B. durch []{mechanic:confusion}, wenn die Attacke verhindert wird (durch []{mechanic:rain} oder durch []{move:powder}). Die Fähigkeit löst trotzdem aus, wenn die Attacke daneben geht, blockiert wird (durch []{move:protect} oder ähnliches) oder keine Wirkung auf den Gegner hat.
+
+      []{move:struggle} ist nicht betroffen.
+  flavor_text:
+    x-y:
+      ja-Hrkt: |-
+        だした　わざと　おなじ
+        タイプに　へんかする。
+      ja: |-
+        だした　技と　同じ
+        タイプに　変化する。
+      ko: |-
+        사용한 기술과 같은
+        타입으로 변화한다.
+      en: |-
+        Changes the Pokémon’s type to
+        the type of the move it’s using.
+      fr: |-
+        Le Pokémon prend le type de sa
+        dernière capacité lancée.
+      de: |-
+        Das Pokémon nimmt bei Einsatz
+        einer Attacke deren Typ an.
+      es: |-
+        Cambia su tipo al del movimiento
+        que acaba de usar.
+      it: |-
+        Cambia il tipo del Pokémon in
+        quello della mossa usata.
+    omega-ruby-alpha-sapphire:
+      ja-Hrkt: |-
+        だした　わざと　おなじ
+        タイプに　へんかする。
+      ja: |-
+        だした　技と　同じ
+        タイプに　変化する。
+      ko: |-
+        사용한 기술과 같은
+        타입으로 변화한다.
+      en: |-
+        Changes the Pokémon’s type to
+        the type of the move it’s using.
+      fr: |-
+        Le Pokémon prend le type de sa
+        dernière capacité lancée.
+      de: |-
+        Das Pokémon nimmt bei Einsatz
+        einer Attacke deren Typ an.
+      es: |-
+        Cambia su tipo al del movimiento
+        que acaba de usar.
+      it: |-
+        Cambia il tipo del Pokémon in
+        quello della mossa usata.
+    sun-moon:
+      ja-Hrkt: |-
+        じぶんが　だす　わざと
+        おなじ　タイプに　へんかする。
+      ja: |-
+        自分が　出す　技と
+        同じ　タイプに　変化する。
+      ko: |-
+        자신이 사용한 기술과
+        같은 타입으로 변화한다.
+      zh-Hant: |-
+        變為與自己使出的招式
+        相同的屬性。
+      zh-Hans: |-
+        变为与自己使出的招式
+        相同的属性。
+      en: |-
+        Changes the Pokémon’s type to the type of the
+        move it’s about to use.
+      fr: 'Le Pokémon prend le type de la capacité qu’il utilise.'
+      de: |-
+        Das Pokémon nimmt bei Einsatz einer Attacke deren
+        Typ an.
+      es: 'Cambia su tipo al del movimiento que va a usar.'
+      it: |-
+        Cambia il tipo del Pokémon in quello della mossa
+        che usa.
+    ultra-sun-ultra-moon:
+      ja-Hrkt: |-
+        じぶんが　だす　わざと
+        おなじ　タイプに　へんかする。
+      ja: |-
+        自分が　出す　技と
+        同じ　タイプに　変化する。
+      ko: |-
+        자신이 사용한 기술과
+        같은 타입으로 변화한다.
+      zh-Hant: |-
+        變為與自己使出的招式
+        相同的屬性。
+      zh-Hans: |-
+        变为与自己使出的招式
+        相同的属性。
+      en: |-
+        Changes the Pokémon’s type to the type of the
+        move it’s about to use.
+      fr: 'Le Pokémon prend le type de la capacité qu’il utilise.'
+      de: |-
+        Das Pokémon nimmt bei Einsatz einer Attacke deren
+        Typ an.
+      es: 'Cambia su tipo al del movimiento que va a usar.'
+      it: |-
+        Cambia il tipo del Pokémon in quello della mossa
+        che usa.
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        じぶんが　だす　わざと
+        おなじ　タイプに　へんかする。
+      ja: |-
+        自分が　出す　技と
+        同じ　タイプに　変化する。
+      ko: |-
+        자신이 사용한 기술과
+        같은 타입으로 변화한다.
+      zh-Hant: |-
+        變為與自己使出的招式
+        相同的屬性。
+      zh-Hans: |-
+        变为与自己使出的招式
+        相同的属性。
+      en: |-
+        Changes the Pokémon’s type to the type of the
+        move it’s about to use.
+      fr: 'Le Pokémon prend le type de la capacité qu’il utilise.'
+      de: |-
+        Das Pokémon nimmt bei Einsatz einer Attacke deren
+        Typ an.
+      es: 'Cambia su tipo al del movimiento que va a usar.'
+      it: |-
+        Cambia il tipo del Pokémon in quello della mossa
+        che usa.
+    sword-shield:
+      ja-Hrkt: |-
+        じぶんが　だす　わざと
+        おなじ　タイプに　へんかする。
+      ja: |-
+        自分が　出す　技と
+        同じ　タイプに　変化する。
+      ko: |-
+        자신이 사용한 기술과
+        같은 타입으로 변화한다.
+      zh-Hant: |-
+        變為與自己使出的招式
+        相同的屬性。
+      zh-Hans: |-
+        变为与自己使出的招式
+        相同的属性。
+      en: |-
+        Changes the Pokémon’s type to the type of the
+        move it’s about to use.
+      fr: 'Le Pokémon prend le type de la capacité qu’il utilise.'
+      de: |-
+        Das Pokémon nimmt bei Einsatz einer Attacke deren
+        Typ an.
+      es: 'Cambia su tipo al del movimiento que va a usar.'
+      it: |-
+        Cambia il tipo del Pokémon in quello della mossa
+        che usa.
+  generation: generation-vi
+  is_main_series: true
+  name:
+    ja-Hrkt: へんげんじざい
+    ja: へんげんじざい
+    ko: 변환자재
+    zh-Hant: 變幻自如
+    zh-Hans: 变幻自如
+    en: Protean
+    fr: Protéen
+    de: Wandlungskunst
+    es: Mutatipo
+    it: Mutatipo
+  short_effect:
+    en: "Changes the bearer's type to match each move it uses."
+    de: 'Ändert den Typ des Anwenders in den der Attacke die er einsetzt.'

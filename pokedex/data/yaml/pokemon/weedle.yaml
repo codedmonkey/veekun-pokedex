@@ -1,0 +1,268 @@
+weedle:
+  abilities:
+    shield-dust:
+      is_hidden: false
+      slot: 1
+    run-away:
+      is_hidden: true
+      slot: 3
+  base_experience: 39
+  base_stats:
+    hp: 40
+    attack: 35
+    defense: 30
+    special-attack: 20
+    special-defense: 20
+    speed: 50
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 1
+  game_index:
+    red: 112
+    blue: 112
+    yellow: 112
+    gold: 13
+    silver: 13
+    crystal: 13
+    ruby: 13
+    sapphire: 13
+    emerald: 13
+    firered: 13
+    leafgreen: 13
+    diamond: 13
+    pearl: 13
+    platinum: 13
+    heartgold: 13
+    soulsilver: 13
+    black: 13
+    white: 13
+    black-2: 13
+    white-2: 13
+  height: 3
+  is_default: true
+  moves:
+    red-blue:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    yellow:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    gold-silver:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    crystal:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    ruby-sapphire:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    emerald:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    firered-leafgreen:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    diamond-pearl:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    platinum:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+    heartgold-soulsilver:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    black-white:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+    colosseum:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    xd:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    black-2-white-2:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    x-y:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+    omega-ruby-alpha-sapphire:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    sun-moon:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+    ultra-sun-ultra-moon:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    lets-go-pikachu-lets-go-eevee:
+      poison-sting:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+  order: 17
+  species: weedle
+  type:
+    - bug
+    - poison
+  weight: 32

@@ -1,0 +1,2865 @@
+bagon:
+  abilities:
+    rock-head:
+      is_hidden: false
+      slot: 1
+    sheer-force:
+      is_hidden: true
+      slot: 3
+  base_experience: 60
+  base_stats:
+    hp: 45
+    attack: 75
+    defense: 60
+    special-attack: 40
+    special-defense: 30
+    speed: 50
+  effort_values:
+    hp: 0
+    attack: 1
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index:
+    ruby: 395
+    sapphire: 395
+    emerald: 395
+    firered: 395
+    leafgreen: 395
+    diamond: 371
+    pearl: 371
+    platinum: 371
+    heartgold: 371
+    soulsilver: 371
+    black: 371
+    white: 371
+    black-2: 371
+    white-2: 371
+  height: 6
+  is_default: true
+  moves:
+    ruby-sapphire:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 53
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rage:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+    emerald:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      leer:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rage:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      fury-cutter:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+    firered-leafgreen:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      leer:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rage:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+    diamond-pearl:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rage:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rush:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      shadow-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fire-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      zen-headbutt:
+        level: 35
+        order: ~
+        pokemon_move_method: level-up
+      draco-meteor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    platinum:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rage:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      outrage:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rush:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      shadow-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fire-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      zen-headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      draco-meteor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    heartgold-soulsilver:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rage:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      outrage:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      natural-gift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rush:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      shadow-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fire-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      zen-headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      draco-meteor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      captivate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    black-white:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rage:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      defense-curl:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      focus-energy:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dragon-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dragon-rush:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      shadow-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fire-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      zen-headbutt:
+        level: 35
+        order: ~
+        pokemon_move_method: level-up
+      draco-meteor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hone-claws:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      incinerate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    colosseum:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      double-edge:
+        level: 53
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    xd:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      leer:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      mimic:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-energy:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    black-2-white-2:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rage:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      defense-curl:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      focus-energy:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      outrage:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-voice:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dragon-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      dragon-rush:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      shadow-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fire-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      zen-headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      draco-meteor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hone-claws:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      incinerate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    x-y:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rage:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      defense-curl:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      focus-energy:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dragon-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dragon-rush:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      shadow-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fire-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      zen-headbutt:
+        level: 35
+        order: ~
+        pokemon_move_method: level-up
+      draco-meteor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hone-claws:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      incinerate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rage:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      defense-curl:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      focus-energy:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      outrage:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-voice:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dragon-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      dragon-rush:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      shadow-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fire-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      zen-headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      draco-meteor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hone-claws:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      incinerate:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      headbutt:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dragon-rage:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      defense-curl:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      focus-energy:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dragon-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dragon-rush:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      shadow-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fire-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      zen-headbutt:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      draco-meteor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      headbutt:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      roar:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ember:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dragon-rage:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rage:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      defense-curl:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      focus-energy:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      outrage:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-voice:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aerial-ace:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dragon-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      dragon-rush:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      shadow-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fire-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      zen-headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      draco-meteor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sword-shield:
+      headbutt:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thrash:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      double-edge:
+        level: 55
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bite:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      ember:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hydro-pump:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      defense-curl:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      focus-energy:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      outrage:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-breath:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      twister:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-voice:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dragon-rush:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      shadow-claw:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fire-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      zen-headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      draco-meteor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+  order: 492
+  species: bagon
+  type:
+    - dragon
+  weight: 421

@@ -1,0 +1,489 @@
+dreamyard:
+  areas:
+    main_area:
+      encounter_rates:
+        black:
+          walk: 8
+        white:
+          walk: 8
+        black-2:
+          walk: 1
+          dark-grass: 3
+        white-2:
+          walk: 1
+          dark-grass: 3
+      encounters:
+        black:
+          watchog:
+            encounter_method: dark-grass
+            max_level: 47
+            min_level: 47
+            rarity: 20
+            slot: 1
+          liepard:
+            encounter_method: dark-grass
+            max_level: 47
+            min_level: 47
+            rarity: 20
+            slot: 2
+          raticate:
+            encounter_method: dark-grass
+            max_level: 48
+            min_level: 48
+            rarity: 10
+            slot: 3
+          munna:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 6
+          ledian:
+            encounter_method: dark-grass
+            max_level: 49
+            min_level: 49
+            rarity: 10
+            slot: 5
+          ariados:
+            encounter_method: dark-grass
+            max_level: 49
+            min_level: 49
+            rarity: 10
+            slot: 6
+          kricketune:
+            encounter_method: dark-grass
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 11
+          venomoth:
+            encounter_method: dark-grass
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+          audino:
+            encounter_method: grass-spots
+            max_level: 11
+            min_level: 11
+            rarity: 1
+            slot: 11
+          musharna:
+            encounter_method: grass-spots
+            max_level: 11
+            min_level: 11
+            rarity: 1
+            slot: 12
+          patrat:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 1
+            slot: 11
+          purrloin:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 1
+            slot: 12
+          pansage:
+            encounter_method: gift
+            max_level: 10
+            min_level: 10
+            rarity: 100
+            slot: ~
+          pansear:
+            encounter_method: gift
+            max_level: 10
+            min_level: 10
+            rarity: 100
+            slot: ~
+          panpour:
+            encounter_method: gift
+            max_level: 10
+            min_level: 10
+            rarity: 100
+            slot: ~
+        white:
+          watchog:
+            encounter_method: dark-grass
+            max_level: 47
+            min_level: 47
+            rarity: 20
+            slot: 1
+          liepard:
+            encounter_method: dark-grass
+            max_level: 47
+            min_level: 47
+            rarity: 20
+            slot: 2
+          raticate:
+            encounter_method: dark-grass
+            max_level: 48
+            min_level: 48
+            rarity: 10
+            slot: 3
+          munna:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 6
+          ledian:
+            encounter_method: dark-grass
+            max_level: 49
+            min_level: 49
+            rarity: 10
+            slot: 5
+          ariados:
+            encounter_method: dark-grass
+            max_level: 49
+            min_level: 49
+            rarity: 10
+            slot: 6
+          kricketune:
+            encounter_method: dark-grass
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 11
+          venomoth:
+            encounter_method: dark-grass
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+          audino:
+            encounter_method: grass-spots
+            max_level: 11
+            min_level: 11
+            rarity: 1
+            slot: 11
+          musharna:
+            encounter_method: grass-spots
+            max_level: 11
+            min_level: 11
+            rarity: 1
+            slot: 12
+          patrat:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 1
+            slot: 11
+          purrloin:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 1
+            slot: 12
+          pansage:
+            encounter_method: gift
+            max_level: 10
+            min_level: 10
+            rarity: 100
+            slot: ~
+          pansear:
+            encounter_method: gift
+            max_level: 10
+            min_level: 10
+            rarity: 100
+            slot: ~
+          panpour:
+            encounter_method: gift
+            max_level: 10
+            min_level: 10
+            rarity: 100
+            slot: ~
+        black-2:
+          watchog:
+            encounter_method: walk
+            max_level: 59
+            min_level: 59
+            rarity: 1
+            slot: 11
+          liepard:
+            encounter_method: walk
+            max_level: 59
+            min_level: 59
+            rarity: 1
+            slot: 12
+          raticate:
+            encounter_method: walk
+            max_level: 57
+            min_level: 57
+            rarity: 10
+            slot: 3
+          jigglypuff:
+            encounter_method: walk
+            max_level: 57
+            min_level: 57
+            rarity: 10
+            slot: 4
+          munna:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 10
+            slot: 6
+          golbat:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 5
+            slot: 8
+          audino:
+            encounter_method: grass-spots
+            max_level: 59
+            min_level: 59
+            rarity: 5
+            slot: 7
+          dunsparce:
+            encounter_method: grass-spots
+            max_level: 57
+            min_level: 57
+            rarity: 10
+            slot: 4
+          wigglytuff:
+            encounter_method: grass-spots
+            max_level: 59
+            min_level: 59
+            rarity: 5
+            slot: 8
+          crobat:
+            encounter_method: grass-spots
+            max_level: 59
+            min_level: 59
+            rarity: 1
+            slot: 11
+          musharna:
+            encounter_method: grass-spots
+            max_level: 59
+            min_level: 59
+            rarity: 1
+            slot: 12
+        white-2:
+          watchog:
+            encounter_method: walk
+            max_level: 59
+            min_level: 59
+            rarity: 1
+            slot: 11
+          liepard:
+            encounter_method: walk
+            max_level: 59
+            min_level: 59
+            rarity: 1
+            slot: 12
+          raticate:
+            encounter_method: walk
+            max_level: 57
+            min_level: 57
+            rarity: 10
+            slot: 3
+          jigglypuff:
+            encounter_method: walk
+            max_level: 57
+            min_level: 57
+            rarity: 10
+            slot: 4
+          munna:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 10
+            slot: 6
+          golbat:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 5
+            slot: 8
+          audino:
+            encounter_method: grass-spots
+            max_level: 59
+            min_level: 59
+            rarity: 5
+            slot: 7
+          dunsparce:
+            encounter_method: grass-spots
+            max_level: 57
+            min_level: 57
+            rarity: 10
+            slot: 4
+          wigglytuff:
+            encounter_method: grass-spots
+            max_level: 59
+            min_level: 59
+            rarity: 5
+            slot: 8
+          crobat:
+            encounter_method: grass-spots
+            max_level: 59
+            min_level: 59
+            rarity: 1
+            slot: 11
+          musharna:
+            encounter_method: grass-spots
+            max_level: 59
+            min_level: 59
+            rarity: 1
+            slot: 12
+      game_index: 3
+      name:
+        en: 'Main Area'
+    b1f:
+      encounter_rates:
+        black:
+          walk: 8
+        white:
+          walk: 8
+        black-2:
+          dark-grass: 3
+        white-2:
+          dark-grass: 3
+      encounters:
+        black:
+          raticate:
+            encounter_method: dark-grass
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 11
+          kricketune:
+            encounter_method: dark-grass
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+          munna:
+            encounter_method: dark-grass
+            max_level: 49
+            min_level: 49
+            rarity: 10
+            slot: 6
+          ariados:
+            encounter_method: dark-grass
+            max_level: 49
+            min_level: 49
+            rarity: 5
+            slot: 7
+          ledian:
+            encounter_method: dark-grass
+            max_level: 49
+            min_level: 49
+            rarity: 5
+            slot: 8
+        white:
+          raticate:
+            encounter_method: dark-grass
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 11
+          kricketune:
+            encounter_method: dark-grass
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+          munna:
+            encounter_method: dark-grass
+            max_level: 49
+            min_level: 49
+            rarity: 10
+            slot: 6
+          ariados:
+            encounter_method: dark-grass
+            max_level: 49
+            min_level: 49
+            rarity: 5
+            slot: 7
+          ledian:
+            encounter_method: dark-grass
+            max_level: 49
+            min_level: 49
+            rarity: 5
+            slot: 8
+        black-2:
+          raticate:
+            encounter_method: dark-grass
+            max_level: 67
+            min_level: 67
+            rarity: 1
+            slot: 11
+          golbat:
+            encounter_method: dark-grass
+            max_level: 67
+            min_level: 67
+            rarity: 1
+            slot: 12
+          watchog:
+            encounter_method: dark-grass
+            max_level: 65
+            min_level: 65
+            rarity: 10
+            slot: 3
+          jigglypuff:
+            encounter_method: dark-grass
+            max_level: 65
+            min_level: 65
+            rarity: 10
+            slot: 4
+          munna:
+            encounter_method: dark-grass
+            max_level: 66
+            min_level: 66
+            rarity: 10
+            slot: 6
+          liepard:
+            encounter_method: dark-grass
+            max_level: 66
+            min_level: 66
+            rarity: 5
+            slot: 8
+        white-2:
+          raticate:
+            encounter_method: dark-grass
+            max_level: 67
+            min_level: 67
+            rarity: 1
+            slot: 11
+          golbat:
+            encounter_method: dark-grass
+            max_level: 67
+            min_level: 67
+            rarity: 1
+            slot: 12
+          watchog:
+            encounter_method: dark-grass
+            max_level: 65
+            min_level: 65
+            rarity: 10
+            slot: 3
+          jigglypuff:
+            encounter_method: dark-grass
+            max_level: 65
+            min_level: 65
+            rarity: 10
+            slot: 4
+          munna:
+            encounter_method: dark-grass
+            max_level: 66
+            min_level: 66
+            rarity: 10
+            slot: 6
+          liepard:
+            encounter_method: dark-grass
+            max_level: 66
+            min_level: 66
+            rarity: 5
+            slot: 8
+      game_index: 4
+      name:
+        en: B1F
+  name:
+    ja-Hrkt: 夢の跡地
+    en: Dreamyard
+    fr: 'Vestiges du Rêve'
+  region: unova

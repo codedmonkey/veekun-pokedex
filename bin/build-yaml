@@ -1,0 +1,793 @@
+#! /usr/bin/env php
+<?php
+
+use Pokedex\Association;
+use Pokedex\Collection;
+use Pokedex\Join;
+use Pokedex\Localizations;
+
+include __DIR__ . '/../vendor/autoload.php';
+
+const BUILD_PATH = __DIR__ . '/../pokedex/data/yaml';
+const DATA_PATH = __DIR__ . '/../pokedex/data/csv';
+
+/**
+ * Fetch data
+ */
+$abilities = new Collection('abilities');
+$abilityChangelog = new Collection('ability_changelog', identifierField: null);
+$berries = new Collection('berries', identifierField: null);
+$berryFirmness = new Collection('berry_firmness');
+$characteristics = new Collection('characteristics', identifierField: 'id');
+$contestCombos = new Collection('contest_combos', identifierField: null);
+$contestEffects = new Collection('contest_effects', identifierField: 'id');
+$contestTypes = new Collection('contest_types');
+$eggGroups = new Collection('egg_groups');
+$encounterConditions = new Collection('encounter_conditions');
+$encounterConditionValues = new Collection('encounter_condition_values');
+$encounterMethods = new Collection('encounter_methods');
+$encounters = new Collection('encounters', identifierField: null);
+$encounterSlots = new Collection('encounter_slots', identifierField: 'id');
+$evolutionChains = new Collection('evolution_chains', identifierField: null);
+$evolutionTriggers = new Collection('evolution_triggers');
+$genders = new Collection('genders');
+$generations = new Collection('generations', orderable: true);
+$growthRates = new Collection('growth_rates');
+$itemCategories = new Collection('item_categories');
+$itemFlags = new Collection('item_flags');
+$itemFlingEffects = new Collection('item_fling_effects');
+$itemPockets = new Collection('item_pockets', orderable: true);
+$items = new Collection('items');
+$languages = new Collection('languages', orderable: true);
+$locationAreas = new Collection('location_areas', identifierField: null);
+$locations = new Collection('locations');
+$machines = new Collection('machines', identifierField: null);
+$moveBattleStyles = new Collection('move_battle_styles');
+$moveChangelog = new Collection('move_changelog', identifierField: null);
+$moveDamageClasses = new Collection('move_damage_classes');
+$moveEffectChangelog = new Collection('move_effect_changelog', identifierField: null);
+$moveEffects = new Collection('move_effects', identifierField: 'id');
+$moveFlags = new Collection('move_flags');
+$moveMetaAilments = new Collection('move_meta_ailments');
+$moveMetaCategories = new Collection('move_meta_categories');
+$moveTargets = new Collection('move_targets');
+$moves = new Collection('moves');
+$natures = new Collection('natures');
+$palParkAreas = new Collection('pal_park_areas');
+$pokeathlonStats = new Collection('pokeathlon_stats');
+$pokedexes = new Collection('pokedexes');
+$pokemon = new Collection('pokemon', orderable: true);
+$pokemonColors = new Collection('pokemon_colors');
+$pokemonEvolution = new Collection('pokemon_evolution', identifierField: null);
+$pokemonForms = new Collection('pokemon_forms', orderable: true);
+$pokemonHabitats = new Collection('pokemon_habitats');
+$pokemonMoveMethods = new Collection('pokemon_move_methods');
+$pokemonMoves = new Collection('pokemon_moves', identifierField: null);
+$pokemonShapes = new Collection('pokemon_shapes');
+$pokemonSpecies = new Collection('pokemon_species', orderable: true);
+$regions = new Collection('regions');
+$stats = new Collection('stats');
+$superContestCombos = new Collection('super_contest_combos', identifierField: null);
+$superContestEffects = new Collection('super_contest_effects', identifierField: 'id');
+$types = new Collection('types');
+$versionGroups = new Collection('version_groups', orderable: true);
+$versions = new Collection('versions', orderable: true);
+
+$berryFlavors = new Association('berry_flavors', [$berries, $contestTypes]);
+$experience = new Association('experience', [$growthRates]);
+$itemGameIndices = new Association('item_game_indices', [$items, $generations]);
+$locationAreaEncounterRates = new Association('location_area_encounter_rates', [$locationAreas, $encounterMethods, $versions]);
+$moveMeta = new Association('move_meta', [$moves, $moveMetaCategories, $moveMetaAilments]);
+$moveMetaStatChanges = new Association('move_meta_stat_changes', [$moves, $stats]);
+$natureBattleStylePreferences = new Association('nature_battle_style_preferences', [$natures, $moveBattleStyles]);
+$naturePokeathlonStats = new Association('nature_pokeathlon_stats', [$natures, $pokeathlonStats]);
+$palPark = new Association('pal_park', [$pokemonSpecies]);
+$pokemonAbilities = new Association('pokemon_abilities', [$pokemon]);
+$pokemonDexNumbers = new Association('pokemon_dex_numbers', [$pokemonSpecies]);
+$pokemonFormGenerations = new Association('pokemon_form_generations', [$pokemonForms, $generations]);
+$pokemonFormPokeathlonStats = new Association('pokemon_form_pokeathlon_stats', [$pokemonForms, $pokeathlonStats]);
+$pokemonGameIndices = new Association('pokemon_game_indices', [$pokemon, $versions]);
+$pokemonStats = new Association('pokemon_stats', [$pokemon, $stats]);
+$typeEfficacy = new Association('type_efficacy', [$types, $types]);
+$typeGameIndices = new Association('type_game_indices', [$types, $generations]);
+
+$encounterConditionValueMap = new Join('encounter_condition_value_map', $encounters, $encounterConditionValues);
+$itemFlagMap = new Join('item_flag_map', $items, $itemFlags);
+$moveFlagMap = new Join('move_flag_map', $moves, $moveFlags);
+$pokedexVersionGroups = new Join('pokedex_version_groups', $pokedexes, $versionGroups);
+$pokemonEggGroups = new Join('pokemon_egg_groups', $pokemonSpecies, $eggGroups);
+$pokemonTypes = new Join('pokemon_types', $pokemon, $types);
+$versionGroupPokemonMoveMethods = new Join('version_group_pokemon_move_methods', $versionGroups, $pokemonMoveMethods);
+$versionGroupRegions = new Join('version_group_regions', $versionGroups, $regions);
+
+$abilityChangelogProse = new Localizations('ability_changelog_prose', [$abilityChangelog, $languages]);
+$abilityFlavorTexts = new Localizations('ability_flavor_text', [$abilities, $versionGroups, $languages]);
+$abilityNames = new Localizations('ability_names', [$abilities, $languages]);
+$abilityProse = new Localizations('ability_prose', [$abilities, $languages]);
+$berryFirmnessNames = new Localizations('berry_firmness_names', [$berryFirmness, $languages]);
+$characteristicText = new Localizations('characteristic_text', [$characteristics, $languages]);
+$contestEffectProse = new Localizations('contest_effect_prose', [$contestEffects, $languages]);
+$contestTypeNames = new Localizations('contest_type_names', [$contestTypes, $languages]);
+$eggGroupsProse = new Localizations('egg_group_prose', [$contestTypes, $languages]);
+$encounterConditionProse = new Localizations('encounter_condition_prose', [$encounterConditions, $languages]);
+$encounterConditionValueProse = new Localizations('encounter_condition_value_prose', [$encounterConditions, $languages]);
+$encounterMethodProse = new Localizations('encounter_method_prose', [$encounterMethods, $languages]);
+$evolutionTriggerProse = new Localizations('evolution_trigger_prose', [$evolutionTriggers, $languages]);
+$generationNames = new Localizations('generation_names', [$generations, $languages]);
+$growthRateProse = new Localizations('growth_rate_prose', [$growthRates, $languages]);
+$itemCategoryProse = new Localizations('item_category_prose', [$itemCategories, $languages]);
+$itemFlagProse = new Localizations('item_flag_prose', [$itemFlags, $languages]);
+$itemFlavorText = new Localizations('item_flavor_text', [$itemFlags, $versionGroups, $languages]);
+$itemFlingEffectProse = new Localizations('item_fling_effect_prose', [$itemFlingEffects, $languages]);
+$itemNames = new Localizations('item_names', [$items, $languages]);
+$itemPocketNames = new Localizations('item_pocket_names', [$items, $languages]);
+$itemProse = new Localizations('item_prose', [$items, $languages]);
+$languageNames = new Localizations('language_names', [$languages, $languages]);
+$locationAreaProse = new Localizations('location_area_prose', [$locationAreas, $languages]);
+$locationNames = new Localizations('location_names', [$locations, $languages]);
+$moveBattleStyleProse = new Localizations('move_battle_style_prose', [$moveBattleStyles, $languages]);
+$moveDamageClassProse = new Localizations('move_damage_class_prose', [$moveDamageClasses, $languages]);
+$moveEffectChangelogProse = new Localizations('move_effect_changelog_prose', [$moveEffectChangelog, $languages]);
+$moveEffectProse = new Localizations('move_effect_prose', [$moveEffects, $languages]);
+$moveFlagProse = new Localizations('move_flag_prose', [$moveFlags, $languages]);
+$moveFlavorText = new Localizations('move_flavor_text', [$moveFlags, $versionGroups, $languages]);
+$moveNames = new Localizations('move_names', [$moves, $languages]);
+$moveMetaAilmentNames = new Localizations('move_meta_ailment_names', [$moveMetaAilments, $languages]);
+$moveMetaCategoryProse = new Localizations('move_meta_category_prose', [$moveMetaCategories, $languages]);
+$moveTargetProse = new Localizations('move_target_prose', [$moveTargets, $languages]);
+$natureNames = new Localizations('nature_names', [$natures, $languages]);
+$palParkAreaNames = new Localizations('pal_park_area_names', [$palParkAreas, $languages]);
+$regionNames = new Localizations('region_names', [$regions, $languages]);
+$pokeathlonStatNames = new Localizations('pokeathlon_stat_names', [$pokeathlonStats, $languages]);
+$pokedexProse = new Localizations('pokedex_prose', [$pokedexes, $languages]);
+$pokemonColorNames = new Localizations('pokemon_color_names', [$pokemonColors, $languages]);
+$pokemonFormNames = new Localizations('pokemon_form_names', [$pokemonForms, $languages]);
+$pokemonHabitatNames = new Localizations('pokemon_habitat_names', [$pokemonHabitats, $languages]);
+$pokemonMoveMethodProse = new Localizations('pokemon_move_method_prose', [$pokemonMoveMethods, $languages]);
+$pokemonShapeProse = new Localizations('pokemon_shape_prose', [$pokemonShapes, $languages]);
+$pokemonSpeciesFlavorText = new Localizations('pokemon_species_flavor_text', [$pokemonSpecies, $versions, $languages]);
+$pokemonSpeciesNames = new Localizations('pokemon_species_names', [$pokemonSpecies, $languages]);
+$pokemonSpeciesProse = new Localizations('pokemon_species_prose', [$pokemonSpecies, $languages]);
+$statNames = new Localizations('stat_names', [$stats, $languages]);
+$superContestEffectProse = new Localizations('super_contest_effect_prose', [$superContestEffects, $languages]);
+$typeNames = new Localizations('type_names', [$types, $languages]);
+$versionNames = new Localizations('version_names', [$versions, $languages]);
+
+$translationsCs = new Collection('translations/cs', identifierField: null);
+
+/**
+ * Parse data
+ */
+$abilities
+    ->parseBoolean('is_main_series');
+
+$berries
+    ->inheritIdentifier($items, 'item_id')
+    ->parseInteger('growth_time')
+    ->parseInteger('max_harvest')
+    ->parseInteger('natural_gift_power')
+    ->parseInteger('size')
+    ->parseInteger('smoothness')
+    ->parseInteger('soil_dryness');
+
+$berryFlavors
+    ->parseInteger('flavor');
+
+$contestEffects
+    ->parseInteger('appeal')
+    ->parseInteger('jam')
+    ->prefixIdentifier('contest-effect-');
+
+$characteristics
+    ->parseInteger('gene_mod_5')
+    ->prefixIdentifier('characteristic-');
+
+$encounterConditionValues
+    ->parseBoolean('is_default');
+
+$encounterMethods
+    ->parseInteger('order');
+
+$encounters
+    ->parseInteger('max_level')
+    ->parseInteger('min_level');
+
+$encounterSlots
+    ->parseInteger('rarity')
+    ->parseInteger('slot');
+
+$evolutionChains
+    ->inheritIdentifierFirstOccurrence($pokemonSpecies, 'evolution_chain_id');
+
+$evolutionChains->identifierField = 'foo';
+
+$experience
+    ->parseInteger('experience');
+
+$generations
+    ->addOrderField();
+
+$itemGameIndices
+    ->parseInteger('game_index');
+
+$itemPockets
+    ->addOrderField();
+
+$items
+    ->parseInteger('cost')
+    ->parseInteger('fling_power');
+
+$languages
+    ->parseBoolean('official')
+    ->parseInteger('order');
+
+$locationAreaEncounterRates
+    ->parseInteger('rate');
+
+$locationAreaProse
+    ->parseNullAs('name', 'Main Area');
+
+$locationAreas
+    ->parseInteger('game_index')
+    ->parseNullAs('identifier', 'main_area');
+
+$moveChangelog
+    ->parseInteger('accuracy')
+    ->parseInteger('effect_chance')
+    ->parseInteger('power')
+    ->parseInteger('pp')
+    ->parseInteger('priority');
+
+$moveEffects
+    ->prefixIdentifier('move-effect-');
+
+$moveMeta
+    ->parseInteger('ailment_chance')
+    ->parseInteger('crit_rate')
+    ->parseInteger('drain')
+    ->parseInteger('flinch_chance')
+    ->parseInteger('healing')
+    ->parseInteger('max_hits')
+    ->parseInteger('max_turns')
+    ->parseInteger('min_hits')
+    ->parseInteger('min_turns')
+    ->parseInteger('stat_chance');
+
+$moveMetaStatChanges
+    ->parseInteger('change');
+
+$moves
+    ->parseInteger('accuracy')
+    ->parseInteger('effect_chance')
+    ->parseInteger('power')
+    ->parseInteger('pp')
+    ->parseInteger('priority');
+
+$natureBattleStylePreferences
+    ->parseInteger('high_hp_preference')
+    ->parseInteger('low_hp_preference');
+
+$naturePokeathlonStats
+    ->parseInteger('max_change');
+
+$natures
+    ->parseInteger('game_index');
+
+$palPark
+    ->parseInteger('base_score')
+    ->parseInteger('rate');
+
+$pokedexes
+    ->parseBoolean('is_main_series');
+
+$pokemon
+    ->parseBoolean('is_default')
+    ->parseInteger('base_experience')
+    ->parseInteger('height')
+    ->parseInteger('weight')
+    ->parseInteger('order');
+
+$pokemonAbilities
+    ->parseBoolean('is_hidden')
+    ->parseInteger('slot');
+
+$pokemonDexNumbers
+    ->parseInteger('pokedex_number');
+
+$pokemonEvolution
+    ->parseBoolean('needs_overworld_rain')
+    ->parseBoolean('relative_physical_stats')
+    ->parseBoolean('turn_upside_down')
+    ->parseInteger('minimum_beauty')
+    ->parseInteger('minimum_happiness')
+    ->parseInteger('minimum_level')
+    ->parseNullAs('time_of_day')
+    ->unsetFields(['minimum_affection']);
+
+$pokemonFormGenerations
+    ->parseInteger('game_index');
+
+$pokemonFormPokeathlonStats
+    ->parseInteger('base_stat')
+    ->parseInteger('maximum_stat')
+    ->parseInteger('minimum_stat');
+
+$pokemonForms
+    ->parseNullAs('form_identifier')
+    ->parseBoolean('is_battle_only')
+    ->parseBoolean('is_default')
+    ->parseBoolean('is_mega')
+    ->parseInteger('form_order')
+    ->parseInteger('order');
+
+$pokemonGameIndices
+    ->parseInteger('game_index');
+
+$pokemonMoves
+    ->parseInteger('level')
+    ->parseInteger('order');
+
+$pokemonSpecies
+    ->parseBoolean('forms_switchable')
+    ->parseBoolean('has_gender_differences')
+    ->parseBoolean('is_baby')
+    ->parseBoolean('is_legendary')
+    ->parseBoolean('is_mythical')
+    ->parseInteger('base_happiness')
+    ->parseInteger('capture_rate')
+    ->parseInteger('hatch_counter')
+    ->parseInteger('order');
+
+$pokemonStats
+    ->parseInteger('base_stat')
+    ->parseInteger('effort');
+
+$stats
+    ->parseBoolean('is_battle_only')
+    ->parseInteger('game_index');
+
+$superContestEffects
+    ->parseInteger('appeal')
+    ->prefixIdentifier('super-contest-effect-');
+
+$typeEfficacy
+    ->parseInteger('damage_factor');
+
+$typeGameIndices
+    ->parseInteger('game_index');
+
+$versionGroups
+    ->parseInteger('order');
+
+$versions
+    ->addOrderField();
+
+/**
+ * Build data
+ */
+$abilities
+    ->mapIdentifier($generations, 'generation')
+    ->mapLocalizedField($abilityProse, 'effect')
+    ->mapLocalizedField($abilityFlavorTexts, 'flavor_text')
+    ->mapLocalizedField($abilityProse, 'short_effect')
+    ->mapNames($abilityNames)
+    ->mapCsTranslations($translationsCs, $languages, 'Ability');
+
+$abilityChangelog
+    ->mapLocalizedField($abilityChangelogProse, 'effect')
+    ->mapCsTranslations($translationsCs, $languages, 'AbilityChangelog');
+
+$berries
+    ->mapIdentifier($items, 'item')
+    ->mapIdentifier($berryFirmness, 'firmness')
+    ->mapIdentifier($types, 'natural_gift_type');
+
+$berryFirmness
+    ->mapNames($berryFirmnessNames)
+    ->mapCsTranslations($translationsCs, $languages, 'BerryFirmness');
+
+$berryFlavors
+    ->mapIdentifier($contestTypes, 'contest_type');
+
+$characteristics
+    ->mapIdentifier($stats, 'stat')
+    ->mapLocalizedField($characteristicText, 'message');
+
+$contestCombos
+    ->mapIdentifier($moves, 'first_move')
+    ->mapIdentifier($moves, 'second_move');
+
+$contestEffects
+    ->mapLocalizedField($contestEffectProse, 'effect')
+    ->mapLocalizedField($contestEffectProse, 'flavor_text');
+
+$contestTypes
+    ->mapNames($contestTypeNames)
+    ->mapCsTranslations($translationsCs, $languages, 'ContestType');
+
+$eggGroups
+    ->mapNames($eggGroupsProse)
+    ->mapCsTranslations($translationsCs, $languages, 'EggGroup');
+
+$encounterConditions
+    ->mapNames($encounterConditionProse);
+
+$encounterConditionValues
+    ->mapIdentifier($encounterConditions, 'encounter_condition')
+    ->mapNames($encounterConditionValueProse)
+    ->mapCsTranslations($translationsCs, $languages, 'EncounterCondition');
+
+$encounterMethods
+    ->mapNames($encounterMethodProse);
+
+$encounters
+    ->embedCollectionField($encounterSlots, 'encounter_method_id', 'encounter_slot_id')
+    ->embedCollectionField($encounterSlots, 'rarity', 'encounter_slot_id')
+    ->embedCollectionField($encounterSlots, 'slot', 'encounter_slot_id')
+    ->mapIdentifier($encounterMethods, 'encounter_method')
+    ->unsetFields(['encounter_slot_id']);
+
+$evolutionChains
+    ->mapIdentifier($items, 'baby_trigger_item');
+
+$evolutionTriggers
+    ->mapNames($evolutionTriggerProse);
+
+$generations
+    ->mapIdentifier($regions, 'main_region')
+    ->mapNames($generationNames)
+    ->mapCsTranslations($translationsCs, $languages, 'Generation');
+
+$growthRates
+    ->mapNames($growthRateProse)
+    ->mapCsTranslations($translationsCs, $languages, 'GrowthRate');
+
+$itemCategories
+    ->mapIdentifier($itemPockets, 'pocket')
+    ->mapNames($itemCategoryProse)
+    ->mapCsTranslations($translationsCs, $languages, 'ItemCategory');
+
+$itemFlags
+    ->mapLocalizedField($itemFlagProse, 'description')
+    ->mapNames($itemFlagProse)
+    ->mapCsTranslations($translationsCs, $languages, 'ItemFlag');
+
+$itemFlingEffects
+    ->mapLocalizedField($itemFlingEffectProse, 'effect')
+    ->mapCsTranslations($translationsCs, $languages, 'ItemFlingEffect');
+
+$itemPockets
+    ->mapNames($itemPocketNames)
+    ->mapCsTranslations($translationsCs, $languages, 'ItemPocket');
+
+$items
+    ->mapAssociationField($itemGameIndices, 'game_index')
+    ->mapIdentifier($itemCategories, 'category')
+    ->mapIdentifier($itemFlingEffects, 'fling_effect')
+    ->mapLocalizedField($itemProse, 'effect')
+    ->mapLocalizedField($itemFlavorText, 'flavor_text')
+    ->mapLocalizedField($itemProse, 'short_effect')
+    ->mapNames($itemNames)
+    ->mapCsTranslations($translationsCs, $languages, 'Item');
+
+$languages
+    ->mapNames($languageNames)
+    ->mapCsTranslations($translationsCs, $languages, 'Language');
+
+$locationAreas
+    ->mapNames($locationAreaProse)
+    ->mapCsTranslations($translationsCs, $languages, 'LocationArea');
+
+$locations
+    ->mapIdentifier($regions, 'region')
+    ->mapNames($locationNames)
+    ->mapCsTranslations($translationsCs, $languages, 'Location');
+
+$moveBattleStyles
+    ->mapNames($moveBattleStyleProse);
+
+$moveChangelog
+    ->mapIdentifier($moveEffects, 'effect')
+    ->mapIdentifier($moveTargets, 'target')
+    ->mapIdentifier($types, 'type');
+
+$moveDamageClasses
+    ->mapNames($moveDamageClassProse)
+    ->mapLocalizedField($moveDamageClassProse, 'description')
+    ->mapCsTranslations($translationsCs, $languages, 'MoveDamageClass');
+
+$moveEffectChangelog
+    ->mapLocalizedField($moveEffectChangelogProse, 'effect');
+
+$moveEffects
+    ->mapLocalizedField($moveEffectProse, 'effect')
+    ->mapLocalizedField($moveEffectProse, 'short_effect')
+    ->mapCsTranslations($translationsCs, $languages, 'MoveEffect');
+
+$moveFlags
+    ->mapCsTranslations($translationsCs, $languages, 'MoveFlag')
+    ->mapNames($moveFlagProse)
+    ->mapLocalizedField($moveFlagProse, 'description');
+
+$moveMeta
+    ->mapIdentifier($moveMetaAilments, 'meta_ailment')
+    ->mapIdentifier($moveMetaCategories, 'meta_category');
+
+$moveMetaAilments
+    ->mapNames($moveMetaAilmentNames)
+    ->mapCsTranslations($translationsCs, $languages, 'MoveMetaAilment');
+
+$moveMetaCategories
+    ->mapLocalizedField($moveMetaCategoryProse, 'description');
+
+$moveTargets
+    ->mapLocalizedField($moveTargetProse, 'description')
+    ->mapNames($moveTargetProse)
+    ->mapCsTranslations($translationsCs, $languages, 'MoveTarget');
+
+$moves
+    ->mapIdentifier($contestEffects, 'contest_effect')
+    ->mapIdentifier($contestTypes, 'contest_type')
+    ->mapIdentifier($moveDamageClasses, 'damage_class')
+    ->mapIdentifier($moveEffects, 'effect')
+    ->mapIdentifier($generations, 'generation')
+    ->mapIdentifier($superContestEffects, 'super_contest_effect')
+    ->mapIdentifier($moveTargets, 'target')
+    ->mapIdentifier($types, 'type')
+    ->mapLocalizedField($moveFlavorText, 'flavor_text')
+    ->mapNames($moveNames)
+    ->mapCsTranslations($translationsCs, $languages, 'Move');
+
+$natureBattleStylePreferences
+    ->mapIdentifier($moveBattleStyles, 'move_battle_style');
+
+$naturePokeathlonStats
+    ->mapIdentifier($pokeathlonStats, 'pokeathlon_stat');
+
+$natures
+    ->mapIdentifier($stats, 'decreased_stat')
+    //->mapIdentifier($berryFlavors, 'hates_flavor')
+    ->mapIdentifier($stats, 'increased_stat')
+    //->mapIdentifier($berryFlavors, 'likes_flavor')
+    ->mapNames($natureNames);
+
+$palPark
+    ->mapIdentifier($palParkAreas, 'area');
+
+$palParkAreas
+    ->mapNames($palParkAreaNames);
+
+$pokeathlonStats
+    ->mapNames($pokeathlonStatNames)
+    ->mapCsTranslations($translationsCs, $languages, 'PokeathlonStat');
+
+$pokedexes
+    ->mapIdentifier($regions, 'region')
+    ->mapCsTranslations($translationsCs, $languages, 'Pokedex');
+
+$pokedexes
+    ->mapLocalizedField($pokedexProse, 'description')
+    ->mapNames($pokedexProse);
+
+$pokemon
+    ->mapAssociationField($pokemonStats, 'base_stats', 'base_stat')
+    ->mapAssociationField($pokemonStats, 'effort_values', 'effort')
+    ->mapAssociationField($pokemonGameIndices, 'game_index')
+    ->mapIdentifier($pokemonSpecies, 'species');
+
+$pokemonColors
+    ->mapNames($pokemonColorNames);
+
+$pokemonDexNumbers
+    ->mapIdentifier($pokedexes, 'pokedex');
+
+$pokemonEvolution
+    ->embedCollectionField($pokemonSpecies, 'evolves_from_id', 'evolved_species_id', 'evolves_from_species_id')
+    ->embedCollectionField($pokemonSpecies, 'evolution_chain_id', 'evolved_species_id')
+    ->mapIdentifier($evolutionTriggers, 'evolution_trigger')
+    ->mapIdentifier($pokemonSpecies, 'evolves_from')
+    ->mapIdentifier($genders, 'gender')
+    ->mapIdentifier($items, 'held_item')
+    ->mapIdentifier($moves, 'known_move')
+    ->mapIdentifier($types, 'known_move_type')
+    ->mapIdentifier($locations, 'location')
+    ->mapIdentifier($pokemonSpecies, 'party_species')
+    ->mapIdentifier($types, 'party_type')
+    ->mapIdentifier($pokemonSpecies, 'trade_species')
+    ->mapIdentifier($items, 'trigger_item');
+
+$pokemonFormPokeathlonStats
+    ->mapIdentifier($pokeathlonStats, 'pokeathlon_stat');
+
+$pokemonForms
+    ->mapAssociationField($pokemonFormGenerations, 'game_index')
+    ->mapIdentifier($versionGroups, 'introduced_in_version_group')
+    ->mapIdentifier($pokemon, 'pokemon')
+    ->mapLocalizedField($pokemonFormNames, 'form_name')
+    ->mapLocalizedField($pokemonFormNames, 'pokemon_name');
+
+$pokemonHabitats
+    ->mapNames($pokemonHabitatNames)
+    ->mapCsTranslations($translationsCs, $languages, 'PokemonHabitat');
+
+$pokemonMoveMethods
+    ->mapLocalizedField($pokemonMoveMethodProse, 'description')
+    ->mapNames($pokemonMoveMethodProse)
+    ->mapCsTranslations($translationsCs, $languages, 'PokemonMoveMethod');
+
+$pokemonMoves
+    ->mapIdentifier($pokemonMoveMethods, 'pokemon_move_method');
+
+$pokemonShapes
+    ->mapLocalizedField($pokemonShapeProse, 'awesome_name')
+    ->mapLocalizedField($pokemonShapeProse, 'description')
+    ->mapNames($pokemonShapeProse)
+    ->mapCsTranslations($translationsCs, $languages, 'PokemonShape');
+
+$pokemonSpecies
+    ->mapIdentifier($pokemonColors, 'color')
+    ->mapIdentifier($evolutionChains, 'evolution_chain')
+    ->mapIdentifier($pokemonSpecies, 'evolves_from', 'evolves_from_species_id')
+    //->mapIdentifier($genderRates, 'gender_rate', 'gender_rate')
+    ->mapIdentifier($generations, 'generation')
+    ->mapIdentifier($growthRates, 'growth_rate')
+    ->mapIdentifier($pokemonHabitats, 'habitat')
+    ->mapIdentifier($pokemonShapes, 'shape')
+    ->mapLocalizedField($pokemonSpeciesFlavorText, 'flavor_text')
+    ->mapLocalizedField($pokemonSpeciesProse, 'form_description')
+    ->mapLocalizedField($pokemonSpeciesNames, 'genus')
+    ->mapNames($pokemonSpeciesNames)
+    ->mapCsTranslations($translationsCs, $languages, 'PokemonSpecies');
+
+$regions
+    ->mapNames($regionNames)
+    ->mapCsTranslations($translationsCs, $languages, 'Region');
+
+$stats
+    ->mapIdentifier($moveDamageClasses, 'damage_class')
+    ->mapNames($statNames)
+    ->mapCsTranslations($translationsCs, $languages, 'Stat');
+
+$superContestCombos
+    ->mapIdentifier($moves, 'first_move')
+    ->mapIdentifier($moves, 'second_move');
+
+$superContestEffects
+    ->mapLocalizedField($superContestEffectProse, 'flavor_text');
+
+$typeEfficacy
+    ->mapIdentifier($types, 'target_type');
+
+$types
+    ->mapAssociationField($typeGameIndices, 'game_index')
+    ->mapIdentifier($moveDamageClasses, 'damage_class')
+    ->mapIdentifier($generations, 'generation')
+    ->mapNames($typeNames)
+    ->mapCsTranslations($translationsCs, $languages, 'Type');
+
+$versionGroups
+    ->mapIdentifier($generations, 'generation');
+
+$versions
+    ->mapIdentifier($versionGroups, 'version_group')
+    ->mapNames($versionNames)
+    ->mapCsTranslations($translationsCs, $languages, 'Version');
+
+/**
+ * Merge data
+ */
+$abilities
+    ->embedGroupedCollection($abilityChangelog, 'changelog', 'ability_id', ['changed_in_version_group_id' => $versionGroups]);
+
+//$berries
+//    ->embedAssociation($berryFlavors, 'flavors');
+
+$evolutionChains
+    ->embedGroupedCollection($pokemonEvolution, 'evolutions', 'evolution_chain_id', ['evolved_species_id' => $pokemonSpecies]);
+
+$growthRates
+    ->embedAssociation($experience, 'experience', 'level', 'experience');
+
+$items
+    ->embedJoin($itemFlagMap, 'flags');
+
+$locationAreas
+    ->embedGroupedAssociation($locationAreaEncounterRates, 'encounter_rates', ['version_id' => $versions, 'encounter_method_id' => $encounterMethods], 'rate')
+    ->embedGroupedCollection($encounters, 'encounters', 'location_area_id', ['version_id' => $versions, 'pokemon_id' => $pokemon]);
+
+$locations
+    ->embedCollection($locationAreas, 'areas', 'location_id', 'identifier');
+
+$machines
+    ->buildMachines($items, $moves, $versionGroups);
+
+$moveEffects
+    ->embedGroupedCollection($moveEffectChangelog, 'changelog', 'effect_id', ['changed_in_version_group_id' => $versionGroups]);
+
+$moveMeta
+    ->buildStatChanges($moveMetaStatChanges, $stats);
+
+$moves
+    ->embedGroupedCollection($moveChangelog, 'changelog', 'move_id', ['changed_in_version_group_id' => $versionGroups])
+    ->embedJoin($moveFlagMap, 'flags')
+    ->embedOneToOneAssociation($moveMeta, 'meta');
+
+$natures
+    ->embedAssociation($natureBattleStylePreferences, 'battle_style_preferences', 'move_battle_style')
+    ->embedAssociation($naturePokeathlonStats, 'pokeathlon_stats', 'pokeathlon_stat');
+
+$pokedexes
+    ->embedJoin($pokedexVersionGroups, 'version_groups');
+
+$pokemon
+    ->embedGroupedAssociation($pokemonAbilities, 'abilities', ['ability_id' => $abilities])
+    ->embedGroupedCollection($pokemonMoves, 'moves', 'pokemon_id', ['version_group_id' => $versionGroups, 'move_id' => $moves])
+    ->embedJoin($pokemonTypes, 'type');
+
+$pokemonForms
+    ->embedAssociation($pokemonFormPokeathlonStats, 'pokeathlon_stats', 'pokeathlon_stat');
+
+$pokemonSpecies
+    ->embedAssociation($pokemonDexNumbers, 'pokedex_entries', 'pokedex', 'pokedex_number')
+    ->embedJoin($pokemonEggGroups, 'egg_groups')
+    ->embedOneToOneAssociation($palPark, 'pal_park');
+
+$types
+    ->embedAssociation($typeEfficacy, 'damage_factor', 'target_type', 'damage_factor');
+
+$versionGroups
+    ->embedJoin($versionGroupPokemonMoveMethods, 'pokemon_move_methods')
+    ->embedJoin($versionGroupRegions, 'regions');
+
+/**
+ * Dump data
+ */
+$abilities->unsetFields(['id'])->sortEntryFields()->write(splitToFiles: true);
+$berries->unsetFields(['id'])->sortEntryFields()->write();
+$berryFirmness->unsetFields(['id'])->sortEntryFields()->write();
+$characteristics->unsetFields(['id'])->sortEntryFields()->write();
+$contestCombos->sortEntryFields()->write();
+$contestEffects->unsetFields(['id'])->sortEntryFields()->write();
+$contestTypes->unsetFields(['id'])->sortEntries()->sortEntryFields()->write();
+$eggGroups->unsetFields(['id'])->sortEntries()->sortEntryFields()->write();
+$encounterConditions->unsetFields(['id'])->sortEntries()->sortEntryFields()->write();
+$encounterConditionValues->unsetFields(['id'])->sortEntries()->sortEntryFields()->write();
+$encounterMethods->unsetFields(['id'])->sortByOrderField()->sortEntryFields()->write();
+$evolutionChains->unsetFields(['id'])->sortEntryFields()->write();
+$evolutionTriggers->unsetFields(['id'])->sortEntryFields()->write();
+$genders->unsetFields(['id'])->sortEntryFields()->write();
+$generations->unsetFields(['id'])->sortEntryFields()->write();
+$growthRates->unsetFields(['id'])->sortEntryFields()->write();
+$itemCategories->unsetFields(['id'])->sortEntries()->sortEntryFields()->write();
+$itemFlags->unsetFields(['id'])->sortEntryFields()->write();
+$itemFlingEffects->unsetFields(['id'])->sortEntryFields()->write();
+$itemPockets->unsetFields(['id'])->sortEntryFields()->write();
+$items->unsetFields(['id'])->sortEntryFields()->write(splitToFiles: true);
+$languages->unsetFields(['id'])->sortByOrderField()->sortEntryFields()->write();
+$locations->unsetFields(['id'])->sortEntryFields()->write(splitToFiles: true);
+$machines->sortEntries()->write();
+$moveBattleStyles->unsetFields(['id'])->sortEntryFields()->write();
+$moveDamageClasses->unsetFields(['id'])->sortEntryFields()->write();
+$moveEffects->unsetFields(['id'])->sortEntryFields()->write();
+$moveMetaAilments->unsetFields(['id'])->sortEntries()->sortEntryFields()->write();
+$moveMetaCategories->unsetFields(['id'])->sortEntries()->sortEntryFields()->write();
+$moveTargets->unsetFields(['id'])->sortEntryFields()->write();
+$moves->unsetFields(['id'])->sortEntryFields()->write(splitToFiles: true);
+$natures->unsetFields(['id'])->sortEntries()->sortEntryFields()->write();
+$palParkAreas->unsetFields(['id'])->sortEntries()->sortEntryFields()->write();
+$pokeathlonStats->unsetFields(['id'])->sortEntries()->sortEntryFields()->write();
+$pokedexes->unsetFields(['id'])->sortEntryFields()->write();
+$pokemon->unsetFields(['id'])->sortEntryFields()->write(splitToFiles: true);
+$pokemonColors->unsetFields(['id'])->sortEntryFields()->write();
+$pokemonForms->unsetFields(['id'])->sortEntryFields()->write(splitToFiles: true);
+$pokemonHabitats->unsetFields(['id'])->sortEntryFields()->write();
+$pokemonMoveMethods->unsetFields(['id'])->sortEntryFields()->write();
+$pokemonShapes->unsetFields(['id'])->sortEntryFields()->write();
+$pokemonSpecies->unsetFields(['conquest_order', 'id'])->sortEntryFields()->write(splitToFiles: true);
+$regions->unsetFields(['id'])->sortEntryFields()->write();
+$stats->unsetFields(['id'])->sortEntryFields()->write();
+$superContestCombos->sortEntryFields()->write();
+$superContestEffects->unsetFields(['id'])->sortEntryFields()->write();
+$types->unsetFields(['id'])->sortEntryFields()->write();
+$versionGroups->unsetFields(['id'])->sortEntryFields()->write();
+$versions->unsetFields(['id'])->sortEntryFields()->write();

@@ -1,0 +1,74 @@
+branch-poke:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - contact
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        するどく　とがった　えだで
+        あいてを　つついて　こうげきする。
+      ja: |-
+        するどく　とがった　枝で
+        相手を　突いて　攻撃する。
+      ko: |-
+        날카롭고 뾰족한 가지로
+        상대를 찔러서 공격한다.
+      zh-Hant: |-
+        用尖銳的樹枝
+        刺向對手進行攻擊。
+      zh-Hans: |-
+        使用尖锐的树枝
+        刺向对手进行攻击。
+      en: |-
+        The user attacks the target by poking it with a sharply
+        pointed branch.
+      fr: |-
+        Le lanceur attaque sa cible en la piquant
+        avec une branche pointue.
+      de: |-
+        Der Anwender attackiert das Ziel mit einem
+        spitzen Zweig.
+      es: 'Ataca pinchando al objetivo con una rama afilada.'
+      it: |-
+        Chi la usa attacca il bersaglio con un ramo
+        incredibilmente appuntito.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: えだづき
+    ja: えだづき
+    ko: 가지찌르기
+    zh-Hant: 木枝突刺
+    zh-Hans: 木枝突刺
+    en: 'Branch Poke'
+    fr: Tapotige
+    de: Zweigstoß
+    es: 'Punzada Rama'
+    it: Ramostoccata
+  power: 40
+  pp: 40
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: grass

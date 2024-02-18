@@ -1,0 +1,225 @@
+wellspring-cave:
+  areas:
+    main_area:
+      encounter_rates:
+        black:
+          walk: 3
+          super-rod: 50
+          surf: 3
+        white:
+          walk: 3
+          super-rod: 50
+          surf: 3
+        black-2:
+          walk: 7
+          super-rod: 50
+          surf: 10
+        white-2:
+          walk: 7
+          super-rod: 50
+          surf: 10
+      encounters:
+        black:
+          drilbur:
+            encounter_method: cave-spots
+            max_level: 13
+            min_level: 13
+            rarity: 1
+            slot: 12
+          poliwag:
+            encounter_method: super-rod
+            max_level: 55
+            min_level: 35
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf
+            max_level: 15
+            min_level: 5
+            rarity: 1
+            slot: 5
+          poliwhirl:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 15
+            slot: 3
+          basculin-blue-striped:
+            encounter_method: surf-spots
+            max_level: 20
+            min_level: 5
+            rarity: 1
+            slot: 5
+          poliwrath:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 1
+            slot: 5
+          roggenrola:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 1
+            slot: 11
+          woobat:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 1
+            slot: 12
+        white:
+          drilbur:
+            encounter_method: cave-spots
+            max_level: 13
+            min_level: 13
+            rarity: 1
+            slot: 12
+          poliwag:
+            encounter_method: super-rod
+            max_level: 55
+            min_level: 35
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf
+            max_level: 15
+            min_level: 5
+            rarity: 1
+            slot: 5
+          poliwhirl:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 15
+            slot: 3
+          basculin-red-striped:
+            encounter_method: surf-spots
+            max_level: 20
+            min_level: 5
+            rarity: 1
+            slot: 5
+          poliwrath:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 1
+            slot: 5
+          roggenrola:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 1
+            slot: 11
+          woobat:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 1
+            slot: 12
+        black-2:
+          excadrill:
+            encounter_method: cave-spots
+            max_level: 58
+            min_level: 58
+            rarity: 1
+            slot: 12
+          poliwag:
+            encounter_method: super-rod
+            max_level: 70
+            min_level: 60
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf
+            max_level: 60
+            min_level: 50
+            rarity: 1
+            slot: 5
+          poliwhirl:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 60
+            rarity: 15
+            slot: 3
+          basculin-blue-striped:
+            encounter_method: surf-spots
+            max_level: 60
+            min_level: 50
+            rarity: 1
+            slot: 5
+          poliwrath:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 60
+            rarity: 1
+            slot: 5
+          boldore:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 1
+            slot: 11
+          woobat:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 1
+            slot: 12
+        white-2:
+          excadrill:
+            encounter_method: cave-spots
+            max_level: 58
+            min_level: 58
+            rarity: 1
+            slot: 12
+          poliwag:
+            encounter_method: super-rod
+            max_level: 70
+            min_level: 60
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf
+            max_level: 60
+            min_level: 50
+            rarity: 1
+            slot: 5
+          poliwhirl:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 60
+            rarity: 15
+            slot: 3
+          basculin-red-striped:
+            encounter_method: surf-spots
+            max_level: 60
+            min_level: 50
+            rarity: 1
+            slot: 5
+          poliwrath:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 60
+            rarity: 1
+            slot: 5
+          boldore:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 1
+            slot: 11
+          woobat:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 1
+            slot: 12
+      game_index: 80
+      name:
+        en: 'Main Area'
+  name:
+    ja-Hrkt: 地下水脈の穴
+    en: 'Wellspring Cave'
+    fr: 'Veine Souterraine'
+  region: unova

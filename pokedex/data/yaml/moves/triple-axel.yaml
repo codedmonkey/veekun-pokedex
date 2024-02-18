@@ -1,0 +1,77 @@
+triple-axel:
+  accuracy: 90
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - contact
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        ３かい　れんぞくで　キックを　くりだして
+        こうげきする。　わざが　あたる　たびに
+        いりょくは　あがる。
+      ja: |-
+        ３回連続で　キックを　くりだして
+        攻撃する。　技が　当たるたびに
+        威力は　あがる。
+      ko: |-
+        3회 연속으로 킥을 날려
+        공격한다. 기술이 맞을 때마다
+        위력이 올라간다.
+      zh-Hant: |-
+        連續踢對手３次進行攻擊。
+        每踢中一次，威力就會提高。
+      zh-Hans: |-
+        连续３次踢对手进行攻击。
+        每踢中一次，威力就会提高。
+      en: |-
+        A consecutive three-kick attack that becomes more
+        powerful with each successful hit.
+      fr: |-
+        Une salve composée de un à trois coups de pied
+        dont la puissance augmente à chaque coup porté.
+      de: |-
+        Tritt das Ziel ein- bis dreimal nacheinander. Die Härte
+        der Tritte nimmt von Treffer zu Treffer zu.
+      es: 'Patea hasta tres veces seguidas y cada vez más fuerte.'
+      it: |-
+        Chi la usa sferra fino a tre calci consecutivi
+        la cui potenza aumenta a ogni colpo.
+  generation: generation-viii
+  meta:
+    min_hits: 3
+    max_hits: 3
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: トリプルアクセル
+    ja: トリプルアクセル
+    ko: 트리플악셀
+    zh-Hant: 三旋擊
+    zh-Hans: 三旋击
+    en: 'Triple Axel'
+    fr: 'Triple Axel'
+    de: Dreifach-Axel
+    es: 'Triple Axel'
+    it: 'Triplo Axel'
+  power: 20
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: ice

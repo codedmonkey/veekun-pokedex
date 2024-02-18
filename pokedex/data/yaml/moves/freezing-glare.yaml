@@ -1,0 +1,79 @@
+freezing-glare:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: special
+  effect: move-effect-1
+  effect_chance: 10
+  flags:
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        りょうめから　サイコパワーを
+        うちだして　こうげきする。
+        こおり　じょうたいに　することが　ある。
+      ja: |-
+        両目から　サイコパワーを
+        撃ちだして　攻撃する。
+        こおり状態に　することが　ある。
+      ko: |-
+        두 눈에서 사이코 파워를
+        발사해서 공격한다.
+        얼음 상태로 만들 때가 있다.
+      zh-Hant: |-
+        從雙眼釋放出精神力量進行攻擊。
+        有時會讓對手陷入冰凍狀態。
+      zh-Hans: |-
+        从双眼发射精神力量进行攻击。
+        有时会让对手陷入冰冻状态。
+      en: |-
+        The user shoots its psychic power from its eyes
+        to attack. This may also leave the target frozen.
+      fr: |-
+        Les yeux du lanceur tirent des rayons psychiques.
+        Peut aussi geler l’ennemi.
+      de: |-
+        Der Anwender greift das Ziel mit Psycho-Kräften an,
+        die er aus seinen Augen abschießt. Das Ziel friert
+        eventuell ein.
+      es: |-
+        A través de sus ojos emite poderes psíquicos con los
+        que ataca al objetivo, al que puede llegar a congelar.
+      it: |-
+        Il Pokémon attacca rilasciando energia psichica
+        dagli occhi. Può congelare il bersaglio.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 10
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: freeze
+    meta_category: damage+ailment
+    stat_changes: {  }
+  name:
+    ja-Hrkt: いてつくしせん
+    ja: いてつくしせん
+    ko: 얼어붙는시선
+    zh-Hant: 冰冷視線
+    zh-Hans: 冰冷视线
+    en: 'Freezing Glare'
+    fr: 'Regard Glaçant'
+    de: 'Eisiger Blick'
+    es: 'Mirada Heladora'
+    it: 'Sguardo Gelido'
+  power: 90
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: psychic

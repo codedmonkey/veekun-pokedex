@@ -1,0 +1,85 @@
+apple-acid:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: special
+  effect: move-effect-440
+  effect_chance: 100
+  flags:
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        すっぱい　りんごから　つくりだした
+        さんせいの　えきたいで　こうげき。
+        あいての　とくぼうを　さげる。
+      ja: |-
+        すっぱい　りんごから　つくりだした
+        酸性の　液体で　攻撃。
+        相手の　特防を　下げる。
+      ko: |-
+        새콤한 사과에서 만들어 낸
+        산성 액체로 공격한다.
+        상대의 특수방어를 떨어뜨린다.
+      zh-Hant: |-
+        使用從酸蘋果提煉出的
+        酸性液體進行攻擊。
+        可降低對手的特防。
+      zh-Hans: |-
+        使用从酸苹果中提取出来的
+        酸性液体进行攻击。
+        降低对手的特防。
+      en: |-
+        The user attacks the target with an acidic liquid created
+        from tart apples. This also lowers the target’s
+        Sp. Def stat.
+      fr: |-
+        Le lanceur attaque son adversaire avec un liquide
+        corrosif créé à partir d’une pomme acide.
+        Baisse la Défense Spéciale de la cible.
+      de: |-
+        Der Anwender greift mit einer aus einem sauren Apfel
+        hergestellten säurehaltigen Flüssigkeit an. Dabei wird
+        die Spezial-Verteidigung des Zieles gesenkt.
+      es: |-
+        Ataca al objetivo con el fluido corrosivo que desprende
+        una manzana ácida, lo que también disminuye la
+        Defensa Especial de este.
+      it: |-
+        Chi la usa attacca il bersaglio con un liquido acido
+        ricavato da mele aspre riducendone la Difesa Speciale.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 100
+    meta_ailment: none
+    meta_category: damage+lower
+    stat_changes:
+      special-defense: -1
+  name:
+    ja-Hrkt: りんごさん
+    ja: りんごさん
+    ko: 사과산
+    zh-Hant: 蘋果酸
+    zh-Hans: 苹果酸
+    en: 'Apple Acid'
+    fr: 'Acide Malique'
+    de: Apfelsäure
+    es: 'Ácido Málico'
+    it: 'Acido Malico'
+  power: 80
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: grass

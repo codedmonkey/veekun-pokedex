@@ -1,0 +1,87 @@
+jaw-lock:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-423
+  effect_chance: ~
+  flags:
+    - contact
+    - protect
+    - mirror
+    - bite
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        おたがい　ひんしに　なるまで
+        こうたいが　できなくなる。　どちらかの
+        ポケモンが　いなくなると　こうかはきえる。
+      ja: |-
+        お互い　ひんしに　なるまで
+        交代が　できなくなる。　どちらかの
+        ポケモンが　いなくなると　効果は消える。
+      ko: |-
+        어느 한쪽이 기절할 때까지
+        교체할 수 없게 된다. 한쪽의
+        포켓몬이 없어지면 효과가 사라진다.
+      zh-Hant: |-
+        使攻擊對象及自己在陷入瀕死前
+        都無法進行替換。當兩隻寶可夢
+        其中一方退場時，效果就會消失。
+      zh-Hans: |-
+        使双方直到一方濒死为止
+        无法替换宝可梦。
+        其中一方退场则可以解除效果。
+      en: |-
+        This move prevents the user and the target from
+        switching out until either of them faints. The effect goes
+        away if either of the Pokémon leaves the field.
+      fr: |-
+        Le lanceur et sa cible ne peuvent plus quitter le terrain
+        jusqu’à ce que l’un d’entre eux tombe K.O.
+        L’effet est annulé si l’un des deux Pokémon disparaît.
+      de: |-
+        Anwender und Ziel können nicht ausgetauscht werden,
+        bis einer von ihnen kampfunfähig wird. Der Effekt
+        endet, wenn eines der Pokémon das Kampffeld verlässt.
+      es: |-
+        Impide que tanto el atacante como el defensor puedan
+        ser intercambiados hasta que uno de ellos se debilite o
+        abandone el terreno de combate.
+      it: |-
+        Impedisce a chi la usa e al bersaglio di essere sostituiti
+        finché non vanno KO. L’effetto svanisce se uno dei due
+        lascia il campo.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: くらいつく
+    ja: くらいつく
+    ko: 물고버티기
+    zh-Hant: 緊咬不放
+    zh-Hans: 紧咬不放
+    en: 'Jaw Lock'
+    fr: 'Croque Fort'
+    de: Fesselbiss
+    es: 'Presa Maxilar'
+    it: Morsostretto
+  power: 80
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: dark

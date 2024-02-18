@@ -1,0 +1,86 @@
+lash-out:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - contact
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        あいてへの　いらだちを　ぶつけて　こうげき。
+        そのターンに　のうりょくを　さげられていると
+        わざの　いりょくが　２ばいに　なる。
+      ja: |-
+        相手への　いらだちを　ぶつけて　攻撃。
+        そのターンに　能力を　さげられていると
+        技の　威力が　２倍に　なる。
+      ko: |-
+        상대에 대한 울분이 담긴 공격을 한다.
+        그 턴에 능력이 떨어져 있으면
+        기술의 위력이 2배가 된다.
+      zh-Hant: |-
+        將惱怒砸向對手進行攻擊。
+        如果此回合已被降低能力，
+        招式威力就會變成２倍。
+      zh-Hans: |-
+        攻击对手以发泄对其感到的恼怒情绪。
+        如果在该回合内自身能力遭到降低，
+        招式的威力会变成２倍。
+      en: |-
+        The user lashes out to vent its frustration toward
+        the target. If the user’s stats were lowered during this
+        turn, the power of this move is doubled.
+      fr: |-
+        Le lanceur frappe l’ennemi avec toute sa rancune.
+        Si les stats du lanceur ont diminué pendant ce tour,
+        la puissance de cette attaque est doublée.
+      de: |-
+        Der Anwender entlädt seinen Frust in einem Angriff.
+        Die Stärke der Attacke wird verdoppelt, wenn seine
+        Statuswerte in dieser Runde gesenkt wurden.
+      es: |-
+        Ataca al rival presa de la rabia. Si el usuario ha sufrido
+        una reducción de características en ese turno, la
+        potencia del movimiento se duplica.
+      it: |-
+        Chi la usa attacca il bersaglio con tutta la propria ira.
+        Se ha subito riduzioni delle statistiche durante quel
+        turno, la potenza della mossa raddoppia.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: うっぷんばらし
+    ja: うっぷんばらし
+    ko: 분풀이
+    zh-Hant: 洩憤
+    zh-Hans: 泄愤
+    en: 'Lash Out'
+    fr: 'Cent Rancunes'
+    de: Frustventil
+    es: Desahogo
+    it: Sfogarabbia
+  power: 75
+  pp: 5
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: dark

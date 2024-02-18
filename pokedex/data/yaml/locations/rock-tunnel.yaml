@@ -1,0 +1,784 @@
+rock-tunnel:
+  areas:
+    1f:
+      encounter_rates:
+        firered:
+          walk: 7
+        leafgreen:
+          walk: 7
+        heartgold:
+          walk: 15
+        soulsilver:
+          walk: 15
+      encounters:
+        heartgold:
+          cubone:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 1
+            slot: 12
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 4
+          absol:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 4
+          machop:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 6
+          makuhita:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 6
+          zubat:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 5
+            slot: 8
+          machoke:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 1
+            slot: 11
+        soulsilver:
+          cubone:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 1
+            slot: 12
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 4
+          absol:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 4
+          machop:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 6
+          makuhita:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 6
+          zubat:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 5
+            slot: 8
+          machoke:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 1
+            slot: 11
+        firered:
+          zubat:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 10
+            slot: 5
+          geodude:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 11
+          mankey:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 5
+            slot: 7
+          machop:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 5
+            slot: 8
+          onix:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 12
+        leafgreen:
+          zubat:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 10
+            slot: 5
+          geodude:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 11
+          mankey:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 5
+            slot: 7
+          machop:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 5
+            slot: 8
+          onix:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 12
+        gold:
+          cubone:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 1
+            slot: 7
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 30
+            slot: 2
+          machop:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 20
+            slot: 3
+          zubat:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 4
+          machoke:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 5
+            slot: 5
+        silver:
+          cubone:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 1
+            slot: 7
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 30
+            slot: 2
+          machop:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 20
+            slot: 3
+          zubat:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 4
+          machoke:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 5
+            slot: 5
+        crystal:
+          cubone:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 30
+            slot: 1
+          geodude:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 20
+            slot: 3
+          machop:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 20
+            slot: 3
+          zubat:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 7
+          machoke:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 5
+            slot: 5
+          marowak:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 1
+            slot: 7
+          haunter:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 10
+            slot: 4
+      game_index: 109
+      name:
+        en: 1F
+    b1f:
+      encounter_rates:
+        firered:
+          walk: 7
+          rock-smash: 50
+        leafgreen:
+          walk: 7
+          rock-smash: 50
+        heartgold:
+          walk: 15
+          rock-smash: 20
+        soulsilver:
+          walk: 15
+          rock-smash: 20
+      encounters:
+        heartgold:
+          cubone:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 3
+          geodude:
+            encounter_method: rock-smash
+            max_level: 21
+            min_level: 17
+            rarity: 10
+            slot: 2
+          absol:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 4
+          onix:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 10
+            slot: 6
+          makuhita:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 10
+            slot: 6
+          zubat:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 8
+          marowak:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 1
+            slot: 11
+          kangaskhan:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 1
+            slot: 12
+        soulsilver:
+          cubone:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 3
+          geodude:
+            encounter_method: rock-smash
+            max_level: 21
+            min_level: 17
+            rarity: 10
+            slot: 2
+          absol:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 4
+          onix:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 10
+            slot: 6
+          makuhita:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 10
+            slot: 6
+          zubat:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 8
+          marowak:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 1
+            slot: 11
+          kangaskhan:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 1
+            slot: 12
+        red:
+          zubat:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 5
+            slot: 7
+          geodude:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 10
+            slot: 5
+          machop:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 5
+            slot: 8
+          onix:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 10
+        blue:
+          zubat:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 5
+            slot: 7
+          geodude:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 10
+            slot: 5
+          machop:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 5
+            slot: 8
+          onix:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 10
+        yellow:
+          zubat:
+            encounter_method: walk
+            max_level: 21
+            min_level: 21
+            rarity: 5
+            slot: 7
+          geodude:
+            encounter_method: walk
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 6
+          machop:
+            encounter_method: walk
+            max_level: 21
+            min_level: 21
+            rarity: 1
+            slot: 10
+        firered:
+          geodude:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 11
+          graveler:
+            encounter_method: rock-smash
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          zubat:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 10
+            slot: 5
+          mankey:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 5
+            slot: 7
+          machop:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 10
+            slot: 6
+          onix:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 1
+            slot: 12
+        leafgreen:
+          geodude:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 11
+          graveler:
+            encounter_method: rock-smash
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          zubat:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 10
+            slot: 5
+          mankey:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 5
+            slot: 7
+          machop:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 10
+            slot: 6
+          onix:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 1
+            slot: 12
+        gold:
+          cubone:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 30
+            slot: 1
+          geodude:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 30
+            slot: 2
+          onix:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 20
+            slot: 3
+          zubat:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 4
+          marowak:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 5
+            slot: 5
+          kangaskhan:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 1
+            slot: 7
+        silver:
+          cubone:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 30
+            slot: 1
+          geodude:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 30
+            slot: 2
+          onix:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 20
+            slot: 3
+          zubat:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 4
+          marowak:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 5
+            slot: 5
+          kangaskhan:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 1
+            slot: 7
+        crystal:
+          cubone:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 30
+            slot: 1
+          geodude:
+            encounter_method: walk
+            max_level: 14
+            min_level: 14
+            rarity: 30
+            slot: 2
+          onix:
+            encounter_method: walk
+            max_level: 16
+            min_level: 16
+            rarity: 20
+            slot: 3
+          zubat:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 10
+            slot: 4
+          marowak:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 5
+            slot: 5
+          kangaskhan:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 7
+          haunter:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 5
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 15
+            min_level: 15
+            rarity: 1
+            slot: 7
+      game_index: 110
+      name:
+        en: B1F
+    b2f:
+      encounter_rates: {  }
+      encounters:
+        red:
+          zubat:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 10
+            slot: 6
+          geodude:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 1
+            slot: 10
+          machop:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 5
+            slot: 7
+          onix:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 4
+            slot: 9
+        blue:
+          zubat:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 10
+            slot: 6
+          geodude:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 1
+            slot: 10
+          machop:
+            encounter_method: walk
+            max_level: 17
+            min_level: 17
+            rarity: 5
+            slot: 7
+          onix:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 4
+            slot: 9
+        yellow:
+          zubat:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 5
+          geodude:
+            encounter_method: walk
+            max_level: 21
+            min_level: 21
+            rarity: 10
+            slot: 6
+          machop:
+            encounter_method: walk
+            max_level: 20
+            min_level: 20
+            rarity: 5
+            slot: 7
+          onix:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 10
+      game_index: 0
+      name:
+        en: B2F
+  name:
+    en: 'Rock Tunnel'
+    fr: Grotte
+  region: kanto

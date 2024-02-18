@@ -1,0 +1,1270 @@
+shelmet:
+  abilities:
+    hydration:
+      is_hidden: false
+      slot: 1
+    shell-armor:
+      is_hidden: false
+      slot: 2
+    overcoat:
+      is_hidden: true
+      slot: 3
+  base_experience: 61
+  base_stats:
+    hp: 50
+    attack: 40
+    defense: 85
+    special-attack: 40
+    special-defense: 65
+    speed: 25
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 1
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index:
+    black: 616
+    white: 616
+    black-2: 616
+    white-2: 616
+  height: 4
+  is_default: true
+  moves:
+    black-white:
+      body-slam:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      acid:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      bide:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      leech-life:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      acid-armor:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mind-reader:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      curse:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      spikes:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      giga-drain:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      baton-pass:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      pursuit:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      yawn:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      feint:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      guard-swap:
+        level: 52
+        order: ~
+        pokemon_move_method: level-up
+      bug-buzz:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      guard-split:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      final-gambit:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    black-2-white-2:
+      body-slam:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      acid:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      bide:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      leech-life:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      acid-armor:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mind-reader:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      curse:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      spikes:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      baton-pass:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      pursuit:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      yawn:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      feint:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      gastro-acid:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      guard-swap:
+        level: 52
+        order: ~
+        pokemon_move_method: level-up
+      bug-buzz:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      guard-split:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      final-gambit:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    x-y:
+      body-slam:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      acid:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      bide:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      leech-life:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      acid-armor:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mind-reader:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      curse:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      spikes:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      giga-drain:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      baton-pass:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      pursuit:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      yawn:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      feint:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      guard-swap:
+        level: 50
+        order: ~
+        pokemon_move_method: level-up
+      bug-buzz:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      guard-split:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      final-gambit:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      body-slam:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      acid:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      bide:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      leech-life:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      acid-armor:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mind-reader:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      curse:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      spikes:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      baton-pass:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      pursuit:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      yawn:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      feint:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      gastro-acid:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      guard-swap:
+        level: 50
+        order: ~
+        pokemon_move_method: level-up
+      bug-buzz:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      guard-split:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      final-gambit:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      body-slam:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      acid:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      absorb:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      bide:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      leech-life:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acid-armor:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mind-reader:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      curse:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      spikes:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      giga-drain:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      baton-pass:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      pursuit:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      yawn:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      feint:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      guard-swap:
+        level: 50
+        order: ~
+        pokemon_move_method: level-up
+      bug-buzz:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      guard-split:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      final-gambit:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      struggle-bug:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      body-slam:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      acid:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      absorb:
+        level: 1
+        order: ~
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      bide:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      leech-life:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acid-armor:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mind-reader:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      curse:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      spikes:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      baton-pass:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      pursuit:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      yawn:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      feint:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      gastro-acid:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      guard-swap:
+        level: 50
+        order: ~
+        pokemon_move_method: level-up
+      toxic-spikes:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      bug-buzz:
+        level: 44
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      guard-split:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      final-gambit:
+        level: 56
+        order: ~
+        pokemon_move_method: level-up
+      struggle-bug:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sword-shield:
+      body-slam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      acid:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      absorb:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      mega-drain:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      recover:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      leech-life:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acid-armor:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mind-reader:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 8
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spikes:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      baton-pass:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      encore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      yawn:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      mud-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feint:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      guard-swap:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic-spikes:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-buzz:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      guard-split:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      final-gambit:
+        level: 48
+        order: ~
+        pokemon_move_method: level-up
+      struggle-bug:
+        level: 16
+        order: ~
+        pokemon_move_method: level-up
+      skitter-smack:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 738
+  species: shelmet
+  type:
+    - bug
+  weight: 77

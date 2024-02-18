@@ -1,0 +1,956 @@
+bergmite:
+  abilities:
+    own-tempo:
+      is_hidden: false
+      slot: 1
+    ice-body:
+      is_hidden: false
+      slot: 2
+    sturdy:
+      is_hidden: true
+      slot: 3
+  base_experience: 61
+  base_stats:
+    hp: 55
+    attack: 69
+    defense: 85
+    special-attack: 32
+    special-defense: 35
+    speed: 28
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 1
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index: {  }
+  height: 10
+  is_default: true
+  moves:
+    x-y:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      double-edge:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      mist:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      harden:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sharpen:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      powder-snow:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 35
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-ball:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gyro-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      avalanche:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      ice-fang:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      flash-cannon:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stone-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frost-breath:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      double-edge:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      mist:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      strength:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      harden:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sharpen:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      curse:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      powder-snow:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 35
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rock-smash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-ball:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      gyro-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      avalanche:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      ice-fang:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      flash-cannon:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stone-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      after-you:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frost-breath:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      double-edge:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      mist:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      harden:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sharpen:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      powder-snow:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 35
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-ball:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gyro-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      avalanche:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      ice-fang:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      flash-cannon:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stone-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frost-breath:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      take-down:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      double-edge:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      mist:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      harden:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      barrier:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sharpen:
+        level: 20
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      curse:
+        level: 22
+        order: ~
+        pokemon_move_method: level-up
+      powder-snow:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 35
+        order: ~
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-ball:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      gyro-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      avalanche:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      ice-fang:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      flash-cannon:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stone-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      after-you:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frost-breath:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sword-shield:
+      tackle:
+        level: 3
+        order: ~
+        pokemon_move_method: level-up
+      take-down:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      double-edge:
+        level: 42
+        order: ~
+        pokemon_move_method: level-up
+      bite:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      mist:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      recover:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      harden:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      powder-snow:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icicle-spear:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      iron-defense:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gyro-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      avalanche:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-fang:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      flash-cannon:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stone-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      aurora-veil:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+  order: 852
+  species: bergmite
+  type:
+    - ice
+  weight: 995

@@ -1,0 +1,126 @@
+floaty-fall:
+  accuracy: 95
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: 30
+  flags:
+    - contact
+    - protect
+    - mirror
+    - gravity
+  flavor_text:
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        ふんわりと　うかび　あがり
+        いっきに　きゅうこうか　して　こうげき。
+        あいてを　ひるませる　ことが　ある。
+      ja: |-
+        ふんわりと　浮かび　あがり
+        一気に　急降下して　攻撃。
+        相手を　ひるませることが　ある。
+      ko: |-
+        두둥실 떠오른 다음
+        단숨에 급강하해서 공격한다.
+        상대를 풀죽게 만들 때가 있다.
+      zh-Hant: |-
+        輕飄飄地浮起，
+        然後急速墜落，進行攻擊。
+        有時會讓對手畏縮。
+      zh-Hans: |-
+        轻飘飘地浮起来后，
+        再猛地俯冲下去进行攻击。
+        有时会使对手畏缩。
+      en: |-
+        The user floats in the air, and then dives at a steep
+        angle to attack the target. This may also make the
+        target flinch.
+      fr: |-
+        Pikachu prend de la hauteur avant de fondre sur
+        son adversaire. Peut aussi apeurer l’ennemi.
+      de: |-
+        Pikachu schwebt nach oben und stürzt dann unvermittelt
+        auf das Ziel herab. Das Ziel schreckt eventuell zurück.
+      es: |-
+        El usuario se suspende en el aire para, a continuación,
+        abalanzarse súbitamente sobre el rival. Puede hacer
+        retroceder al objetivo.
+      it: |-
+        Chi la usa si libra in aria per poi piombare addosso
+        al bersaglio. Può anche far tentennare il Pokémon
+        colpito.
+    sword-shield:
+      ja-Hrkt: |-
+        このわざは　つかえません
+        おもいだすことが　できなくなりますが
+        わざを　わすれることを　おすすめします
+      ja: |-
+        この技は　使えません
+        思い出すことが　できなくなりますが
+        技を　忘れることを　おすすめします
+      ko: |-
+        사용할 수 없는 기술입니다.
+        다시 배우게 할 수 없지만
+        기술을 잊게 하는 것을 권장합니다.
+      zh-Hant: |-
+        無法使用此招式。
+        雖然忘記後將無法再想起來，
+        但還是建議忘記此招式。
+      zh-Hans: |-
+        无法使用这个招式。
+        虽然忘记之后就再也想不起来了，
+        但还是建议忘记这个招式。
+      en: |-
+        This move can’t be used.
+        It’s recommended that this move is forgotten.
+        Once forgotten, this move can’t be remembered.
+      fr: |-
+        Cette capacité ne peut pas être utilisée.
+        Il est recommandé de l’oublier, même s’il sera
+        impossible de se la remémorer une fois oubliée.
+      de: |-
+        Diese Attacke kann nicht eingesetzt werden. Du solltest
+        dein Pokémon sie vergessen lassen. Beachte aber,
+        dass es sich danach nicht wieder an sie erinnern kann.
+      es: |-
+        Este movimiento no se puede usar, por lo que sería
+        mejor olvidarlo, aunque eso implique que no se pueda
+        recordar posteriormente.
+      it: |-
+        Questa mossa non può essere usata.
+        È consigliabile farla dimenticare al Pokémon. Tuttavia,
+        una volta dimenticata, non potrà più essere ricordata.
+  generation: generation-vii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 30
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: ふわふわフォール
+    ja: ふわふわフォール
+    ko: 둥실둥실폴
+    zh-Hant: 飄飄墜落
+    zh-Hans: 飘飘坠落
+    en: 'Floaty Fall'
+    fr: Pika-Piqué
+    de: Schwebesturz
+    es: Pikapicado
+    it: Piombaflap
+  power: 90
+  pp: 15
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: flying

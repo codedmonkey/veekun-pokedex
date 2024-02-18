@@ -1,0 +1,2057 @@
+cerulean-cave:
+  areas:
+    1f:
+      encounter_rates:
+        firered:
+          walk: 7
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+          rock-smash: 50
+        leafgreen:
+          walk: 7
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+          rock-smash: 50
+        heartgold:
+          walk: 10
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+          rock-smash: 5
+        soulsilver:
+          walk: 10
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+          rock-smash: 5
+      encounters:
+        heartgold:
+          machoke:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 10
+            slot: 3
+          parasect:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 10
+            slot: 4
+          absol:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 10
+            slot: 4
+          primeape:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 4
+            slot: 9
+          magneton:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 1
+            slot: 11
+          makuhita:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 10
+            slot: 6
+          ditto:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          electrode:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 7
+          wobbuffet:
+            encounter_method: walk
+            max_level: 37
+            min_level: 37
+            rarity: 5
+            slot: 8
+          geodude:
+            encounter_method: rock-smash
+            max_level: 24
+            min_level: 22
+            rarity: 90
+            slot: 1
+          graveler:
+            encounter_method: rock-smash
+            max_level: 30
+            min_level: 26
+            rarity: 10
+            slot: 2
+          psyduck:
+            encounter_method: surf
+            max_level: 35
+            min_level: 35
+            rarity: 30
+            slot: 2
+          golduck:
+            encounter_method: surf
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 15
+            slot: 3
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 4
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+        soulsilver:
+          machoke:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 10
+            slot: 3
+          parasect:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 10
+            slot: 4
+          absol:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 10
+            slot: 4
+          persian:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 4
+            slot: 9
+          magneton:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 1
+            slot: 11
+          makuhita:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 10
+            slot: 6
+          ditto:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+          electrode:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 7
+          wobbuffet:
+            encounter_method: walk
+            max_level: 37
+            min_level: 37
+            rarity: 5
+            slot: 8
+          geodude:
+            encounter_method: rock-smash
+            max_level: 24
+            min_level: 22
+            rarity: 90
+            slot: 1
+          graveler:
+            encounter_method: rock-smash
+            max_level: 30
+            min_level: 26
+            rarity: 10
+            slot: 2
+          psyduck:
+            encounter_method: surf
+            max_level: 35
+            min_level: 35
+            rarity: 30
+            slot: 2
+          golduck:
+            encounter_method: surf
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 15
+            slot: 3
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 4
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+        red:
+          golbat:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 20
+            slot: 1
+          hypno:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 20
+            slot: 2
+          magneton:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 15
+            slot: 3
+          dodrio:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 10
+            slot: 4
+          venomoth:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 10
+            slot: 5
+          arbok:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 6
+          kadabra:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 5
+            slot: 7
+          parasect:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 5
+            slot: 8
+          raichu:
+            encounter_method: walk
+            max_level: 53
+            min_level: 53
+            rarity: 4
+            slot: 9
+          ditto:
+            encounter_method: walk
+            max_level: 53
+            min_level: 53
+            rarity: 1
+            slot: 10
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          slowbro:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 25
+            slot: ~
+          seaking:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 17
+            slot: ~
+          kingler:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 8
+            slot: ~
+          seadra:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 25
+            slot: ~
+        blue:
+          golbat:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 20
+            slot: 1
+          hypno:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 20
+            slot: 2
+          magneton:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 15
+            slot: 3
+          dodrio:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 10
+            slot: 4
+          venomoth:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 10
+            slot: 5
+          sandslash:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 6
+          kadabra:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 5
+            slot: 7
+          parasect:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 5
+            slot: 8
+          raichu:
+            encounter_method: walk
+            max_level: 53
+            min_level: 53
+            rarity: 4
+            slot: 9
+          ditto:
+            encounter_method: walk
+            max_level: 53
+            min_level: 53
+            rarity: 1
+            slot: 10
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          slowbro:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 25
+            slot: ~
+          seaking:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 17
+            slot: ~
+          kingler:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 8
+            slot: ~
+          seadra:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 25
+            slot: ~
+        yellow:
+          golbat:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 20
+            slot: 2
+          graveler:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 15
+            slot: 3
+          gloom:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 10
+            slot: 4
+          weepinbell:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 10
+            slot: 5
+          sandslash:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 6
+          venomoth:
+            encounter_method: walk
+            max_level: 54
+            min_level: 54
+            rarity: 5
+            slot: 7
+          parasect:
+            encounter_method: walk
+            max_level: 54
+            min_level: 54
+            rarity: 5
+            slot: 8
+          ditto:
+            encounter_method: walk
+            max_level: 60
+            min_level: 60
+            rarity: 1
+            slot: 10
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 25
+            rarity: 40
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 55
+            min_level: 55
+            rarity: 10
+            slot: 4
+        firered:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          geodude:
+            encounter_method: rock-smash
+            max_level: 50
+            min_level: 40
+            rarity: 1
+            slot: 5
+          graveler:
+            encounter_method: rock-smash
+            max_level: 55
+            min_level: 45
+            rarity: 5
+            slot: 3
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 20
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          psyduck:
+            encounter_method: surf
+            max_level: 50
+            min_level: 40
+            rarity: 1
+            slot: 5
+          golduck:
+            encounter_method: surf
+            max_level: 55
+            min_level: 45
+            rarity: 5
+            slot: 3
+          magneton:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 20
+            slot: 1
+          parasect:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 5
+            slot: 8
+          golbat:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 4
+            slot: 9
+          machoke:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 10
+            slot: 4
+          primeape:
+            encounter_method: walk
+            max_level: 61
+            min_level: 61
+            rarity: 1
+            slot: 11
+          ditto:
+            encounter_method: walk
+            max_level: 61
+            min_level: 61
+            rarity: 1
+            slot: 12
+          electrode:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 5
+            slot: 7
+          wobbuffet:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 4
+            slot: 10
+        leafgreen:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          geodude:
+            encounter_method: rock-smash
+            max_level: 50
+            min_level: 40
+            rarity: 1
+            slot: 5
+          graveler:
+            encounter_method: rock-smash
+            max_level: 55
+            min_level: 45
+            rarity: 5
+            slot: 3
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 20
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          slowpoke:
+            encounter_method: surf
+            max_level: 50
+            min_level: 40
+            rarity: 1
+            slot: 5
+          slowbro:
+            encounter_method: surf
+            max_level: 55
+            min_level: 45
+            rarity: 5
+            slot: 3
+          magneton:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 20
+            slot: 1
+          parasect:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 5
+            slot: 8
+          golbat:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 4
+            slot: 9
+          machoke:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 10
+            slot: 4
+          primeape:
+            encounter_method: walk
+            max_level: 61
+            min_level: 61
+            rarity: 1
+            slot: 11
+          ditto:
+            encounter_method: walk
+            max_level: 61
+            min_level: 61
+            rarity: 1
+            slot: 12
+          electrode:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 5
+            slot: 7
+          wobbuffet:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 4
+            slot: 10
+      game_index: 140
+      name:
+        en: 1F
+    2f:
+      encounter_rates:
+        firered:
+          walk: 7
+          rock-smash: 50
+        leafgreen:
+          walk: 7
+          rock-smash: 50
+        heartgold:
+          walk: 10
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+        soulsilver:
+          walk: 10
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+      encounters:
+        heartgold:
+          kadabra:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 20
+            slot: 1
+          parasect:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 2
+          golbat:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 12
+          absol:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 10
+            slot: 4
+          machoke:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 12
+          magneton:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 10
+            slot: 5
+          makuhita:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 10
+            slot: 6
+          ditto:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 10
+            slot: 6
+          electrode:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 5
+            slot: 7
+          wobbuffet:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 5
+            slot: 8
+          psyduck:
+            encounter_method: surf
+            max_level: 35
+            min_level: 35
+            rarity: 30
+            slot: 2
+          golduck:
+            encounter_method: surf
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 15
+            slot: 3
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 4
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+        soulsilver:
+          kadabra:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 20
+            slot: 1
+          parasect:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 2
+          golbat:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 12
+          absol:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 10
+            slot: 4
+          machoke:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 12
+          magneton:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 10
+            slot: 5
+          makuhita:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 10
+            slot: 6
+          ditto:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 10
+            slot: 6
+          electrode:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 5
+            slot: 7
+          wobbuffet:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 5
+            slot: 8
+          psyduck:
+            encounter_method: surf
+            max_level: 35
+            min_level: 35
+            rarity: 30
+            slot: 2
+          golduck:
+            encounter_method: surf
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 15
+            slot: 3
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 4
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+        red:
+          dodrio:
+            encounter_method: walk
+            max_level: 51
+            min_level: 51
+            rarity: 20
+            slot: 1
+          venomoth:
+            encounter_method: walk
+            max_level: 51
+            min_level: 51
+            rarity: 20
+            slot: 2
+          kadabra:
+            encounter_method: walk
+            max_level: 51
+            min_level: 51
+            rarity: 15
+            slot: 3
+          rhydon:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 4
+          marowak:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 5
+          electrode:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 6
+          chansey:
+            encounter_method: walk
+            max_level: 56
+            min_level: 56
+            rarity: 5
+            slot: 7
+          wigglytuff:
+            encounter_method: walk
+            max_level: 54
+            min_level: 54
+            rarity: 5
+            slot: 8
+          ditto:
+            encounter_method: walk
+            max_level: 60
+            min_level: 60
+            rarity: 1
+            slot: 10
+        blue:
+          dodrio:
+            encounter_method: walk
+            max_level: 51
+            min_level: 51
+            rarity: 20
+            slot: 1
+          venomoth:
+            encounter_method: walk
+            max_level: 51
+            min_level: 51
+            rarity: 20
+            slot: 2
+          kadabra:
+            encounter_method: walk
+            max_level: 51
+            min_level: 51
+            rarity: 15
+            slot: 3
+          rhydon:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 4
+          marowak:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 5
+          electrode:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 6
+          chansey:
+            encounter_method: walk
+            max_level: 56
+            min_level: 56
+            rarity: 5
+            slot: 7
+          wigglytuff:
+            encounter_method: walk
+            max_level: 54
+            min_level: 54
+            rarity: 5
+            slot: 8
+          ditto:
+            encounter_method: walk
+            max_level: 60
+            min_level: 60
+            rarity: 1
+            slot: 10
+        yellow:
+          golbat:
+            encounter_method: walk
+            max_level: 57
+            min_level: 57
+            rarity: 20
+            slot: 2
+          graveler:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 15
+            slot: 3
+          sandslash:
+            encounter_method: walk
+            max_level: 56
+            min_level: 56
+            rarity: 10
+            slot: 4
+          rhyhorn:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 10
+            slot: 5
+          ditto:
+            encounter_method: walk
+            max_level: 60
+            min_level: 60
+            rarity: 10
+            slot: 6
+          gloom:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 5
+            slot: 7
+          weepinbell:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 5
+            slot: 8
+          rhydon:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 1
+            slot: 10
+        firered:
+          geodude:
+            encounter_method: rock-smash
+            max_level: 55
+            min_level: 45
+            rarity: 1
+            slot: 5
+          graveler:
+            encounter_method: rock-smash
+            max_level: 60
+            min_level: 50
+            rarity: 5
+            slot: 3
+          golbat:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 5
+            slot: 7
+          machoke:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 20
+            slot: 2
+          magneton:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 3
+          parasect:
+            encounter_method: walk
+            max_level: 61
+            min_level: 61
+            rarity: 4
+            slot: 10
+          kadabra:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 1
+            slot: 11
+          ditto:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 1
+            slot: 12
+          wobbuffet:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 5
+            slot: 8
+          electrode:
+            encounter_method: walk
+            max_level: 61
+            min_level: 61
+            rarity: 4
+            slot: 9
+        leafgreen:
+          geodude:
+            encounter_method: rock-smash
+            max_level: 55
+            min_level: 45
+            rarity: 1
+            slot: 5
+          graveler:
+            encounter_method: rock-smash
+            max_level: 60
+            min_level: 50
+            rarity: 5
+            slot: 3
+          golbat:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 5
+            slot: 7
+          machoke:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 20
+            slot: 2
+          magneton:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 3
+          parasect:
+            encounter_method: walk
+            max_level: 61
+            min_level: 61
+            rarity: 4
+            slot: 10
+          kadabra:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 1
+            slot: 11
+          ditto:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 1
+            slot: 12
+          wobbuffet:
+            encounter_method: walk
+            max_level: 58
+            min_level: 58
+            rarity: 5
+            slot: 8
+          electrode:
+            encounter_method: walk
+            max_level: 61
+            min_level: 61
+            rarity: 4
+            slot: 9
+      game_index: 141
+      name:
+        en: 2F
+    b1f:
+      encounter_rates:
+        firered:
+          walk: 7
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+          rock-smash: 50
+        leafgreen:
+          walk: 7
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+          rock-smash: 50
+        heartgold:
+          walk: 10
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+          rock-smash: 5
+        soulsilver:
+          walk: 10
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+          rock-smash: 5
+      encounters:
+        heartgold:
+          kadabra:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 20
+            slot: 1
+          parasect:
+            encounter_method: walk
+            max_level: 47
+            min_level: 47
+            rarity: 1
+            slot: 11
+          golbat:
+            encounter_method: walk
+            max_level: 47
+            min_level: 47
+            rarity: 10
+            slot: 3
+          absol:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 4
+          machoke:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 4
+          magneton:
+            encounter_method: walk
+            max_level: 47
+            min_level: 47
+            rarity: 5
+            slot: 8
+          makuhita:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 6
+          ditto:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 6
+          electrode:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 5
+            slot: 7
+          wobbuffet:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 1
+            slot: 12
+          geodude:
+            encounter_method: rock-smash
+            max_level: 24
+            min_level: 22
+            rarity: 90
+            slot: 1
+          graveler:
+            encounter_method: rock-smash
+            max_level: 30
+            min_level: 26
+            rarity: 10
+            slot: 2
+          psyduck:
+            encounter_method: surf
+            max_level: 35
+            min_level: 35
+            rarity: 30
+            slot: 2
+          golduck:
+            encounter_method: surf
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 15
+            slot: 3
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 4
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+        soulsilver:
+          kadabra:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 20
+            slot: 1
+          parasect:
+            encounter_method: walk
+            max_level: 47
+            min_level: 47
+            rarity: 1
+            slot: 11
+          golbat:
+            encounter_method: walk
+            max_level: 47
+            min_level: 47
+            rarity: 10
+            slot: 3
+          absol:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 4
+          machoke:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 4
+          magneton:
+            encounter_method: walk
+            max_level: 47
+            min_level: 47
+            rarity: 5
+            slot: 8
+          makuhita:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 6
+          ditto:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 6
+          electrode:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 5
+            slot: 7
+          wobbuffet:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 1
+            slot: 12
+          geodude:
+            encounter_method: rock-smash
+            max_level: 24
+            min_level: 22
+            rarity: 90
+            slot: 1
+          graveler:
+            encounter_method: rock-smash
+            max_level: 30
+            min_level: 26
+            rarity: 10
+            slot: 2
+          psyduck:
+            encounter_method: surf
+            max_level: 35
+            min_level: 35
+            rarity: 30
+            slot: 2
+          golduck:
+            encounter_method: surf
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 15
+            slot: 3
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 10
+            slot: 4
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+        red:
+          rhydon:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 20
+            slot: 1
+          marowak:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 20
+            slot: 2
+          electrode:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 15
+            slot: 3
+          chansey:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 10
+            slot: 4
+          parasect:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 10
+            slot: 5
+          raichu:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 10
+            slot: 6
+          arbok:
+            encounter_method: walk
+            max_level: 57
+            min_level: 57
+            rarity: 5
+            slot: 7
+          ditto:
+            encounter_method: walk
+            max_level: 67
+            min_level: 67
+            rarity: 1
+            slot: 10
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          slowbro:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 25
+            slot: ~
+          seaking:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 17
+            slot: ~
+          kingler:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 8
+            slot: ~
+          seadra:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 25
+            slot: ~
+        blue:
+          rhydon:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 20
+            slot: 1
+          marowak:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 20
+            slot: 2
+          electrode:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 15
+            slot: 3
+          chansey:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 10
+            slot: 4
+          parasect:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 10
+            slot: 5
+          raichu:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 10
+            slot: 6
+          sandslash:
+            encounter_method: walk
+            max_level: 57
+            min_level: 57
+            rarity: 5
+            slot: 7
+          ditto:
+            encounter_method: walk
+            max_level: 67
+            min_level: 67
+            rarity: 1
+            slot: 10
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          slowbro:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 25
+            slot: ~
+          seaking:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 17
+            slot: ~
+          kingler:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 8
+            slot: ~
+          seadra:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 25
+            slot: ~
+        yellow:
+          golbat:
+            encounter_method: walk
+            max_level: 59
+            min_level: 59
+            rarity: 20
+            slot: 2
+          graveler:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 15
+            slot: 3
+          rhyhorn:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 4
+          rhydon:
+            encounter_method: walk
+            max_level: 62
+            min_level: 62
+            rarity: 10
+            slot: 5
+          ditto:
+            encounter_method: walk
+            max_level: 65
+            min_level: 65
+            rarity: 5
+            slot: 8
+          chansey:
+            encounter_method: walk
+            max_level: 56
+            min_level: 56
+            rarity: 5
+            slot: 7
+          lickitung:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 10
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 30
+            rarity: 40
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          seaking:
+            encounter_method: super-rod
+            max_level: 60
+            min_level: 60
+            rarity: 10
+            slot: 4
+        firered:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          geodude:
+            encounter_method: rock-smash
+            max_level: 60
+            min_level: 50
+            rarity: 1
+            slot: 5
+          graveler:
+            encounter_method: rock-smash
+            max_level: 65
+            min_level: 55
+            rarity: 5
+            slot: 3
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 20
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 1
+            slot: 5
+          psyduck:
+            encounter_method: surf
+            max_level: 60
+            min_level: 50
+            rarity: 1
+            slot: 5
+          golduck:
+            encounter_method: surf
+            max_level: 65
+            min_level: 55
+            rarity: 5
+            slot: 3
+          kadabra:
+            encounter_method: walk
+            max_level: 67
+            min_level: 67
+            rarity: 5
+            slot: 7
+          ditto:
+            encounter_method: walk
+            max_level: 67
+            min_level: 67
+            rarity: 5
+            slot: 8
+          magneton:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 10
+            slot: 3
+          parasect:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 4
+            slot: 10
+          golbat:
+            encounter_method: walk
+            max_level: 61
+            min_level: 61
+            rarity: 1
+            slot: 11
+          machoke:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 6
+          electrode:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 4
+            slot: 9
+          wobbuffet:
+            encounter_method: walk
+            max_level: 61
+            min_level: 61
+            rarity: 1
+            slot: 12
+        leafgreen:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          geodude:
+            encounter_method: rock-smash
+            max_level: 60
+            min_level: 50
+            rarity: 1
+            slot: 5
+          graveler:
+            encounter_method: rock-smash
+            max_level: 65
+            min_level: 55
+            rarity: 5
+            slot: 3
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 20
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 1
+            slot: 5
+          slowpoke:
+            encounter_method: surf
+            max_level: 60
+            min_level: 50
+            rarity: 1
+            slot: 5
+          slowbro:
+            encounter_method: surf
+            max_level: 65
+            min_level: 55
+            rarity: 5
+            slot: 3
+          kadabra:
+            encounter_method: walk
+            max_level: 67
+            min_level: 67
+            rarity: 5
+            slot: 7
+          ditto:
+            encounter_method: walk
+            max_level: 67
+            min_level: 67
+            rarity: 5
+            slot: 8
+          magneton:
+            encounter_method: walk
+            max_level: 55
+            min_level: 55
+            rarity: 10
+            slot: 3
+          parasect:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 4
+            slot: 10
+          golbat:
+            encounter_method: walk
+            max_level: 61
+            min_level: 61
+            rarity: 1
+            slot: 11
+          machoke:
+            encounter_method: walk
+            max_level: 52
+            min_level: 52
+            rarity: 10
+            slot: 6
+          electrode:
+            encounter_method: walk
+            max_level: 64
+            min_level: 64
+            rarity: 4
+            slot: 9
+          wobbuffet:
+            encounter_method: walk
+            max_level: 61
+            min_level: 61
+            rarity: 1
+            slot: 12
+      game_index: 142
+      name:
+        en: B1F
+  name:
+    en: 'Cerulean Cave'
+    fr: 'Caverne Azurée'
+  region: kanto

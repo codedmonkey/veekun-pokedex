@@ -1,0 +1,84 @@
+abandoned-ship:
+  areas:
+    main_area:
+      encounter_rates:
+        ruby:
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 4
+        sapphire:
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 4
+        emerald:
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 4
+      encounters:
+        ruby:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 35
+            min_level: 5
+            rarity: 4
+            slot: 4
+          tentacruel:
+            encounter_method: surf
+            max_level: 35
+            min_level: 30
+            rarity: 1
+            slot: 5
+        sapphire:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 35
+            min_level: 5
+            rarity: 4
+            slot: 4
+          tentacruel:
+            encounter_method: surf
+            max_level: 35
+            min_level: 30
+            rarity: 1
+            slot: 5
+        emerald:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 35
+            min_level: 5
+            rarity: 4
+            slot: 4
+          tentacruel:
+            encounter_method: surf
+            max_level: 35
+            min_level: 30
+            rarity: 1
+            slot: 5
+      game_index: 50
+      name:
+        en: 'Main Area'
+  name:
+    en: 'Abandoned Ship'
+    fr: Épave
+  region: hoenn

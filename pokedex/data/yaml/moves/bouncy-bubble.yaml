@@ -1,0 +1,136 @@
+bouncy-bubble:
+  accuracy: 100
+  changelog:
+    sword-shield:
+      accuracy: ~
+      effect: ~
+      effect_chance: ~
+      power: 90
+      pp: 15
+      priority: ~
+      target: ~
+      type: ~
+  contest_effect: ~
+  contest_type: ~
+  damage_class: special
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - protect
+    - mirror
+    - heal
+  flavor_text:
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        みずの　かたまりを　ぶつけて　こうげき。
+        みずを　すいとり　ダメージの
+        はんぶんの　HPを　かいふくする。
+      ja: |-
+        水のかたまりを　ぶつけて　攻撃。
+        水を　吸いとり　ダメージの
+        半分の　HPを　回復する。
+      ko: |-
+        물덩어리를 부딪쳐서 공격한다.
+        물을 흡수하여 데미지의
+        절반만큼 HP를 회복한다.
+      zh-Hant: |-
+        投擲水球進行攻擊。
+        攻擊後吸水並回復
+        給予對手傷害的一半HP。
+      zh-Hans: |-
+        投掷水球进行攻击。
+        吸水后能回复等同于
+        造成的伤害一半的HP。
+      en: |-
+        The user attacks by shooting water bubbles at the
+        target. It then absorbs water and restores its HP by half
+        the damage taken by the target.
+      fr: |-
+        Évoli frappe l’adversaire avec des bulles d’eau qu’il
+        absorbe ensuite pour récupérer un nombre de PV égal
+        à la moitié des dégâts infligés à l’ennemi.
+      de: |-
+        Evoli greift mit Wasserblasen an. Evolis KP werden
+        um die Hälfte des vom Wasser angerichteten Schadens
+        geheilt.
+      es: |-
+        Ataca lanzando proyectiles de agua y recupera una
+        cantidad de PS equivalente a la mitad del daño
+        causado.
+      it: |-
+        Chi la usa colpisce il bersaglio con una raffica di bolle,
+        per poi assorbirle e recuperare una quantità di PS
+        pari alla metà del danno inferto.
+    sword-shield:
+      ja-Hrkt: |-
+        このわざは　つかえません
+        おもいだすことが　できなくなりますが
+        わざを　わすれることを　おすすめします
+      ja: |-
+        この技は　使えません
+        思い出すことが　できなくなりますが
+        技を　忘れることを　おすすめします
+      ko: |-
+        사용할 수 없는 기술입니다.
+        다시 배우게 할 수 없지만
+        기술을 잊게 하는 것을 권장합니다.
+      zh-Hant: |-
+        無法使用此招式。
+        雖然忘記後將無法再想起來，
+        但還是建議忘記此招式。
+      zh-Hans: |-
+        无法使用这个招式。
+        虽然忘记之后就再也想不起来了，
+        但还是建议忘记这个招式。
+      en: |-
+        This move can’t be used.
+        It’s recommended that this move is forgotten.
+        Once forgotten, this move can’t be remembered.
+      fr: |-
+        Cette capacité ne peut pas être utilisée.
+        Il est recommandé de l’oublier, même s’il sera
+        impossible de se la remémorer une fois oubliée.
+      de: |-
+        Diese Attacke kann nicht eingesetzt werden. Du solltest
+        dein Pokémon sie vergessen lassen. Beachte aber,
+        dass es sich danach nicht wieder an sie erinnern kann.
+      es: |-
+        Este movimiento no se puede usar, por lo que sería
+        mejor olvidarlo, aunque eso implique que no se pueda
+        recordar posteriormente.
+      it: |-
+        Questa mossa non può essere usata.
+        È consigliabile farla dimenticare al Pokémon. Tuttavia,
+        una volta dimenticata, non potrà più essere ricordata.
+  generation: generation-vii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 100
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage+heal
+    stat_changes: {  }
+  name:
+    ja-Hrkt: いきいきバブル
+    ja: いきいきバブル
+    ko: 생생버블
+    zh-Hant: 活活氣泡
+    zh-Hans: 活活气泡
+    en: 'Bouncy Bubble'
+    fr: Évo-Thalasso
+    de: Blubbsauger
+    es: Vapodrenaje
+    it: Bollaslurp
+  power: 60
+  pp: 20
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: water

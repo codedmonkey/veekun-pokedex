@@ -1,0 +1,323 @@
+thief:
+  accuracy: 100
+  changelog:
+    x-y:
+      accuracy: ~
+      effect: ~
+      effect_chance: ~
+      power: 40
+      pp: 10
+      priority: ~
+      target: ~
+      type: ~
+  contest_effect: contest-effect-20
+  contest_type: tough
+  damage_class: physical
+  effect: move-effect-106
+  effect_chance: ~
+  flags:
+    - contact
+    - protect
+    - mirror
+  flavor_text:
+    gold-silver:
+      en: |-
+        An attack that may
+        steal a held item.
+    crystal:
+      en: |-
+        An attack that may
+        steal a held item.
+    ruby-sapphire:
+      en: |-
+        While attacking, it may
+        steal the foe’s held item.
+    emerald:
+      en: |-
+        While attacking, it may
+        steal the foe’s held item.
+    firered-leafgreen:
+      en: |-
+        An attack that may
+        take the foe’s held
+        item if the user
+        isn’t holding one.
+    diamond-pearl:
+      en: |-
+        The user attacks and
+        steals the foe’s held
+        item simultaneously.
+        It can’t steal if the
+        user holds an item.
+    platinum:
+      en: |-
+        The user attacks and
+        steals the foe’s held
+        item simultaneously.
+        It can’t steal if the
+        user holds an item.
+    heartgold-soulsilver:
+      en: |-
+        The user attacks and
+        steals the foe’s held
+        item simultaneously.
+        It can’t steal if the
+        user holds an item.
+    black-white:
+      en: |-
+        The user attacks and steals the target’s
+        held item simultaneously.
+        It can’t steal if the user holds an item.
+      fr: |-
+        Le lanceur attaque la cible et vole
+        son objet. Le lanceur ne peut rien
+        voler s’il tient déjà un objet.
+    black-2-white-2:
+      en: |-
+        The user attacks and steals the target’s
+        held item simultaneously.
+        It can’t steal if the user holds an item.
+    x-y:
+      ja-Hrkt: |-
+        こうげきと　どうじに　どうぐを　ぬすむ。
+        じぶんが　どうぐを　もっている　ばあいは
+        ぬすめない。
+      ja: |-
+        攻撃と　同時に　道具を　盗む。
+        自分が　道具を　持っている　場合は
+        盗めない。
+      ko: |-
+        공격과 동시에 도구를 훔친다.
+        자신이 도구를 지니고 있을 경우에는
+        훔칠 수 없다.
+      en: |-
+        The user attacks and steals the target’s
+        held item simultaneously. The user can’t
+        steal anything if it already holds an item.
+      fr: |-
+        Le lanceur attaque la cible et vole son objet.
+        Le lanceur ne peut rien voler s’il tient déjà
+        un objet.
+      de: |-
+        Erlaubt es, das Item des Zieles zu stehlen,
+        solang der Anwender selbst keins bei sich trägt.
+      es: |-
+        Ataca y le quita al objetivo el objeto que lleve.
+        Si el agresor lleva un objeto, no robará el del
+        objetivo.
+      it: |-
+        Chi la usa attacca il bersaglio e può rubargli
+        lo strumento, se non ne ha già uno.
+    omega-ruby-alpha-sapphire:
+      ja-Hrkt: |-
+        こうげきと　どうじに　どうぐを　ぬすむ。
+        じぶんが　どうぐを　もっている　ばあいは
+        ぬすめない。
+      ja: |-
+        攻撃と　同時に　道具を　盗む。
+        自分が　道具を　持っている　場合は
+        盗めない。
+      ko: |-
+        공격과 동시에 도구를 훔친다.
+        자신이 도구를 지니고 있을 경우에는
+        훔칠 수 없다.
+      en: |-
+        The user attacks and steals the target’s
+        held item simultaneously. The user can’t
+        steal anything if it already holds an item.
+      fr: |-
+        Le lanceur attaque la cible et vole son objet.
+        Le lanceur ne peut rien voler s’il tient déjà
+        un objet.
+      de: |-
+        Erlaubt es, das Item des Zieles zu stehlen,
+        solang der Anwender selbst keins bei sich trägt.
+      es: |-
+        Ataca y le quita el objeto al objetivo siempre y 
+        cuando el agresor no lleve ninguno. 
+      it: |-
+        Chi la usa attacca il bersaglio e può rubargli
+        lo strumento, se non ne ha già uno.
+    sun-moon:
+      ja-Hrkt: |-
+        こうげきと　どうじに　どうぐを　ぬすむ。
+        じぶんが　どうぐを　もっている　ばあいは
+        ぬすめない。
+      ja: |-
+        攻撃と　同時に　道具を　盗む。
+        自分が　道具を　持っている　場合は
+        盗めない。
+      ko: |-
+        공격과 동시에 도구를 훔친다.
+        자신이 도구를 지니고 있을 경우에는
+        훔칠 수 없다.
+      zh-Hant: |-
+        在攻擊的同時偷取道具。
+        當寶可夢自己有攜帶道具時，
+        則無法偷取。
+      zh-Hans: |-
+        攻击的同时盗取道具。
+        当自己携带道具时，
+        不会去盗取。
+      en: |-
+        The user attacks and steals the target’s held item
+        simultaneously. The user can’t steal anything if it
+        already holds an item.
+      fr: |-
+        Le lanceur attaque la cible et vole son objet.
+        Le lanceur ne peut rien voler s’il tient déjà
+        un objet.
+      de: |-
+        Ermöglicht es, das Item des Zieles zu stehlen, solang
+        der Anwender selbst keins bei sich trägt.
+      es: |-
+        Ataca y le quita el objeto al objetivo siempre y 
+        cuando el agresor no lleve ninguno. 
+      it: |-
+        Chi la usa attacca il bersaglio e può rubargli
+        lo strumento, se non ne ha già uno.
+    ultra-sun-ultra-moon:
+      ja-Hrkt: |-
+        こうげきと　どうじに　どうぐを　ぬすむ。
+        じぶんが　どうぐを　もっている　ばあいは
+        ぬすめない。
+      ja: |-
+        攻撃と　同時に　道具を　盗む。
+        自分が　道具を　持っている　場合は
+        盗めない。
+      ko: |-
+        공격과 동시에 도구를 훔친다.
+        자신이 도구를 지니고 있을 경우에는
+        훔칠 수 없다.
+      zh-Hant: |-
+        在攻擊的同時偷取道具。
+        當寶可夢自己有攜帶道具時，
+        則無法偷取。
+      zh-Hans: |-
+        攻击的同时盗取道具。
+        当自己携带道具时，
+        不会去盗取。
+      en: |-
+        The user attacks and steals the target’s held item
+        simultaneously. The user can’t steal anything if it
+        already holds an item.
+      fr: |-
+        Le lanceur attaque la cible et vole son objet.
+        Le lanceur ne peut rien voler s’il tient déjà
+        un objet.
+      de: |-
+        Ermöglicht es, das Item des Zieles zu stehlen, solang
+        der Anwender selbst keins bei sich trägt.
+      es: |-
+        Ataca y le quita el objeto al objetivo siempre y 
+        cuando el agresor no lleve ninguno. 
+      it: |-
+        Chi la usa attacca il bersaglio e può rubargli
+        lo strumento, se non ne ha già uno.
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        こうげきと　どうじに　どうぐを　ぬすむ。
+        じぶんが　どうぐを　もっている　ばあいは
+        ぬすめない。
+      ja: |-
+        攻撃と　同時に　道具を　盗む。
+        自分が　道具を　持っている　場合は
+        盗めない。
+      ko: |-
+        공격과 동시에 도구를 훔친다.
+        자신이 도구를 지니고 있을 경우에는
+        훔칠 수 없다.
+      zh-Hant: |-
+        在攻擊的同時偷取道具。
+        當寶可夢自己有攜帶道具時，
+        則無法偷取。
+      zh-Hans: |-
+        攻击的同时盗取道具。
+        当自己携带道具时，
+        不会去盗取。
+      en: |-
+        The user attacks and steals the target’s held item
+        simultaneously. The user can’t steal anything if it
+        already holds an item.
+      fr: |-
+        Le lanceur attaque la cible et vole son objet.
+        Le lanceur ne peut rien voler s’il tient déjà un objet.
+      de: |-
+        Ermöglicht es, das Item des Zieles zu stehlen, solang
+        der Anwender selbst keins bei sich trägt.
+      es: |-
+        Ataca y le quita el objeto al objetivo siempre y 
+        cuando el agresor no lleve ninguno. 
+      it: |-
+        Chi la usa attacca il bersaglio e può rubargli
+        lo strumento, se non ne ha già uno.
+    sword-shield:
+      ja-Hrkt: |-
+        こうげきと　どうじに　どうぐを　ぬすむ。
+        じぶんが　どうぐを　もっている　ばあいは
+        ぬすめない。
+      ja: |-
+        攻撃と　同時に　道具を　盗む。
+        自分が　道具を　持っている　場合は
+        盗めない。
+      ko: |-
+        공격과 동시에 도구를 훔친다.
+        자신이 도구를 지니고 있을 경우에는
+        훔칠 수 없다.
+      zh-Hant: |-
+        在攻擊的同時偷取道具。
+        當寶可夢自己有攜帶道具時，
+        則無法偷取。
+      zh-Hans: |-
+        攻击的同时盗取道具。
+        当自己携带道具时，
+        不会去盗取。
+      en: |-
+        The user attacks and steals the target’s held item
+        simultaneously. The user can’t steal anything if it
+        already holds an item.
+      fr: |-
+        Le lanceur attaque la cible et vole son objet.
+        Le lanceur ne peut rien voler s’il tient déjà un objet.
+      de: |-
+        Ermöglicht es, das Item des Zieles zu stehlen, solang
+        der Anwender selbst keins bei sich trägt.
+      es: |-
+        El agresor ataca y le quita el objeto al objetivo siempre
+        y cuando no lleve ninguno.
+      it: |-
+        Chi la usa attacca il bersaglio e può rubargli
+        lo strumento, se non ne ha già uno.
+  generation: generation-ii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: どろぼう
+    ja: どろぼう
+    ko: 도둑질
+    zh-Hant: 小偷
+    zh-Hans: 小偷
+    en: Thief
+    fr: Larcin
+    de: Raub
+    es: Ladrón
+    it: Furto
+    cs: Zloděj
+  power: 60
+  pp: 25
+  priority: 0
+  super_contest_effect: super-contest-effect-12
+  target: selected-pokemon
+  type: dark

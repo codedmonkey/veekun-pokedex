@@ -1,0 +1,371 @@
+kanto-route-23:
+  areas:
+    main_area:
+      encounter_rates:
+        firered:
+          walk: 21
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+        leafgreen:
+          walk: 21
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+      encounters:
+        red:
+          ekans:
+            encounter_method: walk
+            max_level: 26
+            min_level: 26
+            rarity: 20
+            slot: 1
+          ditto:
+            encounter_method: walk
+            max_level: 43
+            min_level: 43
+            rarity: 5
+            slot: 8
+          spearow:
+            encounter_method: walk
+            max_level: 26
+            min_level: 26
+            rarity: 15
+            slot: 3
+          fearow:
+            encounter_method: walk
+            max_level: 43
+            min_level: 43
+            rarity: 1
+            slot: 10
+          arbok:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 5
+            slot: 7
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          slowbro:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 25
+            slot: ~
+          seaking:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 17
+            slot: ~
+          kingler:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 8
+            slot: ~
+          seadra:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 25
+            slot: ~
+        blue:
+          sandshrew:
+            encounter_method: walk
+            max_level: 26
+            min_level: 26
+            rarity: 20
+            slot: 1
+          ditto:
+            encounter_method: walk
+            max_level: 43
+            min_level: 43
+            rarity: 5
+            slot: 8
+          spearow:
+            encounter_method: walk
+            max_level: 26
+            min_level: 26
+            rarity: 15
+            slot: 3
+          fearow:
+            encounter_method: walk
+            max_level: 43
+            min_level: 43
+            rarity: 1
+            slot: 10
+          sandslash:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 5
+            slot: 7
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          slowbro:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 25
+            slot: ~
+          seaking:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 17
+            slot: ~
+          kingler:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 8
+            slot: ~
+          seadra:
+            encounter_method: super-rod
+            max_level: 23
+            min_level: 23
+            rarity: 25
+            slot: ~
+        yellow:
+          nidorino:
+            encounter_method: walk
+            max_level: 44
+            min_level: 44
+            rarity: 10
+            slot: 4
+          nidorina:
+            encounter_method: walk
+            max_level: 44
+            min_level: 44
+            rarity: 10
+            slot: 5
+          mankey:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 5
+            slot: 7
+          fearow:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 5
+            slot: 8
+          primeape:
+            encounter_method: walk
+            max_level: 46
+            min_level: 46
+            rarity: 1
+            slot: 10
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
+          poliwag:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 30
+            rarity: 30
+            slot: 2
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        firered:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 20
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          psyduck:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 1
+            slot: 5
+          mankey:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 3
+          fearow:
+            encounter_method: walk
+            max_level: 44
+            min_level: 44
+            rarity: 1
+            slot: 12
+          spearow:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 11
+          ekans:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 6
+          primeape:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 5
+            slot: 7
+          arbok:
+            encounter_method: walk
+            max_level: 44
+            min_level: 44
+            rarity: 5
+            slot: 8
+        leafgreen:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 20
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          slowpoke:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 1
+            slot: 5
+          mankey:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 3
+          fearow:
+            encounter_method: walk
+            max_level: 44
+            min_level: 44
+            rarity: 1
+            slot: 12
+          spearow:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 11
+          sandshrew:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 6
+          primeape:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 5
+            slot: 7
+          sandslash:
+            encounter_method: walk
+            max_level: 44
+            min_level: 44
+            rarity: 5
+            slot: 8
+      game_index: 0
+      name:
+        en: 'Main Area'
+  name:
+    en: 'Route 23'
+    fr: 'Route 23'
+  region: kanto

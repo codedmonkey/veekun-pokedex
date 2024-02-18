@@ -1,0 +1,105 @@
+aspertia-city:
+  areas:
+    main_area:
+      encounter_rates:
+        black-2:
+          super-rod: 50
+          surf: 10
+        white-2:
+          super-rod: 50
+          surf: 10
+      encounters:
+        black-2:
+          goldeen:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 40
+            rarity: 40
+            slot: 1
+          basculin-red-striped:
+            encounter_method: surf
+            max_level: 15
+            min_level: 5
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf-spots
+            max_level: 15
+            min_level: 5
+            rarity: 1
+            slot: 5
+          seaking:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          snivy:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          tepig:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          oshawott:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+        white-2:
+          goldeen:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 40
+            rarity: 40
+            slot: 1
+          basculin-blue-striped:
+            encounter_method: surf
+            max_level: 15
+            min_level: 5
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf-spots
+            max_level: 15
+            min_level: 5
+            rarity: 1
+            slot: 5
+          seaking:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          snivy:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          tepig:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          oshawott:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+      game_index: 3
+      name:
+        en: 'Main Area'
+  name:
+    ja-Hrkt: ヒオウギシティ
+    en: 'Aspertia City'
+    fr: Pavonnay
+  region: unova

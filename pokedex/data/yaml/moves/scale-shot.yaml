@@ -1,0 +1,85 @@
+scale-shot:
+  accuracy: 90
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        ウロコを　うちだして　こうげきする。
+        ２ー５かいの　あいだ　れんぞくで　だす。
+        すばやさが　あがるが　ぼうぎょが　さがる。
+      ja: |-
+        ウロコを　撃ちだして　攻撃する。
+        ２ー５回の　間　連続で　だす。
+        素早さが　あがるが　防御が　さがる。
+      ko: |-
+        비늘을 쏘아서 공격한다.
+        2-5회 동안 연속으로 쓴다.
+        스피드가 올라가지만 방어가 떨어진다.
+      zh-Hant: |-
+        射出鱗片進行攻擊。
+        可連續攻擊２～５次。
+        速度會提高但防禦會降低。
+      zh-Hans: |-
+        发射鳞片进行攻击。
+        连续攻击２～５次。
+        速度会提高但防御会降低。
+      en: |-
+        The user attacks by shooting scales two to five times
+        in a row. This move boosts the user’s Speed stat but
+        lowers its Defense stat.
+      fr: |-
+        Le lanceur projette des écailles sur la cible de deux à
+        cinq fois d’affilée. Augmente la Vitesse, mais diminue
+        la Défense.
+      de: |-
+        Der Anwender greift das Ziel zwei- bis fünfmal
+        hintereinander mit Schuppen-Geschossen an. Erhöht
+        die eigene Initiative, aber senkt die Verteidigung.
+      es: |-
+        Lanza escamas al objetivo de dos a cinco veces
+        seguidas. Aumenta la Velocidad del usuario, pero
+        reduce su Defensa.
+      it: |-
+        Il Pokémon attacca lanciando delle squame da due
+        a cinque volte di fila. Aumenta la Velocità di chi la usa,
+        ma ne riduce la Difesa.
+  generation: generation-viii
+  meta:
+    min_hits: 2
+    max_hits: 5
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: スケイルショット
+    ja: スケイルショット
+    ko: 스케일샷
+    zh-Hant: 鱗射
+    zh-Hans: 鳞射
+    en: 'Scale Shot'
+    fr: 'Rafale Écailles'
+    de: Schuppenschuss
+    es: 'Ráfaga Escamas'
+    it: Squamacolpo
+  power: 25
+  pp: 20
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: dragon

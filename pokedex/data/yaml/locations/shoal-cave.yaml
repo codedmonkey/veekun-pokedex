@@ -1,0 +1,234 @@
+shoal-cave:
+  areas:
+    main_area:
+      encounter_rates:
+        ruby:
+          walk: 10
+          old-rod: 10
+          good-rod: 10
+          super-rod: 10
+          surf: 4
+        sapphire:
+          walk: 10
+          old-rod: 10
+          good-rod: 10
+          super-rod: 10
+          surf: 4
+        emerald:
+          walk: 10
+          old-rod: 10
+          good-rod: 10
+          super-rod: 10
+          surf: 4
+      encounters:
+        ruby:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 35
+            min_level: 5
+            rarity: 60
+            slot: 1
+          wailmer:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          zubat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 5
+            slot: 7
+          spheal:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 11
+        sapphire:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 35
+            min_level: 5
+            rarity: 60
+            slot: 1
+          wailmer:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          zubat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 5
+            slot: 7
+          spheal:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 11
+        emerald:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 35
+            min_level: 5
+            rarity: 60
+            slot: 1
+          wailmer:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          zubat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 5
+            slot: 7
+          spheal:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 11
+      game_index: 43
+      name:
+        en: 'Main Area'
+    b1f:
+      encounter_rates:
+        ruby:
+          walk: 10
+        sapphire:
+          walk: 10
+        emerald:
+          walk: 10
+      encounters:
+        ruby:
+          zubat:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 5
+          spheal:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 5
+            slot: 8
+          snorunt:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 11
+        sapphire:
+          zubat:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 5
+          spheal:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 5
+            slot: 8
+          snorunt:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 11
+        emerald:
+          zubat:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 5
+          spheal:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 5
+            slot: 8
+          snorunt:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 11
+      game_index: 47
+      name:
+        en: B1F
+  name:
+    ja-Hrkt: あさせのほらあな
+    ja: 浅瀬の洞穴
+    ko: '여울의 동굴'
+    en: 'Shoal Cave'
+    fr: 'Grotte Tréfonds'
+    de: Küstenhöhle
+    es: 'Cueva Cardumen'
+    it: 'Grotta Ondosa'
+  region: hoenn

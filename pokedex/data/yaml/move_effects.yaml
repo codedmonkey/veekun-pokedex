@@ -1,0 +1,3654 @@
+move-effect-1:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.'
+  short_effect:
+    en: 'Inflicts regular damage with no additional effect.'
+    cs: 'Normálně zraňuje, bez vedlejších účinků.'
+move-effect-2:
+  changelog: {  }
+  effect:
+    en: 'Puts the target to [sleep]{mechanic:sleep}.'
+    cs: '[Uspí]{mechanic:sleep} protivníka.'
+  short_effect:
+    en: 'Puts the target to sleep.'
+    cs: 'Uspí protivníka.'
+move-effect-3:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [poison]{mechanic:poison} the target.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to [poison]{mechanic:poison} the target.'
+    cs: 'Má $effect_chance% šanci otrávit protivníka.'
+move-effect-4:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  [Drains]{mechanic:drain} half the damage inflicted to heal the user.'
+  short_effect:
+    en: 'Drains half the damage inflicted to heal the user.'
+    cs: 'Vyléčí uživatele o polovinu způsobeného zranění.'
+move-effect-5:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to [burn]{mechanic:burn} the target.'
+move-effect-6:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target.'
+    cs: 'Má $effect_chance% šanci zmrazit protivníka.'
+move-effect-7:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.'
+    cs: 'Má $effect_chance% šanci paralyzovat protivníka.'
+move-effect-8:
+  changelog:
+    black-white:
+      effect:
+        en: "Halves the target's [Defense]{mechanic:defense} for damage calculation, which is similar to doubling the attack's [power]{mechanic:power}."
+  effect:
+    en: 'User [faint]{mechanic:faint}s, even if the attack [fail]{mechanic:fail}s or [miss]{mechanic:miss}es.  Inflicts [regular damage]{mechanic:regular-damage}.'
+  short_effect:
+    en: 'User faints.'
+move-effect-9:
+  changelog: {  }
+  effect:
+    en: '[Fails]{mechanic:fail} if not used on a [sleep]{mechanic:sleep}ing Pokémon.  Inflicts [regular damage]{mechanic:regular-damage}.  [Drains]{mechanic:drain} half the damage inflicted to heal the user.'
+  short_effect:
+    en: 'Only works on sleeping Pokémon.  Drains half the damage inflicted to heal the user.'
+    cs: 'Funguje jen na spící protivníky. Vyléčí uživatele o polovinu způsobeného zranění.'
+move-effect-10:
+  changelog: {  }
+  effect:
+    en: |-
+      Uses the last move targeted at the user by a Pokémon still on the [field]{mechanic:field}.  A move counts as targeting the user even if it hit multiple Pokémon, as long as the user was one of them; however, moves targeting the [field]{mechanic:field} itself do not count.  If the user has not been targeted by an appropriate move since entering the [field]{mechanic:field}, or if no Pokémon that targeted the user remains on the [field]{mechanic:field}, this move will [fail]{mechanic:fail}.
+
+      Moves that [fail]{mechanic:fail}ed, [miss]{mechanic:miss}ed, had [no effect]{mechanic:no-effect}, or were [block]{mechanic:block}ed are still copied.
+
+      Assist moves, time-delayed moves, “meta” moves that operate on other moves/Pokémon/abilities, and some other special moves cannot be copied and are ignored; if the last move to hit the user was such a move, the previous move will be used instead.  The full list of ignored moves is: []{move:acid-armor}, []{move:acupressure}, []{move:after-you}, []{move:agility}, []{move:ally-switch}, []{move:amnesia}, []{move:aqua-ring}, []{move:aromatherapy}, []{move:aromatic-mist}, []{move:assist}, []{move:autotomize}, []{move:barrier}, []{move:baton-pass}, []{move:belch}, []{move:belly-drum}, []{move:bide}, []{move:bulk-up}, []{move:calm-mind}, []{move:camouflage}, []{move:celebrate}, []{move:charge}, []{move:coil}, []{move:conversion}, []{move:conversion-2}, []{move:copycat}, []{move:cosmic-power}, []{move:cotton-guard}, []{move:counter}, []{move:crafty-shield}, []{move:curse}, []{move:defend-order}, []{move:defense-curl}, []{move:destiny-bond}, []{move:detect}, []{move:doom-desire}, []{move:double-team}, []{move:dragon-dance}, []{move:electric-terrain}, []{move:endure}, []{move:final-gambit}, []{move:flower-shield}, []{move:focus-energy}, []{move:focus-punch}, []{move:follow-me}, []{move:future-sight}, []{move:geomancy}, []{move:grassy-terrain}, []{move:gravity}, []{move:growth}, []{move:grudge}, []{move:guard-split}, []{move:hail}, []{move:happy-hour}, []{move:harden}, []{move:haze}, []{move:heal-bell}, []{move:heal-order}, []{move:heal-pulse}, []{move:healing-wish}, []{move:helping-hand}, []{move:hold-hands}, []{move:hone-claws}, []{move:howl}, []{move:imprison}, []{move:ingrain}, []{move:ion-deluge}, []{move:iron-defense}, []{move:kings-shield}, []{move:light-screen}, []{move:lucky-chant}, []{move:lunar-dance}, []{move:magic-coat}, []{move:magnet-rise}, []{move:magnetic-flux}, []{move:mat-block}, []{move:me-first}, []{move:meditate}, []{move:metronome}, []{move:milk-drink}, []{move:mimic}, []{move:minimize}, []{move:mirror-coat}, []{move:mirror-move}, []{move:mist}, []{move:misty-terrain}, []{move:moonlight}, []{move:morning-sun}, []{move:mud-sport}, []{move:nasty-plot}, []{move:nature-power}, []{move:perish-song}, []{move:power-split}, []{move:power-trick}, []{move:protect}, []{move:psych-up}, []{move:quick-guard}, []{move:quiver-dance}, []{move:rage-powder}, []{move:rain-dance}, []{move:recover}, []{move:recycle}, []{move:reflect}, []{move:reflect-type}, []{move:refresh}, []{move:rest}, []{move:rock-polish}, []{move:role-play}, []{move:roost}, []{move:rototiller}, []{move:safeguard}, []{move:sandstorm}, []{move:shadow-blast}, []{move:shadow-bolt}, []{move:shadow-half}, []{move:shadow-rush}, []{move:shadow-shed}, []{move:shadow-sky}, []{move:shadow-storm}, []{move:shadow-wave}, []{move:sharpen}, []{move:shell-smash}, []{move:shift-gear}, []{move:sketch}, []{move:slack-off}, []{move:sleep-talk}, []{move:snatch}, []{move:soft-boiled}, []{move:spikes}, []{move:spiky-shield}, []{move:spit-up}, []{move:splash}, []{move:stealth-rock}, []{move:sticky-web}, []{move:stockpile}, []{move:struggle}, []{move:substitute}, []{move:sunny-day}, []{move:swallow}, []{move:swords-dance}, []{move:synthesis}, []{move:tail-glow}, []{move:tailwind}, []{move:teleport}, []{move:toxic-spikes}, []{move:transform}, []{move:water-sport}, []{move:wide-guard}, []{move:wish}, []{move:withdraw} and []{move:work-up}.
+
+      This move cannot be selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}, nor forced by []{move:encore}.
+  short_effect:
+    en: "Uses the target's last used move."
+move-effect-11:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's Attack by one stage."
+    cs: 'Zvýší uživatelův Útok o jeden stupeň.'
+move-effect-12:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's Defense by one stage."
+    cs: 'Zvýší uživatelovu Obranu o jeden stupeň.'
+move-effect-14:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's Special Attack by one stage."
+    cs: 'Zvýší uživatelův Speciální útok o jeden stupeň.'
+move-effect-17:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [evasion]{mechanic:evasion} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's evasion by one stage."
+    cs: 'Zvýší uživatelovu Mrštnost o jeden stupeň.'
+move-effect-18:
+  changelog:
+    gold-silver:
+      effect:
+        en: 'Hits Pokémon under the effects of []{move:dig} and []{move:fly}.'
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.'
+  short_effect:
+    en: 'Never misses.'
+    cs: 'Vždy se trefí.'
+move-effect-19:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Attack by one stage."
+    cs: 'Sníží protivníkův Útok o jeden stupeň.'
+move-effect-20:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Defense by one stage."
+    cs: 'Sníží protivníkovu Obranu o jeden stupeň.'
+move-effect-21:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Speed by one stage."
+    cs: 'Sníží protivníkovu Rychlost o jeden stupeň.'
+move-effect-24:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's accuracy by one stage."
+    cs: 'Sníží protivníkovu Přesnost o jeden stupeň.'
+move-effect-25:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [evasion]{mechanic:evasion} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's evasion by one stage."
+    cs: 'Sníží protivníkovu Mrštnost o jeden stupeň.'
+move-effect-26:
+  changelog: {  }
+  effect:
+    en: |-
+      Removes [stat]{mechanic:stat}, [accuracy]{mechanic:accuracy}, and [evasion]{mechanic:evasion} modifiers from every Pokémon on the [field]{mechanic:field}.
+
+      This does not count as a stat reduction for the purposes of []{ability:clear-body} or []{ability:white-smoke}.
+  short_effect:
+    en: "Resets all Pokémon's stats, accuracy, and evasion."
+move-effect-27:
+  changelog:
+    diamond-pearl:
+      effect:
+        en: 'Lasts either two or three turns.'
+  effect:
+    en: |-
+      User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is [typeless]{mechanic:typeless}.
+
+      This move cannot be selected by []{move:sleep-talk}.
+  short_effect:
+    en: 'User waits for two turns, then hits back for twice the damage it took.'
+move-effect-28:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes [confused]{mechanic:confused}.
+
+      []{move:safeguard} does not protect against the [confusion]{mechanic:confusion} from this move.
+  short_effect:
+    en: 'Hits every turn for 2-3 turns, then confuses the user.'
+    cs: 'Zaútočí každé kolo, 2-3×; poté zmate uživatele.'
+move-effect-29:
+  changelog:
+    gold-silver:
+      effect:
+        en: 'Does nothing in trainer battles.'
+  effect:
+    en: |-
+      [Switch]{mechanic:switch}es the target out for another of its trainer's Pokémon selected at random.  Wild battles end immediately.
+
+      Doesn't affect Pokémon with []{ability:suction-cups} or under the effect of []{move:ingrain}.
+  short_effect:
+    en: 'Immediately ends wild battles.  Forces trainers to switch Pokémon.'
+    cs: 'Okamžitě ukončí zápas s divokým pokémonem. Trenéry donutí vyměnit pokémona.'
+move-effect-30:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Hits 2–5 times in one turn.
+
+      Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+  short_effect:
+    en: 'Hits 2-5 times in one turn.'
+    cs: 'Zaútočí 2-5× za sebou.'
+move-effect-31:
+  changelog: {  }
+  effect:
+    en: "User's [type]{mechanic:type} changes to the [type]{mechanic:type} of one of its moves, selected at random.  []{move:hidden-power} and []{move:weather-ball} are treated as []{type:normal}.  Only moves with a different [type]{mechanic:type} are eligible, and []{move:curse} is never eligible.  If the user has no suitable moves, this move will [fail]{mechanic:fail}."
+  short_effect:
+    en: "User's type changes to the type of one of its moves at random."
+move-effect-32:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to make the target flinch.'
+    cs: 'Má $effect_chance% šanci, že se protivník zalekne.'
+move-effect-33:
+  changelog: {  }
+  effect:
+    en: 'Heals the user for half its max [HP]{mechanic:hp}.'
+  short_effect:
+    en: 'Heals the user by half its max HP.'
+move-effect-34:
+  changelog: {  }
+  effect:
+    en: '[Badly poisons]{mechanic:badly-poisons} the target.  Never misses when used by a []{type:poison}-type Pokémon.'
+    cs: '[Těžce otráví]{mechanic:bad-poison} protivníka.'
+  short_effect:
+    en: 'Badly poisons the target, inflicting more damage every turn.'
+    cs: 'Vážně otráví protivníka; jed ubere každé kolo více zranění.'
+move-effect-35:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used."
+  short_effect:
+    en: "Scatters money on the ground worth five times the user's level."
+    cs: 'Rozsype peníze v hodnotě 5× úrovně uživatele.'
+move-effect-36:
+  changelog: {  }
+  effect:
+    en: |-
+      Erects a barrier around the user's side of the field that reduces damage from [special]{mechanic:special} attacks by half for five turns.  In double battles, the reduction is 1/3.  [Critical hit]{mechanic:critical-hit}s are not affected by the barrier.
+
+      If the user is holding []{item:light-clay}, the barrier lasts for eight turns.
+
+      []{move:brick-break} or []{move:defog} used by an opponent will destroy the barrier.
+  short_effect:
+    en: 'Reduces damage from special attacks by 50% for five turns.'
+    cs: 'Na pět kol sníží zranění ze speciálních útoků o 50%.'
+move-effect-37:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn}, [freeze]{mechanic:freeze}, or [paralyze]{mechanic:paralyze} the target.  One of these effects is selected at random; they do not each have independent chances to occur.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to [burn]{mechanic:burn}, [freeze]{mechanic:freeze}, or [paralyze]{mechanic:paralysis} the target.'
+move-effect-38:
+  changelog:
+    diamond-pearl:
+      effect:
+        en: 'Works while asleep through []{move:sleep-talk} if not at full health.'
+  effect:
+    en: |-
+      User falls to [sleep]{mechanic:sleep} and immediately regains all its [HP]{mechanic:hp}.  If the user has another [major status effect]{mechanic:major-status-effect}, [sleep]{mechanic:sleep} will replace it.  The user will always wake up after two turns, or one turn with []{ability:early-bird}.
+
+      This move [fail]{mechanic:fail}s if the Pokémon cannot fall asleep due to []{move:uproar}, []{ability:insomnia}, or []{ability:vital-spirit}.  It also fails if the Pokémon is at full health or is already asleep.
+  short_effect:
+    en: 'User sleeps for two turns, completely healing itself.'
+    cs: 'Uživatel na dvě kola usne, čímž se úplně vyléčí.'
+move-effect-39:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts damage equal to the target's max [HP]{mechanic:hp}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  This move's [accuracy]{mechanic:accuracy} is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will [fail]{mechanic:fail}.
+
+      Because this move inflicts a specific and finite amount of damage, []{move:endure} still prevents the target from fainting.
+
+      The effects of []{move:lock-on}, []{move:mind-reader}, and []{ability:no-guard} still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through []{move:detect} or []{move:protect}.
+  short_effect:
+    en: 'Causes a one-hit KO.'
+    cs: 'Vyřadí protivníka na jeden zásah.'
+move-effect-40:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.  User charges for one turn before attacking.
+
+      This move cannot be selected by []{move:sleep-talk}.
+  short_effect:
+    en: 'Requires a turn to charge before attacking.'
+    cs: 'První kolo se nabíjí, zaútočí až v druhém.'
+move-effect-41:
+  changelog: {  }
+  effect:
+    en: "Inflicts [typeless]{mechanic:typeless} damage equal to half the target's remaining [HP]{mechanic:hp}."
+  short_effect:
+    en: "Inflicts damage equal to half the target's HP."
+move-effect-42:
+  changelog: {  }
+  effect:
+    en: 'Inflicts exactly 40 damage.'
+  short_effect:
+    en: 'Inflicts 40 points of damage.'
+move-effect-43:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the [field]{mechanic:field}, this effect ends.
+
+      Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+      []{move:rapid-spin} cancels this effect.
+  short_effect:
+    en: 'Prevents the target from fleeing and inflicts damage for 2-5 turns.'
+move-effect-44:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move."
+  short_effect:
+    en: 'Has an increased chance for a critical hit.'
+    cs: 'Má vysokou šanci na kritický zásah.'
+move-effect-45:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Hits twice in one turn.'
+  short_effect:
+    en: 'Hits twice in one turn.'
+move-effect-46:
+  changelog:
+    gold-silver:
+      effect:
+        en: 'If this move misses, the user takes 1 point of damage in recoil.'
+    black-white:
+      effect:
+        en: 'If this move misses, the user takes half of the damage it would have inflicted in recoil.'
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  If this move misses, is blocked by []{move:protect} or []{move:detect}, or has no effect, the user takes half the damage it would have inflicted in recoil.  This recoil damage will not exceed half the user's max HP.
+
+      This move cannot be used while []{move:gravity} is in effect.
+  short_effect:
+    en: 'If the user misses, it takes half the damage it would have inflicted in recoil.'
+move-effect-47:
+  changelog: {  }
+  effect:
+    en: |-
+      Pokémon on the user's side of the [field]{mechanic:field} are immune to stat-lowering effects for five turns.
+
+      []{move:guard-swap}, []{move:heart-swap}, and []{move:power-swap} may still be used.
+
+      []{move:defog} used by an opponent will end this effect.
+  short_effect:
+    en: "Protects the user's stats from being changed by enemy moves."
+move-effect-48:
+  changelog: {  }
+  effect:
+    en: |-
+      User's [critical hit]{mechanic:critical-hit} rate is two levels higher until it leaves the field.  If the user has already used []{move:focus-energy} since entering the field, this move will [fail]{mechanic:fail}.
+
+      This effect is passed on by []{move:baton-pass}.
+  short_effect:
+    en: "Increases the user's chance to score a critical hit."
+move-effect-49:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/4 the damage it inflicts in recoil.'
+  short_effect:
+    en: 'User receives 1/4 the damage it inflicts in recoil.'
+    cs: 'Zraní uživatele za 1/4 způsobeného zranění.'
+move-effect-50:
+  changelog: {  }
+  effect:
+    en: '[Confuse]{mechanic:confuse}s the target.'
+  short_effect:
+    en: 'Confuses the target.'
+move-effect-51:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Attack]{mechanic:attack} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's Attack by two stages."
+    cs: 'Zvýší uživatelův Útok o dva stupně.'
+move-effect-52:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Defense]{mechanic:defense} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's Defense by two stages."
+    cs: 'Zvýší uživatelovu Obranu o dva stupně.'
+move-effect-53:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Speed]{mechanic:speed} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's Speed by two stages."
+    cs: 'Zvýší uživateli Rychlost o dvě úrovně.'
+move-effect-54:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's Special Attack by two stages."
+    cs: 'Zvýší uživatelův Speciální útok o dva stupně.'
+move-effect-55:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's Special Defense by two stages."
+    cs: 'Zvýší uživatelovu Speciální obranu o dva stupně.'
+move-effect-58:
+  changelog: {  }
+  effect:
+    en: |-
+      User copies the target's species, weight, type, [ability]{mechanic:ability}, [calculated stats]{mechanic:calculated-stats} (except [HP]{mechanic:hp}), and moves.  Copied moves will all have 5 [PP]{mechanic:pp} remaining.  [IV]{mechanic:iv}s are copied for the purposes of []{move:hidden-power}, but stats are not recalculated.
+
+      []{item:choice-band}, []{item:choice-scarf}, and []{item:choice-specs} stay in effect, and the user must select a new move.
+
+      This move cannot be copied by []{move:mirror-move}, nor forced by []{move:encore}.
+  short_effect:
+    en: 'User becomes a copy of the target until it leaves battle.'
+move-effect-59:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [Attack]{mechanic:attack} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Attack by two stages."
+    cs: 'Sníží protivníkův Útok o dva stupně.'
+move-effect-60:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [Defense]{mechanic:defense} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Defense by two stages."
+    cs: 'Sníží protivníkovu Obranu o dva stupně.'
+move-effect-61:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [Speed]{mechanic:speed} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Speed by two stages."
+    cs: 'Sníží protivníkovi Obranu o dva stupně.'
+move-effect-62:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's Special Attack by two stages."
+  short_effect:
+    en: "Lowers the target's Special Attack by two stages."
+move-effect-63:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Special Defense by two stages."
+    cs: 'Sníží protivníkovu Speciální obranu o dva stupně.'
+move-effect-66:
+  changelog: {  }
+  effect:
+    en: |-
+      Erects a barrier around the user's side of the field that reduces damage from [physical]{mechanic:physical} attacks by half for five turns.  In double battles, the reduction is 1/3.  [Critical hit]{mechanic:critical-hit}s are not affected by the barrier.
+
+      If the user is holding []{item:light-clay}, the barrier lasts for eight turns.
+
+      []{move:brick-break} or []{move:defog} used by an opponent will destroy the barrier.
+  short_effect:
+    en: 'Reduces damage from physical attacks by half.'
+    cs: 'Na pět kol sníží zranění z fyzických útoků o 50%.'
+move-effect-67:
+  changelog: {  }
+  effect:
+    en: '[Poisons]{mechanic:poisons} the target.'
+    cs: '[Otráví]{mechanic:poison} protivníka.'
+  short_effect:
+    en: 'Poisons the target.'
+    cs: 'Otráví protivníka.'
+move-effect-68:
+  changelog: {  }
+  effect:
+    en: '[Paralyzes]{mechanic:paralyzes} the target.'
+  short_effect:
+    en: 'Paralyzes the target.'
+move-effect-69:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Has a $effect_chance% chance to lower the target's Attack by one stage."
+    cs: 'Má $effect_chance% šanci snížit protivníkův Útok o jeden stupeň.'
+move-effect-70:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Has a $effect_chance% chance to lower the target's Defense by one stage."
+    cs: 'Má $effect_chance% šanci snížit protivníkovu Obranu o jeden stupeň.'
+move-effect-71:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Has a $effect_chance% chance to lower the target's Speed by one stage."
+    cs: 'Má $effect_chance% šanci snížit protivníkovu Rychlost o jeden stupeň.'
+move-effect-72:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
+    cs: 'Má $effect_chance% šanci snížit protivníkův Speciální útok o jeden stupeň.'
+move-effect-73:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Special Defense]{mechanic:special-defense} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
+    cs: 'Má $effect_chance% šanci snížit protivníkovu Speciální obranu o jeden stupeň.'
+move-effect-74:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Has a $effect_chance% chance to lower the target's accuracy by one stage."
+    cs: 'Má $effect_chance% šanci snížit protivníkovu Přesnost o jeden stupeň.'
+move-effect-75:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for mystical-fire'
+  short_effect:
+    en: 'XXX new effect for mystical-fire'
+move-effect-76:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  User charges for one turn before attacking.  [Critical hit chance]{mechanic:critical-hit-chance} is one level higher than normal.  Has a $effect_chance% chance to make the target [flinch]{mechanic:flinch}.
+
+      This move cannot be selected by []{move:sleep-talk}.
+  short_effect:
+    en: 'User charges for one turn before attacking.  Has a $effect_chance% chance to make the target flinch.'
+move-effect-77:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [confuse]{mechanic:confuse} the target.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to confuse the target.'
+    cs: 'Má $effect_chance% šanci zmást protivníka.'
+move-effect-78:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Hits twice in the same turn.  Has a $effect_chance% chance to [poison]{mechanic:poison} the target.'
+  short_effect:
+    en: 'Hits twice in the same turn.  Has a $effect_chance% chance to poison the target.'
+move-effect-79:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.'
+  short_effect:
+    en: 'Never misses.'
+    cs: 'Vždy se trefí.'
+move-effect-80:
+  changelog: {  }
+  effect:
+    en: |-
+      Transfers 1/4 the user's max [HP]{mechanic:hp} into a doll that absorbs damage and causes most negative move effects to [fail]{mechanic:fail}.  If the user leaves the [field]{mechanic:field}, the doll will vanish.  If the user cannot pay the [HP]{mechanic:hp} cost, this move will fail.
+
+      The doll takes damage as normal, using the user's stats and types, and will break when its [HP]{mechanic:hp} reaches zero.  Self-inflicted damage from [confusion]{mechanic:confusion} or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user's [HP]{mechanic:hp} still do so; the doll's [HP]{mechanic:hp} does not influence any move.
+
+      The doll will block [major status effect]{mechanic:major-status-effect}s, [confusion]{mechanic:confusion}, and [flinch]{mechanic:flinch}ing.  The effects of []{move:smelling-salts} and []{move:wake-up-slap} do not trigger against a doll, even if the Pokémon behind the doll has the appropriate [major status effect]{mechanic:major-status-effect}.  Multi-turn trapping moves like []{move:wrap} will hit the doll for their [regular damage]{mechanic:regular-damage}, but the multi-turn trapping and damage effects will not activate.
+
+      Moves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., []{move:avalanche}, []{move:counter}, or a []{item:rowap-berry}.  []{move:magic-coat} still works as normal, even against moves the doll would block.  Opposing Pokémon that damage the doll with a leech move like []{move:absorb} are healed as normal.
+
+      It will also block []{move:acupressure}, []{move:block}, the curse effect of []{move:curse}, []{move:dream-eater}, []{move:embargo}, []{move:flatter}, []{move:gastro-acid}, []{move:grudge}, []{move:heal-block}, []{move:leech-seed}, []{move:lock-on}, []{move:mean-look}, []{move:mimic}, []{move:mind-reader}, []{move:nightmare}, []{move:pain-split}, []{move:psycho-shift}, []{move:spider-web}, []{move:sketch}, []{move:swagger}, []{move:switcheroo}, []{move:trick}, []{move:worry-seed}, and []{move:yawn}.  A Pokémon affected by []{move:yawn} before summoning the doll will still fall to [sleep]{mechanic:sleep}.
+
+      The doll blocks []{ability:intimidate}, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for [HP]{mechanic:hp} (such as []{ability:volt-absorb} absorbing []{move:thunder-wave}), such moves will not be blocked.
+
+      []{item:life-orb} and berries that cause [confusion]{mechanic:confusion} still work as normal, but their respective [HP]{mechanic:hp} loss and [confusion]{mechanic:confusion} are absorbed/blocked by the doll.
+
+      The user is still vulnerable to damage inflicted when entering or leaving the [field]{mechanic:field}, such as by []{move:pursuit} or []{move:spikes}; however, the doll will block the [poison]{mechanic:poison} effect of []{move:toxic-spikes}.
+
+      The doll is passed on by []{move:baton-pass}.  It keeps its existing [HP]{mechanic:hp}, but uses the replacement Pokémon's stats and types for damage calculation.
+
+      All other effects work as normal.
+  short_effect:
+    en: "Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks."
+    cs: 'Převede 1/4 uživatelova HP do figurky, která ho chrání před dalším zraněním a změnami stavu, dokud se nerozbije.'
+move-effect-81:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  User loses its next turn to "recharge", and cannot attack or [switch]{mechanic:switch} out during that turn.'
+  short_effect:
+    en: 'User foregoes its next turn to recharge.'
+    cs: 'Uživatel se vzdá následujícího kola; musí dobít energii.'
+move-effect-82:
+  changelog:
+    gold-silver:
+      effect:
+        en: 'Locks the user into this move.  Due to a bug, if this move misses, its [accuracy]{mechanic:accuracy} drops to 1/256 as long as the user is still locked in.'
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Every time the user is hit after it uses this move but before its next action, its [Attack]{mechanic:attack} raises by one [stage]{mechanic:stage}.'
+  short_effect:
+    en: 'If the user is hit after using this move, its Attack rises by one stage.'
+    cs: 'Pokud je uživatel po použití tohoto útoku zasažen, zvýší se mu Útok o jeden stupeň.'
+move-effect-83:
+  changelog: {  }
+  effect:
+    en: |-
+      This move is replaced by the target's last successfully used move, and its PP changes to 5.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and [failed]{mechanic:fail}, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field.
+
+      If []{move:chatter}, []{move:metronome}, []{move:mimic}, []{move:sketch}, or []{move:struggle} is selected, this move will [fail]{mechanic:fail}.
+
+      This move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist} or []{move:metronome}, nor forced by []{move:encore}.
+  short_effect:
+    en: "Copies the target's last used move."
+    cs: 'Zkopíruje posledně použitý protivníkův útok.'
+move-effect-84:
+  changelog:
+    gold-silver:
+      effect:
+        en: 'Can call any move except for []{move:struggle} and itself.'
+  effect:
+    en: |-
+      Selects any move at random and uses it.  Moves the user already knows are not eligible.  Assist, meta, protection, and reflection moves are also not eligible; specifically, []{move:assist}, []{move:chatter}, []{move:copycat}, []{move:counter}, []{move:covet}, []{move:destiny-bond}, []{move:detect}, []{move:endure}, []{move:feint}, []{move:focus-punch}, []{move:follow-me}, []{move:helping-hand}, []{move:me-first}, []{move:metronome}, []{move:mimic}, []{move:mirror-coat}, []{move:mirror-move}, []{move:protect}, []{move:quick-guard}, []{move:sketch}, []{move:sleep-talk}, []{move:snatch}, []{move:struggle}, []{move:switcheroo}, []{move:thief}, []{move:trick}, and []{move:wide-guard} will not be selected by this move.
+
+      This move cannot be copied by []{move:mimic} or []{move:mirror-move}, nor selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}.
+  short_effect:
+    en: 'Randomly selects and uses any move in the game.'
+move-effect-85:
+  changelog: {  }
+  effect:
+    en: |-
+      Plants a seed on the target that [drains]{mechanic:drain} 1/8 of its max [HP]{mechanic:hp} at the end of every turn and heals the user for the amount taken.  Has no effect on []{type:grass} Pokémon.  The seed remains until the target leaves the field.
+
+      The user takes damage instead of being healed if the target has []{ability:liquid-ooze}.
+
+      []{move:rapid-spin} will remove this effect.
+
+      This effect is passed on by []{move:baton-pass}.
+  short_effect:
+    en: 'Seeds the target, stealing HP from it every turn.'
+    cs: 'Zasadí do protivníka semínka, která mu každé kolo ubírají HP a léčí uživatele.'
+move-effect-86:
+  changelog: {  }
+  effect:
+    en: |-
+      Does nothing.
+
+      This move cannot be used while []{move:gravity} is in effect.
+  short_effect:
+    en: 'Does nothing.'
+move-effect-87:
+  changelog: {  }
+  effect:
+    en: "Disables the target's last used move, preventing its use for 4–7 turns, selected at random, or until the target leaves the [field]{mechanic:field}.  If the target hasn't used a move since entering the [field]{mechanic:field}, if it tried to use a move this turn and [failed]{mechanic:failed},  if its last used move has 0 PP remaining, or if it already has a move disabled, this move will fail."
+  short_effect:
+    en: "Disables the target's last used move for 1-8 turns."
+move-effect-88:
+  changelog: {  }
+  effect:
+    en: "Inflicts damage equal to the user's level.  Type immunity applies, but other type effects are ignored."
+    cs: 'Udělí zranění v HP rovné uživatelovi úrovni. Typové imunity platí, ale ostatní efekty typů jsou ignorovány.'
+  short_effect:
+    en: "Inflicts damage equal to the user's level."
+    cs: 'Udělí zranění v HP rovné uživatelovi úrovni.'
+move-effect-89:
+  changelog: {  }
+  effect:
+    en: "Inflicts [typeless]{mechanic:typeless} damage between 50% and 150% of the user's level, selected at random in increments of 10%."
+  short_effect:
+    en: "Inflicts damage between 50% and 150% of the user's level."
+move-effect-90:
+  changelog: {  }
+  effect:
+    en: |-
+      Targets the last opposing Pokémon to hit the user with a [physical]{mechanic:physical} move this turn.  Inflicts twice the damage that move did to the user.  If there is no eligible target, this move will [fail]{mechanic:fail}.  Type immunity applies, but other type effects are ignored.
+
+      This move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: 'Inflicts twice the damage the user received from the last physical hit it took.'
+    cs: 'Způsobí dvakrát více fyzického zranění, než kolik utržil uživatel když byl naposledy zasažen.'
+move-effect-91:
+  changelog: {  }
+  effect:
+    en: |-
+      The next 4–8 times (selected at random) the target attempts to move, it is forced to repeat its last used move.  If the selected move allows the trainer to select a target, an opponent will be selected at random each turn.  If the target is prevented from using the selected move by some other effect, []{move:struggle} will be used instead.  This effect ends if the selected move runs out of [PP]{mechanic:pp}.
+
+      If the target hasn't used a move since entering the [field]{mechanic:field}, if it tried to use a move this turn and [failed]{mechanic:failed}, if it does not know the selected move, or if the selected move has 0 [PP]{mechanic:pp} remaining, this move will fail.  If the target's last used move was []{move:encore}, []{move:mimic}, []{move:mirror-move}, []{move:sketch}, []{move:struggle}, or []{move:transform}, this move will fail.
+  short_effect:
+    en: 'Forces the target to repeat its last used move every turn for 2 to 6 turns.'
+move-effect-92:
+  changelog: {  }
+  effect:
+    en: |-
+      Changes the user's and target's remaining [HP]{mechanic:hp} to the average of their current remaining [HP]{mechanic:hp}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  This effect does not count as inflicting damage for other moves and effects that respond to damage taken.
+
+      This effect [fail]{mechanic:fail}s against a []{move:substitute}.
+  short_effect:
+    en: "Sets the user's and targets's HP to the average of their current HP."
+move-effect-93:
+  changelog: {  }
+  effect:
+    en: 'Only usable if the user is [sleep]{mechanic:sleep}ing.  Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to make the target flinch.  Only works if the user is sleeping.'
+    cs: 'Má $effect_chance% šanci, že se protivník zalekne. Povede se pouze při spánku.'
+move-effect-94:
+  changelog: {  }
+  effect:
+    en: "Changes the user's type to a type either resistant or immune to the last damaging move that hit it.  The new type is selected at random and cannot be a type the user already is.  If there is no eligible new type, this move will [fail]{mechanic:fail}."
+  short_effect:
+    en: "Changes the user's type to a random type either resistant or immune to the last move used against it."
+move-effect-95:
+  changelog: {  }
+  effect:
+    en: |-
+      If the user targets the same target again before the end of the next turn, the move it uses is guaranteed to hit.  This move itself also ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.
+
+      One-hit KO moves are also guaranteed to hit, as long as the user is equal or higher level than the target.  This effect also allows the user to hit Pokémon that are off the field due to moves such as []{move:dig} or []{move:fly}.
+
+      If the target uses []{move:detect} or []{move:protect} while under the effect of this move, the user is not guaranteed to hit, but has a (100 - accuracy)% chance to break through the protection.
+
+      This effect is passed on by []{move:baton-pass}.
+  short_effect:
+    en: "Ensures that the user's next move will hit the target."
+move-effect-96:
+  changelog: {  }
+  effect:
+    en: |-
+      Permanently replaces itself with the target's last used move.  If that move is []{move:chatter} or []{move:struggle}, this move will [fail]{mechanic:fail}.
+
+      This move cannot be copied by []{move:mimic} or []{move:mirror-move}, nor selected by []{move:assist} or []{move:metronome}, nor forced by []{move:encore}.
+  short_effect:
+    en: "Permanently becomes the target's last used move."
+move-effect-98:
+  changelog: {  }
+  effect:
+    en: |-
+      Only usable if the user is [sleep]{mechanic:sleep}ing.  Randomly selects and uses one of the user's other three moves.  Use of the selected move requires and costs 0 [PP]{mechanic:pp}.
+
+      This move will not select []{move:assist}, []{move:bide}, []{move:bounce}, []{move:chatter}, []{move:copycat}, []{move:dig}, []{move:dive}, []{move:fly}, []{move:focus-punch}, []{move:me-first}, []{move:metronome}, []{move:mirror-move}, []{move:shadow-force}, []{move:skull-bash}, []{move:sky-attack}, []{move:sky-drop}, []{move:sleep-talk}, []{move:solar-beam}, []{move:razor-wind}, or []{move:uproar}.
+
+      If the selected move requires a recharge turn—i.e., one of []{move:blast-burn}, []{move:frenzy-plant}, []{move:giga-impact}, []{move:hydro-cannon}, []{move:hyper-beam}, []{move:roar-of-time}, or []{move:rock-wrecker}—and the user is still [sleep]{mechanic:sleep}ing next turn, then it's forced to use this move again and pay another [PP]{mechanic:pp} for the recharge turn.
+
+      This move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}.
+  short_effect:
+    en: "Randomly uses one of the user's other three moves.  Only works if the user is sleeping."
+    cs: 'Použije náhodný z uživatelových ostatních útoků. Povede se pouze ze spánku.'
+move-effect-99:
+  changelog: {  }
+  effect:
+    en: |-
+      If the user [faints]{mechanic:faints} before its next move, the Pokémon that [faint]{mechanic:faint}ed it will automatically [faint]{mechanic:faint}.  End-of-turn damage is ignored.
+
+      This move cannot be selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: 'If the user faints this turn, the target automatically will, too.'
+move-effect-100:
+  changelog: {  }
+  effect:
+    en: |
+      Inflicts [regular damage]{mechanic:regular-damage}.  Power varies inversely with the user's proportional remaining [HP]{mechanic:hp}.
+
+      64 * current HP / max HP | Power
+      -----------------------: | ----:
+       0– 1                    |  200
+       2– 5                    |  150
+       6–12                    |  100
+      13–21                    |   80
+      22–42                    |   40
+      43–64                    |   20
+  short_effect:
+    en: 'Inflicts more damage when the user has less HP remaining, with a maximum of 200 power.'
+move-effect-101:
+  changelog: {  }
+  effect:
+    en: "Lowers the PP of the target's last used move by 4.  If the target hasn't used a move since entering the [field]{mechanic:field}, if it tried to use a move this turn and [failed]{mechanic:failed}, or if its last used move has 0 PP remaining, this move will fail."
+  short_effect:
+    en: "Lowers the PP of the target's last used move by 4."
+    cs: 'Sníží PP protivníkova posledně použitého útoku o 4.'
+move-effect-102:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Will not reduce the target's [HP]{mechanic:hp} below 1."
+  short_effect:
+    en: "Cannot lower the target's HP below 1."
+move-effect-103:
+  changelog: {  }
+  effect:
+    en: "Removes [major status effects]{mechanic:major-status-effects} and [confusion]{mechanic:confusion} from every Pokémon in the user's party."
+  short_effect:
+    en: 'Cures the entire party of major status effects.'
+move-effect-104:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.'
+  short_effect:
+    en: 'Inflicts regular damage with no additional effect.'
+    cs: 'Normálně zraňuje, bez vedlejších účinků.'
+move-effect-105:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Hits three times in the same turn.  The second hit has double power, and the third hit has triple power.  Each hit has a separate [accuracy]{mechanic:accuracy} check, and this move stops if a hit misses.
+
+      []{ability:skill-link} does not apply.
+  short_effect:
+    en: 'Hits three times, increasing power by 100% with each successful hit.'
+move-effect-106:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.
+
+      Pokémon with []{ability:sticky-hold} or []{ability:multitype} are immune to the item theft effect.
+
+      The target cannot recover its item with []{move:recycle}.
+
+      This move cannot be selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: "Takes the target's item."
+    cs: 'Vezme protivníkovi drženou věc.'
+move-effect-107:
+  changelog: {  }
+  effect:
+    en: |-
+      The target cannot [switch out]{mechanic:switch-out} normally.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  This effect ends when the user leaves the [field]{mechanic:field}.
+
+      The target may still escape by using []{move:baton-pass}, []{move:u-turn}, or a []{item:shed-shell}.
+
+      Both the user and the target pass on this effect with []{move:baton-pass}.
+  short_effect:
+    en: 'Prevents the target from leaving battle.'
+    cs: 'Zabrání protivníkovi opustit zápas.'
+move-effect-108:
+  changelog: {  }
+  effect:
+    en: 'Only works on [sleep]{mechanic:sleep}ing Pokémon.  Gives the target a nightmare, damaging it for 1/4 its max [HP]{mechanic:hp} every turn.  If the target wakes up or leaves the [field]{mechanic:field}, this effect ends.'
+  short_effect:
+    en: "Target loses 1/4 its max HP every turn as long as it's asleep."
+move-effect-109:
+  changelog:
+    gold-silver:
+      effect:
+        en: 'Does not interact with []{move:stomp}.'
+    black-white:
+      effect:
+        en: 'Raises [evasion]{mechanic:evasion} by one stage.'
+  effect:
+    en: |-
+      Raises the user's [evasion]{mechanic:evasion} by two [stages]{mechanic:stage}.
+
+      []{move:stomp} and []{move:steamroller} have double power against Pokémon that have used this move since entering the [field]{mechanic:field}.
+  short_effect:
+    en: "Raises the user's evasion by two stages."
+    cs: 'Zvýší uživatelovu Mrštnost obranu o dva stupně.'
+move-effect-110:
+  changelog: {  }
+  effect:
+    en: |-
+      If the user is a []{type:ghost}: user pays half its max [HP]{mechanic:hp} to place a curse on the target, damaging it for 1/4 its max [HP]{mechanic:hp} every turn.
+      Otherwise: Lowers the user's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}, and raises its [Attack]{mechanic:attack} and [Defense]{mechanic:defense} by one [stage]{mechanic:stage} each.
+
+      The curse effect is passed on by []{move:baton-pass}.
+
+      This move cannot be copied by []{move:mirror-move}.
+  short_effect:
+    en: 'Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense.'
+    cs: 'Duchové obětují 1/2 max. HP na kletbu, která protivníka zraňuje každé kolo. Ostatním sníží Rychlost a zvýší Útok a Obranu.'
+move-effect-112:
+  changelog: {  }
+  effect:
+    en: |-
+      No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will [fail]{mechanic:fail}.
+
+      If the user successfully used []{move:detect}, []{move:endure}, []{move:protect}, []{move:quick-guard}, or []{move:wide-guard} on the last turn, this move has a 50% chance to [fail]{mechanic:fail}.
+
+      []{move:lock-on}, []{move:mind-reader}, and []{ability:no-guard} provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves ([]{move:fissure}, []{move:guillotine}, []{move:horn-drill}, and []{move:sheer-cold}); those are always blocked by this move.
+
+      []{move:thunder} during []{move:rain-dance} and []{move:blizzard} during []{move:hail} have a 30% chance to break through this move.
+
+      The following effects are not prevented by this move:
+
+      * []{move:acupressure} from an ally
+      * []{move:curse}'s curse effect
+      * Delayed damage from []{move:doom-desire} and []{move:future-sight}; however, these moves will be prevented if they are used this turn
+      * []{move:feint}, which will also end this move's protection after it hits
+      * []{move:imprison}
+      * []{move:perish-song}
+      * []{move:shadow-force}
+      * Moves that merely copy the user, such as []{move:transform} or []{move:psych-up}
+
+      This move cannot be selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: 'Prevents any moves from hitting the user this turn.'
+    cs: 'Znemožní jakémukoli útoku trefit toto kolo uživatele.'
+move-effect-113:
+  changelog: {  }
+  effect:
+    en: |-
+      Scatters spikes around the opposing [field]{mechanic:field}, which damage opposing Pokémon that enter the [field]{mechanic:field} for 1/8 of their max [HP]{mechanic:hp}.  Pokémon immune to []{type:ground} moves are immune to this damage, except during []{move:gravity}.  Up to three layers of spikes may be laid down, adding 1/16 to the damage done: two layers of spikes damage for 3/16 max [HP]{mechanic:hp}, and three layers damage for 1/4 max [HP]{mechanic:hp}.
+
+      []{ability:wonder-guard} does not block damage from this effect.
+
+      []{move:rapid-spin} removes this effect from its user's side of the [field]{mechanic:field}.  []{move:defog} removes this effect from its target's side of the [field]{mechanic:field}.
+  short_effect:
+    en: 'Scatters Spikes, hurting opposing Pokémon that switch in.'
+move-effect-114:
+  changelog: {  }
+  effect:
+    en: "Resets the target's [evasion]{mechanic:evasion} to normal and prevents any further boosting until the target leaves the [field]{mechanic:field}.  A []{type:ghost} under this effect takes normal damage from []{type:normal} and []{type:fighting} moves.  This move itself ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers."
+  short_effect:
+    en: "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost."
+move-effect-115:
+  changelog: {  }
+  effect:
+    en: |-
+      Every Pokémon is given a counter that starts at 3 and decreases by 1 at the end of every turn, including this one.  When a Pokémon's counter reaches zero, that Pokémon [faint]{mechanic:faint}s.  A Pokémon that leaves the [field]{mechanic:field} will lose its counter; its replacement does not inherit the effect, and other Pokémon's counters remain.
+
+      This effect is passed on by []{move:baton-pass}.
+
+      This move cannot be copied by []{move:mirror-move}.
+  short_effect:
+    en: 'User and target both faint after three turns.'
+move-effect-116:
+  changelog: {  }
+  effect:
+    en: |-
+      Changes the weather to a sandstorm for five turns.  Pokémon that are not []{type:ground}, []{type:rock}, or []{type:steel} take 1/16 their max [HP]{mechanic:hp} at the end of every turn.  Every []{type:rock} Pokémon's original [Special Defense]{mechanic:special-defense} is raised by 50% for the duration of this effect.
+
+      []{move:solar-beam}'s power is halved.
+
+      []{move:moonlight}, []{move:morning-sun}, and []{move:synthesis} only heal 1/4 the user's max [HP]{mechanic:hp}.
+  short_effect:
+    en: 'Changes the weather to a sandstorm for five turns.'
+    cs: 'Na pět kol způsobí písečnou bouři.'
+move-effect-117:
+  changelog: {  }
+  effect:
+    en: |-
+      The user's [HP]{mechanic:hp} cannot be lowered below 1 by any means for the remainder of this turn.
+
+      If the user successfully used []{move:detect}, []{move:endure}, []{move:protect}, []{move:quick-guard}, or []{move:wide-guard} on the last turn, this move has a 50% chance to [fail]{mechanic:fail}.
+
+      This move cannot be selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: "Prevents the user's HP from lowering below 1 this turn."
+    cs: 'Uživateli toto kolo zůstane aspoň 1 HP.'
+move-effect-118:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  User is forced to use this move for five turns.  Power doubles every time this move is used in succession to a maximum of 16x, and resets to normal after the lock-in ends.  If this move misses or becomes unusable, the lock-in ends.
+
+      If the user has used []{move:defense-curl} since entering the field, this move has double power.
+  short_effect:
+    en: 'Power doubles every turn this move is used in succession after the first, resetting after five turns.'
+    cs: 'Kdy je tento útok používán stále dokola, jeho síla se prvních 5 kol vždy zdvojnásobí.'
+move-effect-119:
+  changelog: {  }
+  effect:
+    en: "Raises the target's [Attack]{mechanic:attack} by two [stages]{mechanic:stage}, then [confuses]{mechanic:confuses} it.  If the target's [Attack]{mechanic:attack} cannot be [raised]{mechanic:raised} by two [stages]{mechanic:stage}, the [confusion]{mechanic:confusion} is not applied."
+  short_effect:
+    en: "Raises the target's Attack by two stages and confuses the target."
+    cs: 'Zvýší protivníkův Útok o dva stupně, a zmate ho.'
+move-effect-120:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Power doubles after every time this move is used, whether consecutively or not, maxing out at 16x.  If this move misses or the user leaves the [field]{mechanic:field}, power resets.'
+  short_effect:
+    en: 'Power doubles every turn this move is used in succession after the first, maxing out after five turns.'
+    cs: 'Kdy je tento útok používán stále dokola, jeho síla se prvních 5 kol vždy zdvojnásobí; poté zůstane 32× silnější.'
+move-effect-121:
+  changelog: {  }
+  effect:
+    en: 'Causes the target to fall in love with the user, giving it a 50% chance to do nothing each turn.  If the user and target are the same gender, or either is genderless, this move will [fail]{mechanic:fail}.  If either Pokémon leaves the [field]{mechanic:field}, this effect ends.'
+  short_effect:
+    en: 'Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user.'
+    cs: 'Protivník se zamiluje do uživatele. Poté má 50% šanci na něj nezaútočit.'
+move-effect-122:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Power increases with [happiness]{mechanic:happiness}, given by `happiness * 2 / 5`, to a maximum of 102.  Power bottoms out at 1.'
+  short_effect:
+    en: 'Power increases with happiness, up to a maximum of 102.'
+    cs: 'Tím silnější, čím je uživatel ochočenější. Maximální síla je 102.'
+move-effect-123:
+  changelog: {  }
+  effect:
+    en: |-
+      Randomly uses one of the following effects.
+
+      Effect                                             | Chance
+      -------------------------------------------------- | -----:
+      Inflicts [regular damage]{mechanic:regular-damage} with 40 power  |    40%
+      Inflicts [regular damage]{mechanic:regular-damage} with 80 power  |    30%
+      Inflicts [regular damage]{mechanic:regular-damage} with 120 power |    10%
+      Heals the target for 1/4 its max [HP]{mechanic:hp}    |    20%
+
+      On average, this move inflicts [regular damage]{mechanic:regular-damage} with 52 power and heals the target for 1/20 its max [HP]{mechanic:hp}.
+  short_effect:
+    en: 'Randomly inflicts damage with power from 40 to 120 or heals the target for 1/4 its max HP.'
+move-effect-124:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Power increases inversely with [happiness]{mechanic:happiness}, given by `(255 - happiness) * 2 / 5`, to a maximum of 102.  Power bottoms out at 1.'
+  short_effect:
+    en: 'Power increases as happiness decreases, up to a maximum of 102.'
+    cs: 'Tím silnější, čím je uživatel méně ochočený. Maximální síla je 102.'
+move-effect-125:
+  changelog: {  }
+  effect:
+    en: |-
+      Protects Pokémon on the user's side of the [field]{mechanic:field} from [major status]{mechanic:major-status} effects and [confusion]{mechanic:confusion} for five turns.  Does not cancel existing ailments.  This effect remains even if the user leaves the [field]{mechanic:field}.
+
+      If []{move:yawn} is used while this move is in effect, it will immediately [fail]{mechanic:fail}.
+
+      []{move:defog} used by an opponent will end this effect.
+
+      This effect does not prevent the [confusion]{mechanic:confusion} caused by []{move:outrage}, []{move:petal-dance}, or []{move:thrash}.
+  short_effect:
+    en: "Protects the user's field from major status ailments and confusion for five turns."
+    cs: 'Po pět kol chrání pokémony uživatelově straně proti změnám stavu a zmatení.'
+move-effect-126:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.  [Frozen]{mechanic:frozen} Pokémon may use this move, in which case they will thaw.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to [burn]{mechanic:burn} the target.  Lets frozen Pokémon thaw themselves.'
+move-effect-127:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Power is selected at random between 10 and 150, with an average of 71:
+
+      Magnitude | Power | Chance
+      --------: | ----: | -----:
+              4 |    10 |     5%
+              5 |    30 |    10%
+              6 |    50 |    20%
+              7 |    70 |    30%
+              8 |    90 |    20%
+              9 |   110 |    10%
+             10 |   150 |     5%
+
+      This move has double power against Pokémon currently underground due to []{move:dig}.
+  short_effect:
+    en: 'Power varies randomly from 10 to 150.'
+move-effect-128:
+  changelog: {  }
+  effect:
+    en: |-
+      User [switches out]{mechanic:switches-out}, and the trainer selects a replacement Pokémon from the party.  [Stat]{mechanic:stat} changes, [confusion]{mechanic:confusion}, and persistent move effects are passed along to the replacement Pokémon.
+
+      The following move effects are passed:
+
+      * []{move:aqua-ring}
+      * both the user's and target's effect of []{move:block}, []{move:mean-look}, and []{move:spider-web}
+      * the curse effect of []{move:curse}
+      * []{move:embargo}
+      * []{move:focus-energy} or an activated []{item:lansat-berry}
+      * []{move:gastro-acid}
+      * []{move:ingrain}
+      * being sapped by []{move:leech-seed}
+      * being targeted by []{move:lock-on} or []{move:mind-reader}
+      * []{move:magnet-rise}
+      * []{move:perish-song}'s counter
+      * []{move:power-trick}
+      * []{move:substitute}; the doll's HP is unchanged
+
+      The replacement Pokémon does not trigger effects that respond to Pokémon switching in.
+  short_effect:
+    en: 'Allows the trainer to switch out the user and pass effects along to its replacement.'
+move-effect-129:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  If the target attempts to [switch out]{mechanic:switch-out} this turn before the user acts, this move hits the target before it leaves and has double power.
+
+      This effect can still hit a Pokémon that [switches out]{mechanic:switches-out} when it has a []{move:substitute} up or when an ally has used []{move:follow-me}.
+  short_effect:
+    en: 'Has double power against, and can hit, Pokémon attempting to switch out.'
+move-effect-130:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Removes []{move:leech-seed} from the user, frees the user from []{move:bind}, []{move:clamp}, []{move:fire-spin}, []{move:magma-storm}, []{move:sand-tomb}, []{move:whirlpool}, and []{move:wrap}, and clears []{move:spikes}, []{move:stealth-rock}, and []{move:toxic-spikes} from the user's side of the [field]{mechanic:field}.  If this move misses or has [no effect]{mechanic:no-effect}, its effect doesn't activate."
+  short_effect:
+    en: 'Frees the user from binding moves, removes Leech Seed, and blows away Spikes.'
+move-effect-131:
+  changelog: {  }
+  effect:
+    en: 'Inflicts exactly 20 damage.'
+  short_effect:
+    en: 'Inflicts 20 points of damage.'
+move-effect-133:
+  changelog: {  }
+  effect:
+    en: |-
+      Heals the user for half its max [HP]{mechanic:hp}.
+
+      During []{move:sunny-day}, the healing is increased to 2/3 max [HP]{mechanic:hp}.
+
+      During []{move:hail}, []{move:rain-dance}, or []{move:sandstorm}, the healing is decreased to 1/4 max [HP]{mechanic:hp}.
+  short_effect:
+    en: 'Heals the user by half its max HP.  Affected by weather.'
+    cs: 'Uzdraví uživatele za 1/2 max. HP. Ovlivněno počasím.'
+move-effect-136:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Power and type are determined by the user's [IV]{mechanic:iv}s.
+
+      Power is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the [IV]{mechanic:iv} for each of [Special Defense]{mechanic:special-defense}, [Special Attack]{mechanic:special-attack}, [Speed]{mechanic:speed}, [Defense]{mechanic:defense}, [Attack]{mechanic:attack}, and [HP]{mechanic:hp} in that order.  (Bit 1 is 1 if the [IV]{mechanic:iv} is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * [Special Defense]{mechanic:special-defense} [IV]{mechanic:iv} bit 1, plus 32 * [Special Attack]{mechanic:special-attack} [IV]{mechanic:iv} bit 1, etc.)
+
+      Power is always between 30 and 70, inclusive.  Average power is 49.5.
+
+      Type is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the [IV]{mechanic:iv} is odd.)  The result is looked up in the following table.
+
+      Value | Type
+      ----: | --------
+          0 | []{type:fighting}
+          1 | []{type:flying}
+          2 | []{type:poison}
+          3 | []{type:ground}
+          4 | []{type:rock}
+          5 | []{type:bug}
+          6 | []{type:ghost}
+          7 | []{type:steel}
+          8 | []{type:fire}
+          9 | []{type:water}
+         10 | []{type:grass}
+         11 | []{type:electric}
+         12 | []{type:psychic}
+         13 | []{type:ice}
+         14 | []{type:dragon}
+         15 | []{type:dark}
+
+      This move thus cannot be []{type:normal}.  Most other types have an equal 1/16 chance to be selected, given random [IV]{mechanic:iv}s.  However, due to the flooring used here, []{type:bug}, []{type:fighting}, and []{type:grass} appear 5/64 of the time, and []{type:dark} only 1/64 of the time.
+  short_effect:
+    en: "Power and type depend upon user's IVs.  Power can range from 30 to 70."
+    cs: 'Síla a typ závisí na uživatelových genech. Síla může být od 30 do 70.'
+move-effect-137:
+  changelog: {  }
+  effect:
+    en: |-
+      Changes the weather to rain for five turns, during which []{type:water} moves inflict 50% extra damage, and []{type:fire} moves inflict half damage.
+
+      If the user is holding []{item:damp-rock}, this effect lasts for eight turns.
+
+      []{move:thunder} has 100% accuracy.  If the target has used []{move:detect} or []{move:protect}, []{move:thunder} has a (100 - accuracy)% chance to break through the protection.
+
+      []{move:solar-beam} has half power.
+
+      []{move:moonlight}, []{move:morning-sun}, and []{move:synthesis} heal only 1/4 of the user's max [HP]{mechanic:hp}.
+
+      Pokémon with []{ability:swift-swim} have doubled original [Speed]{mechanic:speed}.
+
+      Pokémon with []{ability:forecast} become []{type:water}.
+
+      Pokémon with []{ability:dry-skin} heal 1/8 max [HP]{mechanic:hp}, Pokémon with []{ability:hydration} are cured of [major status effects]{mechanic:major-status-effects}, and Pokémon with []{ability:rain-dish} heal 1/16 max [HP]{mechanic:hp} at the end of each turn.
+  short_effect:
+    en: 'Changes the weather to rain for five turns.'
+    cs: 'Na pět kol způsobí déšť.'
+move-effect-138:
+  changelog: {  }
+  effect:
+    en: |-
+      Changes the weather to sunshine for five turns, during which []{type:fire} moves inflict 50% extra damage, and []{type:water} moves inflict half damage.
+
+      If the user is holding []{item:heat-rock}, this effect lasts for eight turns.
+
+      Pokémon cannot become [frozen]{mechanic:frozen}.
+
+      []{move:thunder} has 50% accuracy.
+
+      []{move:solar-beam} skips its charge turn.
+
+      []{move:moonlight}, []{move:morning-sun}, and []{move:synthesis} heal 2/3 of the user's max [HP]{mechanic:hp}.
+
+      Pokémon with []{ability:chlorophyll} have doubled original [Speed]{mechanic:speed}.
+
+      Pokémon with []{ability:forecast} become []{type:fire}.
+
+      Pokémon with []{ability:leaf-guard} are not affected by [major status effects]{mechanic:major-status-effects}.
+
+      Pokémon with []{ability:flower-gift} change form; every Pokémon on their side of the [field]{mechanic:field} have their original [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} increased by 50%.
+
+      Pokémon with []{ability:dry-skin} lose 1/8 max [HP]{mechanic:hp} at the end of each turn.
+
+      Pokémon with []{ability:solar-power} have their original [Special Attack]{mechanic:special-attack} raised by 50% but lose 1/8 their max [HP]{mechanic:hp} at the end of each turn.
+  short_effect:
+    en: 'Changes the weather to sunny for five turns.'
+    cs: 'Na pět kol způsobí, že slunce svítí jasněji než normálně.'
+move-effect-139:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}. Has a $effect_chance% chance to raise the user's [Defense]{mechanic:defense} one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Has a $effect_chance% chance to raise the user's Defense by one stage."
+move-effect-140:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}. Has a $effect_chance% chance to raise the user's [Attack]{mechanic:attack} one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Has a $effect_chance% chance to raise the user's Attack by one stage."
+move-effect-141:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}. Has a $effect_chance% chance to raise all of the user's stats one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Has a $effect_chance% chance to raise all of the user's stats by one stage."
+    cs: 'Má $effect_chance% šanci uživateli zvýšit všechny staty o jeden stupeň.'
+move-effect-143:
+  changelog: {  }
+  effect:
+    en: 'User pays half its max [HP]{mechanic:hp} to raise its [Attack]{mechanic:attack} to +6 [stages]{mechanic:stage}.  If the user cannot pay the [HP]{mechanic:hp} cost, this move will [fail]{mechanic:fail}.'
+  short_effect:
+    en: 'User pays half its max HP to max out its Attack.'
+move-effect-144:
+  changelog: {  }
+  effect:
+    en: |-
+      Discards the user's [stat changes]{mechanic:stat-changes} and copies the target's.
+
+      This move cannot be copied by []{move:mirror-move}.
+  short_effect:
+    en: "Discards the user's stat changes and copies the target's."
+move-effect-145:
+  changelog: {  }
+  effect:
+    en: |-
+      Targets the last opposing Pokémon to hit the user with a [special]{mechanic:special} move this turn.  Inflicts twice the damage that move did to the user.  If there is no eligible target, this move will [fail]{mechanic:fail}.  Type immunity applies, but other type effects are ignored.
+
+      This move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: 'Inflicts twice the damage the user received from the last special hit it took.'
+    cs: 'Způsobí dvakrát více speciálního zranění, než kolik utržil uživatel když byl naposledy zasažen.'
+move-effect-146:
+  changelog:
+    gold-silver:
+      effect:
+        en: 'Does not raise [Defense]{mechanic:defense}.'
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Raises the user's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}.  User then charges for one turn before attacking.
+
+      This move cannot be selected by []{move:sleep-talk}.
+  short_effect:
+    en: "Raises the user's Defense by one stage.  User charges for one turn before attacking."
+    cs: 'Zvýší uživateli Obranu o jeden stupeň. Zaútočí až v následujícím kole.'
+move-effect-147:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make each target [flinch]{mechanic:flinch}.
+
+      If the target is under the effect of []{move:bounce}, []{move:fly}, or []{move:sky-drop}, this move will hit with double power.
+  short_effect:
+    en: 'Has a $effect_chance% chance to make the target flinch.'
+    cs: 'Má $effect_chance% šanci, že se protivník zalekne.'
+move-effect-148:
+  changelog:
+    gold-silver:
+      effect:
+        en: 'Does not hit Pokémon under the effects of []{move:dig}.'
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.
+
+      If the target is in the first turn of []{move:dig}, this move will hit with double power.
+  short_effect:
+    en: 'Inflicts regular damage and can hit Dig users.'
+    cs: 'Normálně zraňuje; zasáhne i pokémony pod zemí.'
+move-effect-149:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [typeless]{mechanic:typeless} [regular damage]{mechanic:regular-damage} at the end of the third turn, starting with this one.  This move cannot score a [critical hit]{mechanic:critical-hit}.  If the target [switches out]{mechanic:switches-out}, its replacement will be hit instead.  Damage is calculated at the time this move is used; [stat changes]{mechanic:stat-changes} and [switching out]{mechanic:switching-out} during the delay won't change the damage inflicted.  No move with this effect can be used against the same target again until after the end of the third turn.
+
+      This effect breaks through []{ability:wonder-guard}.
+
+      If the target is protected by []{move:protect} or []{move:detect} on the turn this move is used, this move will [fail]{mechanic:fail}.  However, the damage on the third turn will break through protection.
+
+      The damage is applied at the end of the turn, so it ignores []{move:endure} and []{item:focus-sash}.
+
+      This move cannot be copied by []{move:mirror-move}.
+  short_effect:
+    en: 'Hits the target two turns later.'
+move-effect-150:
+  changelog:
+    gold-silver:
+      effect:
+        en: 'Does not hit Pokémon under the effects of []{move:fly}.'
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.
+
+      If the target is under the effect of []{move:bounce}, []{move:fly}, or []{move:sky-drop}, this move will hit with double power.
+  short_effect:
+    en: 'Inflicts regular damage and can hit Pokémon in the air.'
+move-effect-151:
+  changelog:
+    gold-silver:
+      effect:
+        en: 'Does not interact with []{move:minimize}.'
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target [flinch]{mechanic:flinch}.
+
+      Power is doubled against Pokémon that have used []{move:minimize} since entering the [field]{mechanic:field}.
+  short_effect:
+    en: 'Has a $effect_chance% chance to make the target flinch.'
+    cs: 'Má $effect_chance% šanci, že se protivník zalekne.'
+move-effect-152:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  User charges for one turn before attacking.
+
+      During []{move:sunny-day}, the charge turn is skipped.
+
+      During []{move:hail}, []{move:rain-dance}, or []{move:sandstorm}, power is halved.
+
+      This move cannot be selected by []{move:sleep-talk}.
+  short_effect:
+    en: 'Requires a turn to charge before attacking.'
+    cs: 'První kolo se nabíjí, zaútočí až v druhém.'
+move-effect-153:
+  changelog:
+    gold-silver:
+      effect:
+        en: 'Does not hit Pokémon under the effects of []{move:fly}.'
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.
+
+      During []{move:rain-dance}, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of []{move:protect} and []{move:detect}.
+
+      During []{move:sunny-day}, this move has 50% accuracy.
+  short_effect:
+    en: 'Has a $effect_chance% chance to paralyze the target.'
+    cs: 'Má $effect_chance% šanci paralyzovat protivníka.'
+move-effect-154:
+  changelog: {  }
+  effect:
+    en: 'Does nothing.  Wild battles end immediately.'
+  short_effect:
+    en: 'Immediately ends wild battles.  No effect otherwise.'
+move-effect-155:
+  changelog:
+    black-white:
+      effect:
+        en: "Determines damage using each participant's base [Attack]{mechanic:attack} and the opponent's base [Defense]{mechanic:defense} in place of calculated stats."
+  effect:
+    en: |-
+      Inflicts [typeless]{mechanic:typeless} [regular damage]{mechanic:regular-damage}.  Every Pokémon in the user's party, excepting those that have fainted or have a [major status effect]{mechanic:major-status-effect}, attacks the target.  Calculated stats are ignored; the base stats for the target and assorted attackers are used instead.  The random factor in the damage formula is not used.  []{type:dark} Pokémon still get [STAB]{mechanic:stab}.
+
+      This effect breaks through []{ability:wonder-guard}.
+  short_effect:
+    en: 'Hits once for every conscious Pokémon the trainer has.'
+move-effect-156:
+  changelog:
+    gold-silver:
+      effect:
+        en: "[]{move:swift} can hit the user while in the air, and no other moves can.  Due to a bug, if the user fails to carry out the move's second turn, e.g. due to [paralysis]{mechanic:paralysis}, it remains in the air until it switches out or uses Fly again successfully.  It can act as if it were on the ground in the meantime, but moves still miss it."
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+      During the immune turn, []{move:gust}, []{move:hurricane}, []{move:sky-uppercut}, []{move:smack-down}, []{move:thunder}, []{move:twister}, and []{move:whirlwind} still hit the user normally.  []{move:gust} and []{move:twister} also have double power against the user.
+
+      The damage from []{move:hail} and []{move:sandstorm} still applies during the immune turn.
+
+      The user may be hit during its immune turn if under the effect of []{move:lock-on}, []{move:mind-reader}, or []{ability:no-guard}.
+
+      This move cannot be used while []{move:gravity} is in effect.
+
+      This move cannot be selected by []{move:sleep-talk}.
+  short_effect:
+    en: 'User flies high into the air, dodging all attacks, and hits next turn.'
+move-effect-157:
+  changelog: {  }
+  effect:
+    en: |-
+      Raises user's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}.
+
+      After this move is used, the power of []{move:ice-ball} and []{move:rollout} are doubled until the user leaves the [field]{mechanic:field}.
+  short_effect:
+    en: "Raises user's Defense by one stage."
+    cs: 'Zvýší uživatelovu Obranu o jeden stupeň.'
+move-effect-159:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Causes the target to []{mechanic:flinch}.  Can only be used on the user's first turn after entering the [field]{mechanic:field}."
+  short_effect:
+    en: 'Can only be used as the first move after the user enters battle.  Causes the target to flinch.'
+move-effect-160:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  User is forced to use this move for 2–5 turns, selected at random.  All Pokémon on the [field]{mechanic:field} wake up, and none can fall to [sleep]{mechanic:sleep} until the lock-in ends.
+
+      Pokémon cannot use []{move:rest} during this effect.
+
+      This move cannot be selected by []{move:sleep-talk}.
+  short_effect:
+    en: 'Forced to use this move for several turns.  Pokémon cannot fall asleep in that time.'
+    cs: 'Používá se po několik kol stále dokola. Mezitím pokémoni nemohou usnout.'
+move-effect-161:
+  changelog:
+    diamond-pearl:
+      effect:
+        en: 'Does not raise [Defense]{mechanic:defense} or [Special Defense]{mechanic:special-defense}.'
+  effect:
+    en: |-
+      Raises the user's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} by one [stage]{mechanic:stage} each.  Stores energy for use with []{move:spit-up} and []{move:swallow}.  Up to three levels of energy can be stored, and all are lost if the user leaves the [field]{mechanic:field}.  Energy is still stored even if the stat boosts cannot be applied.
+
+      If the user uses []{move:baton-pass}, the stat boosts are passed as normal, but the stored energy is not.
+  short_effect:
+    en: 'Stores energy up to three times for use with Spit Up and Swallow.'
+move-effect-162:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Power is equal to 100 times the amount of energy stored by []{move:stockpile}.  Ignores the random factor in the damage formula.  Stored energy is consumed, and the user's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} are reset to what they would be if []{move:stockpile} had not been used.  If the user has no energy stored, this move will [fail]{mechanic:fail}.
+
+      This move cannot be copied by []{move:mirror-move}.
+  short_effect:
+    en: 'Power is 100 times the amount of energy Stockpiled.'
+move-effect-163:
+  changelog: {  }
+  effect:
+    en: "Heals the user depending on the amount of energy stored by []{move:stockpile}: 1/4 its max [HP]{mechanic:hp} after one use, 1/2 its max [HP]{mechanic:hp} after two uses, or fully after three uses.  Stored energy is consumed, and the user's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} are reset to what they would be if []{move:stockpile} had not been used.  If the user has no energy stored, this move will [fail]{mechanic:fail}."
+  short_effect:
+    en: 'Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles.'
+move-effect-165:
+  changelog: {  }
+  effect:
+    en: |-
+      Changes the weather to hail for five turns, during which non-[]{type:ice} Pokémon are damaged for 1/16 their max [HP]{mechanic:hp} at the end of every turn.
+
+      If the user is holding []{item:icy-rock}, this effect lasts for eight turns.
+
+      []{move:blizzard} has 100% accuracy.  If the target has used []{move:detect} or []{move:protect}, []{move:blizzard} has a (100 - accuracy)% chance to break through the protection.
+
+      []{move:moonlight}, []{move:morning-sun}, and []{move:synthesis} heal only 1/4 of the user's max [HP]{mechanic:hp}.
+
+      Pokémon with []{ability:snow-cloak} are exempt from this effect's damage.
+  short_effect:
+    en: 'Changes the weather to a hailstorm for five turns.'
+    cs: 'Na pět kol přivolá padající kroupy.'
+move-effect-166:
+  changelog: {  }
+  effect:
+    en: |-
+      Prevents the target from attempting to use the same move twice in a row.  When the target leaves the [field]{mechanic:field}, this effect ends.
+
+      If the target is forced to attempt a repeated move due to []{item:choice-band}, []{item:choice-scarf}, []{item:choice-specs}, []{move:disable}, []{move:encore}, []{move:taunt}, only having [PP]{mechanic:pp} remaining for one move, or any other effect, the target will use []{move:struggle} instead.  The target is then free to use the forced move next turn, as it didn't use that move this turn.
+  short_effect:
+    en: 'Prevents the target from using the same move twice in a row.'
+move-effect-167:
+  changelog: {  }
+  effect:
+    en: "Raises the target's [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage}, then [confuses]{mechanic:confuses} it."
+  short_effect:
+    en: "Raises the target's Special Attack by one stage and confuses the target."
+move-effect-168:
+  changelog: {  }
+  effect:
+    en: '[Burns]{mechanic:burns} the target.'
+  short_effect:
+    en: 'Burns the target.'
+move-effect-169:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage}.  User faints."
+  short_effect:
+    en: "Lowers the target's Attack and Special Attack by two stages.  User faints."
+    cs: 'Sníží protivníkův Útok a Speciální útok o dva stupně. Uživatel omdlí.'
+move-effect-170:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If the user is [burned]{mechanic:burned}, [paralyzed]{mechanic:paralyzed}, or [poisoned]{mechanic:poisoned}, this move has double power.'
+  short_effect:
+    en: 'Power doubles if user is burned, paralyzed, or poisoned.'
+    cs: 'Při popálení, paralýze nebo otravě má dvojnásobnou sílu.'
+move-effect-171:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  If the user takes damage this turn before hitting, this move will [fail]{mechanic:fail}.
+
+      This move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}.
+  short_effect:
+    en: 'If the user takes damage before attacking, the attack is canceled.'
+    cs: 'Pokud uživatel před zaútočením utrží zranění, tento útok se nepovede.'
+move-effect-172:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If the target is [paralyzed]{mechanic:paralyzed}, this move has double power, and the target is cured of its [paralysis]{mechanic:paralysis}.'
+  short_effect:
+    en: 'If the target is paralyzed, inflicts double damage and cures the paralysis.'
+move-effect-173:
+  changelog: {  }
+  effect:
+    en: |-
+      Until the end of this turn, any moves that opposing Pokémon target solely at the user's ally will instead target the user.  If both Pokémon on the same side of the [field]{mechanic:field} use this move on the same turn, the Pokémon that uses it last will become the target.
+
+      This effect takes priority over []{ability:lightning-rod} and []{ability:storm-drain}.
+
+      If the user's ally [switches out]{mechanic:switches-out}, opposing Pokémon may still hit it with []{move:pursuit}.
+
+      This move cannot be selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: "Redirects the target's single-target effects to the user for this turn."
+move-effect-174:
+  changelog: {  }
+  effect:
+    en: |-
+      Uses another move chosen according to the terrain.
+
+      Terrain                   | Selected move
+      ------------------------- | ------------------
+      Building                  | []{move:tri-attack}
+      Cave                      | []{move:rock-slide}
+      Deep water                | []{move:hydro-pump}
+      Desert                    | []{move:earthquake}
+      Grass                     | []{move:seed-bomb}
+      Mountain                  | []{move:rock-slide}
+      Road                      | []{move:earthquake}
+      Shallow water             | []{move:hydro-pump}
+      Snow                      | []{move:blizzard}
+      Tall grass                | []{move:seed-bomb}
+      []{move:electric-terrain} | []{move:thunderbolt}
+      []{move:grassy-terrain}   | []{move:energy-ball}
+      []{move:misty-terrain}    | []{move:moonblast}
+
+      In Pokémon Battle Revolution:
+
+      Terrain        | Selected move
+      -------------- | ------------------
+      Courtyard      | []{move:tri-attack}
+      Crystal        | []{move:rock-slide}
+      Gateway        | []{move:hydro-pump}
+      Magma          | []{move:rock-slide}
+      Main Street    | []{move:tri-attack}
+      Neon           | []{move:tri-attack}
+      Stargazer      | []{move:rock-slide}
+      Sunny Park     | []{move:seed-bomb}
+      Sunset         | []{move:earthquake}
+      Waterfall      | []{move:seed-bomb}
+
+      This move cannot be copied by []{move:mirror-move}.
+  short_effect:
+    en: 'Uses a move which depends upon the terrain.'
+    cs: 'Použije útok závislý na okolním prostředí.'
+move-effect-175:
+  changelog:
+    diamond-pearl:
+      effect:
+        en: "Does not raise the user's [Special Defense]{mechanic:special-defense}."
+  effect:
+    en: "Raises the user's [Special Defense]{mechanic:special-defense} by one [stage]{mechanic:stage}.  If the user uses an []{type:electric} move next turn, its power will be doubled."
+  short_effect:
+    en: "Raises the user's Special Defense by one stage.  User's Electric moves have doubled power next turn."
+    cs: 'Zvýší uživatelovu Speciální obranu o jeden stupeň. Jeho Elektrické útoky mají v příštím kole dvojnásobnou sílu.'
+move-effect-176:
+  changelog: {  }
+  effect:
+    en: |-
+      Target is forced to only use damaging moves for the next 3–5 turns, selected at random.  Moves that select other moves not known in advance do not count as damaging.
+
+      []{move:assist}, []{move:copycat}, []{move:me-first}, []{move:metronome}, []{move:mirror-move}, and []{move:sleep-talk} do not directly inflict damage and thus may not be used.
+
+      []{move:bide}, []{move:counter}, []{move:endeavor}, []{move:metal-burst}, and []{move:mirror-coat} are allowed.
+  short_effect:
+    en: 'For the next few turns, the target can only use damaging moves.'
+move-effect-177:
+  changelog: {  }
+  effect:
+    en: |-
+      Boosts the power of the target's moves by 50% until the end of this turn.
+
+      This move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: "Ally's next move inflicts half more damage."
+move-effect-178:
+  changelog: {  }
+  effect:
+    en: |-
+      User and target permanently swap [held item]{mechanic:held-item}s.  Works even if one of the Pokémon isn't holding anything.  If either Pokémon is holding mail, this move will [fail]{mechanic:fail}.
+
+      If either Pokémon has []{ability:multitype} or []{ability:sticky-hold}, this move will [fail]{mechanic:fail}.
+
+      If this move results in a Pokémon obtaining []{item:choice-band}, []{item:choice-scarf}, or []{item:choice-specs}, and that Pokémon was the latter of the pair to move this turn, then the move it used this turn becomes its chosen forced move.  This applies even if both Pokémon had a choice item before this move was used.  If the first of the two Pokémon gains a choice item, it may select whatever choice move it wishes next turn.
+
+      Neither the user nor the target can recover its item with []{move:recycle}.
+
+      This move cannot be selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: 'User and target swap items.'
+move-effect-179:
+  changelog: {  }
+  effect:
+    en: |-
+      User's ability is replaced with the target's until the user leaves the [field]{mechanic:field}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.
+
+      If the target has []{ability:flower-gift}, []{ability:forecast}, []{ability:illusion}, []{ability:imposter}, []{ability:multitype}, []{ability:stance-change}, []{ability:trace}, []{ability:wonder-guard}, or []{ability:zen-mode}, this move will [fail]{mechanic:fail}.
+
+      This move cannot be copied by []{move:mirror-move}.
+  short_effect:
+    en: "Copies the target's ability."
+move-effect-180:
+  changelog:
+    black-white:
+      effect:
+        en: 'Heals replacement Pokémon by half of their max HP.'
+  effect:
+    en: "At the end of the next turn, user will be healed for half its max [HP]{mechanic:hp}.  If the user is [switched out]{mechanic:switched-out}, its replacement will be healed instead for half of the user's max HP.  If the user [faint]{mechanic:faint}s or is forcefully switched by []{move:roar} or []{move:whirlwind}, this effect will not activate."
+  short_effect:
+    en: 'User will recover half its max HP at the end of the next turn.'
+move-effect-181:
+  changelog: {  }
+  effect:
+    en: |-
+      Uses a move from another Pokémon in the user's party, both selected at random.  Moves from fainted Pokémon can be used.  If there are no eligible Pokémon or moves, this move will [fail]{mechanic:fail}.
+
+      This move will not select []{move:assist}, []{move:chatter}, []{move:circle-throw}, []{move:copycat}, []{move:counter}, []{move:covet}, []{move:destiny-bond}, []{move:detect}, []{move:dig}, []{move:dive}, []{move:dragon-tail}, []{move:endure}, []{move:feint}, []{move:fly} []{move:focus-punch}, []{move:follow-me}, []{move:helping-hand}, []{move:me-first}, []{move:metronome}, []{move:mimic}, []{move:mirror-coat}, []{move:mirror-move}, []{move:phantom-force} []{move:protect}, []{move:quick-guard}, []{move:roar} []{move:shadow-force}, []{move:sketch}, []{move:sleep-talk}, []{move:snatch}, []{move:struggle}, []{move:switcheroo}, []{move:thief}, []{move:trick}, []{move:whirlwind}, or []{move:wide-guard}.
+
+      This move cannot be copied by []{move:mirror-move}, nor selected by []{move:metronome} or []{move:sleep-talk}.
+  short_effect:
+    en: "Randomly selects and uses one of the trainer's other Pokémon's moves."
+move-effect-182:
+  changelog: {  }
+  effect:
+    en: |-
+      Prevents the user from [switching out]{mechanic:switching-out}.  User regains 1/16 of its max [HP]{mechanic:hp} at the end of every turn.  If the user was immune to []{type:ground} attacks, it will now take normal damage from them.
+
+      []{move:roar} and []{move:whirlwind} will not affect the user.  The user cannot use []{move:magnet-rise}.
+
+      The user may still use []{move:u-turn} to leave the [field]{mechanic:field}.
+
+      This effect can be passed with []{move:baton-pass}.
+  short_effect:
+    en: 'Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn.'
+    cs: 'Nedovolí uživateli opustit zápas a léčí ho za 1/16 max. HP za kolo.'
+move-effect-183:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}, then lowers the user's [Attack]{mechanic:attack} and [Defense]{mechanic:defense} by one [stage]{mechanic:stage} each."
+  short_effect:
+    en: "Lowers the user's Attack and Defense by one stage after inflicting damage."
+    cs: 'Po zranění sníží uživateli Útok a Obranu o jeden stupeň.'
+move-effect-184:
+  changelog: {  }
+  effect:
+    en: |-
+      The first non-damaging move targeting the user this turn that inflicts [major status effect]{mechanic:major-status-effect}s, [stat change]{mechanic:stat-change}s, or [trap]{mechanic:trap}ping effects will be reflected at its user.
+
+      []{move:defog}, []{move:memento}, and []{move:teeter-dance} are not reflected.
+
+      []{move:attract}, []{move:flatter}, []{move:gastro-acid}, []{move:leech-seed}, []{move:swagger}, []{move:worry-seed}, and []{move:yawn} are reflected.
+
+      This move cannot be copied by []{move:mirror-move}.
+  short_effect:
+    en: 'Reflects back the first effect move used on the user this turn.'
+move-effect-185:
+  changelog: {  }
+  effect:
+    en: |-
+      User recovers the last item consumed by the user or a Pokémon in its position on the [field]{mechanic:field}.  The item must be used again before it can be recovered by this move again.  If the user is holding an item, this move [fail]{mechanic:fail}s.
+
+      Items taken or given away by []{move:covet}, []{move:knock-off}, []{move:switcheroo}, []{move:thief}, or []{move:trick} may not be recovered.
+  short_effect:
+    en: 'User recovers the item it last used up.'
+move-effect-186:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  If the target damaged the user this turn and was the last to do so, this move has double power.
+
+      []{move:pain-split} does not count as damaging the user.
+  short_effect:
+    en: 'Inflicts double damage if the user takes damage before attacking this turn.'
+    cs: 'Způsobí dvojnásobné zranění, pokud uživatel už byl toto kolo zraněn.'
+move-effect-187:
+  changelog:
+    black-white:
+      effect:
+        en: 'The barriers are destroyed even if this move has [no effect]{mechanic:no-effect}.'
+  effect:
+    en: "Destroys any []{move:light-screen} or []{move:reflect} on the target's side of the [field]{mechanic:field}, then inflicts [regular damage]{mechanic:regular-damage}."
+  short_effect:
+    en: 'Destroys Reflect and Light Screen.'
+    cs: 'Zruší Reflect a Light Screen.'
+move-effect-188:
+  changelog: {  }
+  effect:
+    en: |-
+      Puts the target to [sleep]{mechanic:sleep} at the end of the next turn.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  If the target leaves the [field]{mechanic:field}, this effect is canceled.  If the target has a status effect when this move is used, this move will [fail]{mechanic:fail}.
+
+      If the target is protected by []{move:safeguard} when this move is used, this move will [fail]{mechanic:fail}.
+
+      []{ability:insomnia} and []{ability:vital-spirit} prevent the [sleep]{mechanic:sleep} if the target has either at the end of the next turn, but will not cause this move to [fail]{mechanic:fail} on use.
+  short_effect:
+    en: 'Target sleeps at the end of the next turn.'
+move-effect-189:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Target loses its [held item]{mechanic:held-item}.
+
+      Neither the user nor the target can recover its item with []{move:recycle}.
+
+      If the target has []{ability:multitype} or []{ability:sticky-hold}, it will take damage but not lose its item.
+  short_effect:
+    en: 'Target drops its held item.'
+    cs: 'Přinutí protivníka pustit drženou věc.'
+move-effect-190:
+  changelog: {  }
+  effect:
+    en: "Inflicts exactly enough damage to lower the target's [HP]{mechanic:hp} to equal the user's.  If the target's HP is not higher than the user's, this move has no effect.  Type immunity applies, but other type effects are ignored.  This effect counts as damage for moves that respond to damage."
+  short_effect:
+    en: "Lowers the target's HP to equal the user's."
+    cs: 'Sníží protivníkovo HP na tolik, kolik má uživatel.'
+move-effect-191:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Power increases with the user's remaining [HP]{mechanic:hp} and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP."
+  short_effect:
+    en: 'Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.'
+move-effect-192:
+  changelog: {  }
+  effect:
+    en: |-
+      User and target switch abilities.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.
+
+      If either Pokémon has []{ability:multitype} or []{ability:wonder-guard}, this move will [fail]{mechanic:fail}.
+  short_effect:
+    en: 'User and target swap abilities.'
+move-effect-193:
+  changelog: {  }
+  effect:
+    en: "Prevents any Pokémon on the opposing side of the [field]{mechanic:field} from using any move the user knows until the user leaves the [field]{mechanic:field}.  This effect is live; if the user obtains new moves while on the [field]{mechanic:field}, these moves become restricted.  If no opposing Pokémon knows any of the user's moves when this move is used, this move will [fail]{mechanic:fail}."
+  short_effect:
+    en: 'Prevents the target from using any moves that the user also knows.'
+move-effect-194:
+  changelog: {  }
+  effect:
+    en: 'Removes a [burn]{mechanic:burn}, [paralysis]{mechanic:paralysis}, or [poison]{mechanic:poison} from the user.'
+  short_effect:
+    en: 'Cleanses the user of a burn, paralysis, or poison.'
+move-effect-195:
+  changelog: {  }
+  effect:
+    en: 'If the user [faint]{mechanic:faint}s before it next acts, the move that fainted it will have its [PP]{mechanic:pp} dropped to 0.  End-of-turn damage does not trigger this effect.'
+  short_effect:
+    en: 'If the user faints this turn, the PP of the move that fainted it drops to 0.'
+move-effect-196:
+  changelog: {  }
+  effect:
+    en: |-
+      The next time a Pokémon uses a beneficial move on itself or itself and its ally this turn, the user of this move will steal the move and use it itself.  Moves which may be stolen by this move are identified by the "snatchable" flag.
+
+      If two Pokémon use this move on the same turn, the faster Pokémon will steal the first beneficial move, and the slower Pokémon will then steal it again—thus, only the slowest Pokémon using this move ultimately gains a stolen move's effect.
+
+      If the user steals []{move:psych-up}, it will target the Pokémon that used []{move:psych-up}.  If the user was the original target of []{move:psych-up}, and the Pokémon that originally used it's affected by []{ability:pressure}, it will only lose 1 [PP]{mechanic:pp}.
+
+      This move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: "Steals the target's move, if it's self-targeted."
+move-effect-197:
+  changelog: {  }
+  effect:
+    en: |
+      Inflicts [regular damage]{mechanic:regular-damage}.  Power increases with the target's weight in kilograms, to a maximum of 120.
+
+      Target's weight | Power
+      --------------- | ----:
+      Up to 10kg      |    20
+      Up to 25kg      |    40
+      Up to 50kg      |    60
+      Up to 100kg     |    80
+      Up to 200kg     |   100
+      Above 200kg     |   120
+  short_effect:
+    en: 'Inflicts more damage to heavier targets, with a maximum of 120 power.'
+    cs: 'Silnější proti těžším protivníkům. Maximální síla je 120.'
+move-effect-198:
+  changelog: {  }
+  effect:
+    en: |
+      Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to inflict an effect chosen according to the terrain.
+
+      Terrain        | Effect
+      -------------- | -------------------------------------------------------------
+      Building       | [Paralyze]{mechanic:paralyze}s target
+      Cave           | Makes target [flinch]{mechanic:flinch}
+      Deep water     | Lowers target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}
+      Desert         | Lowers target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}
+      Grass          | Puts target to [sleep]{mechanic:sleep}
+      Mountain       | Makes target [flinch]{mechanic:flinch}
+      Road           | Lowers target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}
+      Shallow water  | Lowers target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}
+      Snow           | [Freezes]{mechanic:freezes} target
+      Tall grass     | Puts target to [sleep]{mechanic:sleep}
+
+      In Pokémon Battle Revolution:
+
+      Terrain        | Effect
+      -------------- | -------------------------------------------------------------
+      Courtyard      | [Paralyze]{mechanic:paralyze}s target
+      Crystal        | Makes target [flinch]{mechanic:flinch}
+      Gateway        | Lowers target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}
+      Magma          | Makes target [flinch]{mechanic:flinch}
+      Main Street    | [Paralyze]{mechanic:paralyze}s target
+      Neon           | [Paralyze]{mechanic:paralyze}s target
+      Stargazer      | Makes target [flinch]{mechanic:flinch}
+      Sunny Park     | Puts target to [sleep]{mechanic:sleep}
+      Sunset         | Lowers target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}
+      Waterfall      | Puts target to [sleep]{mechanic:sleep}
+  short_effect:
+    en: 'Has a $effect_chance% chance to inflict a status effect which depends upon the terrain.'
+    cs: 'Má $effect_chance% šanci způsobit změnu stavu. Jakou, to závisí na okolním prostředí.'
+move-effect-199:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/3 the damage it inflicts in recoil.'
+  short_effect:
+    en: 'User receives 1/3 the damage inflicted in recoil.'
+move-effect-200:
+  changelog: {  }
+  effect:
+    en: '[Confuse]{mechanic:confuse}s all targets.'
+  short_effect:
+    en: 'Confuses the target.'
+move-effect-201:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move. Has a $effect_chance% chance to [burn]{mechanic:burn} the target."
+  short_effect:
+    en: 'Has an increased chance for a critical hit and a $effect_chance% chance to [burn]{mechanic:burn} the target.'
+move-effect-202:
+  changelog: {  }
+  effect:
+    en: '[]{type:electric} moves inflict half damage, regardless of target.  If the user leaves the [field]{mechanic:field}, this effect ends.'
+  short_effect:
+    en: 'Halves all Electric-type damage.'
+move-effect-203:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [badly poison]{mechanic:badly-poison} the target.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to badly poison the target.'
+move-effect-204:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If a weather move is active, this move has double power, and its type becomes the type of the weather move.  []{move:shadow-sky} is typeless for the purposes of this move.'
+  short_effect:
+    en: "If there be weather, this move has doubled power and the weather's type."
+move-effect-205:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}, then lowers the user's [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the user's Special Attack by two stages after inflicting damage."
+    cs: 'Po zranění protivníka sníží uživatelův Speciální útok o dva stupně.'
+move-effect-206:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [Attack]{mechanic:attack} and [Defense]{mechanic:defense} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Attack and Defense by one stage."
+    cs: 'Sníží protivníkův Útok a Obranu o jeden stupeň.'
+move-effect-207:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's Defense and Special Defense by one stage."
+    cs: 'Zvýší uživatelovu Obranu a Speciální obranu o jeden stupeň.'
+move-effect-208:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.
+
+      This move can hit Pokémon under the effect of []{move:bounce}, []{move:fly}, or []{move:sky-drop}.
+  short_effect:
+    en: 'Inflicts regular damage and can hit Bounce and Fly users.'
+move-effect-209:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Attack]{mechanic:attack} and [Defense]{mechanic:defense} by one [stage]{mechanic:stage} each."
+  short_effect:
+    en: "Raises the user's Attack and Defense by one stage."
+    cs: 'Zvýší uživatelův Útok a Obranu o jeden stupeň.'
+move-effect-210:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move. Has a $effect_chance% chance to [poison]{mechanic:poison} the target."
+  short_effect:
+    en: 'Has an increased chance for a critical hit and a $effect_chance% chance to poison the target.'
+move-effect-211:
+  changelog: {  }
+  effect:
+    en: '[]{type:fire} moves inflict half damage, regardless of target.  If the user leaves the [field]{mechanic:field}, this effect ends.'
+  short_effect:
+    en: 'Halves all Fire-type damage.'
+move-effect-212:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Special Attack]{mechanic:special-attack} and [Special Defense]{mechanic:special-defense} by one [stage]{mechanic:stage} each."
+  short_effect:
+    en: "Raises the user's Special Attack and Special Defense by one stage."
+    cs: 'Zvýší uživatelův Speciální útok a Speciální obranu o jeden stupeň.'
+move-effect-213:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Attack]{mechanic:attack} and [Speed]{mechanic:speed} by one [stage]{mechanic:stage} each."
+  short_effect:
+    en: "Raises the user's Attack and Speed by one stage."
+    cs: 'Zvýší uživatelů Útok a Rychlost o jeden stupeň.'
+move-effect-214:
+  changelog: {  }
+  effect:
+    en: |
+      User's type changes according to the terrain.
+
+      Terrain        | New type
+      -------------- | --------------
+      Building       | []{type:normal}
+      Cave           | []{type:rock}
+      Desert         | []{type:ground}
+      Grass          | []{type:grass}
+      Mountain       | []{type:rock}
+      Ocean          | []{type:water}
+      Pond           | []{type:water}
+      Road           | []{type:ground}
+      Snow           | []{type:ice}
+      Tall grass     | []{type:grass}
+
+      In Pokémon Battle Revolution:
+
+      Terrain        | New type
+      -------------- | --------------
+      Courtyard      | []{type:normal}
+      Crystal        | []{type:rock}
+      Gateway        | []{type:water}
+      Magma          | []{type:rock}
+      Main Street    | []{type:normal}
+      Neon           | []{type:normal}
+      Stargazer      | []{type:rock}
+      Sunny Park     | []{type:grass}
+      Sunset         | []{type:ground}
+      Waterfall      | []{type:grass}
+  short_effect:
+    en: "User's type changes to match the terrain."
+move-effect-215:
+  changelog: {  }
+  effect:
+    en: 'Heals the user for half its max [HP]{mechanic:hp}.  If the user is []{type:flying}, its []{type:flying} type is ignored until the end of this turn.'
+  short_effect:
+    en: 'Heals the user by half its max HP.'
+move-effect-216:
+  changelog: {  }
+  effect:
+    en: |-
+      For five turns (including this one), all immunities to []{type:ground} moves are disabled.  For the duration of this effect, the [evasion]{mechanic:evasion} of every Pokémon on the field is lowered by two [stages]{mechanic:stage}.  Cancels the effects of []{move:bounce}, []{move:fly}, and []{move:sky-drop}.
+
+      Specifically, []{type:flying} Pokémon and those with []{ability:levitate} or that have used []{move:magnet-rise} are no longer immune to []{type:ground} attacks, []{ability:arena-trap}, []{move:spikes}, or []{move:toxic-spikes}.
+
+      []{move:bounce}, []{move:fly}, []{move:sky-drop}, []{move:high-jump-kick}, []{move:jump-kick}, and []{move:splash} cannot be used while this move is in effect.
+
+      *Bug*: If this move is used during a double or triple battle while Pokémon are under the effect of []{move:sky-drop}, Sky Drop's effect is not correctly canceled on its target, and it remains high in the air indefinitely.  As Sky Drop prevents the target from acting, the only way to subsequently remove it from the field is to faint it.
+  short_effect:
+    en: 'Disables moves and immunities that involve flying or levitating for five turns.'
+move-effect-217:
+  changelog: {  }
+  effect:
+    en: "Resets the target's [evasion]{mechanic:evasion} to normal and prevents any further boosting until the target leaves the [field]{mechanic:field}.  A []{type:dark} Pokémon under this effect takes normal damage from []{type:psychic} moves.  This move itself ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers."
+  short_effect:
+    en: "Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it's Dark."
+move-effect-218:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If the target is [sleep]{mechanic:sleep}ing, this move has double power, and the target wakes up.'
+  short_effect:
+    en: 'If the target is asleep, has double power and wakes it up.'
+move-effect-219:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}, then lowers the user's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Lowers user's Speed by one stage."
+    cs: 'Sníží uživatelovu Rychlost o jeden stupeň.'
+move-effect-220:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Power increases with the target's current [Speed]{mechanic:speed} compared to the user, given by `1 + 25 * target Speed / user Speed`, capped at 150."
+  short_effect:
+    en: 'Power raises when the user has lower Speed, up to a maximum of 150.'
+move-effect-221:
+  changelog: {  }
+  effect:
+    en: "User faints.  Its replacement's [HP]{mechanic:hp} is fully restored, and any [major status effect]{mechanic:major-status-effect} is removed.  If the replacement Pokémon is immediately fainted by a switch-in effect, the next replacement is healed by this move instead."
+  short_effect:
+    en: 'User faints.  Its replacement has its HP fully restored and any major status effect removed.'
+move-effect-222:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If the target has less than half its max [HP]{mechanic:hp} remaining, this move has double power.'
+  short_effect:
+    en: 'Has double power against Pokémon that have less than half their max HP remaining.'
+move-effect-223:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Power and type are determined by the user's held berry.  The berry is consumed.  If the user is not holding a berry, this move will [fail]{mechanic:fail}."
+  short_effect:
+    en: 'Power and type depend on the held berry.'
+    cs: 'Síla a typ závisí na drženém ovoci.'
+move-effect-224:
+  changelog:
+    black-white:
+      effect:
+        en: 'If the target is not under the effect of []{move:detect} or []{move:protect}, this move will fail.'
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Removes the effects of []{move:detect} or []{move:protect} from the target before hitting.
+
+      This move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: 'Hits through Protect and Detect.'
+move-effect-225:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  If the target is holding a berry, this move has double power, and the user takes the berry and uses it immediately.
+
+      If the target is holding a []{item:jaboca-berry} or []{item:rowap-berry}, the berry is still removed, but has no effect.
+
+      If this move is [super effective]{mechanic:super-effective} and the target is holding a berry that can reduce this move's damage, it will do so, and will not be stolen.
+  short_effect:
+    en: 'If target has a berry, inflicts double damage and uses the berry.'
+move-effect-226:
+  changelog: {  }
+  effect:
+    en: "For the next three turns, all Pokémon on the user's side of the [field]{mechanic:field} have their original [Speed]{mechanic:speed} doubled.  This effect remains if the user leaves the [field]{mechanic:field}."
+  short_effect:
+    en: 'For three turns, friendly Pokémon have doubled Speed.'
+move-effect-227:
+  changelog: {  }
+  effect:
+    en: |-
+      Raises one of the target's stats by two [stages]{mechanic:stage}.  The raised stat is chosen at random from any stats that can be raised by two stages.  If no stat is eligible, this move will [fail]{mechanic:fail}.
+
+      If the target has a []{move:substitute}, this move will have no effect, even if the user is the target.
+
+      This move cannot be copied by []{move:mirror-move}.
+  short_effect:
+    en: "Raises one of a friendly Pokémon's stats at random by two stages."
+move-effect-228:
+  changelog: {  }
+  effect:
+    en: 'Targets the last opposing Pokémon to hit the user with a damaging move this turn.  Inflicts 1.5× the damage that move did to the user.  If there is no eligible target, this move will [fail]{mechanic:fail}.  Type immunity applies, but other type effects are ignored.'
+  short_effect:
+    en: 'Strikes back at the last Pokémon to hit the user this turn with 1.5× the damage.'
+move-effect-229:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}, then the user immediately [switches out]{mechanic:switches-out}, and the trainer selects a replacement Pokémon from the party.  If the target [faint]{mechanic:faint}s from this attack, the user's trainer selects the new Pokémon to send out first.  If the user is the last Pokémon in its party that can battle, it will not [switch out]{mechanic:switch-out}.
+
+      The user may be hit by []{move:pursuit} when it [switches out]{mechanic:switches-out}, if it has been targeted and []{move:pursuit} has not yet been used.
+
+      This move may be used even if the user is under the effect of []{move:ingrain}.  []{move:ingrain}'s effect will end.
+  short_effect:
+    en: 'User must switch out after attacking.'
+move-effect-230:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}, then lowers the user's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} by one [stage]{mechanic:stage} each."
+  short_effect:
+    en: "Lowers the user's Defense and Special Defense by one stage after inflicting damage."
+move-effect-231:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If the target uses a move or [switches out]{mechanic:switches-out} this turn before this move is used, this move has double power.'
+  short_effect:
+    en: 'Power is doubled if the target has already moved this turn.'
+    cs: 'Má dvojnásobnou sílu, pokud protivník už toto kolo útočil.'
+move-effect-232:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If the target takes damage this turn for any reason before this move is used, this move has double power.'
+  short_effect:
+    en: 'Power is doubled if the target has already received damage this turn.'
+move-effect-233:
+  changelog: {  }
+  effect:
+    en: |-
+      Target cannot use its held item for five turns.  If the target leaves the [field]{mechanic:field}, this effect ends.
+
+      If a Pokémon under this effect uses []{move:bug-bite} or []{move:pluck} on a Pokémon holding a berry, the berry is destroyed but not used.  If a Pokémon under this effect uses []{move:fling}, it will [fail]{mechanic:fail}.
+
+      This effect is passed by []{move:baton-pass}.
+  short_effect:
+    en: 'Target cannot use held items.'
+move-effect-234:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Power and type are determined by the user's [held item]{mechanic:held-item}.  The item is consumed.  If the user is not holding an item, or its item has no set type and power, this move will [fail]{mechanic:fail}.
+
+      This move ignores []{ability:sticky-hold}.
+
+      If the user is under the effect of []{move:embargo}, this move will [fail]{mechanic:fail}.
+  short_effect:
+    en: 'Throws held item at the target; power depends on the item.'
+    cs: 'Hodí na protivníka drženou věc; síla závisí na druhu věci.'
+move-effect-235:
+  changelog: {  }
+  effect:
+    en: "If the user has a [major status effect]{mechanic:major-status-effect} and the target does not, the user's status is transferred to the target."
+  short_effect:
+    en: "Transfers the user's major status effect to the target."
+move-effect-236:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Power is determined by the [PP]{mechanic:pp} remaining for this move, after its [PP]{mechanic:pp} cost is deducted.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.
+
+      PP remaining | Power
+      ------------ | ----:
+      4 or more    |    40
+      3            |    50
+      2            |    60
+      1            |    80
+      0            |   200
+
+      If this move is activated by another move, the activating move's [PP]{mechanic:pp} is used to calculate power.
+  short_effect:
+    en: 'Power increases when this move has less PP, up to a maximum of 200.'
+move-effect-237:
+  changelog: {  }
+  effect:
+    en: 'For the next five turns, the target may not use any moves that only restore [HP]{mechanic:hp}, and move effects that heal the target are disabled.  Moves that steal [HP]{mechanic:hp} may still be used, but will only inflict damage and not heal the target.'
+  short_effect:
+    en: 'Prevents target from restoring its HP for five turns.'
+move-effect-238:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Power directly relates to the target's relative remaining [HP]{mechanic:hp}, given by `1 + 120 * current HP / max HP`, to a maximum of 121."
+  short_effect:
+    en: 'Power increases against targets with more HP remaining, up to a maximum of 121 power.'
+move-effect-239:
+  changelog: {  }
+  effect:
+    en: |-
+      The user's original [Attack]{mechanic:attack} and [Defense]{mechanic:defense} are swapped.
+
+      This effect is passed on by []{move:baton-pass}.
+  short_effect:
+    en: 'User swaps Attack and Defense.'
+move-effect-240:
+  changelog: {  }
+  effect:
+    en: |-
+      The target's ability is disabled as long as it remains on the [field]{mechanic:field}.
+
+      This effect is passed on by []{move:baton-pass}.
+  short_effect:
+    en: "Nullifies target's ability until it leaves battle."
+move-effect-241:
+  changelog: {  }
+  effect:
+    en: 'For five turns, opposing Pokémon cannot score [critical hits]{mechanic:critical-hit}.'
+  short_effect:
+    en: 'Prevents the target from scoring critical hits for five turns.'
+move-effect-242:
+  changelog: {  }
+  effect:
+    en: |-
+      If the target has selected a damaging move this turn, the user will copy that move and use it against the target, with a 50% increase in power.
+
+      If the target moves before the user, this move will [fail]{mechanic:fail}.
+
+      This move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}.
+  short_effect:
+    en: "Uses the target's move against it before it attacks, with power increased by half."
+move-effect-243:
+  changelog: {  }
+  effect:
+    en: |-
+      Uses the last move that was used successfully by any Pokémon, including the user.
+
+      This move cannot copy itself, nor []{move:roar} nor []{move:whirlwind}.
+
+      This move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}.
+  short_effect:
+    en: "Uses the target's last used move."
+move-effect-244:
+  changelog: {  }
+  effect:
+    en: 'User swaps its [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} [stat modifiers]{mechanic:stat-modifiers} modifiers with the target.'
+  short_effect:
+    en: 'User swaps Attack and Special Attack changes with the target.'
+move-effect-245:
+  changelog: {  }
+  effect:
+    en: 'User swaps its [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} modifiers with the target.'
+  short_effect:
+    en: 'User swaps Defense and Special Defense changes with the target.'
+move-effect-246:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Power starts at 60 and is increased by 20 for every [stage]{mechanic:stage} any of the target's stats has been raised, capping at 200.  [Accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers do not increase this move's power."
+  short_effect:
+    en: 'Power increases against targets with more raised stats, up to a maximum of 200.'
+move-effect-247:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  This move can only be used if each of the user's other moves has been used at least once since the user entered the [field]{mechanic:field}.  If this is the user's only move, this move will [fail]{mechanic:fail}."
+  short_effect:
+    en: "Can only be used after all of the user's other moves have been used."
+move-effect-248:
+  changelog: {  }
+  effect:
+    en: |-
+      Changes the target's ability to []{ability:insomnia}.
+
+      If the target's ability is []{ability:truant} or []{ability:multitype}, this move will [fail]{mechanic:fail}.
+  short_effect:
+    en: "Changes the target's ability to Insomnia."
+    cs: 'Změní protivníkovu schopnost na Insomnii.'
+move-effect-249:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  If the target has not selected a damaging move this turn, or if the target has already acted this turn, this move will [fail]{mechanic:fail}.
+
+      This move is not affected by []{ability:iron-fist}.
+  short_effect:
+    en: 'Only works if the target is about to use a damaging move.'
+move-effect-250:
+  changelog: {  }
+  effect:
+    en: |-
+      Scatters poisoned spikes around the opposing [field]{mechanic:field}, which [poison]{mechanic:poison} opposing Pokémon that enter the [field]{mechanic:field}.  A second layer of these spikes may be laid down, in which case Pokémon will be [badly poison]{mechanic:badly-poison}ed instead.  Pokémon immune to either []{type:ground} moves or being [poison]{mechanic:poison}ed are immune to this effect.  Pokémon otherwise immune to []{type:ground} moves are affected during []{move:gravity}.
+
+      If a []{type:poison} Pokémon not immune to []{type:ground} moves enters a [field]{mechanic:field} covered with poisoned spikes, the spikes are removed.
+
+      []{move:rapid-spin} will remove this effect from its user's side of the [field]{mechanic:field}.  []{move:defog} will remove this effect from its target's side of the [field]{mechanic:field}.
+
+      This move does not trigger []{ability:synchronize}, unless the Pokémon with []{ability:synchronize} was forced to enter the [field]{mechanic:field} by another effect such as []{move:roar}.
+
+      Pokémon entering the [field]{mechanic:field} due to []{move:baton-pass} are not affected by this effect.
+  short_effect:
+    en: 'Scatters poisoned spikes, poisoning opposing Pokémon that switch in.'
+move-effect-251:
+  changelog: {  }
+  effect:
+    en: 'User swaps its [stat modifiers]{mechanic:stat-modifiers} with the target.'
+  short_effect:
+    en: 'User and target swap stat changes.'
+move-effect-252:
+  changelog: {  }
+  effect:
+    en: |-
+      Restores 1/16 of the user's max [HP]{mechanic:hp} at the end of each turn.  If the user leaves the [field]{mechanic:field}, this effect ends.
+
+      This effect is passed on by []{move:baton-pass}.
+  short_effect:
+    en: "Restores 1/16 of the user's max HP each turn."
+move-effect-253:
+  changelog: {  }
+  effect:
+    en: |-
+      For five turns, the user is immune to []{type:ground} moves.
+
+      If the user is under the effect of []{move:ingrain} or has []{ability:levitate}, this move will [fail]{mechanic:fail}.
+
+      This effect is temporarily disabled by and cannot be used during []{move:gravity}.
+
+      This effect is passed on by []{move:baton-pass}.
+  short_effect:
+    en: 'User is immune to Ground moves and effects for five turns.'
+move-effect-254:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/3 the damage it inflicts in recoil.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.  [Frozen]{mechanic:frozen} Pokémon may use this move, in which case they will thaw.'
+  short_effect:
+    en: 'User takes 1/3 the damage inflicted in recoil.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.'
+move-effect-255:
+  changelog:
+    gold-silver:
+      effect:
+        en: 'Inflicts []{type:normal}-type damage.'
+    diamond-pearl:
+      effect:
+        en: 'The user receieves 1/2 of the damage dealt in recoil.'
+  effect:
+    en: |-
+      Inflicts [typeless]{mechanic:typeless} [regular damage]{mechanic:regular-damage}.  User takes 1/4 its max [HP]{mechanic:hp} in recoil.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.
+
+      This move is used automatically when a Pokémon cannot use any other move legally, e.g., due to having no [PP]{mechanic:pp} remaining or being under the effect of both []{move:encore} and []{move:torment} at the same time.
+
+      This move's recoil is not treated as recoil for the purposes of anything that affects recoil, such as the ability []{ability:rock-head}.  It also is not prevented by []{ability:magic-guard}.
+
+      This move cannot be copied by []{move:mimic}, []{move:mirror-move}, or []{move:sketch}, nor selected by []{move:assist} or []{move:metronome}, nor forced by []{move:encore}.
+  short_effect:
+    en: 'User takes 1/4 its max HP in recoil.'
+move-effect-256:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  User dives underwater for one turn, becoming immune to attack, and hits on the second turn.
+
+      During the immune turn, []{move:surf}, and []{move:whirlpool} still hit the user normally, and their power is doubled if appropriate.
+
+      The user may be hit during its immune turn if under the effect of []{move:lock-on}, []{move:mind-reader}, or []{ability:no-guard}.
+
+      This move cannot be selected by []{move:sleep-talk}.
+  short_effect:
+    en: 'User dives underwater, dodging all attacks, and hits next turn.'
+move-effect-257:
+  changelog:
+    gold-silver:
+      effect:
+        en: "[]{move:swift} can hit the user while underground, and no other moves can.  Due to a bug, if the user fails to carry out the move's second turn, e.g. due to [paralysis]{mechanic:paralysis}, it remains underground until it switches out or uses Dig again successfully.  It can act as if it were aboveground in the meantime, but moves still miss it."
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  User digs underground for one turn, becoming immune to attack, and hits on the second turn.
+
+      During the immune turn, []{move:earthquake}, []{move:fissure}, and []{move:magnitude} still hit the user normally, and their power is doubled if appropriate.
+
+      The user may be hit during its immune turn if under the effect of []{move:lock-on}, []{move:mind-reader}, or []{ability:no-guard}.
+
+      This move cannot be selected by []{move:sleep-talk}.
+  short_effect:
+    en: 'User digs underground, dodging all attacks, and hits next turn.'
+    cs: 'Uživatel se zahrabe pod zem, kde se vyhýbá všem útokům. V následujícím kole zaútočí.'
+move-effect-258:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.
+
+      If the target is in the first turn of []{move:dive}, this move will hit with double power.
+  short_effect:
+    en: 'Inflicts regular damage and can hit Dive users.'
+    cs: 'Normálně zraňuje. Zasáhne i protivníky pod vodou.'
+move-effect-259:
+  changelog: {  }
+  effect:
+    en: |-
+      Lowers the target's [evasion]{mechanic:evasion} by one [stage]{mechanic:stage}.  Clears away fog.  Removes the effects of []{move:mist}, []{move:light-screen}, []{move:reflect}, []{move:safeguard}, []{move:spikes}, []{move:stealth-rock}, and []{move:toxic-spikes} from the target's side of the [field]{mechanic:field}.
+
+      If the target is protected by []{move:mist}, it will prevent the [evasion]{mechanic:evasion} change, then be removed by this move.
+  short_effect:
+    en: "Lowers the target's evasion by one stage.  Removes field effects from the enemy field."
+move-effect-260:
+  changelog: {  }
+  effect:
+    en: |-
+      For five turns (including this one), slower Pokémon will act before faster Pokémon.  Move priority is not affected.  Using this move when its effect is already active will end the effect.
+
+      Pokémon holding []{item:full-incense}, []{item:lagging-tail}, or []{item:quick-claw} and Pokémon with []{ability:stall} ignore this effect.
+  short_effect:
+    en: 'For five turns, slower Pokémon will act before faster Pokémon.'
+move-effect-261:
+  changelog:
+    diamond-pearl:
+      effect:
+        en: 'Does not interact with []{move:hail}.'
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target.
+
+      During []{move:hail}, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of []{move:protect} and []{move:detect}.
+  short_effect:
+    en: 'Has a $effect_chance% chance to freeze the target.'
+    cs: 'Má $effect_chance% šanci zmrazit protivníka.'
+move-effect-262:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the [field]{mechanic:field}, this effect ends.
+
+      Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+      If the target is in the first turn of []{move:dive}, this move will hit with double power.
+  short_effect:
+    en: 'Prevents the target from leaving battle and inflicts 1/16 its max HP in damage for 2-5 turns.'
+    cs: 'Po 2-5 kol nedovolí protivníkovi opustit zápas a uděluje mu zranění ve výši 1/16 max. HP za kolo.'
+move-effect-263:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/3 the damage it inflicts in recoil.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.'
+  short_effect:
+    en: 'User takes 1/3 the damage inflicted in recoil.  Has a $effect_chance% chance to paralyze the target.'
+move-effect-264:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  User bounces high into the air for one turn, becoming immune to attack, and hits on the second turn.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.
+
+      During the immune turn, []{move:gust}, []{move:hurricane}, []{move:sky-uppercut}, []{move:smack-down}, []{move:thunder}, and []{move:twister} still hit the user normally.  []{move:gust} and []{move:twister} also have double power against the user.
+
+      The damage from []{move:hail} and []{move:sandstorm} still applies during the immune turn.
+
+      The user may be hit during its immune turn if under the effect of []{move:lock-on}, []{move:mind-reader}, or []{ability:no-guard}.
+
+      This move cannot be used while []{move:gravity} is in effect.
+
+      This move cannot be selected by []{move:sleep-talk}.
+  short_effect:
+    en: 'User bounces high into the air, dodging all attacks, and hits next turn.'
+move-effect-266:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage}.  If the user and target are the same gender, or either is genderless, this move will [fail]{mechanic:fail}."
+  short_effect:
+    en: "Lowers the target's Special Attack by two stages if it's the opposite gender."
+    cs: 'Sníží protivníkův Speciální útok o dva stupně, pokud je opačného pohlaví.'
+move-effect-267:
+  changelog: {  }
+  effect:
+    en: |-
+      Spreads sharp rocks around the opposing [field]{mechanic:field}, damaging any Pokémon that enters the [field]{mechanic:field} for 1/8 its max [HP]{mechanic:hp}.  This damage is affected by the entering Pokémon's susceptibility to []{type:rock} moves.
+
+      []{move:rapid-spin} removes this effect from its user's side of the [field]{mechanic:field}.
+  short_effect:
+    en: 'Causes damage when opposing Pokémon switch in.'
+    cs: 'Zraňuje protivníkovy pokémony, když jsou vysláni do zápasu.'
+move-effect-268:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Has either a 1%, 11%, or 31% chance to [confuse]{mechanic:confuse} the target, based on the volume of the recording made for this move; louder recordings increase the chance of [confusion]{mechanic:confusion}.  If the user is not a []{pokemon:chatot}, this move will not cause [confusion]{mechanic:confusion}.
+
+      This move cannot be copied by []{move:mimic}, []{move:mirror-move}, or []{move:sketch}, nor selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}.
+  short_effect:
+    en: 'Has a higher chance to confuse the target when the recorded sound is louder.'
+move-effect-269:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  If the user is holding a plate or a drive, this move's type is the type corresponding to that item.
+
+      Note: This effect is technically shared by both []{move:techno-blast} and []{move:judgment}; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.
+  short_effect:
+    en: 'If the user is holding a appropriate plate or drive, the damage inflicted will match it.'
+move-effect-270:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/2 the damage it inflicts in recoil.'
+  short_effect:
+    en: 'User receives 1/2 the damage inflicted in recoil.'
+move-effect-271:
+  changelog: {  }
+  effect:
+    en: "User [faint]{mechanic:faint}s.  Its replacement's [HP]{mechanic:hp} and [PP]{mechanic:pp} are fully restored, and any [major status effect]{mechanic:major-status-effect} is removed."
+  short_effect:
+    en: 'User faints, and its replacement is fully healed.'
+move-effect-272:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Has a $effect_chance% chance to lower the target's Special Defense by two stages."
+move-effect-273:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  User vanishes for one turn, becoming immune to attack, and hits on the second turn.
+
+      This move ignores the effects of []{move:detect} and []{move:protect}.
+
+      This move cannot be selected by []{move:sleep-talk}.
+  short_effect:
+    en: 'User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect.'
+move-effect-274:
+  changelog:
+    black-white:
+      effect:
+        en: 'Ignores []{ability:wonder-guard}.'
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target and a separate $effect_chance% chance to make the target [flinch]{mechanic:flinch}.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to [burn]{mechanic:burn} the target and a $effect_chance% chance to make the target flinch.'
+move-effect-275:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target and a separate $effect_chance% chance to make the target [flinch]{mechanic:flinch}.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to freeze the target and a $effect_chance% chance to make the target flinch.'
+move-effect-276:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target and a separate $effect_chance% chance to make the target [flinch]{mechanic:flinch}.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to paralyze the target and a $effect_chance% chance to make the target flinch.'
+move-effect-277:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to raise the user's [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Has a $effect_chance% chance to raise the user's Special Attack by one stage."
+move-effect-278:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Attack]{mechanic:attack} and [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's Attack and accuracy by one stage."
+    cs: 'Zvýší uživatelův Útok a Přesnost o jeden stupeň.'
+move-effect-279:
+  changelog: {  }
+  effect:
+    en: |-
+      Moves with multiple targets will not hit friendly Pokémon for the remainder of this turn.  If the user is last to act this turn, this move will [fail]{mechanic:fail}.
+
+      This move cannot be selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: 'Prevents any multi-target moves from hitting friendly Pokémon this turn.'
+move-effect-280:
+  changelog: {  }
+  effect:
+    en: "Averages the user's unmodified [Defense]{mechanic:defense} with the target's unmodified Defense; the value becomes the unmodified Defense for both Pokémon. Unmodified [Special Defense]{mechanic:special-defense} is averaged the same way."
+  short_effect:
+    en: 'Averages Defense and Special Defense with the target.'
+move-effect-281:
+  changelog: {  }
+  effect:
+    en: |-
+      Averages the user's unmodified [Attack]{mechanic:attack} with the target's unmodified Attack; the value becomes the unmodified Attack for both Pokémon. Unmodified [Special Attack]{mechanic:special-attack} is averaged the same way.
+
+      This effect applies before any other persistent changes to unmodified Attack or Special Attack, such as []{ability:flower-gift} during []{move:sunny-day}.
+  short_effect:
+    en: 'Averages Attack and Special Attack with the target.'
+move-effect-282:
+  changelog: {  }
+  effect:
+    en: "For five turns (including this one), every Pokémon's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} are swapped."
+  short_effect:
+    en: "All Pokémon's Defense and Special Defense are swapped for 5 turns."
+move-effect-283:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Damage calculation always uses the target's [Defense]{mechanic:defense}, regardless of this move's damage class."
+  short_effect:
+    en: "Inflicts damage based on the target's Defense, not Special Defense."
+move-effect-284:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If the target is [poisoned]{mechanic:poisoned}, this move has double power.'
+  short_effect:
+    en: 'Inflicts double damage if the target is Poisoned.'
+    cs: 'Způsobí dvojnásobné zranění, pokud je protivník otávený.'
+move-effect-285:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Speed]{mechanic:speed} by two [stages]{mechanic:stage}.  Halves the user's weight; this effect does not stack."
+  short_effect:
+    en: "Raises the user's Speed by two stages and halves the user's weight."
+    cs: 'Zvýší uživatelovu Rychlost o dva stupně a sníží mu hmotnost na polovinu.'
+move-effect-286:
+  changelog: {  }
+  effect:
+    en: |-
+      For three turns (including this one), moves used against the target have 100% [accuracy]{mechanic:accuracy}, but the target is immune to []{type:ground} damage.  Accuracy of one-hit KO moves is exempt from this effect.
+
+      This effect is removed by []{move:gravity}.  If Gravity is already in effect, this move will [fail]{mechanic:fail}.
+  short_effect:
+    en: 'Moves have 100% accuracy against the target for three turns.'
+move-effect-287:
+  changelog: {  }
+  effect:
+    en: 'For five turns (including this one), passive effects of held items are ignored, and Pokémon will not use their held items.'
+  short_effect:
+    en: 'Negates held items for five turns.'
+move-effect-288:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Removes the target's [immunity]{mechanic:immune} to []{type:ground}-type damage.  This effect removes any existing Ground immunity due to []{ability:levitate}, []{move:magnet-rise}, or []{move:telekinesis}, and causes the target's []{type:flying} type to be ignored when it takes Ground damage.
+
+      If the target isn't immune to Ground damage, this move will [fail]{mechanic:fail}.
+
+      This move can hit Pokémon under the effect of []{move:bounce}, []{move:fly}, or []{move:sky-drop}, and ends the effect of Bounce or Fly.
+  short_effect:
+    en: 'Removes any immunity to Ground damage.'
+    cs: 'Zruší imunitu na Zemní typ.'
+move-effect-289:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Always scores a [critical hit]{mechanic:critical-hit}.'
+  short_effect:
+    en: 'Always scores a critical hit.'
+move-effect-290:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If this move successfully hits the target, any Pokémon adjacent to the target are damaged for 1/16 their max [HP]{mechanic:hp}.'
+  short_effect:
+    en: 'Deals splash damage to Pokémon next to the target.'
+move-effect-291:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Special Attack]{mechanic:special-attack}, [Special Defense]{mechanic:special-defense}, and [Speed]{mechanic:speed} by one [stage]{mechanic:stage} each."
+  short_effect:
+    en: "Raises the user's Special Attack, Special Defense, and Speed by one stage each."
+    cs: 'Zvýší uživatelův Speciální útok, Speciální obranu a Rychlost po jednom stupni.'
+move-effect-292:
+  changelog: {  }
+  effect:
+    en: |
+      Inflicts [regular damage]{mechanic:regular-damage}.  The greater the user's weight compared to the target's, the higher power this move has, to a maximum of 120.
+
+      User's weight                    | Power
+      -------------------------------- | ----:
+      Up to 2× the target's weight     |    40
+      Up to 3× the target's weight     |    60
+      Up to 4× the target's weight     |    80
+      Up to 5× the target's weight     |   100
+      More than 5× the target's weight |   120
+  short_effect:
+    en: 'Power is higher when the user weighs more than the target, up to a maximum of 120.'
+move-effect-293:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Only Pokémon that share a type with the user will take damage from this move.'
+  short_effect:
+    en: 'Hits any Pokémon that shares a type with the user.'
+move-effect-294:
+  changelog: {  }
+  effect:
+    en: |
+      Inflicts [regular damage]{mechanic:regular-damage}.  The greater the user's [Speed]{mechanic:speed} compared to the target's, the higher power this move has, to a maximum of 150.
+
+      User's Speed                     | Power
+      -------------------------------- | ----:
+      Up to 2× the target's Speed      |    60
+      Up to 3× the target's Speed      |    80
+      Up to 4× the target's Speed      |   120
+      More than 4× the target's Speed  |   150
+  short_effect:
+    en: 'Power is higher when the user has greater Speed than the target, up to a maximum of 150.'
+move-effect-295:
+  changelog: {  }
+  effect:
+    en: 'Changes the target to pure []{type:water}-type until it leaves the field.  If the target has []{ability:multitype}, this move will [fail]{mechanic:fail}.'
+  short_effect:
+    en: "Changes the target's type to Water."
+move-effect-296:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Raises the user's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Inflicts regular damage.  Raises the user's Speed by one stage."
+    cs: 'Nomálně zraňuje. Zvýší uživatelovu Rychlost o jeden stupeň.'
+move-effect-297:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Lowers the target's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Special Defense by two stages."
+    cs: 'Sníží protivníkovu Speciální obranu o dva stupně.'
+move-effect-298:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Damage is calculated using the target's attacking stat rather than the user's."
+  short_effect:
+    en: "Calculates damage with the target's attacking stat."
+move-effect-299:
+  changelog: {  }
+  effect:
+    en: "Changes the target's ability to []{ability:simple}."
+  short_effect:
+    en: "Changes the target's ability to Simple."
+move-effect-300:
+  changelog: {  }
+  effect:
+    en: "Changes the target's ability to match the user's.  This effect ends when the target leaves battle."
+  short_effect:
+    en: "Copies the user's ability onto the target."
+move-effect-301:
+  changelog: {  }
+  effect:
+    en: |-
+      The target will act next this turn, regardless of [Speed]{mechanic:speed} or move priority.
+      If the target has already acted this turn, this move will [fail]{mechanic:fail}.
+  short_effect:
+    en: 'Makes the target act next this turn.'
+move-effect-302:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  If []{move:round} has already been used this turn, this move's power is doubled.  After this move is used, any other Pokémon using it this turn will immediately do so (in the order they would otherwise act), regardless of [Speed]{mechanic:speed} or priority.  Pokémon using other moves will then continue to act as usual."
+  short_effect:
+    en: "Has double power if it's used more than once per turn."
+    cs: 'Má dvojnásobnou sílu, pokud se použije vícekrát v jednom kole.'
+move-effect-303:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  If any friendly Pokémon used this move earlier this turn or on the previous turn, that use's power is added to this move's power, to a maximum of 200."
+  short_effect:
+    en: 'Power increases by 100% for each consecutive use by any friendly Pokémon, to a maximum of 200.'
+    cs: 'Síla se zvýší o 100% za každé po sobě jdoucí použití pokémonem na uživatelově straně, až do max. síly 200.'
+move-effect-304:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Damage calculation ignores the target's [stat modifiers]{mechanic:stat-modifiers}, including [evasion]{mechanic:evasion}."
+  short_effect:
+    en: "Ignores the target's stat modifiers."
+    cs: 'Ignoruje změny protivníkových statů.'
+move-effect-305:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  All of the target's [stat modifiers]{mechanic:stat-modifiers} are reset to zero."
+  short_effect:
+    en: "Removes all of the target's stat modifiers."
+move-effect-306:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Power is increased by 100% its original value for every [stage]{mechanic:stage} any of the user's stats have been raised.  [Accuracy]{mechanic:accuracy}, [evasion]{mechanic:evasion}, and lowered stats do not affect this move's power.  For a Pokémon with all five stats modified to +6, this move's power is 31×."
+  short_effect:
+    en: "Power is higher the more the user's stats have been raised, to a maximum of 31×."
+move-effect-307:
+  changelog: {  }
+  effect:
+    en: |-
+      Moves with priority greater than 0 will not hit friendly Pokémon for the remainder of this turn.  If the user is last to act this turn, this move will [fail]{mechanic:fail}.
+
+      This move cannot be selected by []{move:assist} or []{move:metronome}.
+  short_effect:
+    en: 'Prevents any priority moves from hitting friendly Pokémon this turn.'
+move-effect-308:
+  changelog: {  }
+  effect:
+    en: 'User switches position on the field with the friendly Pokémon opposite it.  If the user is in the middle position in a triple battle, or there are no other friendly Pokémon, this move will [fail]{mechanic:fail}.'
+  short_effect:
+    en: 'User switches places with the friendly Pokémon opposite it.'
+move-effect-309:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Attack]{mechanic:attack}, [Special Attack]{mechanic:special-attack}, and [Speed]{mechanic:speed} by two [stages]{mechanic:stage} each.  Lowers the user's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} by one []{mechanic:stage} each."
+  short_effect:
+    en: "Raises user's Attack, Special Attack, and Speed by two stages.  Lower user's Defense and Special Defense by one stage."
+    cs: 'Zvýší uživatelův Útok, Obranu a Rychlost o dva stupně. Sníží mu Obranu a Speciální obranu o jeden stupeň.'
+move-effect-310:
+  changelog: {  }
+  effect:
+    en: 'Heals the target for half its max [HP]{mechanic:hp}.'
+  short_effect:
+    en: 'Heals the target for half its max HP.'
+move-effect-311:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If the target has a [major status ailment]{mechanic:major-status-ailment}, this move has double power.'
+  short_effect:
+    en: 'Has double power if the target has a major status ailment.'
+move-effect-312:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  User carries the target high into the air for one turn, during which no moves will hit either Pokémon and neither can act.  On the following turn, the user drops the target, inflicting damage and ending the effect.
+
+      If the target is []{type:flying}-type, this move will function as normal but inflict no damage.
+
+      []{move:gust}, []{move:hurricane}, []{move:sky-uppercut}, []{move:smack-down}, []{move:thunder}, []{move:twister}, and []{move:whirlwind} can hit both the user and the target during this effect.  []{move:gust} and []{move:twister} will additionally have double power.
+
+      The damage from []{move:hail} and []{move:sandstorm} still applies during this effect.
+
+      Either Pokémon may be hit during this effect if also under the effect of []{move:lock-on}, []{move:mind-reader}, or []{ability:no-guard}.
+
+      This move cannot be used while []{move:gravity} is in effect.
+
+      This move cannot be selected by []{move:sleep-talk}.
+
+      *Bug*: If []{move:gravity} is used during a double or triple battle while this move is in effect, this move is not correctly canceled on the target, and it remains high in the air indefinitely.  As this move prevents the target from acting, the only way to subsequently remove it from the field is to faint it.
+  short_effect:
+    en: 'Carries the target high into the air, dodging all attacks against either, and drops it next turn.'
+move-effect-313:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Attack]{mechanic:attack} by one [stage]{mechanic:stage} and its [Speed]{mechanic:speed} by two stages."
+  short_effect:
+    en: "Raises the user's Attack by one stage and its Speed by two stages."
+    cs: 'Zvýší uživateli Útok o jednu a Rychlost o dvě úrovně.'
+move-effect-314:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}, then [switches]{mechanic:switch-out} the target out for another of its trainer's Pokémon, selected at random.
+
+      If the target is under the effect of []{move:ingrain} or []{ability:suction-cups}, or it has a []{move:substitute}, or its Trainer has no more usable Pokémon, it will not be switched out.  If the target is a wild Pokémon, the battle ends instead.
+  short_effect:
+    en: 'Ends wild battles.  Forces trainers to switch Pokémon.'
+    cs: 'Ukončí zápas s divokým pokémonem. Trenéry donutí vyměnit pokémona.'
+move-effect-315:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  If the target is [holding]{mechanic:held-item} a [berry]{mechanic:berry}, it's destroyed and cannot be used in response to this move."
+  short_effect:
+    en: "Destroys the target's held berry."
+    cs: 'Zničí protivníkovi držené ovoce.'
+move-effect-316:
+  changelog: {  }
+  effect:
+    en: 'Forces the target to act last this turn, regardless of [Speed]{mechanic:speed} or move [priority]{mechanic:priority}.  If the target has already acted this turn, this move will [fail]{mechanic:fail}.'
+  short_effect:
+    en: 'Makes the target act last this turn.'
+move-effect-317:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage} each.  During []{move:sunny-day}, raises both stats by two stages."
+  short_effect:
+    en: "Raises the user's Attack and Special Attack by one stage."
+    cs: 'Zvýší uživatelův Útok a Speciální útok o jeden stupeň.'
+move-effect-318:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If the user has no [held item]{mechanic:held-item}, this move has double power.'
+  short_effect:
+    en: 'Has double power if the user has no held item.'
+move-effect-319:
+  changelog: {  }
+  effect:
+    en: "User's type changes to match the target's."
+  short_effect:
+    en: "User becomes the target's type."
+move-effect-320:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If a friendly Pokémon fainted on the previous turn, this move has double power.'
+  short_effect:
+    en: 'Has double power if a friendly Pokémon fainted last turn.'
+move-effect-321:
+  changelog: {  }
+  effect:
+    en: "Inflicts damage equal to the user's remaining [HP]{mechanic:hp}.  User faints."
+  short_effect:
+    en: "Inflicts damage equal to the user's remaining HP.  User faints."
+move-effect-322:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Special Attack]{mechanic:special-attack} by three [stages]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's Special Attack by three stages."
+    cs: 'Zvýší uživatelův Speciální útok o tři stupně.'
+move-effect-323:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Attack]{mechanic:attack}, [Defense]{mechanic:defense}, and [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage} each."
+  short_effect:
+    en: "Raises the user's Attack, Defense, and accuracy by one stage each."
+    cs: 'Zvýší uživatelův Útok, Obranu a Přesnost útok po jednom stupni.'
+move-effect-324:
+  changelog: {  }
+  effect:
+    en: "Transfers the user's [held item]{mechanic:held-item} to the target.  If the user has no held item, or the target already has a held item, this move will [fail]{mechanic:fail}."
+  short_effect:
+    en: "Gives the user's held item to the target."
+move-effect-325:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If a friendly Pokémon used []{move:grass-pledge} earlier this turn, all opposing Pokémon have halved [Speed]{mechanic:speed} for four turns (including this one).'
+  short_effect:
+    en: "With [Grass Pledge]{move:grass-pledge}, halves opposing Pokémon's Speed for four turns."
+move-effect-326:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If a friendly Pokémon used []{move:water-pledge} earlier this turn, moves used by any friendly Pokémon have doubled effect chance for four turns (including this one).'
+  short_effect:
+    en: "With [Water Pledge]{move:water-pledge}, doubles the effect chance of friendly Pokémon's moves for four turns."
+move-effect-327:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If a friendly Pokémon used []{move:fire-pledge} earlier this turn, all opposing Pokémon will take 1/8 their max [HP]{mechanic:hp} in damage at the end of every turn for four turns (including this one).'
+  short_effect:
+    en: 'With [Fire Pledge]{move:fire-pledge}, damages opposing Pokémon for 1/8 their max HP every turn for four turns.'
+move-effect-328:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage} each."
+  short_effect:
+    en: "Raises the user's Attack and Special Attack by one stage each."
+    cs: 'Zvýší uživatelův Útok a Speciální útok o jeden stupeň.'
+move-effect-329:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Defense]{mechanic:defense} by three [stages]{mechanic:stage}."
+  short_effect:
+    en: "Raises the user's Defense by three stages."
+    cs: 'Zvýší uživatelovu Obranu o tři stupně.'
+move-effect-330:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to put the target to [sleep]{mechanic:sleep}.
+      If the user is a []{pokemon:meloetta}, it will toggle between Aria and Pirouette Forme.
+  short_effect:
+    en: 'Has a $effect_chance% chance to put the target to sleep.'
+move-effect-331:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Lowers the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Speed by one stage."
+    cs: 'Sníží protivníkovi Obranu o dva stupně.'
+move-effect-332:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.  User charges for one turn before attacking.'
+  short_effect:
+    en: 'Requires a turn to charge before attacking.  Has a $effect_chance% chance to paralyze the target.'
+    cs: 'První kolo se nabíjí, zaútočí až ve druhém. Má $effect_chance% šanci paralyzovat protivníka.'
+move-effect-333:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.  User charges for one turn before attacking.'
+  short_effect:
+    en: 'Requires a turn to charge before attacking.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.'
+move-effect-334:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [confuse]{mechanic:confuse} the target.
+
+      This move can hit Pokémon under the effect of []{move:bounce}, []{move:fly}, or []{move:sky-drop}.
+
+      During []{move:rain-dance}, this move has 100% accuracy.  During []{move:sunny-day}, this move has 50% accuracy.
+  short_effect:
+    en: 'Has a $effect_chance% chance to confuse the target.'
+move-effect-335:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Lowers the user's [Defense]{mechanic:defense}, [Special Defense]{mechanic:special-defense}, and [Speed]{mechanic:speed} by one [stage]{mechanic:stage} each."
+  short_effect:
+    en: "Lowers the user's Defense, Special Defense, and Speed by one stage each."
+move-effect-336:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If a friendly Pokémon used []{move:fusion-bolt} earlier this turn, this move has double power.'
+  short_effect:
+    en: 'With [Fusion Bolt]{move:fusion-bolt}, inflicts double damage.'
+move-effect-337:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If a friendly Pokémon used []{move:fusion-flare} earlier this turn, this move has double power.'
+  short_effect:
+    en: 'With [Fusion Flare]{move:fusion-flare}, inflicts double damage.'
+move-effect-338:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts regular damage.  For the purposes of type effectiveness, this move is both []{type:fighting}- and []{type:flying}-type: its final effectiveness is determined by multiplying the effectiveness of each type against each of the target's types.
+
+      For all other purposes, this move is pure Fighting-type.  If this move's type is changed, its Fighting typing is overwritten, and its secondary type remains Flying.
+
+      If the target has used []{move:minimize} since entering battle, this move has double power and will never miss.
+  short_effect:
+    en: 'Deals both []{type:fighting} and []{type:flying}-type damage.'
+    cs: 'Má $effect_chance% šanci zmást protivníka.'
+move-effect-339:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts regular damage.  Can only be used if the user has eaten a berry since the beginning of the battle.
+
+      After the user eats a berry, it may use this move any number of times until the end of the battle, even if it switches out.  Eating a held berry, eating a berry via []{move:bug-bite} or []{move:pluck}, or being the target of a [Flung]{move:fling} berry will enable this move.  Feeding a Pokémon a berry from the bag or using []{move:natural-gift} will not.
+
+      If the trainer chooses this move when it cannot be used, the choice is rejected outright and the trainer must choose another move.
+  short_effect:
+    en: 'Can only be used after the user has eaten a berry.'
+move-effect-340:
+  changelog: {  }
+  effect:
+    en: 'Raises the Attack and Special Attack of all []{type:grass} Pokémon in battle.'
+  short_effect:
+    en: 'Raises the Attack and Special Attack of all []{type:grass} Pokémon in battle.'
+move-effect-341:
+  changelog: {  }
+  effect:
+    en: |-
+      Shoots a web over the opponents' side of the field, which lowers the Speed of any opposing Pokémon that enters the field by one stage.
+
+      Pokémon in the air, such as []{type:flying}-types and those with []{ability:levitate}, are unaffected.  []{move:rapid-spin} removes Sticky Web from the user's side of the field; []{move:defog} removes it from both sides.
+  short_effect:
+    en: "Covers the opposing field, lowering opponents' Speed by one stage upon switching in."
+move-effect-342:
+  changelog: {  }
+  effect:
+    en: "Inflicts regular damage.  Raises the user's Attack by two stages if it KOs the target."
+  short_effect:
+    en: "Raises the user's Attack by two stages if it KOs the target."
+move-effect-343:
+  changelog: {  }
+  effect:
+    en: "Adds []{type:ghost} to the target's types."
+  short_effect:
+    en: "Adds []{type:ghost} to the target's types."
+move-effect-344:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's Attack and Special Attack by one stage."
+  short_effect:
+    en: "Lowers the target's Attack and Special Attack by one stage."
+move-effect-345:
+  changelog: {  }
+  effect:
+    en: "Changes all Pokémon's []{type:normal} moves to []{type:electric} moves for the rest of the turn."
+  short_effect:
+    en: 'Changes all []{type:normal} moves to []{type:electric} moves for the rest of the turn.'
+move-effect-346:
+  changelog: {  }
+  effect:
+    en: 'Heals the user for half the total damage dealt to all targets.'
+  short_effect:
+    en: 'Heals the user for half the total damage dealt to all targets.'
+move-effect-347:
+  changelog: {  }
+  effect:
+    en: "Lowers all targets' Attack and Special Attack by one stage.  Makes the user switch out."
+  short_effect:
+    en: "Lowers all targets' Attack and Special Attack by one stage.  Makes the user switch out."
+move-effect-348:
+  changelog: {  }
+  effect:
+    en: "Inverts the target's stat modifiers."
+  short_effect:
+    en: "Inverts the target's stat modifiers."
+move-effect-349:
+  changelog: {  }
+  effect:
+    en: 'Deals regular damage.  Drains 75% of the damage inflicted to heal the user.'
+  short_effect:
+    en: 'Drains 75% of the damage inflicted to heal the user.'
+move-effect-350:
+  changelog: {  }
+  effect:
+    en: |-
+      Protects all friendly Pokémon from non-damaging moves for the rest of the turn.
+
+      Unlike other blocking moves, this move may be used consecutively without its chance of success falling.
+  short_effect:
+    en: 'Protects all friendly Pokémon from non-damaging moves.'
+move-effect-351:
+  changelog: {  }
+  effect:
+    en: 'Raises the Defense of all []{type:grass} Pokémon in battle.'
+  short_effect:
+    en: 'Raises the Defense of all []{type:grass} Pokémon in battle.'
+move-effect-352:
+  changelog: {  }
+  effect:
+    en: |-
+      For five turns, heals all Pokémon on the ground for 1/16 their max HP each turn and strengthens their []{type:grass} moves to 1.5× their power.
+
+      Changes []{move:nature-power} to []{move:energy-ball}.
+  short_effect:
+    en: 'For five turns, heals all Pokémon on the ground for 1/16 max HP each turn and strengthens their []{type:grass} moves to 1.5× their power.'
+move-effect-353:
+  changelog: {  }
+  effect:
+    en: |-
+      For five turns, protects all Pokémon on the ground from major status ailments and confusion and weakens []{type:dragon} moves used against them to 0.5× their power.
+
+      Changes []{move:nature-power} to []{move:moonblast}.
+  short_effect:
+    en: 'For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming []{type:dragon} moves.'
+move-effect-354:
+  changelog: {  }
+  effect:
+    en: "Changes the target's move's type to []{type:electric} if it hasn't moved yet this turn."
+  short_effect:
+    en: "Changes the target's move's type to []{type:electric} if it hasn't moved yet this turn."
+move-effect-355:
+  changelog: {  }
+  effect:
+    en: 'Prevents all Pokémon from fleeing or switching out during the next turn.'
+  short_effect:
+    en: 'Prevents all Pokémon from fleeing or switching out during the next turn.'
+move-effect-356:
+  changelog: {  }
+  effect:
+    en: "Blocks damaging attacks and lowers attacking Pokémon's Attack by two stages on contact.  Switches Aegislash to Shield Forme."
+  short_effect:
+    en: "Blocks damaging attacks and lowers attacking Pokémon's Attack by two stages on contact.  Switches Aegislash to Shield Forme."
+move-effect-357:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Attack by one stage."
+move-effect-358:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's Special Attack by one stage."
+  short_effect:
+    en: "Lowers the target's Special Attack by one stage."
+move-effect-359:
+  changelog: {  }
+  effect:
+    en: "Inflicts regular damage.  Has a $effect_chance% chance to raise the user's Defense by two stages for each target hit."
+  short_effect:
+    en: "Has a $effect_chance% chance to raise the user's Defense by two stages for each target hit."
+move-effect-360:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Bypasses and removes any protection effect on the target.'
+  short_effect:
+    en: 'Ignores and destroys protection effects.'
+move-effect-361:
+  changelog: {  }
+  effect:
+    en: 'Inflicts regular damage.  Hits 2–5 times.'
+  short_effect:
+    en: 'Hits 2–5 times.'
+move-effect-362:
+  changelog: {  }
+  effect:
+    en: 'Blocks damaging attacks and damages attacking Pokémon for 1/8 their max HP.'
+  short_effect:
+    en: 'Blocks damaging attacks and damages attacking Pokémon for 1/8 their max HP.'
+move-effect-363:
+  changelog: {  }
+  effect:
+    en: "Raises a selected ally's Special Defense by one stage."
+  short_effect:
+    en: "Raises a selected ally's Special Defense by one stage."
+move-effect-364:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's Attack, Special Attack, and Speed by one stage if it is poisoned."
+  short_effect:
+    en: "Lowers the target's Attack, Special Attack, and Speed by one stage if it is poisoned."
+move-effect-365:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's Attack by one stage."
+  short_effect:
+    en: "Lowers the target's Attack by one stage."
+move-effect-366:
+  changelog: {  }
+  effect:
+    en: "Takes one turn to charge, then raises the user's Special Attack, Special Defense, and Speed by two stages."
+  short_effect:
+    en: "Takes one turn to charge, then raises the user's Special Attack, Special Defense, and Speed by two stages."
+move-effect-367:
+  changelog: {  }
+  effect:
+    en: 'Raises the Defense and Special Defense of all friendly Pokémon with []{ability:plus} or []{ability:minus} by one stage.'
+  short_effect:
+    en: 'Raises the Defense and Special Defense of all friendly Pokémon with []{ability:plus} or []{ability:minus} by one stage.'
+move-effect-368:
+  changelog: {  }
+  effect:
+    en: |-
+      Doubles prize money.
+
+      Stacks with a held item.  Only works once per battle.
+  short_effect:
+    en: 'Doubles prize money.'
+move-effect-369:
+  changelog: {  }
+  effect:
+    en: |-
+      For five turns, prevents all Pokémon on the ground from sleeping and strengthens their []{type:electric} moves to 1.5× their power.
+
+      Changes []{move:nature-power} to []{move:thunderbolt}.
+  short_effect:
+    en: 'For five turns, prevents all Pokémon on the ground from sleeping and strengthens their []{type:electric} moves to 1.5× their power.'
+move-effect-370:
+  changelog: {  }
+  effect:
+    en: 'Does nothing.'
+  short_effect:
+    en: 'Does nothing.'
+move-effect-371:
+  changelog: {  }
+  effect:
+    en: 'Does nothing.'
+  short_effect:
+    en: 'Does nothing.'
+move-effect-372:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.'
+  short_effect:
+    en: 'Has a $effect_chance% chance to paralyze the target.'
+move-effect-373:
+  changelog: {  }
+  effect:
+    en: 'Inflicts regular damage.  Grounds the target until it leaves battle.  Ignores levitation effects and the immunity of []{type:flying}-type Pokémon.'
+  short_effect:
+    en: 'Grounds the target, and hits even Flying-type or levitating Pokémon.'
+move-effect-374:
+  changelog: {  }
+  effect:
+    en: 'Inflicts regular damage.  Traps the target.  '
+  short_effect:
+    en: 'Prevents the target from leaving battle.'
+move-effect-375:
+  changelog: {  }
+  effect:
+    en: "Inflicts regular damage.  Raises the user's Attack by one stage."
+  short_effect:
+    en: "Raises the user's Attack by one stage after inflicting damage."
+move-effect-376:
+  changelog: {  }
+  effect:
+    en: "Adds []{type:grass} to the target's types."
+  short_effect:
+    en: "Adds []{type:grass} to the target's types."
+move-effect-377:
+  changelog: {  }
+  effect:
+    en: 'Protects all friendly Pokémon from damaging moves.  Only works on the first turn after the user is sent out.'
+  short_effect:
+    en: 'Protects all friendly Pokémon from damaging moves.  Only works on the first turn after the user is sent out.'
+move-effect-378:
+  changelog: {  }
+  effect:
+    en: 'Explodes if the target uses a []{type:fire} move this turn, damaging it for 1/4 its max HP and preventing the move.'
+  short_effect:
+    en: 'Explodes if the target uses a []{type:fire} move this turn, damaging it for 1/4 its max HP and preventing the move.'
+move-effect-379:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.'
+  short_effect:
+    en: 'Inflicts regular damage.'
+move-effect-380:
+  changelog: {  }
+  effect:
+    en: |-
+      Inflicts [regular damage]{mechanic:regular-damage}.  This move is super-effective against the []{type:water} type.
+
+      The target's other type will affect damage as usual.  If this move's type is changed, it remains super-effective against Water regardless of its type.
+  short_effect:
+    en: 'Super-effective against []{type:water}.'
+move-effect-381:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion}.'
+  short_effect:
+    en: 'Never misses.'
+move-effect-382:
+  changelog: {  }
+  effect:
+    en: 'Heals the user for ½ its max HP.  During a []{move:sandstorm}, the healing is increased to ⅔.'
+  short_effect:
+    en: 'Heals the user for ½ its max HP, or ⅔ during a sandstorm.'
+move-effect-383:
+  changelog: {  }
+  effect:
+    en: "Inflicts regular damage. Can only be used on the user's first turn after entering the field."
+  short_effect:
+    en: 'Can only be used as the first move after the user enters battle.'
+move-effect-384:
+  changelog: {  }
+  effect:
+    en: "Grants the user protection for the rest of the turn.  If a Pokémon attempts to use a move that makes contact with the user, that Pokémon will be poisoned.  This move's chance of success halves every time it's used consecutively with any other protection move."
+  short_effect:
+    en: 'Grants the user protection for the rest of the turn and poisons any Pokémon that tries to use a contact move on it.'
+move-effect-385:
+  changelog: {  }
+  effect:
+    en: 'Inflicts regular damage.  Traps the target.'
+  short_effect:
+    en: 'Traps the target.'
+move-effect-386:
+  changelog: {  }
+  effect:
+    en: 'Inflicts regular damage.  If the target has a burn and takes damage from this move, its burn is healed.'
+  short_effect:
+    en: 'Cures the target of burns.'
+move-effect-387:
+  changelog: {  }
+  effect:
+    en: 'Heals the target for ½ its max HP.  If []{move:grassy-terrain} is in effect, heals for ⅔ instead.'
+  short_effect:
+    en: 'Heals the target for ½ its max HP, or ⅔ on Grassy Terrain.'
+move-effect-388:
+  changelog: {  }
+  effect:
+    en: |-
+      Lowers the target's Attack by one stage.  Heals the user by the target's current Attack, including modifiers, but not including this move's Attack-lowering effect.
+
+      If the target's Attack is already at -6, this move will fail.  In any other situation that would prevent a stat modification, the healing will still succeed.
+  short_effect:
+    en: "Heals the user by the target's current Attack stat and lowers the target's Attack by one stage."
+move-effect-389:
+  changelog: {  }
+  effect:
+    en: 'For the duration of the turn, if the target is also a valid target for a move used by one of its opponents, that move will target it instead.'
+  short_effect:
+    en: "Forces the target's opponents to aim at the target for the rest of the turn."
+move-effect-390:
+  changelog: {  }
+  effect:
+    en: 'Poisons the target and lowers its Speed by one stage.'
+  short_effect:
+    en: 'Poisons the target and lowers its Speed by one stage.'
+move-effect-391:
+  changelog: {  }
+  effect:
+    en: "The user's next move will result in a [critical hit]{mechanic:critical-hit}."
+  short_effect:
+    en: "Guarantees a critical hit with the user's next move."
+move-effect-392:
+  changelog: {  }
+  effect:
+    en: 'Raises the Attack and Special Attack of all friendly Pokémon with []{ability:plus} or []{ability:minus} by one stage.'
+  short_effect:
+    en: 'Raises the Attack and Special Attack of all friendly Pokémon with []{ability:plus} or []{ability:minus} by one stage.'
+move-effect-393:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Silences the target for two turns, preventing it from using any sound-based moves.'
+  short_effect:
+    en: 'Prevents the target from using sound-based moves for two turns.'
+move-effect-394:
+  changelog: {  }
+  effect:
+    en: 'If the target is an opponent, inflicts [regular damage]{mechanic:regular-damage}.  If the target is an ally, heals the target for 50% of its max HP.'
+  short_effect:
+    en: 'Damages opponents, but heals allies for 50% of their max HP.'
+move-effect-395:
+  changelog: {  }
+  effect:
+    en: |-
+      Changes the terrain to Psychic Terrain for 5 turns.  Overrides []{move:electric-terrain}, []{move:grassy-terrain}, and []{move:misty-terrain}.
+
+      All Pokémon on the ground are immune to moves with priority greater than 0.  (Moves that target the field rather than individual Pokémon, such as []{move:spikes}, are not affected.)  Additionally, when a Pokémon on the ground uses a []{type:psychic}-type move, that move's power is increased to 1.5×.
+
+      If a Pokémon is holding a Terrain Extender when creating Psychic Terrain (by any means), the effect lasts for 8 turns instead of 5.
+  short_effect:
+    en: 'Protects Pokémon on the ground from priority moves and increases the power of their  Psychic moves by 50%.'
+move-effect-396:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Lowers the target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Attack by one stage after inflicting damage."
+move-effect-397:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Lowers the target's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's Defense by one stage after inflicting damage."
+move-effect-398:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Removes the user's []{type:fire} type after damage calculation.  If the user is not []{type:fire}-type, this move will fail."
+  short_effect:
+    en: "Removes the user's []{type:fire} type after inflicting damage."
+move-effect-399:
+  changelog: {  }
+  effect:
+    en: 'Exchanges the original [Speed]{mechanic:speed} stats of the user and target.'
+  short_effect:
+    en: "Exchanges the user's Speed with the target's."
+move-effect-400:
+  changelog: {  }
+  effect:
+    en: 'Cures the target of its major status ailment and heals the user for 50% of its max HP.  If the target has no major status ailment, this move will fail.'
+  short_effect:
+    en: 'Cures the target of a major status ailment and heals the user for 50% of its max HP.'
+move-effect-401:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  This move's type matches the user's first type, if any; otherwise, it's typeless."
+  short_effect:
+    en: 'Has the same type as the user.'
+move-effect-402:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  If the target has already moved this turn, its ability is nullified.'
+  short_effect:
+    en: "Nullifies the target's ability if it moves earlier."
+move-effect-403:
+  changelog: {  }
+  effect:
+    en: "The target immediately uses its most recently-used move.  This is independent of the target's normal action for the turn (i.e., it may end up moving twice), but otherwise functions as usual, including deduction of PP.  This effect works for disabled moves and ignores []{move:torment}."
+  short_effect:
+    en: 'Forces the target to repeat its last used move.'
+move-effect-404:
+  changelog: {  }
+  effect:
+    en: 'Begins charging at the start of the turn, then attacks as normal.  Any Pokémon that makes contact with the user while charging is [burned]{mechanic:burns}.  The charging is not affected by accuracy, sleep, paralysis, or any other effect that would interfere with a move.'
+  short_effect:
+    en: 'Inflicts a burn on any Pokémon that makes contact before the attack.'
+move-effect-405:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Lowers the user's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the user's Defense by one stage after inflicting damage."
+move-effect-406:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.'
+  short_effect:
+    en: 'Inflicts regular damage with no additional effect.'
+move-effect-407:
+  changelog: {  }
+  effect:
+    en: |-
+      Places the Aurora Veil effect on the user's side of the field for the next 5 turns.  If the weather is not []{move:hail}, or the weather is disabled by the effects of []{ability:cloud-nine} or []{ability:air-lock}, this move will fail.
+
+      Any [regular damage]{mechanic:regular-damage} dealt to an affected Pokémon is reduced by ½.  (If there are multiple Pokémon on the affected field, the reduction is ⅓.)
+  short_effect:
+    en: 'Reduces damage five turns, but must be used during hail.'
+move-effect-408:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  If the user was not yet hit by an opponent's physical move this turn, this move will fail."
+  short_effect:
+    en: 'Only inflicts damage if the user was hit by a physical move this turn.'
+move-effect-409:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  Power is doubled if the user''s last move failed for any reason (i.e., produced the message "But it failed!") or was ineffective due to types.'
+  short_effect:
+    en: "Has double power if the user's last move failed."
+move-effect-410:
+  changelog: {  }
+  effect:
+    en: "Steals the target's stat increases, then inflicts [regular damage]{mechanic:regular-damage}.  Will not steal stat increases that would put any of the user's stats at more than +6; any excess is left on the target.  Stolen increases are affected by abilities as normal."
+  short_effect:
+    en: "Steals the target's stat increases, then inflicts damage."
+move-effect-411:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  Other Pokémon's abilities cannot activate in response to this move.  In particular, it hits through []{ability:disguise}"
+  short_effect:
+    en: 'Cannot be disrupted by abilities.'
+move-effect-412:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} by one stage each."
+  short_effect:
+    en: "Lowers the target's Attack and Special Attack by one stage."
+move-effect-413:
+  changelog: {  }
+  effect:
+    en: "Inflicts direct damage equal to ¾ of the target's remaining HP."
+  short_effect:
+    en: 'Damages the target for 75% of its remaining HP.'
+move-effect-414:
+  changelog: {  }
+  effect:
+    en: "Raises the user's [Attack]{mechanic:attack}, [Defense]{mechanic:defense}, [Special Attack]{mechanic:special-attack}, [Special Defense]{mechanic:special-defense}, and [Speed]{mechanic:speed} by two [stages]{mechanic:stage} each."
+  short_effect:
+    en: "Raises all of the user's stats by two stages."
+move-effect-415:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}, then (if successful) changes the terrain to []{move:psychic-terrain}.'
+  short_effect:
+    en: 'Changes the terrain to Psychic Terrain after inflicting damage.'
+move-effect-416:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for light-that-burns-the-sky'
+  short_effect:
+    en: 'XXX new effect for light-that-burns-the-sky'
+move-effect-417:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for lets-snuggle-forever'
+  short_effect:
+    en: 'XXX new effect for lets-snuggle-forever'
+move-effect-418:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for splintered-stormshards'
+  short_effect:
+    en: 'XXX new effect for splintered-stormshards'
+move-effect-419:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for clangorous-soulblaze'
+  short_effect:
+    en: 'XXX new effect for clangorous-soulblaze'
+move-effect-420:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for mind-blown'
+  short_effect:
+    en: 'XXX new effect for mind-blown'
+move-effect-421:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for dynamax-cannon'
+  short_effect:
+    en: 'XXX new effect for dynamax-cannon'
+move-effect-422:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for snipe-shot'
+  short_effect:
+    en: 'XXX new effect for snipe-shot'
+move-effect-423:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for jaw-lock'
+  short_effect:
+    en: 'XXX new effect for jaw-lock'
+move-effect-424:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for stuff-cheeks'
+  short_effect:
+    en: 'XXX new effect for stuff-cheeks'
+move-effect-425:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for no-retreat'
+  short_effect:
+    en: 'XXX new effect for no-retreat'
+move-effect-426:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for tar-shot'
+  short_effect:
+    en: 'XXX new effect for tar-shot'
+move-effect-427:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for magic-powder'
+  short_effect:
+    en: 'XXX new effect for magic-powder'
+move-effect-428:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for dragon-darts'
+  short_effect:
+    en: 'XXX new effect for dragon-darts'
+move-effect-429:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for teatime'
+  short_effect:
+    en: 'XXX new effect for teatime'
+move-effect-430:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for octolock'
+  short_effect:
+    en: 'XXX new effect for octolock'
+move-effect-431:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for bolt-beak'
+  short_effect:
+    en: 'XXX new effect for bolt-beak'
+move-effect-432:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for court-change'
+  short_effect:
+    en: 'XXX new effect for court-change'
+move-effect-433:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for clangorous-soul'
+  short_effect:
+    en: 'XXX new effect for clangorous-soul'
+move-effect-434:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for body-press'
+  short_effect:
+    en: 'XXX new effect for body-press'
+move-effect-435:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for decorate'
+  short_effect:
+    en: 'XXX new effect for decorate'
+move-effect-436:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for behemoth-blade'
+  short_effect:
+    en: 'XXX new effect for behemoth-blade'
+move-effect-437:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for aura-wheel'
+  short_effect:
+    en: 'XXX new effect for aura-wheel'
+move-effect-439:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for overdrive'
+  short_effect:
+    en: 'XXX new effect for overdrive'
+move-effect-440:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for apple-acid'
+  short_effect:
+    en: 'XXX new effect for apple-acid'
+move-effect-441:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for life-dew'
+  short_effect:
+    en: 'XXX new effect for life-dew'
+move-effect-442:
+  changelog: {  }
+  effect:
+    en: 'XXX new effect for obstruct'
+  short_effect:
+    en: 'XXX new effect for obstruct'
+move-effect-10001:
+  changelog: {  }
+  effect:
+    en: "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move while in [hyper mode]{mechanic:hyper-mode}."
+  short_effect:
+    en: 'Has an increased chance for a critical hit in Hyper Mode.'
+move-effect-10002:
+  changelog: {  }
+  effect:
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/2 of its current [HP]{mechanic:hp} in recoil.'
+  short_effect:
+    en: 'User receives 1/2 its HP in recoil.'
+move-effect-10003:
+  changelog: {  }
+  effect:
+    en: 'Halves [HP]{mechanic:hp} of all Pokémon on the field.  User loses its next turn to "recharge", and cannot attack or [switch]{mechanic:switch} out during that turn.'
+  short_effect:
+    en: 'Halves HP of all Pokémon on the field.  Must recharge'
+move-effect-10004:
+  changelog: {  }
+  effect:
+    en: "Lowers the target's [evasion]{mechanic:evasion} by two [stages]{mechanic:stage}."
+  short_effect:
+    en: "Lowers the target's evasion by two stages."
+    cs: 'Sníží protivníkovu Mrštnost o dva stupně.'
+move-effect-10005:
+  changelog: {  }
+  effect:
+    en: 'Removes the effects of []{move:light-screen}, []{move:reflect}, and []{move:safeguard}.'
+  short_effect:
+    en: 'Removes [Light Screen]{move:light-screen}, [Reflect]{move:reflect}, and [Safeguard]{move:safeguard}.'
+move-effect-10006:
+  changelog: {  }
+  effect:
+    en: 'Changes the weather to Shadow Sky for five turns.  Pokémon other than []{type:shadow} Pokémon take 1/16 their max [HP]{mechanic:hp} at the end of every turn.  This move is typeless for the purposes of []{move:weather-ball}.'
+  short_effect:
+    en: 'Changes the weather to Shadow Sky for five turns.'
+    cs: 'Na pět kol zatemní oblohu.'

@@ -1,0 +1,711 @@
+grimer-alola:
+  abilities:
+    poison-touch:
+      is_hidden: false
+      slot: 1
+    gluttony:
+      is_hidden: false
+      slot: 2
+    power-of-alchemy:
+      is_hidden: true
+      slot: 3
+  base_experience: 65
+  base_stats:
+    hp: 80
+    attack: 80
+    defense: 50
+    special-attack: 40
+    special-defense: 50
+    speed: 25
+  effort_values:
+    hp: 1
+    attack: 0
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index: {  }
+  height: 7
+  is_default: false
+  moves:
+    sun-moon:
+      pound:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bite:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      disable:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      harden:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      minimize:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-gas:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      acid-armor:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      spite:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mean-look:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pursuit:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stockpile:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      spit-up:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swallow:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      torment:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      memento:
+        level: 48
+        order: ~
+        pokemon_move_method: level-up
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      imprison:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      poison-fang:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      embargo:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-sneak:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      gunk-shot:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      stone-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acid-spray:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      clear-smog:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      quash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snarl:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      belch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brutal-swing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      pound:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      fire-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      ice-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      thunder-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bite:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      disable:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      harden:
+        level: 4
+        order: ~
+        pokemon_move_method: level-up
+      minimize:
+        level: 21
+        order: ~
+        pokemon_move_method: level-up
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-gas:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      acid-armor:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      explosion:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      curse:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      spite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scary-face:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mean-look:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pain-split:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      pursuit:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sunny-day:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      stockpile:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      spit-up:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swallow:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      torment:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      memento:
+        level: 48
+        order: ~
+        pokemon_move_method: level-up
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      imprison:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      poison-fang:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      rock-tomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      payback:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      embargo:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gastro-acid:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      rock-polish:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-sneak:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      gunk-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      stone-edge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      venoshock:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      acid-spray:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      clear-smog:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      quash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snarl:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      belch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      power-up-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      brutal-swing:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    lets-go-pikachu-lets-go-eevee:
+      pound:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      fire-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-punch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      headbutt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bite:
+        level: 24
+        order: ~
+        pokemon_move_method: level-up
+      disable:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      flamethrower:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mega-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dig:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      harden:
+        level: 6
+        order: ~
+        pokemon_move_method: level-up
+      minimize:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      self-destruct:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fire-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-gas:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      acid-armor:
+        level: 42
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rock-slide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sludge-bomb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      crunch:
+        level: 36
+        order: ~
+        pokemon_move_method: level-up
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+  order: 142
+  species: grimer
+  type:
+    - poison
+    - dark
+  weight: 420

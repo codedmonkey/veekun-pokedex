@@ -1,0 +1,79 @@
+trial-chamber:
+  areas:
+    main_area:
+      encounter_rates:
+        black:
+          walk: 3
+        white:
+          walk: 3
+      encounters:
+        black:
+          excadrill:
+            encounter_method: grass-spots
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 12
+          durant:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 11
+          boldore:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 10
+            slot: 4
+          woobat:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 12
+          mienfoo:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 10
+            slot: 6
+        white:
+          excadrill:
+            encounter_method: grass-spots
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 12
+          durant:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 11
+          boldore:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 10
+            slot: 4
+          woobat:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 12
+          mienfoo:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 10
+            slot: 6
+      game_index: 67
+      name:
+        en: 'Main Area'
+  name:
+    ja-Hrkt: 試練の室
+    en: 'Trial Chamber'
+    fr: 'Salle Épreuve'
+  region: unova

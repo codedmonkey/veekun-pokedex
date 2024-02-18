@@ -1,0 +1,135 @@
+sappy-seed:
+  accuracy: 90
+  changelog:
+    sword-shield:
+      accuracy: 100
+      effect: ~
+      effect_chance: ~
+      power: 90
+      pp: 15
+      priority: ~
+      target: ~
+      type: ~
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: 100
+  flags:
+    - protect
+    - reflectable
+    - mirror
+  flavor_text:
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        きょだいな　ツルを　はやし　タネを
+        まきちらかして　こうげきする。　タネは
+        まいターン　あいての　HPを　すいとる。
+      ja: |-
+        巨大な　ツルを　生やし　タネを
+        撒きちらかして　攻撃する。　タネは
+        毎ターン　相手の　HPを　吸いとる。
+      ko: |-
+        거대한 덩굴을 자라게 하고
+        씨를 흩뿌려서 공격한다. 씨는
+        매 턴 상대의 HP를 흡수한다.
+      zh-Hant: |-
+        長出巨大的藤蔓，
+        散播種子進行攻擊。
+        種子每回合都會吸取對手的HP。
+      zh-Hans: |-
+        长出巨大的藤蔓，
+        播撒种子进行攻击。
+        种子每回合都会吸取对手的HP。
+      en: |-
+        The user grows a gigantic stalk that scatters seeds
+        to attack the target. The seeds drain the target’s
+        HP every turn.
+      fr: |-
+        Une liane géante surgit du sol et bombarde l’adversaire
+        de graines qui lui dérobent des PV à chaque tour.
+        Ces PV sont ensuite absorbés par Évoli.
+      de: |-
+        Evoli lässt eine riesige Ranke wachsen, von der Samen
+        herabfallen, die dem Ziel schaden und ihm in jeder
+        Runde KP absaugen.
+      es: |-
+        Hace brotar un tallo gigante que bombardea al rival
+        con unas semillas que le drenan PS en cada turno.
+      it: |-
+        Fa crescere un’enorme pianta che colpisce il bersaglio
+        con una pioggia di semi. Questi sottraggono
+        PS a ogni turno permettendo a chi la usa di curarsi.
+    sword-shield:
+      ja-Hrkt: |-
+        このわざは　つかえません
+        おもいだすことが　できなくなりますが
+        わざを　わすれることを　おすすめします
+      ja: |-
+        この技は　使えません
+        思い出すことが　できなくなりますが
+        技を　忘れることを　おすすめします
+      ko: |-
+        사용할 수 없는 기술입니다.
+        다시 배우게 할 수 없지만
+        기술을 잊게 하는 것을 권장합니다.
+      zh-Hant: |-
+        無法使用此招式。
+        雖然忘記後將無法再想起來，
+        但還是建議忘記此招式。
+      zh-Hans: |-
+        无法使用这个招式。
+        虽然忘记之后就再也想不起来了，
+        但还是建议忘记这个招式。
+      en: |-
+        This move can’t be used.
+        It’s recommended that this move is forgotten.
+        Once forgotten, this move can’t be remembered.
+      fr: |-
+        Cette capacité ne peut pas être utilisée.
+        Il est recommandé de l’oublier, même s’il sera
+        impossible de se la remémorer une fois oubliée.
+      de: |-
+        Diese Attacke kann nicht eingesetzt werden. Du solltest
+        dein Pokémon sie vergessen lassen. Beachte aber,
+        dass es sich danach nicht wieder an sie erinnern kann.
+      es: |-
+        Este movimiento no se puede usar, por lo que sería
+        mejor olvidarlo, aunque eso implique que no se pueda
+        recordar posteriormente.
+      it: |-
+        Questa mossa non può essere usata.
+        È consigliabile farla dimenticare al Pokémon. Tuttavia,
+        una volta dimenticata, non potrà più essere ricordata.
+  generation: generation-vii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 100
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: leech-seed
+    meta_category: damage+ailment
+    stat_changes: {  }
+  name:
+    ja-Hrkt: すくすくボンバー
+    ja: すくすくボンバー
+    ko: 쑥쑥봄버
+    zh-Hant: 茁茁轟炸
+    zh-Hans: 茁茁轰炸
+    en: 'Sappy Seed'
+    fr: Évo-Écolo
+    de: Sprießbomben
+    es: Leafitobombas
+    it: Bombafrush
+  power: 100
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: grass

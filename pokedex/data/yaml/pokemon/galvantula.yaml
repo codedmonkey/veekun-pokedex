@@ -1,0 +1,1403 @@
+galvantula:
+  abilities:
+    compound-eyes:
+      is_hidden: false
+      slot: 1
+    unnerve:
+      is_hidden: false
+      slot: 2
+    swarm:
+      is_hidden: true
+      slot: 3
+  base_experience: 165
+  base_stats:
+    hp: 70
+    attack: 77
+    defense: 60
+    special-attack: 97
+    special-defense: 60
+    speed: 108
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 2
+  game_index:
+    black: 596
+    white: 596
+    black-2: 596
+    white-2: 596
+  height: 8
+  is_default: true
+  moves:
+    black-white:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      string-shot:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      screech:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leech-life:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spider-web:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      signal-beam:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      gastro-acid:
+        level: 23
+        order: ~
+        pokemon_move_method: level-up
+      sucker-punch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      x-scissor:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-buzz:
+        level: 60
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electro-ball:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electroweb:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    black-2-white-2:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      string-shot:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      screech:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leech-life:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spider-web:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bounce:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      gastro-acid:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sucker-punch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      magnet-rise:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      x-scissor:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-buzz:
+        level: 60
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electro-ball:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    x-y:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      screech:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leech-life:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spider-web:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      signal-beam:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      gastro-acid:
+        level: 23
+        order: ~
+        pokemon_move_method: level-up
+      sucker-punch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      x-scissor:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-buzz:
+        level: 60
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electro-ball:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electroweb:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sticky-web:
+        level: 65
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      cut:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      screech:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leech-life:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      flash:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spider-web:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bounce:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      gastro-acid:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sucker-punch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      magnet-rise:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      x-scissor:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-buzz:
+        level: 60
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electro-ball:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      struggle-bug:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sticky-web:
+        level: 65
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      absorb:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      screech:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leech-life:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spider-web:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      signal-beam:
+        level: 34
+        order: ~
+        pokemon_move_method: level-up
+      gastro-acid:
+        level: 23
+        order: ~
+        pokemon_move_method: level-up
+      sucker-punch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      x-scissor:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-buzz:
+        level: 60
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 18
+        order: ~
+        pokemon_move_method: level-up
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electro-ball:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electroweb:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sticky-web:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      absorb:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 40
+        order: ~
+        pokemon_move_method: level-up
+      screech:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leech-life:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 26
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      spider-web:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bounce:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      gastro-acid:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sucker-punch:
+        level: 46
+        order: ~
+        pokemon_move_method: level-up
+      magnet-rise:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      x-scissor:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-buzz:
+        level: 60
+        order: ~
+        pokemon_move_method: level-up
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 54
+        order: ~
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      charge-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electro-ball:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sticky-web:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      infestation:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      throat-chop:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    sword-shield:
+      pin-missile:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      absorb:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      string-shot:
+        level: 12
+        order: ~
+        pokemon_move_method: level-up
+      thunderbolt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thunder:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      screech:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      leech-life:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      slash:
+        level: 32
+        order: ~
+        pokemon_move_method: level-up
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      thief:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-drain:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fury-cutter:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bounce:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      gastro-acid:
+        level: 50
+        order: ~
+        pokemon_move_method: level-up
+      sucker-punch:
+        level: 28
+        order: ~
+        pokemon_move_method: level-up
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      x-scissor:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-buzz:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      energy-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      discharge:
+        level: 39
+        order: ~
+        pokemon_move_method: level-up
+      cross-poison:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      electro-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      volt-switch:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      wild-charge:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sticky-web:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      throat-chop:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      speed-swap:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rising-voltage:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      skitter-smack:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 718
+  species: galvantula
+  type:
+    - bug
+    - electric
+  weight: 143

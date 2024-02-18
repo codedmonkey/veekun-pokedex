@@ -1,0 +1,82 @@
+dragon-energy:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: special
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        せいめいりょくを　パワーに　かえ　あいてを
+        こうげきする。　じぶんの　ＨＰが　すくないほど
+        わざの　いりょくは　さがる。
+      ja: |-
+        生命力を　パワーに　変え　相手を
+        攻撃する。　自分の　ＨＰが　少ないほど
+        技の　威力は　さがる。
+      ko: |-
+        생명력을 파워로 바꿔서 상대를 공격한다.
+        자신의 HP가 적을수록
+        기술의 위력이 떨어진다.
+      zh-Hant: |-
+        將生命力化為力量攻擊對手。
+        自己的ＨＰ越少，招式的威力越小。
+      zh-Hans: |-
+        把生命力转换为力量攻击对手。
+        自己的ＨＰ越少，招式的威力越小。
+      en: |-
+        Converting its life-force into power, the user attacks
+        opposing Pokémon. The lower the user’s HP, the lower
+        the move’s power.
+      fr: |-
+        Le lanceur utilise son énergie vitale pour attaquer
+        l’ennemi. Moins il a de PV, moins l’attaque est puissante.
+      de: |-
+        Der Anwender wandelt seine Lebenskraft in Energie um
+        und greift gegnerische Pokémon an. Je höher seine
+        KP sind, desto mehr Schaden wird angerichtet.
+      es: |-
+        El usuario convierte su fuerza vital en una energía con
+        la que ataca al objetivo. Cuantos menos PS tenga el
+        usuario, menor será la potencia del movimiento.
+      it: |-
+        Il Pokémon attacca i nemici convertendo la propria
+        forza vitale in energia. La potenza della mossa cala
+        man mano che i PS diminuiscono.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: ドラゴンエナジー
+    ja: ドラゴンエナジー
+    ko: 드래곤에너지
+    zh-Hant: 巨龍威能
+    zh-Hans: 巨龙威能
+    en: 'Dragon Energy'
+    fr: Draco-Énergie
+    de: Drachenkräfte
+    es: Dracoenergía
+    it: Dragoenergia
+  power: 150
+  pp: 5
+  priority: 0
+  super_contest_effect: ~
+  target: all-opponents
+  type: dragon

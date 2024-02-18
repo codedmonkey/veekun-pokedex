@@ -1,0 +1,120 @@
+green-path:
+  areas:
+    main_area:
+      encounter_rates:
+        firered:
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+        leafgreen:
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+      encounters:
+        firered:
+          horsea:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          qwilfish:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          seadra:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 4
+            slot: 4
+          psyduck:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 1
+            slot: 5
+          tentacool:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 5
+            slot: 3
+          tentacruel:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 1
+            slot: 5
+        leafgreen:
+          krabby:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          remoraid:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          kingler:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 4
+            slot: 4
+          slowpoke:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 1
+            slot: 5
+          tentacool:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 5
+            slot: 3
+          tentacruel:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 1
+            slot: 5
+      game_index: 80
+      name:
+        en: 'Main Area'
+  name:
+    en: 'Green Path'
+    fr: 'Chemin Vert'
+  region: kanto

@@ -1,0 +1,56 @@
+cosmoem:
+  abilities:
+    sturdy:
+      is_hidden: false
+      slot: 1
+  base_experience: 140
+  base_stats:
+    hp: 43
+    attack: 29
+    defense: 131
+    special-attack: 29
+    special-defense: 131
+    speed: 37
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 1
+    special-attack: 0
+    special-defense: 1
+    speed: 0
+  game_index: {  }
+  height: 1
+  is_default: true
+  moves:
+    sun-moon:
+      teleport:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      cosmic-power:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+    ultra-sun-ultra-moon:
+      teleport:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      cosmic-power:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+    sword-shield:
+      teleport:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      cosmic-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+  order: 967
+  species: cosmoem
+  type:
+    - psychic
+  weight: 9999

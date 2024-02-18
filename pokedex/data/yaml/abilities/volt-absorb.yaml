@@ -1,0 +1,241 @@
+volt-absorb:
+  changelog:
+    diamond-pearl:
+      effect:
+        en: 'Does not absorb non-damaging []{type:electric} moves, i.e. []{move:thunder-wave}.'
+        de: '[]{type:electric}-Attacken die keinen Schaden anrichten, wie []{move:thunder-wave}, werden nicht absorbiert.'
+        cs: 'Neabsorbuje nezraňující [elektrické]{type:electric} útoky, např. []{move:thunder-wave}.'
+  effect:
+    en: |-
+      Whenever an []{type:electric}-type move hits this Pokémon, it heals for 1/4 of its maximum [HP]{mechanic:hp}, negating any other effect on it.
+
+      This ability will not take effect if this Pokémon is []{type:ground}-type and thus immune to Electric moves.  Electric moves will ignore this Pokémon's []{move:substitute}.
+
+      This effect includes non-damaging moves, i.e. []{move:thunder-wave}.
+    de: |-
+      Wenn ein Pokémon mit dieser Fähigkeit von einer []{type:electric} Attacke getroffen wird, wird es um 1/4 seiner maximalen []{mechanic:hp} geheilt. Jeder andere Effekt der Attacke wird ignoriert.
+
+      Die Fähigkeit wirkt nicht, wenn das Pokémon vom Typ []{type:ground} ist. []{type:electric} Attacken ignorieren den []{move:substitute} dieses Pokémons.
+
+      Der Effekt gilt auch für Attacken die keinen Schaden verursachen, wie z.B. []{move:thunder-wave}.
+  flavor_text:
+    ruby-sapphire:
+      en: 'Turns electricity into HP.'
+    emerald:
+      en: 'Turns electricity into HP.'
+    firered-leafgreen:
+      en: 'Turns electricity into HP.'
+    diamond-pearl:
+      en: |-
+        Restores HP if hit by an
+        Electric-type move.
+    platinum:
+      en: |-
+        Restores HP if hit by an
+        Electric-type move.
+    heartgold-soulsilver:
+      en: |-
+        Restores HP if hit by an
+        Electric-type move.
+    black-white:
+      en: |-
+        Restores HP if hit by an
+        Electric-type move.
+      fr: |-
+        Récupère des PV si touché
+        par une capacité Électrik.
+    black-2-white-2:
+      en: |-
+        Restores HP if hit by an
+        Electric-type move.
+    x-y:
+      ja-Hrkt: |-
+        でんきを　うけると
+        かいふくする。
+      ja: |-
+        でんきを　受けると
+        回復する。
+      ko: |-
+        전기를 받으면
+        회복한다.
+      en: |-
+        Restores HP if hit by an
+        Electric-type move.
+      fr: |-
+        Récupère des PV si touché par
+        une capacité Électrik.
+      de: |-
+        Treffer durch Elektro-Attacken
+        regenerieren KP.
+      es: |-
+        Recupera PS al recibir ataques de
+        tipo Eléctrico.
+      it: |-
+        Ridà PS se il Pokémon subisce
+        una mossa di tipo Elettro.
+    omega-ruby-alpha-sapphire:
+      ja-Hrkt: |-
+        でんきを　うけると
+        かいふくする。
+      ja: |-
+        でんきを　受けると
+        回復する。
+      ko: |-
+        전기를 받으면
+        회복한다.
+      en: |-
+        Restores HP if hit by an
+        Electric-type move.
+      fr: |-
+        Récupère des PV si touché par
+        une capacité Électrik.
+      de: |-
+        Treffer durch Elektro-Attacken
+        regenerieren KP.
+      es: |-
+        Recupera PS al recibir ataques de
+        tipo Eléctrico.
+      it: |-
+        Ridà PS se il Pokémon subisce
+        una mossa di tipo Elettro.
+    sun-moon:
+      ja-Hrkt: |-
+        でんきタイプの　わざを　うけると
+        ダメージを　うけずに　かいふくする。
+      ja: |-
+        でんきタイプの　技を　受けると
+        ダメージを　受けずに　回復する。
+      ko: |-
+        전기타입의 기술을 받으면
+        데미지를 받지 않고 회복한다.
+      zh-Hant: |-
+        受到電屬性的招式攻擊時，
+        不會受到傷害，而是會回復。
+      zh-Hans: |-
+        受到电属性的招式攻击时，
+        不会受到伤害，而是会回复。
+      en: |-
+        Restores HP if hit by an Electric-type move, instead
+        of taking damage.
+      fr: |-
+        Si le Pokémon est touché par une capacité Électrik,
+        il ne subit aucun dégât et regagne des PV à la place.
+      de: |-
+        Treffer durch Elektro-Attacken verursachen keinen
+        Schaden, sondern regenerieren stattdessen KP.
+      es: |-
+        Si le alcanza un movimiento de tipo Eléctrico,
+        recupera PS en vez de sufrir daño.
+      it: |-
+        Se il Pokémon subisce una mossa di tipo Elettro,
+        recupera PS anziché subire danni.
+    ultra-sun-ultra-moon:
+      ja-Hrkt: |-
+        でんきタイプの　わざを　うけると
+        ダメージを　うけずに　かいふくする。
+      ja: |-
+        でんきタイプの　技を　受けると
+        ダメージを　受けずに　回復する。
+      ko: |-
+        전기타입의 기술을 받으면
+        데미지를 받지 않고 회복한다.
+      zh-Hant: |-
+        受到電屬性的招式攻擊時，
+        不會受到傷害，而是會回復。
+      zh-Hans: |-
+        受到电属性的招式攻击时，
+        不会受到伤害，而是会回复。
+      en: |-
+        Restores HP if hit by an Electric-type move, instead
+        of taking damage.
+      fr: |-
+        Si le Pokémon est touché par une capacité Électrik,
+        il ne subit aucun dégât et regagne des PV à la place.
+      de: |-
+        Treffer durch Elektro-Attacken verursachen keinen
+        Schaden, sondern regenerieren stattdessen KP.
+      es: |-
+        Si le alcanza un movimiento de tipo Eléctrico,
+        recupera PS en vez de sufrir daño.
+      it: |-
+        Se il Pokémon subisce una mossa di tipo Elettro,
+        recupera PS anziché subire danni.
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        でんきタイプの　わざを　うけると
+        ダメージを　うけずに　かいふくする。
+      ja: |-
+        でんきタイプの　技を　受けると
+        ダメージを　受けずに　回復する。
+      ko: |-
+        전기타입의 기술을 받으면
+        데미지를 받지 않고 회복한다.
+      zh-Hant: |-
+        受到電屬性的招式攻擊時，
+        不會受到傷害，而是會回復。
+      zh-Hans: |-
+        受到电属性的招式攻击时，
+        不会受到伤害，而是会回复。
+      en: |-
+        Restores HP if hit by an Electric-type move instead
+        of taking damage.
+      fr: |-
+        Si le Pokémon est touché par une capacité Électrik,
+        il ne subit aucun dégât et regagne des PV à la place.
+      de: |-
+        Treffer durch Elektro-Attacken verursachen keinen
+        Schaden, sondern regenerieren stattdessen KP.
+      es: |-
+        Si le alcanza un movimiento de tipo Eléctrico,
+        recupera PS en vez de sufrir daño.
+      it: |-
+        Se il Pokémon subisce una mossa di tipo Elettro,
+        recupera PS anziché subire danni.
+    sword-shield:
+      ja-Hrkt: |-
+        でんきタイプの　わざを　うけると
+        ダメージを　うけずに　かいふくする。
+      ja: |-
+        でんきタイプの　技を　受けると
+        ダメージを　受けずに　回復する。
+      ko: |-
+        전기타입의 기술을 받으면
+        데미지를 받지 않고 회복한다.
+      zh-Hant: |-
+        受到電屬性的招式攻擊時，
+        不會受到傷害，而是會回復。
+      zh-Hans: |-
+        受到电属性的招式攻击时，
+        不会受到伤害，而是会回复。
+      en: |-
+        Restores HP if hit by an Electric-type move instead
+        of taking damage.
+      fr: |-
+        Si le Pokémon est touché par une capacité Électrik,
+        il ne subit aucun dégât et regagne des PV à la place.
+      de: |-
+        Treffer durch Elektro-Attacken verursachen keinen
+        Schaden, sondern regenerieren stattdessen KP.
+      es: |-
+        Si le alcanza un movimiento de tipo Eléctrico, recupera
+        PS en vez de sufrir daño.
+      it: |-
+        Se il Pokémon viene colpito da una mossa di tipo
+        Elettro, recupera PS anziché subire danni.
+  generation: generation-iii
+  is_main_series: true
+  name:
+    ja-Hrkt: ちくでん
+    ja: ちくでん
+    ko: 축전
+    zh-Hant: 蓄電
+    zh-Hans: 蓄电
+    en: 'Volt Absorb'
+    fr: Absorbe-Volt
+    de: Voltabsorber
+    es: 'Absorbe Elec'
+    it: Assorbivolt
+    cs: Nabíjení
+  short_effect:
+    en: 'Absorbs []{type:electric} moves, healing for 1/4 max [HP]{mechanic:hp}.'
+    de: 'Absorbiert []{type:electric} Attacken und heilt 1/4 der max []{mechanic:hp}.'

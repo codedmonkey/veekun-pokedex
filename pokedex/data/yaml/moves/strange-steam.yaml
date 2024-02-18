@@ -1,0 +1,78 @@
+strange-steam:
+  accuracy: 95
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: special
+  effect: move-effect-77
+  effect_chance: 20
+  flags:
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        けむりを　ふんしゅつして
+        あいてを　こうげき。
+        こんらん　させることが　ある。
+      ja: |-
+        煙を　噴出して
+        相手を　攻撃。
+        混乱　させることが　ある。
+      ko: |-
+        연기를 분출해서
+        상대를 공격한다.
+        혼란시킬 때가 있다.
+      zh-Hant: |-
+        噴出煙霧攻擊對手。
+        有時會使對手混亂。
+      zh-Hans: |-
+        喷出烟雾攻击对手。
+        有时会使对手混乱。
+      en: |-
+        The user attacks the target by emitting steam.
+        This may also confuse the target.
+      fr: |-
+        Le lanceur émet de la vapeur pour attaquer sa cible.
+        Peut aussi la rendre confuse.
+      de: |-
+        Der Anwender stößt Dampf aus, mit dem er das Ziel
+        angreift. Dieses wird eventuell verwirrt.
+      es: |-
+        Desprende un humo con el que ataca al objetivo, que
+        puede acabar confundido.
+      it: |-
+        Chi la usa attacca il bersaglio con getti di vapore
+        che possono anche confonderlo.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: 2
+    max_turns: 5
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 20
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: confusion
+    meta_category: damage+ailment
+    stat_changes: {  }
+  name:
+    ja-Hrkt: ワンダースチーム
+    ja: ワンダースチーム
+    ko: 원더스팀
+    zh-Hant: 神奇蒸汽
+    zh-Hans: 神奇蒸汽
+    en: 'Strange Steam'
+    fr: 'Vapeur Féérique'
+    de: Wunderdampf
+    es: Cautivapor
+    it: 'Vapore Incantato'
+  power: 90
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: fairy

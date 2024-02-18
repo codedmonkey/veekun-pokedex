@@ -1,0 +1,653 @@
+pheromosa:
+  abilities:
+    beast-boost:
+      is_hidden: false
+      slot: 1
+  base_experience: 285
+  base_stats:
+    hp: 71
+    attack: 137
+    defense: 37
+    special-attack: 137
+    special-defense: 37
+    speed: 151
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 3
+  game_index: {  }
+  height: 18
+  is_default: true
+  moves:
+    sun-moon:
+      stomp:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      double-kick:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      jump-kick:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      low-kick:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swift:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      high-jump-kick:
+        level: 67
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      triple-kick:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      torment:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      silver-wind:
+        level: 23
+        order: ~
+        pokemon_move_method: level-up
+      bounce:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feint:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      me-first:
+        level: 59
+        order: ~
+        pokemon_move_method: level-up
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-buzz:
+        level: 53
+        order: ~
+        pokemon_move_method: level-up
+      focus-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quiver-dance:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      low-sweep:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      echoed-voice:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-guard:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      lunge:
+        level: 47
+        order: ~
+        pokemon_move_method: level-up
+      speed-swap:
+        level: 73
+        order: ~
+        pokemon_move_method: level-up
+    ultra-sun-ultra-moon:
+      stomp:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      double-kick:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      jump-kick:
+        level: 31
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      low-kick:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swift:
+        level: 7
+        order: ~
+        pokemon_move_method: level-up
+      high-jump-kick:
+        level: 67
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      triple-kick:
+        level: 43
+        order: ~
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      outrage:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      torment:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snatch:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      silver-wind:
+        level: 23
+        order: ~
+        pokemon_move_method: level-up
+      signal-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      block:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bounce:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      shock-wave:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      roost:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feint:
+        level: 19
+        order: ~
+        pokemon_move_method: level-up
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      me-first:
+        level: 59
+        order: ~
+        pokemon_move_method: level-up
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-buzz:
+        level: 53
+        order: ~
+        pokemon_move_method: level-up
+      focus-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      quiver-dance:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      low-sweep:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      foul-play:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      echoed-voice:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-guard:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      drill-run:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      laser-focus:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      throat-chop:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      lunge:
+        level: 47
+        order: ~
+        pokemon_move_method: level-up
+      speed-swap:
+        level: 73
+        order: ~
+        pokemon_move_method: level-up
+    sword-shield:
+      stomp:
+        level: 35
+        order: ~
+        pokemon_move_method: level-up
+      double-kick:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      leer:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hyper-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      low-kick:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      agility:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      high-jump-kick:
+        level: 70
+        order: ~
+        pokemon_move_method: level-up
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      triple-kick:
+        level: 30
+        order: ~
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      outrage:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      false-swipe:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rapid-spin:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      taunt:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      brick-break:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bounce:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      feint:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      u-turn:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      close-combat:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      assurance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      fling:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      poison-jab:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-buzz:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      focus-blast:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      giga-impact:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+      quiver-dance:
+        level: 65
+        order: ~
+        pokemon_move_method: level-up
+      low-sweep:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      foul-play:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      quick-guard:
+        level: 10
+        order: ~
+        pokemon_move_method: level-up
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      drill-run:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      throat-chop:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      lunge:
+        level: 45
+        order: ~
+        pokemon_move_method: level-up
+      speed-swap:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      skitter-smack:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      coaching:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      triple-axel:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 972
+  species: pheromosa
+  type:
+    - bug
+    - fighting
+  weight: 250

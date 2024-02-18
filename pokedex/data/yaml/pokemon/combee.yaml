@@ -1,0 +1,296 @@
+combee:
+  abilities:
+    honey-gather:
+      is_hidden: false
+      slot: 1
+    hustle:
+      is_hidden: true
+      slot: 3
+  base_experience: 49
+  base_stats:
+    hp: 30
+    attack: 30
+    defense: 42
+    special-attack: 30
+    special-defense: 42
+    speed: 70
+  effort_values:
+    hp: 0
+    attack: 0
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 1
+  game_index:
+    diamond: 415
+    pearl: 415
+    platinum: 415
+    heartgold: 415
+    soulsilver: 415
+    black: 415
+    white: 415
+    black-2: 415
+    white-2: 415
+  height: 3
+  is_default: true
+  moves:
+    diamond-pearl:
+      gust:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      sweet-scent:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+    platinum:
+      gust:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sweet-scent:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      air-cutter:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      ominous-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    heartgold-soulsilver:
+      gust:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      string-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      swift:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      mud-slap:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sweet-scent:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      air-cutter:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      tailwind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      ominous-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    black-white:
+      gust:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      sweet-scent:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+    black-2-white-2:
+      gust:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sweet-scent:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      tailwind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-buzz:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    x-y:
+      gust:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      sweet-scent:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bug-buzz:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+    omega-ruby-alpha-sapphire:
+      gust:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sweet-scent:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      tailwind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-buzz:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    sun-moon:
+      gust:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      sweet-scent:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bug-buzz:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+    ultra-sun-ultra-moon:
+      gust:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      sweet-scent:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      endeavor:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      tailwind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-buzz:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    sword-shield:
+      gust:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sweet-scent:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      bug-buzz:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      bug-bite:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      struggle-bug:
+        level: 1
+        order: 3
+        pokemon_move_method: level-up
+      dual-wingbeat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 546
+  species: combee
+  type:
+    - bug
+    - flying
+  weight: 55

@@ -1,0 +1,33 @@
+magma-hideout:
+  areas:
+    main_area:
+      encounter_rates:
+        emerald:
+          walk: 10
+      encounters:
+        emerald:
+          geodude:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 5
+            slot: 7
+          torkoal:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 4
+          graveler:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 1
+            slot: 12
+      game_index: 99
+      name:
+        en: 'Main Area'
+  name:
+    en: 'Magma Hideout'
+    fr: 'Planque Magma'
+  region: hoenn

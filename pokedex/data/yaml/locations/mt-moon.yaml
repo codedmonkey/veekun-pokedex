@@ -1,0 +1,744 @@
+mt-moon:
+  areas:
+    mt-moon-square:
+      encounter_rates:
+        heartgold:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 15
+        soulsilver:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 15
+      encounters:
+        heartgold:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 30
+            slot: 2
+        soulsilver:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 30
+            slot: 2
+      game_index: 73
+      name:
+        en: 'Mt. Moon Square'
+    1f:
+      encounter_rates:
+        firered:
+          walk: 7
+        leafgreen:
+          walk: 7
+        heartgold:
+          walk: 15
+        soulsilver:
+          walk: 15
+      encounters:
+        heartgold:
+          zubat:
+            encounter_method: walk
+            max_level: 6
+            min_level: 6
+            rarity: 10
+            slot: 3
+          geodude:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 4
+          absol:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 4
+          sandshrew:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 6
+          makuhita:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 6
+          paras:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 5
+            slot: 8
+          sandslash:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 1
+            slot: 11
+          clefairy:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 1
+            slot: 12
+        soulsilver:
+          zubat:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 6
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 1
+            slot: 11
+          absol:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 4
+          makuhita:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 6
+          paras:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 5
+            slot: 8
+          clefairy:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 1
+            slot: 12
+        red:
+          zubat:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 4
+            slot: 9
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 7
+          paras:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 5
+            slot: 8
+          clefairy:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 1
+            slot: 10
+        blue:
+          zubat:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 4
+            slot: 9
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 7
+          paras:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 5
+            slot: 8
+          clefairy:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 1
+            slot: 10
+        yellow:
+          zubat:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 5
+            slot: 8
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 7
+          sandshrew:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 4
+            slot: 9
+          clefairy:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 1
+            slot: 10
+        firered:
+          zubat:
+            encounter_method: walk
+            max_level: 7
+            min_level: 7
+            rarity: 1
+            slot: 11
+          geodude:
+            encounter_method: walk
+            max_level: 9
+            min_level: 9
+            rarity: 5
+            slot: 7
+          paras:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 5
+            slot: 8
+          clefairy:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 1
+            slot: 12
+        leafgreen:
+          zubat:
+            encounter_method: walk
+            max_level: 7
+            min_level: 7
+            rarity: 1
+            slot: 11
+          geodude:
+            encounter_method: walk
+            max_level: 9
+            min_level: 9
+            rarity: 5
+            slot: 7
+          paras:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 5
+            slot: 8
+          clefairy:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 1
+            slot: 12
+        gold:
+          zubat:
+            encounter_method: walk
+            max_level: 6
+            min_level: 6
+            rarity: 30
+            slot: 1
+          geodude:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 30
+            slot: 2
+          sandshrew:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 20
+            slot: 3
+          paras:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 4
+          sandslash:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 5
+          clefairy:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 1
+            slot: 7
+        silver:
+          zubat:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 20
+            slot: 3
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 5
+          paras:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 4
+          clefairy:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 1
+            slot: 7
+        crystal:
+          zubat:
+            encounter_method: walk
+            max_level: 6
+            min_level: 6
+            rarity: 30
+            slot: 1
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 5
+          sandshrew:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 20
+            slot: 3
+          paras:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 10
+            slot: 4
+          clefairy:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 1
+            slot: 7
+      game_index: 107
+      name:
+        en: 1F
+    2f:
+      encounter_rates:
+        heartgold:
+          walk: 15
+        soulsilver:
+          walk: 15
+      encounters:
+        heartgold:
+          zubat:
+            encounter_method: walk
+            max_level: 6
+            min_level: 6
+            rarity: 10
+            slot: 3
+          geodude:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 4
+          absol:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 4
+          sandshrew:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 6
+          makuhita:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 6
+          paras:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 5
+            slot: 8
+          sandslash:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 1
+            slot: 11
+          clefairy:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 1
+            slot: 12
+        soulsilver:
+          zubat:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 6
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 1
+            slot: 11
+          absol:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 4
+          bronzor:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 4
+          makuhita:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 6
+          chingling:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 10
+            slot: 6
+          paras:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 5
+            slot: 8
+          clefairy:
+            encounter_method: walk
+            max_level: 8
+            min_level: 8
+            rarity: 1
+            slot: 12
+      game_index: 108
+      name:
+        en: 2F
+    b1f:
+      encounter_rates:
+        firered:
+          walk: 5
+        leafgreen:
+          walk: 5
+      encounters:
+        red:
+          zubat:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 5
+            slot: 8
+          geodude:
+            encounter_method: walk
+            max_level: 9
+            min_level: 9
+            rarity: 1
+            slot: 10
+          paras:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 6
+          clefairy:
+            encounter_method: walk
+            max_level: 9
+            min_level: 9
+            rarity: 4
+            slot: 9
+        blue:
+          zubat:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 5
+            slot: 8
+          geodude:
+            encounter_method: walk
+            max_level: 9
+            min_level: 9
+            rarity: 1
+            slot: 10
+          paras:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 6
+          clefairy:
+            encounter_method: walk
+            max_level: 9
+            min_level: 9
+            rarity: 4
+            slot: 9
+        yellow:
+          zubat:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 10
+            slot: 6
+          geodude:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 10
+            slot: 5
+          paras:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 5
+            slot: 8
+          clefairy:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 1
+            slot: 10
+        firered:
+          paras:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 1
+            slot: 12
+        leafgreen:
+          paras:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 1
+            slot: 12
+      game_index: 0
+      name:
+        en: B1F
+    b2f:
+      encounter_rates:
+        firered:
+          walk: 7
+        leafgreen:
+          walk: 7
+      encounters:
+        red:
+          zubat:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 4
+            slot: 9
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 4
+          paras:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 5
+            slot: 7
+          clefairy:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 1
+            slot: 10
+        blue:
+          zubat:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 4
+            slot: 9
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 4
+          paras:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 5
+            slot: 7
+          clefairy:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 1
+            slot: 10
+        yellow:
+          zubat:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 5
+            slot: 7
+          geodude:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 20
+            slot: 2
+          paras:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 15
+            slot: 3
+          clefairy:
+            encounter_method: walk
+            max_level: 13
+            min_level: 13
+            rarity: 1
+            slot: 10
+        firered:
+          zubat:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 1
+            slot: 11
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 5
+          paras:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 5
+            slot: 7
+          clefairy:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 1
+            slot: 12
+        leafgreen:
+          zubat:
+            encounter_method: walk
+            max_level: 11
+            min_level: 11
+            rarity: 1
+            slot: 11
+          geodude:
+            encounter_method: walk
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 5
+          paras:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 5
+            slot: 7
+          clefairy:
+            encounter_method: walk
+            max_level: 12
+            min_level: 12
+            rarity: 1
+            slot: 12
+      game_index: 0
+      name:
+        en: B2F
+  name:
+    en: 'Mt. Moon'
+    fr: 'Mont Sélénite'
+  region: kanto

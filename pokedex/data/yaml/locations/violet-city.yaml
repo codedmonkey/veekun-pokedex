@@ -1,0 +1,211 @@
+violet-city:
+  areas:
+    main_area:
+      encounter_rates:
+        heartgold:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 15
+        soulsilver:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 15
+      encounters:
+        heartgold:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          poliwhirl:
+            encounter_method: surf
+            max_level: 25
+            min_level: 15
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          whiscash:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+        soulsilver:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          poliwhirl:
+            encounter_method: surf
+            max_level: 25
+            min_level: 15
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          whiscash:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+        gold:
+          togepi:
+            encounter_method: gift-egg
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          poliwag:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 30
+            slot: 2
+          poliwhirl:
+            encounter_method: surf
+            max_level: 24
+            min_level: 20
+            rarity: 10
+            slot: 3
+        silver:
+          togepi:
+            encounter_method: gift-egg
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          poliwag:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 30
+            slot: 2
+          poliwhirl:
+            encounter_method: surf
+            max_level: 24
+            min_level: 20
+            rarity: 10
+            slot: 3
+        crystal:
+          togepi:
+            encounter_method: gift-egg
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          poliwag:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 30
+            slot: 2
+          poliwhirl:
+            encounter_method: surf
+            max_level: 24
+            min_level: 20
+            rarity: 10
+            slot: 3
+      game_index: 6
+      name:
+        en: 'Main Area'
+    poke-mart:
+      encounter_rates: {  }
+      encounters:
+        heartgold:
+          togepi:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+        soulsilver:
+          togepi:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+      game_index: 0
+      name:
+        en: 'Poke Mart'
+    pokemon-center:
+      encounter_rates: {  }
+      encounters:
+        heartgold:
+          mareep:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+          wooper:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+          slugma:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+        soulsilver:
+          mareep:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+          wooper:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+          slugma:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+      game_index: 0
+      name:
+        en: 'Pokemon Center'
+  name:
+    en: 'Violet City'
+    fr: Mauville
+  region: johto

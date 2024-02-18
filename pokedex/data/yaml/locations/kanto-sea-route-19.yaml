@@ -1,0 +1,471 @@
+kanto-sea-route-19:
+  areas:
+    main_area:
+      encounter_rates:
+        firered:
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+        leafgreen:
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+        heartgold:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+          rock-smash: 30
+        soulsilver:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+          rock-smash: 30
+      encounters:
+        heartgold:
+          kingler:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          krabby:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          tentacool:
+            encounter_method: surf
+            max_level: 30
+            min_level: 30
+            rarity: 30
+            slot: 2
+          clamperl:
+            encounter_method: surf
+            max_level: 35
+            min_level: 35
+            rarity: 60
+            slot: 1
+          tentacruel:
+            encounter_method: surf
+            max_level: 35
+            min_level: 35
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 40
+            slot: 1
+          corsola:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          staryu:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+        soulsilver:
+          kingler:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          krabby:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          tentacool:
+            encounter_method: surf
+            max_level: 30
+            min_level: 30
+            rarity: 30
+            slot: 2
+          clamperl:
+            encounter_method: surf
+            max_level: 35
+            min_level: 35
+            rarity: 60
+            slot: 1
+          tentacruel:
+            encounter_method: surf
+            max_level: 35
+            min_level: 35
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 40
+            slot: 1
+          corsola:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          staryu:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+        red:
+          tentacool:
+            encounter_method: surf
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 10
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 25
+            slot: ~
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          staryu:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 25
+            slot: ~
+          horsea:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 17
+            slot: ~
+          shellder:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 8
+            slot: ~
+        blue:
+          tentacool:
+            encounter_method: surf
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 10
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 25
+            slot: ~
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          staryu:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 25
+            slot: ~
+          horsea:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 17
+            slot: ~
+          shellder:
+            encounter_method: super-rod
+            max_level: 15
+            min_level: 15
+            rarity: 8
+            slot: ~
+        yellow:
+          tentacool:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 30
+            rarity: 20
+            slot: 3
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: 1
+          goldeen:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
+          poliwag:
+            encounter_method: good-rod
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 2
+          staryu:
+            encounter_method: super-rod
+            max_level: 20
+            min_level: 20
+            rarity: 30
+            slot: 2
+          tentacruel:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 4
+        firered:
+          horsea:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 2
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          krabby:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          seadra:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 4
+            slot: 4
+          psyduck:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 1
+            slot: 5
+          tentacool:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 1
+            slot: 5
+        leafgreen:
+          krabby:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 2
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          horsea:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          kingler:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 4
+            slot: 4
+          slowpoke:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 1
+            slot: 5
+          tentacool:
+            encounter_method: surf
+            max_level: 40
+            min_level: 35
+            rarity: 1
+            slot: 5
+        gold:
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 35
+            slot: 1
+          krabby:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          corsola:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          staryu:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          kingler:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          tentacool:
+            encounter_method: surf
+            max_level: 34
+            min_level: 30
+            rarity: 30
+            slot: 2
+          tentacruel:
+            encounter_method: surf
+            max_level: 39
+            min_level: 35
+            rarity: 10
+            slot: 3
+        silver:
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 35
+            slot: 1
+          krabby:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          corsola:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          staryu:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          kingler:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          tentacool:
+            encounter_method: surf
+            max_level: 34
+            min_level: 30
+            rarity: 30
+            slot: 2
+          tentacruel:
+            encounter_method: surf
+            max_level: 39
+            min_level: 35
+            rarity: 10
+            slot: 3
+        crystal:
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 35
+            slot: 1
+          krabby:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          corsola:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          staryu:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          kingler:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          tentacool:
+            encounter_method: surf
+            max_level: 34
+            min_level: 30
+            rarity: 30
+            slot: 2
+          tentacruel:
+            encounter_method: surf
+            max_level: 39
+            min_level: 35
+            rarity: 10
+            slot: 3
+      game_index: 94
+      name:
+        en: 'Main Area'
+  name:
+    en: 'Sea Route 19'
+    fr: 'Chenal 19'
+    cs: 'Námořní cesta 19'
+  region: kanto

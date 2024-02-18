@@ -1,0 +1,53 @@
+hearthome-city:
+  areas:
+    main_area:
+      encounter_rates: {  }
+      encounters:
+        diamond:
+          eevee:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+        pearl:
+          eevee:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+        platinum:
+          eevee:
+            encounter_method: gift
+            max_level: 20
+            min_level: 20
+            rarity: 100
+            slot: ~
+      game_index: 0
+      name:
+        en: 'Main Area'
+    west-gate:
+      encounter_rates: {  }
+      encounters:
+        diamond:
+          happiny:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+        pearl:
+          happiny:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+      game_index: 0
+      name:
+        en: 'West Gate'
+  name:
+    en: 'Hearthome City'
+    fr: Unionpolis
+  region: sinnoh

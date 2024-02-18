@@ -1,0 +1,85 @@
+terrain-pulse:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: special
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - protect
+    - mirror
+    - pulse
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        フィールドの　ちからを　かりて　こうげき。
+        つかったときの　フィールドのじょうたいに　よって
+        わざの　タイプと　いりょくが　かわる。
+      ja: |-
+        フィールドの力を　借りて　攻撃。
+        使った時の　フィールドの状態に　よって
+        技の　タイプと　威力が　変わる。
+      ko: |-
+        필드의 힘을 빌려서 공격한다.
+        사용했을 때의 필드 상태에 따라서
+        기술 타입과 위력이 바뀐다.
+      zh-Hant: |-
+        藉助場地的力量進行攻擊。
+        視使出招式時場地狀態不同，
+        招式的屬性和威力會有所變化。
+      zh-Hans: |-
+        借助场地的力量进行攻击。
+        视使出招式时场地状态不同，
+        招式的属性和威力会有所变化。
+      en: |-
+        The user utilizes the power of the terrain to attack.
+        This move’s type and power changes depending on
+        the terrain when it’s used.
+      fr: |-
+        Une attaque qui tire sa force des champs.
+        Son type et sa puissance varient selon le champ actif.
+      de: |-
+        Der Anwender nutzt die Kraft des aktiven Feldes für
+        seinen Angriff. Der Typ und die Stärke der Attacke
+        ändern sich je nach Art des aktiven Feldes.
+      es: |-
+        El usuario ataca aprovechando la energía del campo
+        activo, que determina tanto el tipo como la potencia
+        del movimiento.
+      it: |-
+        Chi la usa attacca sfruttando l’energia del terreno
+        di lotta. Il tipo e la potenza della mossa variano
+        a seconda dello stato del terreno stesso.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: だいちのはどう
+    ja: だいちのはどう
+    ko: 대지의파동
+    zh-Hant: 大地波動
+    zh-Hans: 大地波动
+    en: 'Terrain Pulse'
+    fr: Champlification
+    de: Feldimpuls
+    es: 'Pulso de Campo'
+    it: Campopulsar
+  power: 50
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: normal

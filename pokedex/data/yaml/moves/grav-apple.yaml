@@ -1,0 +1,84 @@
+grav-apple:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-397
+  effect_chance: 100
+  flags:
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        たかいところから　りんごを　おとして
+        ダメージを　あたえる。
+        あいての　ぼうぎょを　さげる。
+      ja: |-
+        高いところから　りんごを　落として
+        ダメージを　与える。
+        相手の　防御を　下げる。
+      ko: |-
+        높은 곳에서 사과를 떨어뜨려서
+        데미지를 준다.
+        상대의 방어를 떨어뜨린다.
+      zh-Hant: |-
+        讓蘋果從高處落下，
+        給予對手傷害。
+        可降低對手的防禦。
+      zh-Hans: |-
+        从高处落下苹果，
+        给予对手伤害。
+        可降低对手的防御。
+      en: |-
+        The user inflicts damage by dropping an apple from
+        high above. This also lowers the target’s Defense stat.
+      fr: |-
+        Le lanceur attaque son adversaire avec une pomme
+        qu’il fait tomber de très haut. Baisse la Défense
+        de la cible.
+      de: |-
+        Ein Apfel fällt aus großer Höhe herab und richtet
+        Schaden an. Dabei wird die Verteidigung des Zieles
+        gesenkt.
+      es: |-
+        El usuario ataca haciendo caer una manzana desde gran
+        altura. Disminuye la Defensa del objetivo.
+      it: |-
+        Chi la usa fa cadere una mela sul bersaglio da una
+        grande altezza, infliggendogli danni e riducendone
+        la Difesa.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 100
+    meta_ailment: none
+    meta_category: damage+lower
+    stat_changes:
+      defense: -1
+  name:
+    ja-Hrkt: Ｇのちから
+    ja: Ｇのちから
+    ko: G의힘
+    zh-Hant: 萬有引力
+    zh-Hans: 万有引力
+    en: 'Grav Apple'
+    fr: 'Force G'
+    de: Gravitation
+    es: 'Fuerza G'
+    it: 'Forza G'
+  power: 80
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: grass

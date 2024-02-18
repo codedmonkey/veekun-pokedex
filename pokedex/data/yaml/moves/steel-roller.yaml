@@ -1,0 +1,84 @@
+steel-roller:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - contact
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        フィールドを　はかい　しながら　こうげき。
+        なんらかの　フィールドじょうたいに
+        かわって　いないと　わざは　しっぱいする。
+      ja: |-
+        フィールドを　破壊しながら　攻撃。
+        なんらかの　フィールド状態に
+        変わっていないと　技は　失敗する。
+      ko: |-
+        필드를 파괴하면서 공격한다.
+        필드가 어떤 상태로든 변해 있지 않은 경우
+        기술은 실패한다.
+      zh-Hant: |-
+        一邊破壞場地，一邊進行攻擊。
+        在不是特殊狀態的場地上使用，
+        招式就會失敗。
+      zh-Hans: |-
+        在破坏场地的同时攻击对手。
+        如果脚下没有任何场地状态存在，
+        使出此招式时便会失败。
+      en: |-
+        The user attacks while destroying the terrain. This move
+        fails when the ground hasn’t turned into a terrain.
+      fr: |-
+        Une attaque qui inflige des dégâts et fait disparaître
+        le champ actif, mais qui échoue s’il n’y en a pas
+        à ce moment.
+      de: |-
+        Der Anwender greift an und zerstört dabei etwaige
+        Felder. Ist kein Feld aktiv, schlägt die Attacke fehl.
+      es: |-
+        El usuario lanza su ataque y destruye el campo activo
+        en el terreno de combate, y falla si no hay ninguno en
+        ese momento.
+      it: |-
+        Chi la usa attacca eliminando lo stato del terreno
+        di lotta. La mossa fallisce se nel terreno non è attivo
+        alcuno stato.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: アイアンローラー
+    ja: アイアンローラー
+    ko: 아이언롤러
+    zh-Hant: 鐵滾輪
+    zh-Hans: 铁滚轮
+    en: 'Steel Roller'
+    fr: Métalliroue
+    de: Eisenwalze
+    es: 'Allanador Férreo'
+    it: Ferrorullo
+  power: 130
+  pp: 5
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: steel

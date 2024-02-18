@@ -1,0 +1,359 @@
+johto-route-30:
+  areas:
+    main_area:
+      encounter_rates:
+        heartgold:
+          walk: 25
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 15
+        soulsilver:
+          walk: 25
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 15
+      encounters:
+        heartgold:
+          pidgey:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 12
+          spinarak:
+            encounter_method: walk
+            max_level: 2
+            min_level: 2
+            rarity: 10
+            slot: 3
+          caterpie:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 11
+          rattata:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 5
+            slot: 8
+          whismur:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 10
+            slot: 4
+          buizel:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 10
+            slot: 4
+          hoothoot:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 12
+          linoone:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 10
+            slot: 6
+          bidoof:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 10
+            slot: 6
+          metapod:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 12
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          poliwhirl:
+            encounter_method: surf
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+        soulsilver:
+          ledyba:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 10
+            slot: 3
+          pidgey:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 12
+          hoothoot:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 12
+          weedle:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 11
+          rattata:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 5
+            slot: 8
+          whismur:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 10
+            slot: 4
+          buizel:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 10
+            slot: 4
+          linoone:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 10
+            slot: 6
+          bidoof:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 10
+            slot: 6
+          kakuna:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 12
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          poliwhirl:
+            encounter_method: surf
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+        gold:
+          pidgey:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 7
+          caterpie:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 20
+            slot: 3
+          metapod:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 10
+            slot: 4
+          spinarak:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 30
+            slot: 1
+          rattata:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 10
+            slot: 4
+          hoothoot:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 7
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          poliwag:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 30
+            slot: 2
+          poliwhirl:
+            encounter_method: surf
+            max_level: 24
+            min_level: 20
+            rarity: 10
+            slot: 3
+        silver:
+          pidgey:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 7
+          weedle:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 20
+            slot: 3
+          kakuna:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 10
+            slot: 4
+          ledyba:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 30
+            slot: 1
+          hoothoot:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 7
+          rattata:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 10
+            slot: 4
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          poliwag:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 30
+            slot: 2
+          poliwhirl:
+            encounter_method: surf
+            max_level: 24
+            min_level: 20
+            rarity: 10
+            slot: 3
+        crystal:
+          pidgey:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 10
+            slot: 4
+          caterpie:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 20
+            slot: 3
+          weedle:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 5
+            slot: 5
+          hoppip:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 7
+          ledyba:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 30
+            slot: 1
+          spinarak:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 30
+            slot: 1
+          hoothoot:
+            encounter_method: walk
+            max_level: 4
+            min_level: 4
+            rarity: 1
+            slot: 7
+          poliwag:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 30
+            slot: 2
+          zubat:
+            encounter_method: walk
+            max_level: 3
+            min_level: 3
+            rarity: 5
+            slot: 5
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          poliwhirl:
+            encounter_method: surf
+            max_level: 24
+            min_level: 20
+            rarity: 10
+            slot: 3
+      game_index: 4
+      name:
+        en: 'Main Area'
+  name:
+    en: 'Route 30'
+    fr: 'Route 30'
+  region: johto

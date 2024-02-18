@@ -1,0 +1,149 @@
+striaton-city:
+  areas:
+    main_area:
+      encounter_rates:
+        black:
+          super-rod: 50
+          surf: 3
+        white:
+          super-rod: 50
+          surf: 3
+        black-2:
+          super-rod: 50
+          surf: 10
+        white-2:
+          super-rod: 50
+          surf: 10
+      encounters:
+        black:
+          goldeen:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 40
+            slot: 1
+          basculin-red-striped:
+            encounter_method: surf
+            max_level: 15
+            min_level: 5
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf-spots
+            max_level: 20
+            min_level: 5
+            rarity: 1
+            slot: 5
+          seaking:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 45
+            rarity: 1
+            slot: 5
+        white:
+          goldeen:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 40
+            slot: 1
+          basculin-blue-striped:
+            encounter_method: surf
+            max_level: 15
+            min_level: 5
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf-spots
+            max_level: 20
+            min_level: 5
+            rarity: 1
+            slot: 5
+          seaking:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 45
+            rarity: 1
+            slot: 5
+        black-2:
+          goldeen:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 40
+            rarity: 40
+            slot: 1
+          basculin-red-striped:
+            encounter_method: surf
+            max_level: 60
+            min_level: 50
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf-spots
+            max_level: 60
+            min_level: 45
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          corphish:
+            encounter_method: surf
+            max_level: 60
+            min_level: 45
+            rarity: 30
+            slot: 2
+          crawdaunt:
+            encounter_method: surf-spots
+            max_level: 60
+            min_level: 50
+            rarity: 1
+            slot: 5
+        white-2:
+          goldeen:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 40
+            rarity: 40
+            slot: 1
+          basculin-blue-striped:
+            encounter_method: surf
+            max_level: 60
+            min_level: 50
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf-spots
+            max_level: 60
+            min_level: 45
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          corphish:
+            encounter_method: surf
+            max_level: 60
+            min_level: 45
+            rarity: 30
+            slot: 2
+          crawdaunt:
+            encounter_method: surf-spots
+            max_level: 60
+            min_level: 50
+            rarity: 1
+            slot: 5
+      game_index: 0
+      name:
+        en: 'Main Area'
+  name:
+    ja-Hrkt: サンヨウシティ
+    en: 'Striaton City'
+    fr: Ogoesse
+  region: unova

@@ -1,0 +1,85 @@
+burning-jealousy:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: special
+  effect: move-effect-1
+  effect_chance: 100
+  flags:
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        しっとの　エネルギーで　あいてを　こうげき。
+        そのターン　のうりょくが　あがった　ポケモンを
+        やけどの　じょうたいに　する。
+      ja: |-
+        しっとの　エネルギーで　相手を　攻撃。
+        そのターン　能力が　あがった　ポケモンを
+        やけどの　状態に　する。
+      ko: |-
+        질투의 에너지로 상대를 공격한다.
+        그 턴에 능력이 올라간 포켓몬을
+        화상 상태로 만든다.
+      zh-Hant: |-
+        用嫉妒的能量攻擊對手。
+        讓此回合內能力提高的
+        寶可夢陷入灼傷狀態。
+      zh-Hans: |-
+        用嫉妒的能量攻击对手。
+        会让在该回合内能力有所提高的
+        宝可梦陷入灼伤状态。
+      en: |-
+        The user attacks with energy from jealousy. This leaves
+        all opposing Pokémon that have had their stats boosted
+        during the turn with a burn.
+      fr: |-
+        Le lanceur attaque sa cible avec toute sa jalousie.
+        Cette capacité brûle tout Pokémon dont les stats
+        ont augmenté pendant ce tour.
+      de: |-
+        Der Anwender greift mit der Energie seines Neids an
+        und fügt allen gegnerischen Pokémon, deren Statuswerte
+        in dieser Runde erhöht wurden, Verbrennungen zu.
+      es: |-
+        Ataca al objetivo con la energía generada por la envidia
+        y causa quemaduras a los Pokémon cuyas características
+        hayan aumentado en ese turno.
+      it: |-
+        Chi la usa attacca con la forza dell’invidia, causando
+        una scottatura a tutti i Pokémon le cui statistiche sono
+        aumentate durante quel turno.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 100
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: burn
+    meta_category: damage+ailment
+    stat_changes: {  }
+  name:
+    ja-Hrkt: しっとのほのお
+    ja: しっとのほのお
+    ko: 질투의불꽃
+    zh-Hant: 妒火
+    zh-Hans: 妒火
+    en: 'Burning Jealousy'
+    fr: 'Feu Envieux'
+    de: Neidflammen
+    es: 'Envidia Ardiente'
+    it: Fiamminvidia
+  power: 70
+  pp: 5
+  priority: 0
+  super_contest_effect: ~
+  target: all-opponents
+  type: fire

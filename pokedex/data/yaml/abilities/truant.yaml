@@ -1,0 +1,240 @@
+truant:
+  changelog: {  }
+  effect:
+    en: |-
+      Every second turn on which this Pokémon should attempt to use a move, it will instead do nothing ("loaf around").
+
+      Loafing around interrupts moves that take multiple turns the same way [paralysis]{mechanic:paralysis}, [flinching]{mechanic:flinching}, etc do.  Most such moves, for example []{move:bide} or []{move:rollout}, are simply cut off upon loafing around.  Attacks with a recharge turn, such as []{move:hyper-beam}, do not have to recharge; attacks with a preparation turn, such as []{move:fly}, do not end up being used.  Moves that are forced over multiple turns and keep going through failure, such as []{move:outrage}, []{move:uproar}, or any move forced by []{move:encore}, keep going as usual.
+
+      If this Pokémon is [confused]{mechanic:confusion}, its confusion is not checked when loafing around; the Pokémon cannot hurt itself, and its confusion does not end or come closer to ending.
+
+      If this Pokémon attempts to move but fails, e.g. because of [paralysis]{mechanic:paralysis} or []{move:gravity}, it still counts as having moved and will loaf around the next turn.  If it does not attempt to move, e.g. because it is [asleep]{mechanic:sleep} or [frozen]{mechanic:freezing}, whatever it would have done will be postponed until its next attempt; that is, it will either loaf around or move as usual, depending on what it last did.
+
+      This ability cannot be changed with []{move:worry-seed}, but it can be disabled with []{move:gastro-acid}, changed with []{move:role-play}, or traded away with []{move:skill-swap}.
+    de: |-
+      Pokémon mit dieser Fähigkeit überspringen jede zweite Runde statt eine Attacke einzusetzen ("faulenzen").
+
+      Faulenzen unterbricht Attacken die über mehrere Runden gehen genauso wie []{mechanic:paralysis}, [Zurückschrecken]{mechanic:flinching} usw. Die meisten dieser Attacken, wie []{move:bide} oder []{move:rollout}, werden einfach abgebrochen, wenn das Pokémon faulenzt. Attacken nach denen eine Runde aufgeladen werden muss, wie []{move:hyper-beam}, müssen nicht aufgeladen werden, Attacken mit Vorbereitungsrunde, wie []{move:fly}, werden nicht abgebrochen. Attacken die mehrere Runden dauern aber bei einem Fehlschlag nicht enden, wie []{move:outrage}, []{move:uproar}, oder jede von []{move:encore} erzwungene Attacke, enden nicht, wenn das Pokémon faulenzt.
+
+      Wenn das Pokémon [verwirrt]{mechanic:confusion} ist, wird die []{mechanic:confusion} nicht beachtet beim Faulenzen, das Pokémon verletzt sich nicht selbst und die []{mechanic:confusion} endet nicht früher deswegen.
+
+      Wenn das Pokémon versucht sich zu bewegen aber von []{mechanic:paralysis} oder []{move:gravity} daran gehindert wird, zählt das trotzdem als erfolgreich und es wird die nächste Runde faulenzen. Wenn es nicht versucht sich zu bewegen, weil es beispielsweise [schläft]{mechanic:sleep} oder [eingefroren]{mechanic:freezing} ist, wird das was es versucht hat verschoben bis zum nächsten Versuch, der eine Attacke oder faulenzen sein kann, abhängig davon, was es zuletzt tat.
+
+      Diese Fähigkeit kann nicht mit []{move:worry-seed} ausgetauscht werden, aber mit []{move:gastro-acid} deaktiviert, mit []{move:role-play} geändert oder mit []{move:skill-swap} getauscht werden.
+  flavor_text:
+    ruby-sapphire:
+      en: 'Moves only every two turns.'
+    emerald:
+      en: 'Moves only every two turns.'
+    firered-leafgreen:
+      en: 'Moves only every two turns.'
+    diamond-pearl:
+      en: |-
+        The Pokémon can’t attack
+        on consecutive turns.
+    platinum:
+      en: |-
+        The Pokémon can’t attack
+        on consecutive turns.
+    heartgold-soulsilver:
+      en: |-
+        Pokémon can’t attack
+        on consecutive turns.
+    black-white:
+      en: |-
+        Pokémon can’t attack
+        on consecutive turns.
+      fr: |-
+        Le Pokémon ne frappe
+        qu’un tour sur deux.
+    black-2-white-2:
+      en: |-
+        Pokémon can’t attack
+        on consecutive turns.
+    x-y:
+      ja-Hrkt: |-
+        こうげきが　れんぞくで
+        だせない。
+      ja: |-
+        攻撃が　連続で
+        だせない。
+      ko: |-
+        연속으로
+        공격할 수 없다.
+      en: |-
+        The Pokémon can’t attack
+        on consecutive turns.
+      fr: |-
+        Le Pokémon n’agit qu’un
+        tour sur deux.
+      de: 'Greift nur alle zwei Runden an.'
+      es: |-
+        El Pokémon no atacará en turnos
+        consecutivos.
+      it: |-
+        Il Pokémon attacca un turno sì
+        e uno no.
+    omega-ruby-alpha-sapphire:
+      ja-Hrkt: |-
+        こうげきが　れんぞくで
+        だせない。
+      ja: |-
+        攻撃が　連続で
+        だせない。
+      ko: |-
+        연속으로
+        공격할 수 없다.
+      en: |-
+        The Pokémon can’t attack
+        on consecutive turns.
+      fr: |-
+        Le Pokémon n’agit qu’un
+        tour sur deux.
+      de: 'Greift nur alle zwei Runden an.'
+      es: |-
+        El Pokémon no atacará en turnos
+        consecutivos.
+      it: |-
+        Il Pokémon attacca un turno sì
+        e uno no.
+    sun-moon:
+      ja-Hrkt: |-
+        わざを　だすと
+        つぎの　ターンは　やすんでしまう。
+      ja: |-
+        技を　出すと
+        つぎの　ターンは　休んでしまう。
+      ko: |-
+        기술을 사용하면
+        다음 턴은 쉰다.
+      zh-Hant: |-
+        如果使出招式，
+        下一回合就需要休息。
+      zh-Hans: |-
+        如果使出招式，
+        下一回合就会休息。
+      en: |-
+        The Pokémon can’t use a move the following turn if it
+        uses one.
+      fr: |-
+        Lorsque le Pokémon utilise une capacité, il passe
+        le tour suivant à paresser.
+      de: |-
+        Das Pokémon muss nach Einsatz einer Attacke
+        eine Runde lang aussetzen.
+      es: |-
+        Al ejecutar un movimiento, el Pokémon descansará
+        en el turno siguiente.
+      it: |-
+        Quando il Pokémon usa una mossa, nel turno
+        successivo si riposerà.
+    ultra-sun-ultra-moon:
+      ja-Hrkt: |-
+        わざを　だすと
+        つぎの　ターンは　やすんでしまう。
+      ja: |-
+        技を　出すと
+        つぎの　ターンは　休んでしまう。
+      ko: |-
+        기술을 사용하면
+        다음 턴은 쉰다.
+      zh-Hant: |-
+        如果使出招式，
+        下一回合就需要休息。
+      zh-Hans: |-
+        如果使出招式，
+        下一回合就会休息。
+      en: |-
+        The Pokémon can’t use a move the following turn if it
+        uses one.
+      fr: |-
+        Lorsque le Pokémon utilise une capacité, il passe
+        le tour suivant à paresser.
+      de: |-
+        Das Pokémon muss nach Einsatz einer Attacke
+        eine Runde lang aussetzen.
+      es: |-
+        Al ejecutar un movimiento, el Pokémon descansará
+        en el turno siguiente.
+      it: |-
+        Quando il Pokémon usa una mossa, nel turno
+        successivo si riposerà.
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        わざを　だすと
+        つぎの　ターンは　やすんでしまう。
+      ja: |-
+        技を　出すと
+        つぎの　ターンは　休んでしまう。
+      ko: |-
+        기술을 사용하면
+        다음 턴은 쉰다.
+      zh-Hant: |-
+        如果使出招式，
+        下一回合就需要休息。
+      zh-Hans: |-
+        如果使出招式，
+        下一回合就会休息。
+      en: |-
+        The Pokémon can’t use a move if it had used a move
+        on the previous turn.
+      fr: |-
+        Lorsque le Pokémon utilise une capacité, il passe
+        le tour suivant à paresser.
+      de: |-
+        Das Pokémon muss nach Einsatz einer Attacke
+        eine Runde lang aussetzen.
+      es: |-
+        Al ejecutar un movimiento, el Pokémon descansará
+        en el turno siguiente.
+      it: |-
+        Quando il Pokémon usa una mossa, nel turno
+        successivo si riposerà.
+    sword-shield:
+      ja-Hrkt: |-
+        わざを　だすと
+        つぎの　ターンは　やすんでしまう。
+      ja: |-
+        技を　出すと
+        次の　ターンは　休んでしまう。
+      ko: |-
+        기술을 사용하면
+        다음 턴은 쉰다.
+      zh-Hant: |-
+        如果使出招式，
+        下一回合就需要休息。
+      zh-Hans: |-
+        如果使出招式，
+        下一回合就会休息。
+      en: |-
+        The Pokémon can’t use a move if it had used a move
+        on the previous turn.
+      fr: |-
+        Lorsque le Pokémon utilise une capacité,
+        il passe le tour suivant à paresser.
+      de: |-
+        Das Pokémon muss nach Einsatz einer Attacke
+        eine Runde lang aussetzen.
+      es: |-
+        Al ejecutar un movimiento, descansará en el turno
+        siguiente.
+      it: |-
+        Quando il Pokémon usa una mossa, nel turno
+        successivo si riposerà.
+  generation: generation-iii
+  is_main_series: true
+  name:
+    ja-Hrkt: なまけ
+    ja: なまけ
+    ko: 게으름
+    zh-Hant: 懶惰
+    zh-Hans: 懒惰
+    en: Truant
+    fr: Absentéisme
+    de: Schnarchnase
+    es: Ausente
+    it: Pigrone
+    cs: Ulejvání
+  short_effect:
+    en: 'Skips every second turn.'
+    de: 'Überspringt jede zweite Runde.'

@@ -1,0 +1,1281 @@
+alomomola:
+  abilities:
+    healer:
+      is_hidden: false
+      slot: 1
+    hydration:
+      is_hidden: false
+      slot: 2
+    regenerator:
+      is_hidden: true
+      slot: 3
+  base_experience: 165
+  base_stats:
+    hp: 165
+    attack: 75
+    defense: 80
+    special-attack: 40
+    special-defense: 45
+    speed: 65
+  effort_values:
+    hp: 2
+    attack: 0
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index:
+    black: 594
+    white: 594
+    black-2: 594
+    white-2: 594
+  height: 12
+  is_default: true
+  moves:
+    black-white:
+      pound:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      double-slap:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      mist:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hydro-pump:
+        level: 61
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      waterfall:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pain-split:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      wish:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      refresh:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-sport:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      calm-mind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      water-pulse:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      wake-up-slap:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      healing-wish:
+        level: 57
+        order: ~
+        pokemon_move_method: level-up
+      brine:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      aqua-ring:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      aqua-jet:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      wide-guard:
+        level: 53
+        order: ~
+        pokemon_move_method: level-up
+      soak:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scald:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      heal-pulse:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+    black-2-white-2:
+      pound:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      double-slap:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      mist:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hydro-pump:
+        level: 61
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      waterfall:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pain-split:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      wish:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      magic-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      refresh:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      bounce:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      water-sport:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      calm-mind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      water-pulse:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      wake-up-slap:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      healing-wish:
+        level: 57
+        order: ~
+        pokemon_move_method: level-up
+      brine:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      aqua-ring:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      aqua-jet:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      wide-guard:
+        level: 53
+        order: ~
+        pokemon_move_method: level-up
+      soak:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scald:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      heal-pulse:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+    x-y:
+      pound:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      double-slap:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      mist:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hydro-pump:
+        level: 61
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      waterfall:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pain-split:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      wish:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      refresh:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-sport:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      calm-mind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      water-pulse:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      wake-up-slap:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      healing-wish:
+        level: 57
+        order: ~
+        pokemon_move_method: level-up
+      brine:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      aqua-ring:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      aqua-jet:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      wide-guard:
+        level: 53
+        order: ~
+        pokemon_move_method: level-up
+      soak:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scald:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      heal-pulse:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    omega-ruby-alpha-sapphire:
+      pound:
+        level: 1
+        order: 4
+        pokemon_move_method: level-up
+      double-slap:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      mist:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hydro-pump:
+        level: 61
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      waterfall:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pain-split:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      wish:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      magic-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      refresh:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      secret-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      dive:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      bounce:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      water-sport:
+        level: 1
+        order: 5
+        pokemon_move_method: level-up
+      calm-mind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      wake-up-slap:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      healing-wish:
+        level: 57
+        order: ~
+        pokemon_move_method: level-up
+      brine:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      aqua-ring:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      aqua-jet:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      wide-guard:
+        level: 53
+        order: ~
+        pokemon_move_method: level-up
+      soak:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scald:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      heal-pulse:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    sun-moon:
+      pound:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      double-slap:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      mist:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hydro-pump:
+        level: 65
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      waterfall:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pain-split:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 53
+        order: ~
+        pokemon_move_method: level-up
+      wish:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      refresh:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      water-sport:
+        level: 1
+        order: 7
+        pokemon_move_method: level-up
+      calm-mind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      water-pulse:
+        level: 25
+        order: ~
+        pokemon_move_method: level-up
+      wake-up-slap:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      healing-wish:
+        level: 57
+        order: ~
+        pokemon_move_method: level-up
+      brine:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      aqua-ring:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      aqua-jet:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      wide-guard:
+        level: 61
+        order: ~
+        pokemon_move_method: level-up
+      soak:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scald:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      heal-pulse:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      play-nice:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+    ultra-sun-ultra-moon:
+      pound:
+        level: 1
+        order: 6
+        pokemon_move_method: level-up
+      double-slap:
+        level: 13
+        order: ~
+        pokemon_move_method: level-up
+      mist:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      hydro-pump:
+        level: 65
+        order: ~
+        pokemon_move_method: level-up
+      surf:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      ice-beam:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      blizzard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      toxic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      psychic:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      double-team:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      light-screen:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      waterfall:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rest:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      substitute:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      protect:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      icy-wind:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      endure:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      swagger:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      attract:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      sleep-talk:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      return:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      frustration:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      safeguard:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      pain-split:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      hidden-power:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      rain-dance:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      mirror-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      psych-up:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      shadow-ball:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      whirlpool:
+        level: 49
+        order: ~
+        pokemon_move_method: level-up
+      hail:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      facade:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      helping-hand:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      wish:
+        level: 37
+        order: ~
+        pokemon_move_method: level-up
+      magic-coat:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      knock-off:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      refresh:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      tickle:
+        level: 0
+        order: ~
+        pokemon_move_method: egg
+      bounce:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      water-sport:
+        level: 1
+        order: 7
+        pokemon_move_method: level-up
+      calm-mind:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      water-pulse:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      wake-up-slap:
+        level: 29
+        order: ~
+        pokemon_move_method: level-up
+      healing-wish:
+        level: 57
+        order: ~
+        pokemon_move_method: level-up
+      brine:
+        level: 41
+        order: ~
+        pokemon_move_method: level-up
+      aqua-ring:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      aqua-jet:
+        level: 9
+        order: ~
+        pokemon_move_method: level-up
+      wide-guard:
+        level: 61
+        order: ~
+        pokemon_move_method: level-up
+      soak:
+        level: 33
+        order: ~
+        pokemon_move_method: level-up
+      round:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      scald:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      heal-pulse:
+        level: 17
+        order: ~
+        pokemon_move_method: level-up
+      play-nice:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      confide:
+        level: 0
+        order: ~
+        pokemon_move_method: machine
+      liquidation:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 716
+  species: alomomola
+  type:
+    - water
+  weight: 316

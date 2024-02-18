@@ -1,0 +1,456 @@
+ruins-of-alph:
+  areas:
+    outside:
+      encounter_rates:
+        heartgold:
+          walk: 10
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+          rock-smash: 20
+        soulsilver:
+          walk: 10
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+          rock-smash: 20
+      encounters:
+        heartgold:
+          natu:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 5
+            slot: 8
+          whismur:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 4
+          buizel:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 4
+          linoone:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 10
+            slot: 6
+          bidoof:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 10
+            slot: 6
+          smeargle:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 12
+          geodude:
+            encounter_method: rock-smash
+            max_level: 6
+            min_level: 3
+            rarity: 10
+            slot: 2
+          wooper:
+            encounter_method: surf
+            max_level: 20
+            min_level: 10
+            rarity: 60
+            slot: 1
+          quagsire:
+            encounter_method: surf
+            max_level: 20
+            min_level: 10
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        soulsilver:
+          natu:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 5
+            slot: 8
+          whismur:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 4
+          buizel:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 10
+            slot: 4
+          linoone:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 10
+            slot: 6
+          bidoof:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 10
+            slot: 6
+          smeargle:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 12
+          geodude:
+            encounter_method: rock-smash
+            max_level: 6
+            min_level: 3
+            rarity: 10
+            slot: 2
+          wooper:
+            encounter_method: surf
+            max_level: 20
+            min_level: 10
+            rarity: 60
+            slot: 1
+          quagsire:
+            encounter_method: surf
+            max_level: 20
+            min_level: 10
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        gold:
+          natu:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 10
+            slot: 4
+          smeargle:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 7
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          wooper:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 60
+            slot: 1
+          quagsire:
+            encounter_method: surf
+            max_level: 19
+            min_level: 14
+            rarity: 10
+            slot: 3
+        silver:
+          natu:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 10
+            slot: 4
+          smeargle:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 7
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          wooper:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 60
+            slot: 1
+          quagsire:
+            encounter_method: surf
+            max_level: 19
+            min_level: 14
+            rarity: 10
+            slot: 3
+        crystal:
+          natu:
+            encounter_method: walk
+            max_level: 24
+            min_level: 24
+            rarity: 10
+            slot: 4
+          smeargle:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 7
+          wooper:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 60
+            slot: 1
+          quagsire:
+            encounter_method: surf
+            max_level: 19
+            min_level: 14
+            rarity: 10
+            slot: 3
+          magikarp:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 20
+            slot: 3
+          poliwag:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+      game_index: 10
+      name:
+        en: Outside
+        cs: Venku
+    interior-a:
+      encounter_rates:
+        heartgold:
+          walk: 15
+        soulsilver:
+          walk: 15
+      encounters:
+        heartgold:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 12
+        soulsilver:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 12
+        gold:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 7
+        silver:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 7
+        crystal:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 7
+      game_index: 11
+      name:
+        en: 'Interior A'
+        cs: 'Vnitřek A'
+    interior-b:
+      encounter_rates:
+        heartgold:
+          walk: 15
+        soulsilver:
+          walk: 15
+      encounters:
+        heartgold:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 12
+        soulsilver:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 12
+        gold:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 7
+        silver:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 7
+        crystal:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 7
+      game_index: 12
+      name:
+        en: 'Interior B'
+        cs: 'Vnitřek B'
+    interior-c:
+      encounter_rates:
+        heartgold:
+          walk: 15
+        soulsilver:
+          walk: 15
+      encounters:
+        heartgold:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 12
+        soulsilver:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 12
+        gold:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 7
+        silver:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 7
+        crystal:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 7
+      game_index: 13
+      name:
+        en: 'Interior C'
+        cs: 'Vnitřek C'
+    interior-d:
+      encounter_rates:
+        heartgold:
+          walk: 15
+        soulsilver:
+          walk: 15
+      encounters:
+        heartgold:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 12
+        soulsilver:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 12
+        gold:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 7
+        silver:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 7
+        crystal:
+          unown:
+            encounter_method: walk
+            max_level: 5
+            min_level: 5
+            rarity: 1
+            slot: 7
+      game_index: 14
+      name:
+        en: 'Interior D'
+        cs: 'Vnitřek D'
+  name:
+    en: 'Ruins of Alph'
+    fr: "Ruines d'Alpha"
+  region: johto

@@ -1,0 +1,479 @@
+icefall-cave:
+  areas:
+    entrance:
+      encounter_rates:
+        firered:
+          walk: 7
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+        leafgreen:
+          walk: 7
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+      encounters:
+        firered:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 20
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          psyduck:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 5
+            slot: 8
+          seel:
+            encounter_method: walk
+            max_level: 47
+            min_level: 47
+            rarity: 10
+            slot: 4
+          dewgong:
+            encounter_method: walk
+            max_level: 53
+            min_level: 53
+            rarity: 1
+            slot: 12
+          wooper:
+            encounter_method: surf
+            max_level: 15
+            min_level: 5
+            rarity: 1
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 1
+            slot: 11
+          zubat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 5
+        leafgreen:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 20
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          slowpoke:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 5
+            slot: 8
+          seel:
+            encounter_method: walk
+            max_level: 47
+            min_level: 47
+            rarity: 10
+            slot: 4
+          dewgong:
+            encounter_method: walk
+            max_level: 53
+            min_level: 53
+            rarity: 1
+            slot: 12
+          marill:
+            encounter_method: surf
+            max_level: 15
+            min_level: 5
+            rarity: 1
+            slot: 5
+          golbat:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 1
+            slot: 11
+          zubat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 5
+      game_index: 51
+      name:
+        en: entrance
+        cs: vchod
+    1f:
+      encounter_rates:
+        firered:
+          walk: 7
+        leafgreen:
+          walk: 7
+      encounters:
+        firered:
+          swinub:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 1
+            slot: 11
+          seel:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 3
+          zubat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 5
+          delibird:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 5
+            slot: 7
+        leafgreen:
+          swinub:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 1
+            slot: 11
+          seel:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 3
+          zubat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 5
+          sneasel:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 5
+            slot: 7
+      game_index: 52
+      name:
+        en: 1F
+    b1f:
+      encounter_rates:
+        firered:
+          walk: 7
+        leafgreen:
+          walk: 7
+      encounters:
+        firered:
+          swinub:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 1
+            slot: 11
+          seel:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 3
+          zubat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 5
+          delibird:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 5
+            slot: 7
+        leafgreen:
+          swinub:
+            encounter_method: walk
+            max_level: 23
+            min_level: 23
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 1
+            slot: 11
+          seel:
+            encounter_method: walk
+            max_level: 45
+            min_level: 45
+            rarity: 10
+            slot: 3
+          zubat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 5
+          sneasel:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 5
+            slot: 7
+      game_index: 53
+      name:
+        en: B1F
+    waterfall:
+      encounter_rates:
+        firered:
+          walk: 7
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+        leafgreen:
+          walk: 7
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+      encounters:
+        firered:
+          horsea:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          shellder:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          seadra:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 4
+            slot: 4
+          psyduck:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 5
+            slot: 8
+          tentacool:
+            encounter_method: surf
+            max_level: 45
+            min_level: 35
+            rarity: 5
+            slot: 3
+          tentacruel:
+            encounter_method: surf
+            max_level: 45
+            min_level: 35
+            rarity: 4
+            slot: 4
+          lapras:
+            encounter_method: surf
+            max_level: 45
+            min_level: 30
+            rarity: 1
+            slot: 5
+          seel:
+            encounter_method: walk
+            max_level: 47
+            min_level: 47
+            rarity: 10
+            slot: 4
+          golbat:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 1
+            slot: 11
+          zubat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 5
+          dewgong:
+            encounter_method: walk
+            max_level: 53
+            min_level: 53
+            rarity: 1
+            slot: 12
+        leafgreen:
+          krabby:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          staryu:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          kingler:
+            encounter_method: super-rod
+            max_level: 35
+            min_level: 25
+            rarity: 4
+            slot: 4
+          slowpoke:
+            encounter_method: walk
+            max_level: 41
+            min_level: 41
+            rarity: 5
+            slot: 8
+          tentacool:
+            encounter_method: surf
+            max_level: 45
+            min_level: 35
+            rarity: 5
+            slot: 3
+          tentacruel:
+            encounter_method: surf
+            max_level: 45
+            min_level: 35
+            rarity: 4
+            slot: 4
+          lapras:
+            encounter_method: surf
+            max_level: 45
+            min_level: 30
+            rarity: 1
+            slot: 5
+          seel:
+            encounter_method: walk
+            max_level: 47
+            min_level: 47
+            rarity: 10
+            slot: 4
+          golbat:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 1
+            slot: 11
+          zubat:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 5
+          dewgong:
+            encounter_method: walk
+            max_level: 53
+            min_level: 53
+            rarity: 1
+            slot: 12
+      game_index: 54
+      name:
+        en: waterfall
+  name:
+    en: 'Icefall Cave'
+    fr: 'Grotte de Glace'
+  region: kanto

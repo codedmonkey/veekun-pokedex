@@ -1,0 +1,77 @@
+skitter-smack:
+  accuracy: 90
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: 100
+  flags:
+    - contact
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        はいごから　はいより　こうげきする。
+        あいての　とくこうを　さげる。
+      ja: |-
+        背後から　はいより　攻撃する。
+        相手の　特攻を　さげる。
+      ko: |-
+        배후에서 엄습해서 공격한다.
+        상대의 특수공격을 떨어뜨린다.
+      zh-Hant: |-
+        從對手背後爬近後進行攻擊。
+        會降低對手的特攻。
+      zh-Hans: |-
+        从对手背后爬近后进行攻击。
+        会降低对手的特攻。
+      en: |-
+        The user skitters behind the target to attack. This also
+        lowers the target’s Sp. Atk stat.
+      fr: |-
+        Le lanceur rampe derrière l’ennemi pour l’attaquer.
+        Baisse l’Attaque Spéciale de la cible.
+      de: |-
+        Der Anwender kriecht hinter das Ziel, greift es an und
+        senkt dabei dessen Spezial-Angriff.
+      es: |-
+        Ataca al objetivo por la espalda de forma subrepticia
+        y además reduce su Ataque Especial.
+      it: |-
+        Chi la usa attacca il bersaglio strisciandogli alle spalle
+        e riducendo il suo Attacco Speciale.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 100
+    meta_ailment: none
+    meta_category: damage+lower
+    stat_changes:
+      special-attack: -1
+  name:
+    ja-Hrkt: はいよるいちげき
+    ja: はいよるいちげき
+    ko: 엄습하는일격
+    zh-Hant: 爬擊
+    zh-Hans: 爬击
+    en: 'Skitter Smack'
+    fr: 'Ravage Rampant'
+    de: Krabbelkracher
+    es: 'Golpe Rastrero'
+    it: Strisciacolpo
+  power: 70
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: bug

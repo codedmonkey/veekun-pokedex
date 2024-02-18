@@ -1,0 +1,77 @@
+dual-wingbeat:
+  accuracy: 90
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - contact
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        つばさを　あいてに　ぶつけて
+        こうげきする。　２かい　れんぞくで
+        ダメージを　あたえる。
+      ja: |-
+        翼を　相手に　ぶつけて
+        攻撃する。　２回連続で
+        ダメージを　与える。
+      ko: |-
+        날개를 상대에게 부딪쳐서
+        공격한다. 2회 연속으로
+        데미지를 준다.
+      zh-Hant: |-
+        用翅膀撞向對手進行攻擊。
+        連續２次給予傷害。
+      zh-Hans: |-
+        将翅膀撞向对手进行攻击。
+        连续２次给予伤害。
+      en: |-
+        The user slams the target with its wings.
+        The target is hit twice in a row.
+      fr: |-
+        Le lanceur frappe l’ennemi avec ses ailes deux fois
+        d’affilée.
+      de: |-
+        Der Anwender trifft das Ziel zweimal hintereinander mit
+        seinen Flügeln und fügt ihm so Schaden zu.
+      es: 'Ataca al adversario golpeándolo dos veces con las alas.'
+      it: |-
+        Chi la usa colpisce il bersaglio due volte di fila
+        urtandolo con le ali.
+  generation: generation-viii
+  meta:
+    min_hits: 2
+    max_hits: 2
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: ダブルウイング
+    ja: ダブルウイング
+    ko: 더블윙
+    zh-Hant: 雙翼
+    zh-Hans: 双翼
+    en: 'Dual Wingbeat'
+    fr: 'Double Volée'
+    de: Doppelflügel
+    es: 'Ala Bis'
+    it: 'Doppia Ala'
+  power: 40
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: flying

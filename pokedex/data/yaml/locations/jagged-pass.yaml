@@ -1,0 +1,81 @@
+jagged-pass:
+  areas:
+    main_area:
+      encounter_rates:
+        ruby:
+          walk: 20
+        sapphire:
+          walk: 20
+        emerald:
+          walk: 20
+      encounters:
+        ruby:
+          numel:
+            encounter_method: walk
+            max_level: 20
+            min_level: 20
+            rarity: 1
+            slot: 11
+          machop:
+            encounter_method: walk
+            max_level: 20
+            min_level: 20
+            rarity: 5
+            slot: 8
+          spoink:
+            encounter_method: walk
+            max_level: 20
+            min_level: 20
+            rarity: 1
+            slot: 12
+        sapphire:
+          numel:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 11
+          machop:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 5
+            slot: 8
+          spoink:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 12
+        emerald:
+          numel:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 11
+          machop:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 5
+            slot: 8
+          spoink:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 12
+      game_index: 16
+      name:
+        en: 'Main Area'
+  name:
+    ja-Hrkt: デコボコさんどう
+    ja: デコボコ山道
+    ko: '울퉁불퉁 산길'
+    en: 'Jagged Pass'
+    fr: 'Sentier Sinuroc'
+    de: Steilpass
+    es: Desfiladero
+    it: 'Passo Selvaggio'
+  region: hoenn

@@ -1,0 +1,292 @@
+wurmple:
+  abilities:
+    shield-dust:
+      is_hidden: false
+      slot: 1
+    run-away:
+      is_hidden: true
+      slot: 3
+  base_experience: 56
+  base_stats:
+    hp: 45
+    attack: 45
+    defense: 35
+    special-attack: 20
+    special-defense: 30
+    speed: 20
+  effort_values:
+    hp: 1
+    attack: 0
+    defense: 0
+    special-attack: 0
+    special-defense: 0
+    speed: 0
+  game_index:
+    ruby: 290
+    sapphire: 290
+    emerald: 290
+    firered: 290
+    leafgreen: 290
+    diamond: 265
+    pearl: 265
+    platinum: 265
+    heartgold: 265
+    soulsilver: 265
+    black: 265
+    white: 265
+    black-2: 265
+    white-2: 265
+  height: 3
+  is_default: true
+  moves:
+    ruby-sapphire:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    emerald:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    firered-leafgreen:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    diamond-pearl:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    platinum:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+    heartgold-soulsilver:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    black-white:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+    colosseum:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    xd:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+    black-2-white-2:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    x-y:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+    omega-ruby-alpha-sapphire:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+    sun-moon:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      bug-bite:
+        level: 15
+        order: ~
+        pokemon_move_method: level-up
+    ultra-sun-ultra-moon:
+      tackle:
+        level: 1
+        order: 1
+        pokemon_move_method: level-up
+      poison-sting:
+        level: 5
+        order: ~
+        pokemon_move_method: level-up
+      string-shot:
+        level: 1
+        order: 2
+        pokemon_move_method: level-up
+      snore:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      bug-bite:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+      electroweb:
+        level: 0
+        order: ~
+        pokemon_move_method: tutor
+  order: 365
+  species: wurmple
+  type:
+    - bug
+  weight: 36

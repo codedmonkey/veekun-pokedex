@@ -1,0 +1,942 @@
+iron-island:
+  areas:
+    main_area:
+      encounter_rates:
+        diamond:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+        pearl:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+        platinum:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 10
+      encounters:
+        diamond:
+          tentacool:
+            encounter_method: surf
+            max_level: 30
+            min_level: 20
+            rarity: 60
+            slot: 1
+          wingull:
+            encounter_method: surf
+            max_level: 30
+            min_level: 20
+            rarity: 30
+            slot: 2
+          tentacruel:
+            encounter_method: surf
+            max_level: 40
+            min_level: 20
+            rarity: 5
+            slot: 3
+          pelipper:
+            encounter_method: surf
+            max_level: 40
+            min_level: 20
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 25
+            min_level: 10
+            rarity: 15
+            slot: 3
+          finneon:
+            encounter_method: good-rod
+            max_level: 25
+            min_level: 10
+            rarity: 1
+            slot: 5
+          gyarados:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 30
+            rarity: 40
+            slot: 1
+          lumineon:
+            encounter_method: super-rod
+            max_level: 50
+            min_level: 20
+            rarity: 1
+            slot: 5
+          qwilfish:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 20
+            rarity: 15
+            slot: 3
+        pearl:
+          tentacool:
+            encounter_method: surf
+            max_level: 30
+            min_level: 20
+            rarity: 60
+            slot: 1
+          wingull:
+            encounter_method: surf
+            max_level: 30
+            min_level: 20
+            rarity: 30
+            slot: 2
+          tentacruel:
+            encounter_method: surf
+            max_level: 40
+            min_level: 20
+            rarity: 5
+            slot: 3
+          pelipper:
+            encounter_method: surf
+            max_level: 40
+            min_level: 20
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 25
+            min_level: 10
+            rarity: 15
+            slot: 3
+          finneon:
+            encounter_method: good-rod
+            max_level: 25
+            min_level: 10
+            rarity: 1
+            slot: 5
+          gyarados:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 30
+            rarity: 40
+            slot: 1
+          lumineon:
+            encounter_method: super-rod
+            max_level: 50
+            min_level: 20
+            rarity: 1
+            slot: 5
+          qwilfish:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 20
+            rarity: 15
+            slot: 3
+        platinum:
+          wingull:
+            encounter_method: surf
+            max_level: 30
+            min_level: 20
+            rarity: 60
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 30
+            min_level: 20
+            rarity: 30
+            slot: 2
+          pelipper:
+            encounter_method: surf
+            max_level: 40
+            min_level: 20
+            rarity: 4
+            slot: 4
+          tentacruel:
+            encounter_method: surf
+            max_level: 40
+            min_level: 20
+            rarity: 1
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 25
+            min_level: 10
+            rarity: 15
+            slot: 3
+          finneon:
+            encounter_method: good-rod
+            max_level: 25
+            min_level: 10
+            rarity: 1
+            slot: 5
+          gyarados:
+            encounter_method: super-rod
+            max_level: 55
+            min_level: 30
+            rarity: 40
+            slot: 1
+          lumineon:
+            encounter_method: super-rod
+            max_level: 55
+            min_level: 40
+            rarity: 1
+            slot: 5
+          qwilfish:
+            encounter_method: super-rod
+            max_level: 50
+            min_level: 20
+            rarity: 15
+            slot: 3
+      game_index: 119
+      name:
+        en: 'Main Area'
+    1f:
+      encounter_rates:
+        diamond:
+          walk: 10
+        pearl:
+          walk: 10
+        platinum:
+          walk: 10
+      encounters:
+        diamond:
+          geodude:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 11
+          graveler:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 1
+            slot: 12
+          zubat:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 3
+          golbat:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 10
+            slot: 4
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 5
+            slot: 8
+        pearl:
+          geodude:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 11
+          graveler:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 1
+            slot: 12
+          zubat:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 3
+          golbat:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 10
+            slot: 4
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 5
+            slot: 8
+        platinum:
+          geodude:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 11
+          graveler:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 12
+          zubat:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 3
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 10
+            slot: 4
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 5
+            slot: 8
+      game_index: 120
+      name:
+        en: 1F
+    b1f-left:
+      encounter_rates:
+        diamond:
+          walk: 10
+        pearl:
+          walk: 10
+        platinum:
+          walk: 10
+      encounters:
+        diamond:
+          graveler:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 10
+            slot: 4
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 5
+            slot: 8
+          mawile:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 4
+            slot: 10
+          geodude:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 11
+        pearl:
+          graveler:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 10
+            slot: 4
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 5
+            slot: 8
+          mawile:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 4
+            slot: 10
+          geodude:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 11
+        platinum:
+          graveler:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 10
+            slot: 4
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 5
+            slot: 8
+          mawile:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 4
+            slot: 10
+      game_index: 121
+      name:
+        en: 'B1F left'
+    b1f-right:
+      encounter_rates:
+        diamond:
+          walk: 10
+        pearl:
+          walk: 10
+        platinum:
+          walk: 10
+      encounters:
+        diamond:
+          graveler:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 10
+            slot: 4
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 5
+            slot: 8
+          mawile:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 4
+            slot: 10
+          geodude:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 11
+        pearl:
+          graveler:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 10
+            slot: 4
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 5
+            slot: 8
+          mawile:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 4
+            slot: 10
+          geodude:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 11
+        platinum:
+          graveler:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 10
+            slot: 4
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 5
+            slot: 8
+          mawile:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 4
+            slot: 10
+      game_index: 122
+      name:
+        en: 'B1F right'
+    b2f-right:
+      encounter_rates:
+        diamond:
+          walk: 10
+        pearl:
+          walk: 10
+        platinum:
+          walk: 10
+      encounters:
+        diamond:
+          graveler:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 1
+            slot: 12
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 5
+            slot: 8
+          golbat:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 10
+            slot: 4
+          mawile:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 4
+            slot: 10
+          geodude:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 11
+        pearl:
+          graveler:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 1
+            slot: 12
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 5
+            slot: 8
+          golbat:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 10
+            slot: 4
+          mawile:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 4
+            slot: 10
+          geodude:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 11
+        platinum:
+          onix:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 20
+            slot: 1
+          graveler:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 10
+            slot: 4
+          steelix:
+            encounter_method: walk
+            max_level: 35
+            min_level: 35
+            rarity: 5
+            slot: 8
+          mawile:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 4
+            slot: 10
+      game_index: 123
+      name:
+        en: 'B2F right'
+    b2f-left:
+      encounter_rates:
+        diamond:
+          walk: 10
+        pearl:
+          walk: 10
+        platinum:
+          walk: 10
+      encounters:
+        diamond:
+          graveler:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 1
+            slot: 12
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 10
+            slot: 6
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 10
+            slot: 4
+          steelix:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 5
+            slot: 8
+          mawile:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 4
+            slot: 10
+          geodude:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 11
+          riolu:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+        pearl:
+          graveler:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 1
+            slot: 12
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 10
+            slot: 6
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 10
+            slot: 4
+          steelix:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 5
+            slot: 8
+          mawile:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 4
+            slot: 10
+          geodude:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 11
+          riolu:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+        platinum:
+          onix:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 20
+            slot: 1
+          graveler:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 10
+            slot: 4
+          steelix:
+            encounter_method: walk
+            max_level: 35
+            min_level: 35
+            rarity: 5
+            slot: 8
+          mawile:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 4
+            slot: 10
+          riolu:
+            encounter_method: gift-egg
+            max_level: 1
+            min_level: 1
+            rarity: 100
+            slot: ~
+      game_index: 124
+      name:
+        en: 'B2F left'
+    b3f:
+      encounter_rates:
+        diamond:
+          walk: 10
+        pearl:
+          walk: 10
+        platinum:
+          walk: 10
+      encounters:
+        diamond:
+          graveler:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 1
+            slot: 12
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 10
+            slot: 6
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 10
+            slot: 4
+          steelix:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 5
+            slot: 8
+          mawile:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 4
+            slot: 10
+          geodude:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 11
+        pearl:
+          graveler:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 1
+            slot: 12
+          onix:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 10
+            slot: 6
+          golbat:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 10
+            slot: 4
+          steelix:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 5
+            slot: 8
+          mawile:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 4
+            slot: 10
+          geodude:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 11
+        platinum:
+          steelix:
+            encounter_method: walk
+            max_level: 35
+            min_level: 35
+            rarity: 5
+            slot: 8
+          onix:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 20
+            slot: 1
+          graveler:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 1
+            slot: 12
+          golbat:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 10
+            slot: 4
+          mawile:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 4
+            slot: 10
+          sableye:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 4
+            slot: 10
+      game_index: 125
+      name:
+        en: B3F
+  name:
+    en: 'Iron Island'
+    fr: 'Ile de Fer'
+  region: sinnoh

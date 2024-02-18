@@ -1,0 +1,760 @@
+normal:
+  damage_class: physical
+  damage_factor:
+    normal: 100
+    fighting: 100
+    flying: 100
+    poison: 100
+    ground: 100
+    rock: 50
+    bug: 100
+    ghost: 0
+    steel: 50
+    fire: 100
+    water: 100
+    grass: 100
+    electric: 100
+    psychic: 100
+    ice: 100
+    dragon: 100
+    dark: 100
+    fairy: 100
+  game_index:
+    generation-i: 0
+    generation-ii: 0
+    generation-iii: 0
+    generation-iv: 0
+    generation-v: 0
+    generation-vi: 0
+  generation: generation-i
+  name:
+    ja-Hrkt: ノーマル
+    ja: ノーマル
+    ko: 노말
+    zh-Hant: 一般
+    zh-Hans: 一般
+    en: Normal
+    fr: Normal
+    de: Normal
+    es: Normal
+    it: Normale
+    cs: Normální
+fighting:
+  damage_class: physical
+  damage_factor:
+    normal: 200
+    fighting: 100
+    flying: 50
+    poison: 50
+    ground: 100
+    rock: 200
+    bug: 50
+    ghost: 0
+    steel: 200
+    fire: 100
+    water: 100
+    grass: 100
+    electric: 100
+    psychic: 50
+    ice: 200
+    dragon: 100
+    dark: 200
+    fairy: 50
+  game_index:
+    generation-i: 1
+    generation-ii: 1
+    generation-iii: 1
+    generation-iv: 1
+    generation-v: 1
+    generation-vi: 1
+  generation: generation-i
+  name:
+    ja-Hrkt: かくとう
+    ja: かくとう
+    ko: 격투
+    zh-Hant: 格鬥
+    zh-Hans: 格斗
+    en: Fighting
+    fr: Combat
+    de: Kampf
+    es: Lucha
+    it: Lotta
+    cs: Bojovný
+flying:
+  damage_class: physical
+  damage_factor:
+    normal: 100
+    fighting: 200
+    flying: 100
+    poison: 100
+    ground: 100
+    rock: 50
+    bug: 200
+    ghost: 100
+    steel: 50
+    fire: 100
+    water: 100
+    grass: 200
+    electric: 50
+    psychic: 100
+    ice: 100
+    dragon: 100
+    dark: 100
+    fairy: 100
+  game_index:
+    generation-i: 2
+    generation-ii: 2
+    generation-iii: 2
+    generation-iv: 2
+    generation-v: 2
+    generation-vi: 2
+  generation: generation-i
+  name:
+    ja-Hrkt: ひこう
+    ja: ひこう
+    ko: 비행
+    zh-Hant: 飛行
+    zh-Hans: 飞行
+    en: Flying
+    fr: Vol
+    de: Flug
+    es: Volador
+    it: Volante
+    cs: Létající
+poison:
+  damage_class: physical
+  damage_factor:
+    normal: 100
+    fighting: 100
+    flying: 100
+    poison: 50
+    ground: 50
+    rock: 50
+    bug: 100
+    ghost: 50
+    steel: 0
+    fire: 100
+    water: 100
+    grass: 200
+    electric: 100
+    psychic: 100
+    ice: 100
+    dragon: 100
+    dark: 100
+    fairy: 200
+  game_index:
+    generation-i: 3
+    generation-ii: 3
+    generation-iii: 3
+    generation-iv: 3
+    generation-v: 3
+    generation-vi: 3
+  generation: generation-i
+  name:
+    ja-Hrkt: どく
+    ja: どく
+    ko: 독
+    zh-Hant: 毒
+    zh-Hans: 毒
+    en: Poison
+    fr: Poison
+    de: Gift
+    es: Veneno
+    it: Veleno
+    cs: Jedovatý
+ground:
+  damage_class: physical
+  damage_factor:
+    normal: 100
+    fighting: 100
+    flying: 0
+    poison: 200
+    ground: 100
+    rock: 200
+    bug: 50
+    ghost: 100
+    steel: 200
+    fire: 200
+    water: 100
+    grass: 50
+    electric: 200
+    psychic: 100
+    ice: 100
+    dragon: 100
+    dark: 100
+    fairy: 100
+  game_index:
+    generation-i: 4
+    generation-ii: 4
+    generation-iii: 4
+    generation-iv: 4
+    generation-v: 4
+    generation-vi: 4
+  generation: generation-i
+  name:
+    ja-Hrkt: じめん
+    ja: じめん
+    ko: 땅
+    zh-Hant: 地面
+    zh-Hans: 地面
+    en: Ground
+    fr: Sol
+    de: Boden
+    es: Tierra
+    it: Terra
+    cs: Zemní
+rock:
+  damage_class: physical
+  damage_factor:
+    normal: 100
+    fighting: 50
+    flying: 200
+    poison: 100
+    ground: 50
+    rock: 100
+    bug: 200
+    ghost: 100
+    steel: 50
+    fire: 200
+    water: 100
+    grass: 100
+    electric: 100
+    psychic: 100
+    ice: 200
+    dragon: 100
+    dark: 100
+    fairy: 100
+  game_index:
+    generation-i: 5
+    generation-ii: 5
+    generation-iii: 5
+    generation-iv: 5
+    generation-v: 5
+    generation-vi: 5
+  generation: generation-i
+  name:
+    ja-Hrkt: いわ
+    ja: いわ
+    ko: 바위
+    zh-Hant: 岩石
+    zh-Hans: 岩石
+    en: Rock
+    fr: Roche
+    de: Gestein
+    es: Roca
+    it: Roccia
+    cs: Kamenný
+bug:
+  damage_class: physical
+  damage_factor:
+    normal: 100
+    fighting: 50
+    flying: 50
+    poison: 50
+    ground: 100
+    rock: 100
+    bug: 100
+    ghost: 50
+    steel: 50
+    fire: 50
+    water: 100
+    grass: 200
+    electric: 100
+    psychic: 200
+    ice: 100
+    dragon: 100
+    dark: 200
+    fairy: 50
+  game_index:
+    generation-i: 7
+    generation-ii: 7
+    generation-iii: 6
+    generation-iv: 6
+    generation-v: 6
+    generation-vi: 6
+  generation: generation-i
+  name:
+    ja-Hrkt: むし
+    ja: むし
+    ko: 벌레
+    zh-Hant: 蟲
+    zh-Hans: 虫
+    en: Bug
+    fr: Insecte
+    de: Käfer
+    es: Bicho
+    it: Coleottero
+    cs: Hmyzí
+ghost:
+  damage_class: physical
+  damage_factor:
+    normal: 0
+    fighting: 100
+    flying: 100
+    poison: 100
+    ground: 100
+    rock: 100
+    bug: 100
+    ghost: 200
+    steel: 100
+    fire: 100
+    water: 100
+    grass: 100
+    electric: 100
+    psychic: 200
+    ice: 100
+    dragon: 100
+    dark: 50
+    fairy: 100
+  game_index:
+    generation-i: 8
+    generation-ii: 8
+    generation-iii: 7
+    generation-iv: 7
+    generation-v: 7
+    generation-vi: 7
+  generation: generation-i
+  name:
+    ja-Hrkt: ゴースト
+    ja: ゴースト
+    ko: 고스트
+    zh-Hant: 幽靈
+    zh-Hans: 幽灵
+    en: Ghost
+    fr: Spectre
+    de: Geist
+    es: Fantasma
+    it: Spettro
+    cs: Duší
+steel:
+  damage_class: physical
+  damage_factor:
+    normal: 100
+    fighting: 100
+    flying: 100
+    poison: 100
+    ground: 100
+    rock: 200
+    bug: 100
+    ghost: 100
+    steel: 50
+    fire: 50
+    water: 50
+    grass: 100
+    electric: 50
+    psychic: 100
+    ice: 200
+    dragon: 100
+    dark: 100
+    fairy: 200
+  game_index:
+    generation-ii: 9
+    generation-iii: 8
+    generation-iv: 8
+    generation-v: 8
+    generation-vi: 8
+  generation: generation-ii
+  name:
+    ja-Hrkt: はがね
+    ja: はがね
+    ko: 강철
+    zh-Hant: 鋼
+    zh-Hans: 钢
+    en: Steel
+    fr: Acier
+    de: Stahl
+    es: Acero
+    it: Acciaio
+    cs: Ocelový
+fire:
+  damage_class: special
+  damage_factor:
+    normal: 100
+    fighting: 100
+    flying: 100
+    poison: 100
+    ground: 100
+    rock: 50
+    bug: 200
+    ghost: 100
+    steel: 200
+    fire: 50
+    water: 50
+    grass: 200
+    electric: 100
+    psychic: 100
+    ice: 200
+    dragon: 50
+    dark: 100
+    fairy: 100
+  game_index:
+    generation-i: 20
+    generation-ii: 20
+    generation-iii: 10
+    generation-iv: 10
+    generation-v: 9
+    generation-vi: 9
+  generation: generation-i
+  name:
+    ja-Hrkt: ほのお
+    ja: ほのお
+    ko: 불꽃
+    zh-Hant: 火
+    zh-Hans: 火
+    en: Fire
+    fr: Feu
+    de: Feuer
+    es: Fuego
+    it: Fuoco
+    cs: Ohnivý
+water:
+  damage_class: special
+  damage_factor:
+    normal: 100
+    fighting: 100
+    flying: 100
+    poison: 100
+    ground: 200
+    rock: 200
+    bug: 100
+    ghost: 100
+    steel: 100
+    fire: 200
+    water: 50
+    grass: 50
+    electric: 100
+    psychic: 100
+    ice: 100
+    dragon: 50
+    dark: 100
+    fairy: 100
+  game_index:
+    generation-i: 21
+    generation-ii: 21
+    generation-iii: 11
+    generation-iv: 11
+    generation-v: 10
+    generation-vi: 10
+  generation: generation-i
+  name:
+    ja-Hrkt: みず
+    ja: みず
+    ko: 물
+    zh-Hant: 水
+    zh-Hans: 水
+    en: Water
+    fr: Eau
+    de: Wasser
+    es: Agua
+    it: Acqua
+    cs: Vodní
+grass:
+  damage_class: special
+  damage_factor:
+    normal: 100
+    fighting: 100
+    flying: 50
+    poison: 50
+    ground: 200
+    rock: 200
+    bug: 50
+    ghost: 100
+    steel: 50
+    fire: 50
+    water: 200
+    grass: 50
+    electric: 100
+    psychic: 100
+    ice: 100
+    dragon: 50
+    dark: 100
+    fairy: 100
+  game_index:
+    generation-i: 22
+    generation-ii: 22
+    generation-iii: 12
+    generation-iv: 12
+    generation-v: 11
+    generation-vi: 11
+  generation: generation-i
+  name:
+    ja-Hrkt: くさ
+    ja: くさ
+    ko: 풀
+    zh-Hant: 草
+    zh-Hans: 草
+    en: Grass
+    fr: Plante
+    de: Pflanze
+    es: Planta
+    it: Erba
+    cs: Travní
+electric:
+  damage_class: special
+  damage_factor:
+    normal: 100
+    fighting: 100
+    flying: 200
+    poison: 100
+    ground: 0
+    rock: 100
+    bug: 100
+    ghost: 100
+    steel: 100
+    fire: 100
+    water: 200
+    grass: 50
+    electric: 50
+    psychic: 100
+    ice: 100
+    dragon: 50
+    dark: 100
+    fairy: 100
+  game_index:
+    generation-i: 23
+    generation-ii: 23
+    generation-iii: 13
+    generation-iv: 13
+    generation-v: 12
+    generation-vi: 12
+  generation: generation-i
+  name:
+    ja-Hrkt: でんき
+    ja: でんき
+    ko: 전기
+    zh-Hant: 電
+    zh-Hans: 电
+    en: Electric
+    fr: Électrik
+    de: Elektro
+    es: Eléctrico
+    it: Elettro
+    cs: Elektrický
+psychic:
+  damage_class: special
+  damage_factor:
+    normal: 100
+    fighting: 200
+    flying: 100
+    poison: 200
+    ground: 100
+    rock: 100
+    bug: 100
+    ghost: 100
+    steel: 50
+    fire: 100
+    water: 100
+    grass: 100
+    electric: 100
+    psychic: 50
+    ice: 100
+    dragon: 100
+    dark: 0
+    fairy: 100
+  game_index:
+    generation-i: 24
+    generation-ii: 24
+    generation-iii: 14
+    generation-iv: 14
+    generation-v: 13
+    generation-vi: 13
+  generation: generation-i
+  name:
+    ja-Hrkt: エスパー
+    ja: エスパー
+    ko: 에스퍼
+    zh-Hant: 超能力
+    zh-Hans: 超能力
+    en: Psychic
+    fr: Psy
+    de: Psycho
+    es: Psíquico
+    it: Psico
+    cs: Psychický
+ice:
+  damage_class: special
+  damage_factor:
+    normal: 100
+    fighting: 100
+    flying: 200
+    poison: 100
+    ground: 200
+    rock: 100
+    bug: 100
+    ghost: 100
+    steel: 50
+    fire: 50
+    water: 50
+    grass: 200
+    electric: 100
+    psychic: 100
+    ice: 50
+    dragon: 200
+    dark: 100
+    fairy: 100
+  game_index:
+    generation-i: 25
+    generation-ii: 25
+    generation-iii: 15
+    generation-iv: 15
+    generation-v: 14
+    generation-vi: 14
+  generation: generation-i
+  name:
+    ja-Hrkt: こおり
+    ja: こおり
+    ko: 얼음
+    zh-Hant: 冰
+    zh-Hans: 冰
+    en: Ice
+    fr: Glace
+    de: Eis
+    es: Hielo
+    it: Ghiaccio
+    cs: Ledový
+dragon:
+  damage_class: special
+  damage_factor:
+    normal: 100
+    fighting: 100
+    flying: 100
+    poison: 100
+    ground: 100
+    rock: 100
+    bug: 100
+    ghost: 100
+    steel: 50
+    fire: 100
+    water: 100
+    grass: 100
+    electric: 100
+    psychic: 100
+    ice: 100
+    dragon: 200
+    dark: 100
+    fairy: 0
+  game_index:
+    generation-i: 26
+    generation-ii: 26
+    generation-iii: 16
+    generation-iv: 16
+    generation-v: 15
+    generation-vi: 15
+  generation: generation-i
+  name:
+    ja-Hrkt: ドラゴン
+    ja: ドラゴン
+    ko: 드래곤
+    zh-Hant: 龍
+    zh-Hans: 龙
+    en: Dragon
+    fr: Dragon
+    de: Drache
+    es: Dragón
+    it: Drago
+    cs: Dračí
+dark:
+  damage_class: special
+  damage_factor:
+    normal: 100
+    fighting: 50
+    flying: 100
+    poison: 100
+    ground: 100
+    rock: 100
+    bug: 100
+    ghost: 200
+    steel: 100
+    fire: 100
+    water: 100
+    grass: 100
+    electric: 100
+    psychic: 200
+    ice: 100
+    dragon: 100
+    dark: 50
+    fairy: 50
+  game_index:
+    generation-ii: 27
+    generation-iii: 17
+    generation-iv: 17
+    generation-v: 16
+    generation-vi: 16
+  generation: generation-ii
+  name:
+    ja-Hrkt: あく
+    ja: あく
+    ko: 악
+    zh-Hant: 惡
+    zh-Hans: 恶
+    en: Dark
+    fr: Ténèbres
+    de: Unlicht
+    es: Siniestro
+    it: Buio
+    cs: Temný
+fairy:
+  damage_class: ~
+  damage_factor:
+    normal: 100
+    fighting: 200
+    flying: 100
+    poison: 50
+    ground: 100
+    rock: 100
+    bug: 100
+    ghost: 100
+    steel: 50
+    fire: 50
+    water: 100
+    grass: 100
+    electric: 100
+    psychic: 100
+    ice: 100
+    dragon: 200
+    dark: 200
+    fairy: 100
+  game_index:
+    generation-vi: 17
+  generation: generation-vi
+  name:
+    ja-Hrkt: フェアリー
+    ja: フェアリー
+    ko: 페어리
+    zh-Hant: 妖精
+    zh-Hans: 妖精
+    en: Fairy
+    fr: Fée
+    de: Fee
+    es: Hada
+    it: Folletto
+unknown:
+  damage_class: ~
+  damage_factor: {  }
+  game_index:
+    generation-ii: 19
+    generation-iii: 9
+    generation-iv: 9
+  generation: generation-ii
+  name:
+    ja-Hrkt: ？？？
+    ko: '???'
+    en: '???'
+    fr: '???'
+    de: '???'
+    es: '???'
+    it: '???'
+    cs: '???'
+shadow:
+  damage_class: ~
+  damage_factor: {  }
+  game_index: {  }
+  generation: generation-iii
+  name:
+    ja-Hrkt: ダーク
+    ko: 다크
+    en: Shadow
+    fr: Obscur
+    de: Crypto
+    it: Ombra
+    cs: Stínový

@@ -1,0 +1,85 @@
+expanding-force:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: special
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        サイコパワーで　あいてを　こうげきする。
+        サイコフィールドの　とき　いりょくが　あがり
+        すべての　あいてに　ダメージを　あたえる。
+      ja: |-
+        サイコパワーで　相手を　攻撃する。
+        サイコフィールドの時　威力が　あがり
+        すべての　相手に　ダメージを　与える。
+      ko: |-
+        사이코 파워로 상대를 공격한다.
+        사이코필드일 때는 위력이 오르며
+        모든 상대에게 데미지를 준다.
+      zh-Hant: |-
+        用精神力量攻擊對手。
+        在精神場地時，威力會提高，
+        能給予所有對手傷害。
+      zh-Hans: |-
+        利用精神力量攻击对手。
+        在精神场地上威力会有所提高，
+        能对所有对手造成伤害。
+      en: |-
+        The user attacks the target with its psychic power.
+        This move’s power goes up and damages all opposing
+        Pokémon on Psychic Terrain.
+      fr: |-
+        Le lanceur attaque la cible avec ses pouvoirs psychiques.
+        Si un Champ Psychique est actif, la puissance de cette
+        capacité augmente et elle touche tous les ennemis.
+      de: |-
+        Der Anwender greift das Ziel mit Psycho-Kräften an.
+        Wenn ein Psychofeld aktiv ist, steigt die Stärke und es
+        wird allen gegnerischen Pokémon Schaden zugefügt.
+      es: |-
+        El usuario ataca al objetivo con sus poderes psíquicos.
+        Cuando se usa en conjunción con un campo psíquico,
+        aumenta su potencia e inflige daño a todos los rivales.
+      it: |-
+        Chi la usa attacca il bersaglio con energia psichica.
+        Se utilizzata quando è attivo un Campo Psichico,
+        la mossa aumenta di potenza e danneggia tutti i nemici.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: ワイドフォース
+    ja: ワイドフォース
+    ko: 와이드포스
+    zh-Hant: 廣域戰力
+    zh-Hans: 广域战力
+    en: 'Expanding Force'
+    fr: 'Vaste Pouvoir'
+    de: Flächenmacht
+    es: 'Vasta Fuerza'
+    it: Vastenergia
+  power: 80
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: psychic

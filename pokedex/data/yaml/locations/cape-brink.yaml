@@ -1,0 +1,182 @@
+cape-brink:
+  areas:
+    main_area:
+      encounter_rates:
+        firered:
+          walk: 21
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+        leafgreen:
+          walk: 21
+          old-rod: 20
+          good-rod: 20
+          super-rod: 20
+          surf: 2
+      encounters:
+        firered:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 20
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          psyduck:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 5
+            slot: 8
+          golduck:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 11
+          spearow:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 20
+            slot: 1
+          oddish:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 10
+            slot: 3
+          gloom:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 5
+            slot: 7
+          fearow:
+            encounter_method: walk
+            max_level: 36
+            min_level: 36
+            rarity: 10
+            slot: 5
+          meowth:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 10
+            slot: 6
+          persian:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+        leafgreen:
+          poliwag:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 40
+            slot: 1
+          magikarp:
+            encounter_method: old-rod
+            max_level: 5
+            min_level: 5
+            rarity: 30
+            slot: 2
+          goldeen:
+            encounter_method: good-rod
+            max_level: 15
+            min_level: 5
+            rarity: 20
+            slot: 3
+          poliwhirl:
+            encounter_method: super-rod
+            max_level: 30
+            min_level: 20
+            rarity: 40
+            slot: 2
+          gyarados:
+            encounter_method: super-rod
+            max_level: 25
+            min_level: 15
+            rarity: 15
+            slot: 3
+          slowpoke:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 5
+            slot: 8
+          slowbro:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 11
+          spearow:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 20
+            slot: 1
+          bellsprout:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 10
+            slot: 3
+          weepinbell:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 5
+            slot: 7
+          fearow:
+            encounter_method: walk
+            max_level: 36
+            min_level: 36
+            rarity: 10
+            slot: 5
+          meowth:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 10
+            slot: 6
+          persian:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+      game_index: 72
+      name:
+        en: 'Main Area'
+  name:
+    en: 'Cape Brink'
+    fr: 'Cap Falaise'
+  region: kanto

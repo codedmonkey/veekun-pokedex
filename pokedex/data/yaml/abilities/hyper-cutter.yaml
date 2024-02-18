@@ -1,0 +1,233 @@
+hyper-cutter:
+  changelog:
+    emerald:
+      effect:
+        en: 'Has no overworld effect.'
+        de: 'Hat außerhalb vom Kampf keinen Effekt.'
+        cs: 'Nemá žádný účinek v poli.'
+    diamond-pearl:
+      effect:
+        en: "Doubles []{move:cut}'s grass-cutting radius on the overworld if any party Pokémon has this ability."
+        de: 'Verdoppelt den Radius in dem []{move:cut} Gras entfernt, wenn irgendein Pokémon im Team diese Fähigkeit hat.'
+  effect:
+    en: |-
+      This Pokémon's [Attack]{mechanic:attack} cannot be [lowered]{mechanic:stat-modifier} by other Pokémon.
+
+      This ability does not prevent any Attack losses other than [stat modifiers]{mechanic:stat-modifiers}, such as the Attack cut from a [burn]{mechanic:burn}.  This Pokémon can still be passed negative Attack modifiers through []{move:heart-swap} or []{move:power-swap}.
+    de: |-
+      Pokémon mit dieser Fähigkeit kann der []{mechanic:attack} nicht [gesenkt]{mechanic:stat-modifier} werden.
+
+      Die Fähigkeit verhindert nur [Statuswertveränderungen]{mechanic:stat-modifier}, der [verminderte]{mechanic:stat-modifier} []{mechanic:attack} durch []{mechanic:burn} wird nicht verhindert. Pokémon mit dieser Fähigkeit können trotzdem negative []{mechanic:accuracy} durch []{move:heart-swap} oder []{move:power-swap} übertragen werden.
+  flavor_text:
+    ruby-sapphire:
+      en: 'Prevents ATTACK reduction.'
+    emerald:
+      en: 'Prevents ATTACK reduction.'
+    firered-leafgreen:
+      en: 'Prevents ATTACK reduction.'
+    diamond-pearl:
+      en: |-
+        Prevents the Attack stat
+        from being lowered.
+    platinum:
+      en: |-
+        Prevents the Attack stat
+        from being lowered.
+    heartgold-soulsilver:
+      en: |-
+        Prevents the Attack
+        stat from being lowered.
+    black-white:
+      en: |-
+        Prevents other Pokémon
+        from lowering Attack stat.
+      fr: |-
+        Empêche la réduction de
+        l’Attaque.
+    black-2-white-2:
+      en: |-
+        Prevents other Pokémon
+        from lowering Attack stat.
+    x-y:
+      ja-Hrkt: |-
+        あいてに　こうげきを
+        さげられない。
+      ja: |-
+        相手に　攻撃を
+        さげられない。
+      ko: |-
+        상대가 공격을
+        떨어뜨리지 못한다.
+      en: |-
+        Prevents other Pokémon
+        from lowering its Attack stat.
+      fr: |-
+        Empêche la réduction de
+        l’Attaque.
+      de: |-
+        Hindert Angreifer daran,
+        den Angriffs-Wert zu senken.
+      es: 'Evita que disminuya el Ataque.'
+      it: |-
+        Evita che la statistica Attacco
+        venga ridotta.
+    omega-ruby-alpha-sapphire:
+      ja-Hrkt: |-
+        あいてに　こうげきを
+        さげられない。
+      ja: |-
+        相手に　攻撃を
+        さげられない。
+      ko: |-
+        상대가 공격을
+        떨어뜨리지 못한다.
+      en: |-
+        Prevents other Pokémon
+        from lowering its Attack stat.
+      fr: |-
+        Empêche la réduction de
+        l’Attaque.
+      de: |-
+        Hindert Angreifer daran,
+        den Angriffs-Wert zu senken.
+      es: 'Evita que disminuya el Ataque.'
+      it: |-
+        Evita che la statistica Attacco
+        venga ridotta.
+    sun-moon:
+      ja-Hrkt: |-
+        ちからじまんの　ハサミを　もっているので
+        あいてに　こうげきを　さげられない。
+      ja: |-
+        力自慢の　ハサミを　持っているので
+        相手に　攻撃を　下げられない。
+      ko: |-
+        힘이 자랑인 집게를 가지고 있어
+        상대가 공격을 떨어뜨리지 못한다.
+      zh-Hant: |-
+        因為擁有以力量為傲的鉗子，
+        不會被對手降低攻擊。
+      zh-Hans: |-
+        因为拥有以力量自豪的钳子，
+        不会被对手降低攻击。
+      en: |-
+        The Pokémon’s proud of its powerful pincers. They
+        prevent other Pokémon from lowering its Attack stat.
+      fr: |-
+        Le Pokémon est armé de lames tranchantes qui font
+        sa fierté et empêchent son Attaque de baisser.
+      de: |-
+        Hindert Angreifer durch mächtige Scheren daran,
+        den Angriffs-Wert zu senken.
+      es: 'Evita que el rival le baje el Ataque.'
+      it: |-
+        L’Attacco del Pokémon non può diminuire
+        grazie alla morsa micidiale in cui è in grado
+        di stringere i nemici.
+    ultra-sun-ultra-moon:
+      ja-Hrkt: |-
+        ちからじまんの　ハサミを　もっているので
+        あいてに　こうげきを　さげられない。
+      ja: |-
+        力自慢の　ハサミを　持っているので
+        相手に　攻撃を　下げられない。
+      ko: |-
+        힘이 자랑인 집게를 가지고 있어
+        상대가 공격을 떨어뜨리지 못한다.
+      zh-Hant: |-
+        因為擁有以力量為傲的鉗子，
+        不會被對手降低攻擊。
+      zh-Hans: |-
+        因为拥有以力量自豪的钳子，
+        不会被对手降低攻击。
+      en: |-
+        The Pokémon’s proud of its powerful pincers. They
+        prevent other Pokémon from lowering its Attack stat.
+      fr: |-
+        Le Pokémon est armé de lames tranchantes qui font
+        sa fierté et empêchent son Attaque de baisser.
+      de: |-
+        Hindert Angreifer durch mächtige Scheren daran,
+        den Angriffs-Wert zu senken.
+      es: 'Evita que el rival le baje el Ataque.'
+      it: |-
+        L’Attacco del Pokémon non può diminuire
+        grazie alla morsa micidiale in cui è in grado
+        di stringere i nemici.
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        ちからじまんの　ハサミを　もっているので
+        あいてに　こうげきを　さげられない。
+      ja: |-
+        力自慢の　ハサミを　持っているので
+        相手に　攻撃を　下げられない。
+      ko: |-
+        힘이 자랑인 집게를 가지고 있어
+        상대가 공격을 떨어뜨리지 못한다.
+      zh-Hant: |-
+        因為擁有以力量為傲的鉗子，
+        不會被對手降低攻擊。
+      zh-Hans: |-
+        因为拥有以力量自豪的钳子，
+        不会被对手降低攻击。
+      en: |-
+        The Pokémon’s proud of its powerful pincers. They
+        prevent other Pokémon from lowering its Attack stat.
+      fr: |-
+        Le Pokémon est armé de lames tranchantes qui font
+        sa fierté et empêchent son Attaque de baisser.
+      de: |-
+        Hindert Angreifer durch mächtige Scheren daran,
+        den Angriffs-Wert zu senken.
+      es: 'Evita que el rival le baje el Ataque.'
+      it: |-
+        L’Attacco del Pokémon non può diminuire
+        grazie alla morsa micidiale in cui è in grado
+        di stringere i nemici.
+    sword-shield:
+      ja-Hrkt: |-
+        ちからじまんの　ハサミを　もっているので
+        あいてに　こうげきを　さげられない。
+      ja: |-
+        力自慢の　ハサミを　持っているので
+        相手に　攻撃を　下げられない。
+      ko: |-
+        힘이 자랑인 집게를 가지고 있어
+        상대가 공격을 떨어뜨리지 못한다.
+      zh-Hant: |-
+        因為擁有以力量為傲的鉗子，
+        不會被對手降低攻擊。
+      zh-Hans: |-
+        因为拥有以力量自豪的钳子，
+        不会被对手降低攻击。
+      en: |-
+        The Pokémon’s proud of its powerful pincers. They
+        prevent other Pokémon from lowering its Attack stat.
+      fr: |-
+        Le Pokémon est armé de lames tranchantes qui font
+        sa fierté et empêchent son Attaque de baisser.
+      de: |-
+        Hindert Angreifer durch mächtige Scheren daran,
+        den Angriffs-Wert zu senken.
+      es: 'Evita que el rival le baje el Ataque.'
+      it: |-
+        L’Attacco del Pokémon non può diminuire
+        grazie alla morsa micidiale in cui è in grado
+        di stringere i nemici.
+  generation: generation-iii
+  is_main_series: true
+  name:
+    ja-Hrkt: かいりきバサミ
+    ja: かいりきバサミ
+    ko: 괴력집게
+    zh-Hant: 怪力鉗
+    zh-Hans: 怪力钳
+    en: 'Hyper Cutter'
+    fr: 'Hyper Cutter'
+    de: Scherenmacht
+    es: 'Corte Fuerte'
+    it: Ipertaglio
+    cs: Hyperřezač
+  short_effect:
+    en: 'Prevents [Attack]{mechanic:attack} from being [lowered]{mechanic:stat-modifiers} by other Pokémon.'
+    de: 'Verhindert das [Absenken]{mechanic:stat-modifier} des [Angriffs]{mechanic:attack}.'

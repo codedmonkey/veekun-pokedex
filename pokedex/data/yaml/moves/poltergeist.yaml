@@ -1,0 +1,81 @@
+poltergeist:
+  accuracy: 90
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        あいての　もちものを　あやつって　こうげき。
+        あいてが　どうぐを　もっていない　ばあいは
+        しっぱい　する。
+      ja: |-
+        相手の　持ち物を　あやつって　攻撃。
+        相手が　道具を　持っていない　場合は
+        失敗する。
+      ko: |-
+        상대의 지닌 물건을 조종해서 공격한다.
+        상대가 도구를 지니고 있지 않으면 실패한다.
+      zh-Hant: |-
+        操控對手的持有物進行攻擊。
+        對手沒有攜帶道具時，
+        則會失敗。
+      zh-Hans: |-
+        操纵对手的持有物进行攻击。
+        当对手没有携带道具时，
+        使出此招式时便会失败。
+      en: |-
+        The user attacks the target by controlling the target’s
+        item. The move fails if the target doesn’t have an item.
+      fr: |-
+        Le lanceur manipule l’objet tenu par l’ennemi
+        pour l’attaquer. Échoue si la cible ne tient rien.
+      de: |-
+        Der Anwender greift das Ziel mit dessen getragenem
+        Item an. Die Attacke schlägt fehl, wenn das Ziel kein
+        Item trägt.
+      es: |-
+        El usuario ataca utilizando el objeto que lleva el rival.
+        Si no tiene ninguno equipado, el movimiento falla.
+      it: |-
+        Chi la usa attacca utilizzando lo strumento
+        del bersaglio. La mossa fallisce se quest’ultimo
+        non ha uno strumento.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: ポルターガイスト
+    ja: ポルターガイスト
+    ko: 폴터가이스트
+    zh-Hant: 靈騷
+    zh-Hans: 灵骚
+    en: Poltergeist
+    fr: 'Esprit Frappeur'
+    de: Poltergeist
+    es: Poltergeist
+    it: Poltergeist
+  power: 110
+  pp: 5
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: ghost

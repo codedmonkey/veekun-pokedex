@@ -1,0 +1,80 @@
+coaching:
+  accuracy: ~
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: status
+  effect: move-effect-1
+  effect_chance: 100
+  flags:
+    - authentic
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        てきかくな　しどうを　おこなうことで　
+        みかた　ぜんいんの
+        こうげきと　ぼうぎょを　あげる。
+      ja: |-
+        的確な　指導を　おこなうことで　
+        味方　全員の
+        攻撃と　防御を　上げる。
+      ko: |-
+        적절한 지도를 통해서
+        같은 편 전원의
+        공격과 방어를 올린다.
+      zh-Hant: |-
+        透過適切的指導，
+        提高我方全體的攻擊和防禦。
+      zh-Hans: |-
+        通过进行正确合理的指导，
+        提高我方全员的攻击和防御。
+      en: |-
+        The user properly coaches its ally Pokémon,
+        boosting their Attack and Defense stats.
+      fr: |-
+        Le lanceur coache ses alliés, augmentant ainsi
+        leur Attaque et leur Défense.
+      de: |-
+        Der Anwender sorgt durch geschickte Anweisungen
+        dafür, dass der Angriff und die Verteidigung seiner
+        Mitstreiter steigen.
+      es: |-
+        El usuario imparte indicaciones precisas a sus aliados,
+        que ven aumentados su Ataque y su Defensa.
+      it: |-
+        Chi la usa aumenta l’Attacco e la Difesa di tutti
+        gli alleati dando loro indicazioni precise.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 100
+    meta_ailment: none
+    meta_category: net-good-stats
+    stat_changes:
+      attack: 1
+      defense: 1
+  name:
+    ja-Hrkt: コーチング
+    ja: コーチング
+    ko: 코칭
+    zh-Hant: 指導
+    zh-Hans: 指导
+    en: Coaching
+    fr: Coaching
+    de: Coaching
+    es: Motivación
+    it: Coaching
+  power: ~
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: user-and-allies
+  type: fighting

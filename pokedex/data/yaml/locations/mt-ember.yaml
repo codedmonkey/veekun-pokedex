@@ -1,0 +1,409 @@
+mt-ember:
+  areas:
+    main_area:
+      encounter_rates:
+        firered:
+          walk: 21
+          rock-smash: 50
+        leafgreen:
+          walk: 21
+          rock-smash: 50
+      encounters:
+        firered:
+          geodude:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 10
+            slot: 6
+          graveler:
+            encounter_method: rock-smash
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          ponyta:
+            encounter_method: walk
+            max_level: 36
+            min_level: 36
+            rarity: 5
+            slot: 7
+          fearow:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 8
+          spearow:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 11
+          machop:
+            encounter_method: walk
+            max_level: 35
+            min_level: 35
+            rarity: 10
+            slot: 5
+          rapidash:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 12
+        leafgreen:
+          geodude:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 10
+            slot: 6
+          graveler:
+            encounter_method: rock-smash
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          ponyta:
+            encounter_method: walk
+            max_level: 36
+            min_level: 36
+            rarity: 5
+            slot: 7
+          fearow:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 8
+          spearow:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 10
+            slot: 4
+          machop:
+            encounter_method: walk
+            max_level: 35
+            min_level: 35
+            rarity: 10
+            slot: 5
+          magmar:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 11
+          rapidash:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 12
+      game_index: 40
+      name:
+        en: 'Main Area'
+    cave:
+      encounter_rates:
+        firered:
+          walk: 7
+        leafgreen:
+          walk: 7
+      encounters:
+        firered:
+          geodude:
+            encounter_method: walk
+            max_level: 37
+            min_level: 37
+            rarity: 1
+            slot: 11
+          machop:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 1
+            slot: 12
+        leafgreen:
+          geodude:
+            encounter_method: walk
+            max_level: 37
+            min_level: 37
+            rarity: 1
+            slot: 11
+          machop:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 1
+            slot: 12
+      game_index: 41
+      name:
+        en: cave
+    inside:
+      encounter_rates:
+        firered:
+          walk: 7
+          rock-smash: 50
+        leafgreen:
+          walk: 7
+          rock-smash: 50
+      encounters:
+        firered:
+          geodude:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 10
+            slot: 4
+          graveler:
+            encounter_method: rock-smash
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          machop:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 6
+          machoke:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+        leafgreen:
+          geodude:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 10
+            slot: 4
+          graveler:
+            encounter_method: rock-smash
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          machop:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 6
+          machoke:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 12
+      game_index: 42
+      name:
+        en: inside
+        cs: uvnitř
+    1f-cave-behind-team-rocket:
+      encounter_rates:
+        firered:
+          walk: 7
+          rock-smash: 50
+        leafgreen:
+          walk: 7
+          rock-smash: 50
+      encounters:
+        firered:
+          geodude:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 11
+          graveler:
+            encounter_method: rock-smash
+            max_level: 50
+            min_level: 35
+            rarity: 5
+            slot: 3
+          machop:
+            encounter_method: walk
+            max_level: 36
+            min_level: 36
+            rarity: 10
+            slot: 6
+          machoke:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 12
+        leafgreen:
+          geodude:
+            encounter_method: walk
+            max_level: 40
+            min_level: 40
+            rarity: 1
+            slot: 11
+          graveler:
+            encounter_method: rock-smash
+            max_level: 50
+            min_level: 35
+            rarity: 5
+            slot: 3
+          machop:
+            encounter_method: walk
+            max_level: 36
+            min_level: 36
+            rarity: 10
+            slot: 6
+          machoke:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 12
+      game_index: 44
+      name:
+        en: '1F, cave behind team rocket'
+    b1f:
+      encounter_rates:
+        firered:
+          walk: 7
+          rock-smash: 50
+        leafgreen:
+          walk: 7
+          rock-smash: 50
+      encounters:
+        firered:
+          geodude:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 11
+          graveler:
+            encounter_method: rock-smash
+            max_level: 50
+            min_level: 35
+            rarity: 5
+            slot: 3
+          slugma:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+        leafgreen:
+          geodude:
+            encounter_method: walk
+            max_level: 42
+            min_level: 42
+            rarity: 1
+            slot: 11
+          graveler:
+            encounter_method: rock-smash
+            max_level: 50
+            min_level: 35
+            rarity: 5
+            slot: 3
+          slugma:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+      game_index: 45
+      name:
+        en: B1F
+    b2f:
+      encounter_rates:
+        firered:
+          walk: 7
+          rock-smash: 50
+        leafgreen:
+          walk: 7
+          rock-smash: 50
+      encounters:
+        firered:
+          geodude:
+            encounter_method: walk
+            max_level: 44
+            min_level: 44
+            rarity: 1
+            slot: 11
+          graveler:
+            encounter_method: rock-smash
+            max_level: 50
+            min_level: 35
+            rarity: 5
+            slot: 3
+          slugma:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 12
+        leafgreen:
+          geodude:
+            encounter_method: walk
+            max_level: 44
+            min_level: 44
+            rarity: 1
+            slot: 11
+          graveler:
+            encounter_method: rock-smash
+            max_level: 50
+            min_level: 35
+            rarity: 5
+            slot: 3
+          slugma:
+            encounter_method: walk
+            max_level: 22
+            min_level: 22
+            rarity: 1
+            slot: 12
+      game_index: 46
+      name:
+        en: B2F
+    b3f:
+      encounter_rates:
+        firered:
+          walk: 7
+          rock-smash: 50
+        leafgreen:
+          walk: 7
+          rock-smash: 50
+      encounters:
+        firered:
+          slugma:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 1
+            slot: 12
+          magcargo:
+            encounter_method: rock-smash
+            max_level: 35
+            min_level: 25
+            rarity: 1
+            slot: 5
+        leafgreen:
+          slugma:
+            encounter_method: walk
+            max_level: 18
+            min_level: 18
+            rarity: 1
+            slot: 12
+          magcargo:
+            encounter_method: rock-smash
+            max_level: 35
+            min_level: 25
+            rarity: 1
+            slot: 5
+      game_index: 47
+      name:
+        en: B3F
+  name:
+    en: 'Mt. Ember'
+    fr: 'Mont Braise'
+  region: kanto

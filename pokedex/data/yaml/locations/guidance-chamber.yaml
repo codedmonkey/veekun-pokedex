@@ -1,0 +1,133 @@
+guidance-chamber:
+  areas:
+    main_area:
+      encounter_rates:
+        black:
+          walk: 3
+        white:
+          walk: 3
+        black-2:
+          walk: 7
+        white-2:
+          walk: 7
+      encounters:
+        black:
+          drilbur:
+            encounter_method: cave-spots
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 12
+          boldore:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 11
+          woobat:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 4
+          axew:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 12
+        white:
+          drilbur:
+            encounter_method: cave-spots
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 12
+          boldore:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 11
+          woobat:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 10
+            slot: 4
+          axew:
+            encounter_method: walk
+            max_level: 31
+            min_level: 31
+            rarity: 1
+            slot: 12
+        black-2:
+          drilbur:
+            encounter_method: cave-spots
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          boldore:
+            encounter_method: walk
+            max_level: 28
+            min_level: 28
+            rarity: 10
+            slot: 3
+          woobat:
+            encounter_method: walk
+            max_level: 28
+            min_level: 28
+            rarity: 10
+            slot: 4
+          aron:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 11
+          axew:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+        white-2:
+          drilbur:
+            encounter_method: cave-spots
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+          boldore:
+            encounter_method: walk
+            max_level: 28
+            min_level: 28
+            rarity: 10
+            slot: 3
+          woobat:
+            encounter_method: walk
+            max_level: 28
+            min_level: 28
+            rarity: 10
+            slot: 4
+          aron:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 11
+          axew:
+            encounter_method: walk
+            max_level: 30
+            min_level: 30
+            rarity: 1
+            slot: 12
+      game_index: 87
+      name:
+        en: 'Main Area'
+  name:
+    ja-Hrkt: 導の間
+    en: 'Guidance Chamber'
+    fr: 'Espace Guide'
+  region: unova

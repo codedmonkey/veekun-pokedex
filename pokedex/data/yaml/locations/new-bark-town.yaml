@@ -1,0 +1,297 @@
+new-bark-town:
+  areas:
+    main_area:
+      encounter_rates:
+        heartgold:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 15
+        soulsilver:
+          old-rod: 25
+          good-rod: 50
+          super-rod: 75
+          surf: 15
+      encounters:
+        heartgold:
+          tentacool:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 30
+            slot: 2
+          tentacruel:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 40
+            slot: 1
+          chinchou:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 40
+            slot: 1
+          shellder:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          lanturn:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          chikorita:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          cyndaquil:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          totodile:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+        soulsilver:
+          tentacool:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 30
+            slot: 2
+          tentacruel:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 5
+            slot: 5
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 40
+            slot: 1
+          chinchou:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 40
+            slot: 1
+          shellder:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          lanturn:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+          chikorita:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          cyndaquil:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          totodile:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+        gold:
+          chikorita:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          cyndaquil:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          totodile:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 35
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 30
+            slot: 2
+          chinchou:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 40
+            slot: 1
+          shellder:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          tentacruel:
+            encounter_method: surf
+            max_level: 24
+            min_level: 20
+            rarity: 10
+            slot: 3
+          lanturn:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        silver:
+          chikorita:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          cyndaquil:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          totodile:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 35
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 30
+            slot: 2
+          chinchou:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 40
+            slot: 1
+          shellder:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          tentacruel:
+            encounter_method: surf
+            max_level: 24
+            min_level: 20
+            rarity: 10
+            slot: 3
+          lanturn:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+        crystal:
+          chikorita:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          cyndaquil:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          totodile:
+            encounter_method: gift
+            max_level: 5
+            min_level: 5
+            rarity: 100
+            slot: ~
+          magikarp:
+            encounter_method: good-rod
+            max_level: 20
+            min_level: 20
+            rarity: 35
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 19
+            min_level: 15
+            rarity: 30
+            slot: 2
+          chinchou:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 40
+            slot: 1
+          shellder:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 30
+            slot: 2
+          tentacruel:
+            encounter_method: surf
+            max_level: 24
+            min_level: 20
+            rarity: 10
+            slot: 3
+          lanturn:
+            encounter_method: super-rod
+            max_level: 40
+            min_level: 40
+            rarity: 10
+            slot: 4
+      game_index: 1
+      name:
+        en: 'Main Area'
+  name:
+    en: 'New Bark Town'
+    fr: 'Bourg Geon'
+  region: johto

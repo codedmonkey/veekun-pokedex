@@ -1,0 +1,84 @@
+pyro-ball:
+  accuracy: 90
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-5
+  effect_chance: 10
+  flags:
+    - protect
+    - mirror
+    - defrost
+    - ballistics
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        こいしを　もやした　ほのおの　ボールで
+        あいてを　こうげきする。
+        やけど　じょうたいに　することが　ある。
+      ja: |-
+        小石を　燃やした　炎の　ボールで
+        相手を　攻撃する。
+        やけど　状態に　することが　ある。
+      ko: |-
+        작은 돌을 태운 불꽃의 공으로
+        상대를 공격한다.
+        화상 상태로 만들 때가 있다.
+      zh-Hant: |-
+        燃燒小石子，
+        形成火球攻擊對手。
+        有時會讓對手陷入灼傷狀態。
+      zh-Hans: |-
+        点燃小石子，形成火球攻击对手。
+        有时会使对手陷入灼伤状态。
+      en: |-
+        The user attacks by igniting a small stone and launching
+        it as a fiery ball at the target. This may also leave the
+        target with a burn.
+      fr: |-
+        Le lanceur attaque avec un ballon fait à partir
+        d’un caillou enflammé. Peut aussi brûler la cible.
+      de: |-
+        Der Anwender greift mit einem Ball aus Feuer an,
+        den er durch Anzünden eines kleinen Steins erzeugt.
+        Fügt dem Ziel eventuell Verbrennungen zu.
+      es: |-
+        El usuario prende una pequeña piedra para crear una
+        bola de fuego con la que ataca al rival. Puede causar
+        quemaduras.
+      it: |-
+        Chi la usa attacca con una palla creata incendiando
+        una piccola pietra. Può anche scottare il bersaglio.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 10
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: burn
+    meta_category: damage+ailment
+    stat_changes: {  }
+  name:
+    ja-Hrkt: かえんボール
+    ja: かえんボール
+    ko: 화염볼
+    zh-Hant: 火焰球
+    zh-Hans: 火焰球
+    en: 'Pyro Ball'
+    fr: 'Ballon Brûlant'
+    de: Feuerball
+    es: 'Balón Ígneo'
+    it: 'Palla Infuocata'
+  power: 120
+  pp: 5
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: fire

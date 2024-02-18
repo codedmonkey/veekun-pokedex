@@ -1,0 +1,347 @@
+village-bridge:
+  areas:
+    main_area:
+      encounter_rates:
+        black:
+          walk: 8
+          super-rod: 50
+          surf: 3
+        white:
+          walk: 8
+          super-rod: 50
+          surf: 3
+        black-2:
+          walk: 1
+          super-rod: 50
+          surf: 10
+          dark-grass: 3
+        white-2:
+          walk: 1
+          super-rod: 50
+          surf: 10
+          dark-grass: 3
+      encounters:
+        black:
+          golduck:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 5
+            slot: 7
+          bibarel:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 5
+            slot: 8
+          zangoose:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 11
+          seviper:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+          mandibuzz:
+            encounter_method: dark-grass
+            max_level: 60
+            min_level: 60
+            rarity: 10
+            slot: 6
+          audino:
+            encounter_method: grass-spots
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+          emolga:
+            encounter_method: grass-spots
+            max_level: 48
+            min_level: 48
+            rarity: 10
+            slot: 3
+          carvanha:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 40
+            slot: 1
+          basculin-red-striped:
+            encounter_method: surf
+            max_level: 55
+            min_level: 25
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf-spots
+            max_level: 70
+            min_level: 35
+            rarity: 5
+            slot: 3
+          sharpedo:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 45
+            rarity: 1
+            slot: 5
+          lapras:
+            encounter_method: surf-spots
+            max_level: 70
+            min_level: 35
+            rarity: 1
+            slot: 5
+          vullaby:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 10
+            slot: 6
+        white:
+          golduck:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 5
+            slot: 7
+          bibarel:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 5
+            slot: 8
+          zangoose:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 11
+          seviper:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+          braviary:
+            encounter_method: dark-grass
+            max_level: 60
+            min_level: 60
+            rarity: 10
+            slot: 6
+          audino:
+            encounter_method: grass-spots
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+          emolga:
+            encounter_method: grass-spots
+            max_level: 48
+            min_level: 48
+            rarity: 10
+            slot: 3
+          carvanha:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 40
+            slot: 1
+          basculin-blue-striped:
+            encounter_method: surf
+            max_level: 55
+            min_level: 25
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf-spots
+            max_level: 70
+            min_level: 35
+            rarity: 5
+            slot: 3
+          sharpedo:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 45
+            rarity: 1
+            slot: 5
+          lapras:
+            encounter_method: surf-spots
+            max_level: 70
+            min_level: 35
+            rarity: 1
+            slot: 5
+          rufflet:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 10
+            slot: 6
+        black-2:
+          golduck:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 5
+            slot: 7
+          marill:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 5
+            slot: 8
+          zangoose:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 1
+            slot: 11
+          seviper:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 1
+            slot: 12
+          audino:
+            encounter_method: grass-spots
+            max_level: 39
+            min_level: 39
+            rarity: 1
+            slot: 11
+          emolga:
+            encounter_method: grass-spots
+            max_level: 37
+            min_level: 37
+            rarity: 10
+            slot: 3
+          dunsparce:
+            encounter_method: grass-spots
+            max_level: 37
+            min_level: 37
+            rarity: 10
+            slot: 4
+          azumarill:
+            encounter_method: surf-spots
+            max_level: 40
+            min_level: 30
+            rarity: 5
+            slot: 3
+          carvanha:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 40
+            rarity: 40
+            slot: 1
+          basculin-red-striped:
+            encounter_method: surf
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf-spots
+            max_level: 40
+            min_level: 25
+            rarity: 30
+            slot: 2
+          sharpedo:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          lapras:
+            encounter_method: surf-spots
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+        white-2:
+          golduck:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 5
+            slot: 7
+          marill:
+            encounter_method: walk
+            max_level: 38
+            min_level: 38
+            rarity: 5
+            slot: 8
+          zangoose:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 1
+            slot: 11
+          seviper:
+            encounter_method: walk
+            max_level: 39
+            min_level: 39
+            rarity: 1
+            slot: 12
+          audino:
+            encounter_method: grass-spots
+            max_level: 39
+            min_level: 39
+            rarity: 1
+            slot: 11
+          emolga:
+            encounter_method: grass-spots
+            max_level: 37
+            min_level: 37
+            rarity: 10
+            slot: 3
+          dunsparce:
+            encounter_method: grass-spots
+            max_level: 37
+            min_level: 37
+            rarity: 10
+            slot: 4
+          azumarill:
+            encounter_method: surf-spots
+            max_level: 40
+            min_level: 30
+            rarity: 5
+            slot: 3
+          carvanha:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 40
+            rarity: 40
+            slot: 1
+          basculin-blue-striped:
+            encounter_method: surf
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf-spots
+            max_level: 40
+            min_level: 25
+            rarity: 30
+            slot: 2
+          sharpedo:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          lapras:
+            encounter_method: surf-spots
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+      game_index: 75
+      name:
+        en: 'Main Area'
+  name:
+    ja-Hrkt: ビレッジブリッジ
+    en: 'Village Bridge'
+    fr: 'Pont du Hameau'
+  region: unova

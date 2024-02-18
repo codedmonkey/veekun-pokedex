@@ -1,0 +1,129 @@
+seafloor-cavern:
+  areas:
+    main_area:
+      encounter_rates:
+        ruby:
+          walk: 4
+          old-rod: 10
+          good-rod: 10
+          super-rod: 10
+          surf: 4
+        sapphire:
+          walk: 4
+          old-rod: 10
+          good-rod: 10
+          super-rod: 10
+          surf: 4
+        emerald:
+          walk: 4
+          old-rod: 10
+          good-rod: 10
+          super-rod: 10
+          surf: 4
+      encounters:
+        ruby:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 35
+            min_level: 5
+            rarity: 60
+            slot: 1
+          wailmer:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          zubat:
+            encounter_method: walk
+            max_level: 35
+            min_level: 35
+            rarity: 5
+            slot: 8
+          golbat:
+            encounter_method: walk
+            max_level: 36
+            min_level: 36
+            rarity: 1
+            slot: 12
+        sapphire:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 35
+            min_level: 5
+            rarity: 60
+            slot: 1
+          wailmer:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          zubat:
+            encounter_method: walk
+            max_level: 35
+            min_level: 35
+            rarity: 5
+            slot: 8
+          golbat:
+            encounter_method: walk
+            max_level: 36
+            min_level: 36
+            rarity: 1
+            slot: 12
+        emerald:
+          magikarp:
+            encounter_method: old-rod
+            max_level: 10
+            min_level: 5
+            rarity: 70
+            slot: 1
+          tentacool:
+            encounter_method: surf
+            max_level: 35
+            min_level: 5
+            rarity: 60
+            slot: 1
+          wailmer:
+            encounter_method: super-rod
+            max_level: 45
+            min_level: 40
+            rarity: 1
+            slot: 5
+          zubat:
+            encounter_method: walk
+            max_level: 35
+            min_level: 35
+            rarity: 5
+            slot: 8
+          golbat:
+            encounter_method: walk
+            max_level: 36
+            min_level: 36
+            rarity: 1
+            slot: 12
+      game_index: 26
+      name:
+        en: 'Main Area'
+  name:
+    ja-Hrkt: かいていどうくつ
+    ja: 海底洞窟
+    ko: 해저동굴
+    en: 'Seafloor Cavern'
+    fr: 'Caverne Fondmer'
+    de: Tiefseehöhle
+    es: 'Caverna Abisal'
+    it: 'Antro Abissale'
+  region: hoenn

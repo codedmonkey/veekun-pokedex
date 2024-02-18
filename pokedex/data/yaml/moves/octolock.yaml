@@ -1,0 +1,84 @@
+octolock:
+  accuracy: 100
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: status
+  effect: move-effect-430
+  effect_chance: ~
+  flags:
+    - protect
+    - mirror
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        あいてを　にげられなくする。
+        かためられた　あいては　まいターン
+        ぼうぎょと　とくぼうが　さがる。
+      ja: |-
+        相手を　逃げられなくする。
+        かためられた　相手は　毎ターン
+        防御と　特防が　下がる。
+      ko: |-
+        상대를 도망칠 수 없게 한다.
+        굳히기에 당한 상대는 매 턴
+        방어와 특수방어가 떨어진다.
+      zh-Hant: |-
+        讓對手無法逃走。
+        對手被纏住後，
+        防禦和特防每回合都會降低。
+      zh-Hans: |-
+        让对手无法逃走。
+        对手被固定后，
+        每回合都会降低防御和特防。
+      en: |-
+        The user locks the target in and prevents it from
+        fleeing. This move also lowers the target’s Defense
+        and Sp. Def every turn.
+      fr: |-
+        Le lanceur empêche l’adversaire de fuir.
+        À chaque tour qui passe, cette capacité baisse
+        la Défense et la Défense Spéciale de la cible.
+      de: |-
+        Das Ziel wird an der Flucht gehindert und seine
+        Verteidigung und Spezial-Verteidigung sinken
+        jede Runde.
+      es: |-
+        Retiene al objetivo para impedir su huida, a la vez que
+        reduce su Defensa y Defensa Especial cada turno.
+      it: |-
+        Chi la usa immobilizza il bersaglio impedendogli
+        di fuggire e ne diminuisce la Difesa e la Difesa Speciale
+        a ogni turno.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: unique
+    stat_changes: {  }
+  name:
+    ja-Hrkt: たこがため
+    ja: たこがため
+    ko: 문어굳히기
+    zh-Hant: 蛸固
+    zh-Hans: 蛸固
+    en: Octolock
+    fr: Octoprise
+    de: Octoklammer
+    es: Octopresa
+    it: Tentacolock
+  power: ~
+  pp: 15
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: fighting

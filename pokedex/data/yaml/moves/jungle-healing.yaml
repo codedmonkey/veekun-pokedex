@@ -1,0 +1,83 @@
+jungle-healing:
+  accuracy: ~
+  changelog: {  }
+  contest_effect: ~
+  contest_type: ~
+  damage_class: status
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - heal
+    - authentic
+  flavor_text:
+    sword-shield:
+      ja-Hrkt: |-
+        ジャングルと　いったいか　して
+        じぶんと　ばにいる　みかたの
+        ＨＰと　じょうたいを　かいふくする。
+      ja: |-
+        ジャングルと　一体化して
+        自分と　場にいる　味方の
+        ＨＰと　状態を　回復する。
+      ko: |-
+        정글과 하나가 되어
+        자신과 배틀에 나와 있는 같은 편의
+        HP와 모든 상태를 회복한다.
+      zh-Hant: |-
+        和叢林化為一體，
+        回復自己和場上同伴的ＨＰ和狀態。
+      zh-Hans: |-
+        与丛林融为一体，
+        回复自己和场上同伴的ＨＰ和状态。
+      en: |-
+        The user becomes one with the jungle, restoring HP
+        and healing any status conditions of itself and its ally
+        Pokémon in battle.
+      fr: |-
+        Le lanceur fait appel au pouvoir de la jungle pour
+        restaurer les PV et soigner les altérations d’état
+        de ses alliés et de lui-même.
+      de: |-
+        Der Anwender wird eins mit dem Dschungel und heilt
+        bei sich und seinen am Kampf beteiligten Mitstreitern
+        KP und hebt jegliche Statusprobleme auf.
+      es: |-
+        Al entrar en plena armonía con la selva, el usuario cura
+        problemas de estado y restaura PS no solo de sí mismo,
+        sino también de los aliados presentes en el terreno.
+      it: |-
+        Il Pokémon diventa tutt’uno con la giungla,
+        ripristinando i PS e curando i problemi di stato
+        per sé e per l’alleato in campo.
+  generation: generation-viii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 25
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: unique
+    stat_changes: {  }
+  name:
+    ja-Hrkt: ジャングルヒール
+    ja: ジャングルヒール
+    ko: 정글힐
+    zh-Hant: 叢林治療
+    zh-Hans: 丛林治疗
+    en: 'Jungle Healing'
+    fr: 'Selve Salvatrice'
+    de: Dschungelheilung
+    es: 'Cura Selvática'
+    it: Giunglacura
+  power: ~
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: user-and-allies
+  type: grass

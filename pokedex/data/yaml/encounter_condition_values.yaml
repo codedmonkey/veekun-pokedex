@@ -1,0 +1,124 @@
+radar-off:
+  encounter_condition: radar
+  is_default: true
+  name:
+    en: 'Not using PokéRadar'
+    de: 'Ohne Benutzung des Pokéradars'
+radar-on:
+  encounter_condition: radar
+  is_default: false
+  name:
+    en: 'Using PokéRadar'
+    de: 'Durch Benutzung des Pokéradars'
+radio-hoenn:
+  encounter_condition: radio
+  is_default: false
+  name:
+    en: 'Hoenn radio'
+    de: 'Hoenn-Sound im Radio'
+radio-off:
+  encounter_condition: radio
+  is_default: true
+  name:
+    en: 'Radio off'
+    de: 'Radio aus'
+radio-sinnoh:
+  encounter_condition: radio
+  is_default: false
+  name:
+    en: 'Sinnoh radio'
+    de: 'Sinnoh-Sound im Radio'
+season-autumn:
+  encounter_condition: season
+  is_default: false
+  name:
+    en: 'During Autumn'
+    de: 'Im Herbst'
+season-spring:
+  encounter_condition: season
+  is_default: false
+  name:
+    en: 'During Spring'
+    de: 'Im Frühling'
+season-summer:
+  encounter_condition: season
+  is_default: false
+  name:
+    en: 'During Summer'
+    de: 'Im Sommer'
+season-winter:
+  encounter_condition: season
+  is_default: false
+  name:
+    en: 'During Winter'
+    de: 'Im Winter'
+slot2-emerald:
+  encounter_condition: slot2
+  is_default: false
+  name:
+    en: 'Emerald in slot 2'
+    de: 'Smaragd in Slot 2'
+slot2-firered:
+  encounter_condition: slot2
+  is_default: false
+  name:
+    en: 'FireRed in slot 2'
+    de: 'Feuerrot in slot 2'
+slot2-leafgreen:
+  encounter_condition: slot2
+  is_default: false
+  name:
+    en: 'LeafGreen in slot 2'
+    de: 'Blattgrün in slot 2'
+slot2-none:
+  encounter_condition: slot2
+  is_default: true
+  name:
+    en: 'No game in slot 2'
+    de: 'Kein Spiel in Slot 2'
+slot2-ruby:
+  encounter_condition: slot2
+  is_default: false
+  name:
+    en: 'Ruby in slot 2'
+    de: 'Rubin in Slot 2'
+slot2-sapphire:
+  encounter_condition: slot2
+  is_default: false
+  name:
+    en: 'Sapphire in slot 2'
+    de: 'Saphir in Slot 2'
+swarm-no:
+  encounter_condition: swarm
+  is_default: true
+  name:
+    en: 'Not during a swarm'
+    de: 'Außerhalb eines Schwarms'
+    cs: 'Denní doba'
+swarm-yes:
+  encounter_condition: swarm
+  is_default: false
+  name:
+    en: 'During a swarm'
+    de: 'Während eines Schwarms'
+    cs: Rojení
+time-day:
+  encounter_condition: time
+  is_default: true
+  name:
+    en: 'During the day'
+    de: 'Am Tag'
+time-morning:
+  encounter_condition: time
+  is_default: false
+  name:
+    en: 'In the morning'
+    de: 'Am Morgen'
+    cs: PokéRadar
+time-night:
+  encounter_condition: time
+  is_default: false
+  name:
+    en: 'At night'
+    de: 'In der Nacht'
+    cs: Rádio

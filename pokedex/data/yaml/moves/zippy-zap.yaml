@@ -1,0 +1,135 @@
+zippy-zap:
+  accuracy: 100
+  changelog:
+    sword-shield:
+      accuracy: ~
+      effect: ~
+      effect_chance: ~
+      power: 50
+      pp: 15
+      priority: ~
+      target: ~
+      type: ~
+  contest_effect: ~
+  contest_type: ~
+  damage_class: physical
+  effect: move-effect-1
+  effect_chance: 100
+  flags:
+    - contact
+    - protect
+    - mirror
+  flavor_text:
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        もうスピードの　でんげき　アタック。
+        かならず　せんせい　こうげき　できて
+        きゅうしょに　あたる。
+      ja: |-
+        猛スピードの　電撃　アタック。
+        必ず　先制攻撃　できて
+        急所に　あたる。
+      ko: |-
+        맹렬한 속도의 전격 공격.
+        반드시 선제공격할 수 있고
+        급소에 맞는다.
+      zh-Hant: |-
+        迅猛無比的電擊。
+        必定能夠發動先制攻擊，
+        擊中對手要害。
+      zh-Hans: |-
+        迅猛无比的电击。
+        必定能够先制攻击，
+        击中对方的要害。
+      en: |-
+        The user attacks the target with bursts of electricity
+        at high speed. This move always goes first and results
+        in a critical hit.
+      fr: |-
+        Une attaque électrique rapide comme l’éclair qui inflige
+        un coup critique à coup sûr. Frappe en priorité.
+      de: |-
+        Ein stürmischer Blitz-Angriff mit hoher Erstschlag- und
+        Volltrefferquote.
+      es: |-
+        Ataque eléctrico a la velocidad del rayo. Este
+        movimiento tiene prioridad alta y propina golpes
+        críticos.
+      it: |-
+        Un attacco elettrico ad altissima velocità.
+        Questa mossa ha priorità alta e infligge
+        sicuramente un brutto colpo.
+    sword-shield:
+      ja-Hrkt: |-
+        このわざは　つかえません
+        おもいだすことが　できなくなりますが
+        わざを　わすれることを　おすすめします
+      ja: |-
+        この技は　使えません
+        思い出すことが　できなくなりますが
+        技を　忘れることを　おすすめします
+      ko: |-
+        사용할 수 없는 기술입니다.
+        다시 배우게 할 수 없지만
+        기술을 잊게 하는 것을 권장합니다.
+      zh-Hant: |-
+        無法使用此招式。
+        雖然忘記後將無法再想起來，
+        但還是建議忘記此招式。
+      zh-Hans: |-
+        无法使用这个招式。
+        虽然忘记之后就再也想不起来了，
+        但还是建议忘记这个招式。
+      en: |-
+        This move can’t be used.
+        It’s recommended that this move is forgotten.
+        Once forgotten, this move can’t be remembered.
+      fr: |-
+        Cette capacité ne peut pas être utilisée.
+        Il est recommandé de l’oublier, même s’il sera
+        impossible de se la remémorer une fois oubliée.
+      de: |-
+        Diese Attacke kann nicht eingesetzt werden. Du solltest
+        dein Pokémon sie vergessen lassen. Beachte aber,
+        dass es sich danach nicht wieder an sie erinnern kann.
+      es: |-
+        Este movimiento no se puede usar, por lo que sería
+        mejor olvidarlo, aunque eso implique que no se pueda
+        recordar posteriormente.
+      it: |-
+        Questa mossa non può essere usata.
+        È consigliabile farla dimenticare al Pokémon. Tuttavia,
+        una volta dimenticata, non potrà più essere ricordata.
+  generation: generation-vii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 100
+    meta_ailment: none
+    meta_category: damage+raise
+    stat_changes:
+      evasion: 1
+  name:
+    ja-Hrkt: ばちばちアクセル
+    ja: ばちばちアクセル
+    ko: 파찌파찌액셀
+    zh-Hant: 電電加速
+    zh-Hans: 电电加速
+    en: 'Zippy Zap'
+    fr: Pika-Sprint
+    de: Britzelturbo
+    es: Pikaturbo
+    it: Sprintaboom
+  power: 80
+  pp: 10
+  priority: 2
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: electric

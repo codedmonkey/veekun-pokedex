@@ -1,0 +1,134 @@
+freezy-frost:
+  accuracy: 90
+  changelog:
+    sword-shield:
+      accuracy: 100
+      effect: ~
+      effect_chance: ~
+      power: 90
+      pp: 15
+      priority: ~
+      target: ~
+      type: ~
+  contest_effect: ~
+  contest_type: ~
+  damage_class: special
+  effect: move-effect-1
+  effect_chance: ~
+  flags:
+    - protect
+    - mirror
+  flavor_text:
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        つめたく　こおった　くろいきりの
+        けっしょうで　こうげき。　ぜんいんの
+        のうりょく　へんかを　もとに　もどす。
+      ja: |-
+        冷たく　凍った　くろいきりの
+        結晶で　攻撃。　全員の
+        能力変化を　もとに　もどす。
+      ko: |-
+        차갑게 얼어붙은 흑안개의
+        결정으로 공격한다. 전원의
+        능력 변화를 원래대로 돌린다.
+      zh-Hant: |-
+        用冰凍的黑霧結晶進行攻擊，
+        讓全體寶可夢的能力變化
+        回到初始狀態。
+      zh-Hans: |-
+        利用冰冷的黑雾结晶进行攻击。
+        使全体宝可梦的能力变回原点。
+      en: |-
+        The user attacks with a crystal made of cold frozen
+        haze. It eliminates every stat change among all the
+        Pokémon engaged in battle.
+      fr: |-
+        Évoli frappe l’adversaire avec un cristal de buée noire
+        gelée. Annule les changements de stats de tous les
+        Pokémon au combat.
+      de: |-
+        Evoli greift mit einem schwarzen Kristall aus gefrorenem
+        Nebel an. Die Statusveränderungen aller am Kampf
+        beteiligten Pokémon werden zurückgesetzt.
+      es: |-
+        Ataca al rival con negros cristales de niebla congelada.
+        Revierte los cambios en las características de todos los
+        Pokémon presentes.
+      it: |-
+        Chi la usa attacca il bersaglio con un cristallo formato
+        da una nube nera congelata, che annulla ogni modifica
+        alle statistiche di tutti i Pokémon.
+    sword-shield:
+      ja-Hrkt: |-
+        このわざは　つかえません
+        おもいだすことが　できなくなりますが
+        わざを　わすれることを　おすすめします
+      ja: |-
+        この技は　使えません
+        思い出すことが　できなくなりますが
+        技を　忘れることを　おすすめします
+      ko: |-
+        사용할 수 없는 기술입니다.
+        다시 배우게 할 수 없지만
+        기술을 잊게 하는 것을 권장합니다.
+      zh-Hant: |-
+        無法使用此招式。
+        雖然忘記後將無法再想起來，
+        但還是建議忘記此招式。
+      zh-Hans: |-
+        无法使用这个招式。
+        虽然忘记之后就再也想不起来了，
+        但还是建议忘记这个招式。
+      en: |-
+        This move can’t be used.
+        It’s recommended that this move is forgotten.
+        Once forgotten, this move can’t be remembered.
+      fr: |-
+        Cette capacité ne peut pas être utilisée.
+        Il est recommandé de l’oublier, même s’il sera
+        impossible de se la remémorer une fois oubliée.
+      de: |-
+        Diese Attacke kann nicht eingesetzt werden. Du solltest
+        dein Pokémon sie vergessen lassen. Beachte aber,
+        dass es sich danach nicht wieder an sie erinnern kann.
+      es: |-
+        Este movimiento no se puede usar, por lo que sería
+        mejor olvidarlo, aunque eso implique que no se pueda
+        recordar posteriormente.
+      it: |-
+        Questa mossa non può essere usata.
+        È consigliabile farla dimenticare al Pokémon. Tuttavia,
+        una volta dimenticata, non potrà più essere ricordata.
+  generation: generation-vii
+  meta:
+    min_hits: ~
+    max_hits: ~
+    min_turns: ~
+    max_turns: ~
+    drain: 0
+    healing: 0
+    crit_rate: 0
+    ailment_chance: 0
+    flinch_chance: 0
+    stat_chance: 0
+    meta_ailment: none
+    meta_category: damage
+    stat_changes: {  }
+  name:
+    ja-Hrkt: こちこちフロスト
+    ja: こちこちフロスト
+    ko: 꽁꽁프로스트
+    zh-Hant: 冰冰霜凍
+    zh-Hans: 冰冰霜冻
+    en: 'Freezy Frost'
+    fr: Évo-Congélo
+    de: Klirrfrost
+    es: Glaceoprisma
+    it: Scricchiagelo
+  power: 100
+  pp: 10
+  priority: 0
+  super_contest_effect: ~
+  target: selected-pokemon
+  type: ice

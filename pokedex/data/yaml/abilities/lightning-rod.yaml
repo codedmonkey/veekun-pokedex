@@ -1,0 +1,272 @@
+lightning-rod:
+  changelog:
+    emerald:
+      effect:
+        en: 'Has no overworld effect.'
+        de: 'Hat außerhalb vom Kampf keinen Effekt.'
+        cs: 'Nemá žádný účinek v poli.'
+    diamond-pearl:
+      effect:
+        en: 'Does not affect non-damaging []{type:electric} moves, i.e. []{move:thunder-wave}.  Increases the frequency of Match Call calls on the overworld if any party Pokémon has this ability.'
+        de: 'Betrifft keine []{type:electric}-Attacken die keinen Schaden anrichten, wie []{move:thunder-wave}. Erhöht die Anzahl an Trainer-Anrufen wenn irgendein Pokémon im Team diese Fähigkeit hat.'
+    black-white:
+      effect:
+        en: 'Redirects []{type:electric} moves without negating them or granting any [Special Attack]{mechanic:special-attack} boost.  Does not redirect []{move:hidden-power}.'
+        de: 'Leitet []{type:electric}-Attacken um, ohne ihre Effekte zu deaktivieren oder einen []{mechanic:special-attack} Bonus zu gewähren. Leitet []{move:hidden-power} nicht um.'
+  effect:
+    en: |-
+      All other Pokémon's single-target []{type:electric}-type moves are redirected to this Pokémon if it is an eligible target.  Other Pokémon's Electric moves raise this Pokémon's [Special Attack]{mechanic:special-attack} one [stage]{mechanic:stat-modifier}, negating any other effect on it, and cannot miss it.
+
+      If the move's intended target also has this ability, the move is not redirected.  When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest [Speed]{mechanic:speed} stat, or, in the case of a tie, to a random tied Pokémon.  []{move:follow-me} takes precedence over this ability.
+
+      If the Pokémon is a []{type:ground}-type and thus immune to Electric moves, its immunity prevents the Special Attack boost.
+    de: |-
+      Wenn sich ein Pokémon mit dieser Fähigkeit im Kampf befindet, werden alle []{type:electric} Attacken die nur 1 Ziel haben auf dieses Pokémon umgeleitet, sofern es ein mögliches Ziel ist. Wird es von []{type:electric} Attacken getroffen, erhöht sich sein []{mechanic:special-attack} um 1 [Stufe]{mechanic:stat-modifier}, jeder andere Effekt der Attacke wird ignoriert.
+
+      Wenn das eigentliche Ziel der Attacke ebenfalls diese Fähigkeit besitzt, wird sie nicht umgeleitet. Gibt es mehrere Pokémon mit dieser Fähigkeit, wird die Attacke zu dem mit der höchsten []{mechanic:speed} umgeleitet, oder, falls alle die gleiche haben, zu einem zufälligen Pokémon. []{move:follow-me} wirkt vor dieser Fähigkeit.
+
+      Wenn das Pokémon mit dieser Fähigkeit vom Typ []{type:ground} ist, verhindert seine []{type:electric} Immunität das Ansteigen des [Spezialangriffs]{mechanic:special-attack}.
+  flavor_text:
+    ruby-sapphire:
+      en: 'Draws electrical moves.'
+    emerald:
+      en: 'Draws electrical moves.'
+    firered-leafgreen:
+      en: 'Draws electrical moves.'
+    diamond-pearl:
+      en: |-
+        The Pokémon draws in all
+        Electric-type moves.
+    platinum:
+      en: |-
+        The Pokémon draws in all
+        Electric-type moves.
+    heartgold-soulsilver:
+      en: |-
+        The Pokémon draws in all
+        Electric-type moves.
+    black-white:
+      en: |-
+        Draws in all Electric-type
+        moves to up Sp. Attack.
+      fr: |-
+        Attire l’électricité et
+        augmente l’Atq. Spé.
+    black-2-white-2:
+      en: |-
+        Draws in all Electric-type
+        moves to up Sp. Attack.
+    x-y:
+      ja-Hrkt: |-
+        でんきを　よびこんで
+        とくこうを　あげる。
+      ja: |-
+        でんきを　呼び込んで
+        特攻を　あげる。
+      ko: |-
+        전기를 끌어모아
+        특수공격을 올린다.
+      en: |-
+        Draws in all Electric-type moves
+        to boost its Sp. Atk stat.
+      fr: |-
+        Attire et neutralise les attaques
+        Électrik et monte l’Atq. Spé.
+      de: |-
+        Absorbiert Elektro-Attacken
+        und steigert den Spezial-Angriff.
+      es: |-
+        Atrae y neutraliza movimientos de
+        tipo Eléctrico y sube el At. Esp.
+      it: |-
+        Neutralizza mosse di tipo Elettro
+        per aumentare l’Attacco Speciale.
+    omega-ruby-alpha-sapphire:
+      ja-Hrkt: |-
+        でんきを　よびこんで
+        とくこうを　あげる。
+      ja: |-
+        でんきを　呼び込んで
+        特攻を　あげる。
+      ko: |-
+        전기를 끌어모아
+        특수공격을 올린다.
+      en: |-
+        Draws in all Electric-type moves
+        to boost its Sp. Atk stat.
+      fr: |-
+        Attire et neutralise les attaques
+        Électrik et monte l’Atq. Spé.
+      de: |-
+        Absorbiert Elektro-Attacken
+        und steigert den Spezial-Angriff.
+      es: |-
+        Atrae y neutraliza movimientos de
+        tipo Eléctrico y sube el At. Esp.
+      it: |-
+        Neutralizza mosse di tipo Elettro
+        per aumentare l’Attacco Speciale. 
+    sun-moon:
+      ja-Hrkt: |-
+        でんきタイプの　わざを　じぶんに
+        よせつけ　ダメージを　うけずに
+        とくこうが　あがる。
+      ja: |-
+        でんきタイプの　技を　自分に
+        寄せつけ　ダメージを　受けずに
+        特攻が　上がる。
+      ko: |-
+        전기타입의 기술을 자신에게
+        끌어모아 데미지를 받지 않고
+        특수공격을 올린다.
+      zh-Hant: |-
+        將電屬性的招式吸引到自己身上，
+        不但不會受到傷害，反而會提高特攻。
+      zh-Hans: |-
+        将电属性的招式吸引到自己身上，
+        不会受到伤害，而是会提高特攻。
+      en: |-
+        The Pokémon draws in all Electric-type moves. 
+        Instead of being hit by Electric-type moves, 
+        it boosts its Sp. Atk.
+      fr: |-
+        Le Pokémon détourne sur lui les capacités de
+        type Électrik et les neutralise, tout en montant
+        son Attaque Spéciale.
+      de: |-
+        Zieht Elektro-Attacken an. Statt durch diese
+        Schaden zu nehmen, erhöht es den eigenen
+        Spezial-Angriff.
+      es: |-
+        Además de atraer y neutralizar los movimientos de
+        tipo Eléctrico, sube el Ataque Especial.
+      it: |-
+        Attira e neutralizza mosse di tipo Elettro
+        e aumenta l’Attacco Speciale.
+    ultra-sun-ultra-moon:
+      ja-Hrkt: |-
+        でんきタイプの　わざを　じぶんに
+        よせつけ　ダメージを　うけずに
+        とくこうが　あがる。
+      ja: |-
+        でんきタイプの　技を　自分に
+        寄せつけ　ダメージを　受けずに
+        特攻が　上がる。
+      ko: |-
+        전기타입의 기술을 자신에게
+        끌어모아 데미지를 받지 않고
+        특수공격을 올린다.
+      zh-Hant: |-
+        將電屬性的招式吸引到自己身上，
+        不但不會受到傷害，反而會提高特攻。
+      zh-Hans: |-
+        将电属性的招式吸引到自己身上，
+        不会受到伤害，而是会提高特攻。
+      en: |-
+        The Pokémon draws in all Electric-type moves. 
+        Instead of being hit by Electric-type moves, 
+        it boosts its Sp. Atk.
+      fr: |-
+        Le Pokémon détourne sur lui les capacités de
+        type Électrik et les neutralise, tout en montant
+        son Attaque Spéciale.
+      de: |-
+        Zieht Elektro-Attacken an. Statt durch diese
+        Schaden zu nehmen, erhöht es den eigenen
+        Spezial-Angriff.
+      es: |-
+        Además de atraer y neutralizar los movimientos de
+        tipo Eléctrico, sube el Ataque Especial.
+      it: |-
+        Attira e neutralizza mosse di tipo Elettro
+        e aumenta l’Attacco Speciale.
+    lets-go-pikachu-lets-go-eevee:
+      ja-Hrkt: |-
+        でんきタイプの　わざを　じぶんに
+        よせつけ　ダメージを　うけずに
+        とくこうが　あがる。
+      ja: |-
+        でんきタイプの　技を　自分に
+        寄せつけ　ダメージを　受けずに
+        特攻が　上がる。
+      ko: |-
+        전기타입의 기술을 자신에게
+        끌어모아 데미지를 받지 않고
+        특수공격을 올린다.
+      zh-Hant: |-
+        將電屬性的招式吸引到自己身上，
+        不但不會受到傷害，反而會提高特攻。
+      zh-Hans: |-
+        将电属性的招式吸引到自己身上，
+        不会受到伤害，而是会提高特攻。
+      en: |-
+        The Pokémon draws in all Electric-type moves.
+        Instead of being hit by Electric-type moves,
+        it boosts its Sp. Atk.
+      fr: |-
+        Le Pokémon détourne sur lui les capacités de
+        type Électrik et les neutralise, tout en montant
+        son Attaque Spéciale.
+      de: |-
+        Zieht Elektro-Attacken an. Statt durch diese
+        Schaden zu nehmen, erhöht es den eigenen
+        Spezial-Angriff.
+      es: |-
+        Además de atraer y neutralizar los movimientos de
+        tipo Eléctrico, sube el Ataque Especial.
+      it: |-
+        Attira e neutralizza mosse di tipo Elettro
+        e aumenta l’Attacco Speciale.
+    sword-shield:
+      ja-Hrkt: |-
+        でんきタイプの　わざを　じぶんに
+        よせつけ　ダメージを　うけずに
+        とくこうが　あがる。
+      ja: |-
+        でんきタイプの　技を　自分に
+        寄せつけ　ダメージを　受けずに
+        特攻が　上がる。
+      ko: |-
+        전기타입의 기술을 자신에게
+        끌어모아 데미지를 받지 않고
+        특수공격을 올린다.
+      zh-Hant: |-
+        將電屬性的招式吸引到自己身上，
+        不但不會受到傷害，反而會提高特攻。
+      zh-Hans: |-
+        将电属性的招式吸引到自己身上，
+        不会受到伤害，而是会提高特攻。
+      en: |-
+        The Pokémon draws in all Electric-type moves.
+        Instead of being hit by Electric-type moves,
+        it boosts its Sp. Atk.
+      fr: |-
+        Le Pokémon détourne sur lui les capacités
+        de type Électrik et les neutralise, tout en montant
+        son Attaque Spéciale.
+      de: |-
+        Zieht Elektro-Attacken an. Statt durch diese Schaden
+        zu nehmen, erhöht es den eigenen Spezial-Angriff.
+      es: |-
+        Atrae y neutraliza los movimientos de tipo Eléctrico,
+        que además le suben el Ataque Especial.
+      it: |-
+        Il Pokémon attira e neutralizza le mosse di tipo Elettro
+        e fa aumentare il suo Attacco Speciale.
+  generation: generation-iii
+  is_main_series: true
+  name:
+    ja-Hrkt: ひらいしん
+    ja: ひらいしん
+    ko: 피뢰침
+    zh-Hant: 避雷針
+    zh-Hans: 避雷针
+    en: 'Lightning Rod'
+    fr: Paratonnerre
+    de: Blitzfänger
+    es: Pararrayos
+    it: Parafulmine
+    cs: Hromosvod
+  short_effect:
+    en: 'Redirects single-target []{type:electric} moves to this Pokémon where possible.  Absorbs Electric moves, raising [Special Attack]{mechanic:special-attack} one [stage]{mechanic:stat-modifier}.'
+    de: 'Leitet []{type:electric} Attacken mit nur einem Ziel auf dieses Pokémon um. Absorbiert []{type:electric} Attacken und erhöht dabei den []{mechanic:special-attack} um 1 [Stufe]{mechanic:stat-modifier}.'

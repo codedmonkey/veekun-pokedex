@@ -1,0 +1,467 @@
+abundant-shrine:
+  areas:
+    main_area:
+      encounter_rates:
+        black:
+          walk: 8
+          super-rod: 50
+          surf: 3
+        white:
+          walk: 8
+          super-rod: 50
+          surf: 3
+        black-2:
+          walk: 1
+          super-rod: 50
+          surf: 10
+          dark-grass: 3
+        white-2:
+          walk: 1
+          super-rod: 50
+          surf: 10
+          dark-grass: 3
+      encounters:
+        black:
+          vulpix:
+            encounter_method: walk
+            max_level: 47
+            min_level: 47
+            rarity: 20
+            slot: 1
+          chimecho:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 10
+            slot: 4
+          cottonee:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 10
+            slot: 3
+          stantler:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 10
+            slot: 5
+          noctowl:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 11
+          murkrow:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 5
+            slot: 7
+          bronzong:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+          audino:
+            encounter_method: grass-spots
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 11
+          emolga:
+            encounter_method: grass-spots
+            max_level: 48
+            min_level: 48
+            rarity: 10
+            slot: 3
+          honchkrow:
+            encounter_method: grass-spots
+            max_level: 50
+            min_level: 50
+            rarity: 5
+            slot: 7
+          whimsicott:
+            encounter_method: grass-spots
+            max_level: 50
+            min_level: 50
+            rarity: 5
+            slot: 8
+          ninetales:
+            encounter_method: grass-spots
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+          goldeen:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 40
+            slot: 1
+          basculin-red-striped:
+            encounter_method: surf
+            max_level: 55
+            min_level: 25
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf-spots
+            max_level: 60
+            min_level: 25
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 45
+            rarity: 1
+            slot: 5
+          slowpoke:
+            encounter_method: surf-spots
+            max_level: 60
+            min_level: 25
+            rarity: 60
+            slot: 1
+          slowbro:
+            encounter_method: surf-spots
+            max_level: 70
+            min_level: 35
+            rarity: 5
+            slot: 3
+          slowking:
+            encounter_method: surf-spots
+            max_level: 70
+            min_level: 35
+            rarity: 1
+            slot: 5
+        white:
+          vulpix:
+            encounter_method: walk
+            max_level: 47
+            min_level: 47
+            rarity: 20
+            slot: 1
+          chimecho:
+            encounter_method: walk
+            max_level: 49
+            min_level: 49
+            rarity: 10
+            slot: 4
+          petilil:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 10
+            slot: 3
+          stantler:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 10
+            slot: 5
+          noctowl:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 11
+          misdreavus:
+            encounter_method: walk
+            max_level: 48
+            min_level: 48
+            rarity: 5
+            slot: 7
+          bronzong:
+            encounter_method: walk
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+          audino:
+            encounter_method: grass-spots
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 11
+          emolga:
+            encounter_method: grass-spots
+            max_level: 48
+            min_level: 48
+            rarity: 10
+            slot: 3
+          mismagius:
+            encounter_method: grass-spots
+            max_level: 50
+            min_level: 50
+            rarity: 5
+            slot: 7
+          lilligant:
+            encounter_method: grass-spots
+            max_level: 50
+            min_level: 50
+            rarity: 5
+            slot: 8
+          ninetales:
+            encounter_method: grass-spots
+            max_level: 50
+            min_level: 50
+            rarity: 1
+            slot: 12
+          goldeen:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 35
+            rarity: 40
+            slot: 1
+          basculin-blue-striped:
+            encounter_method: surf
+            max_level: 55
+            min_level: 25
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf-spots
+            max_level: 60
+            min_level: 25
+            rarity: 30
+            slot: 2
+          seaking:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 45
+            rarity: 1
+            slot: 5
+          slowpoke:
+            encounter_method: surf-spots
+            max_level: 60
+            min_level: 25
+            rarity: 60
+            slot: 1
+          slowbro:
+            encounter_method: surf-spots
+            max_level: 70
+            min_level: 35
+            rarity: 5
+            slot: 3
+          slowking:
+            encounter_method: surf-spots
+            max_level: 70
+            min_level: 35
+            rarity: 1
+            slot: 5
+        black-2:
+          vulpix:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 3
+          cottonee:
+            encounter_method: walk
+            max_level: 35
+            min_level: 35
+            rarity: 1
+            slot: 11
+          altaria:
+            encounter_method: walk
+            max_level: 36
+            min_level: 36
+            rarity: 1
+            slot: 12
+          marill:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 5
+          golduck:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 6
+          bronzong:
+            encounter_method: dark-grass
+            max_level: 36
+            min_level: 36
+            rarity: 5
+            slot: 8
+          audino:
+            encounter_method: grass-spots
+            max_level: 36
+            min_level: 36
+            rarity: 5
+            slot: 8
+          emolga:
+            encounter_method: grass-spots
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 3
+          whimsicott:
+            encounter_method: grass-spots
+            max_level: 36
+            min_level: 36
+            rarity: 1
+            slot: 11
+          ninetales:
+            encounter_method: grass-spots
+            max_level: 36
+            min_level: 36
+            rarity: 1
+            slot: 12
+          goldeen:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 40
+            rarity: 40
+            slot: 1
+          basculin-red-striped:
+            encounter_method: surf
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          basculin-blue-striped:
+            encounter_method: surf-spots
+            max_level: 40
+            min_level: 30
+            rarity: 5
+            slot: 3
+          seaking:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          azumarill:
+            encounter_method: surf-spots
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          swablu:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 20
+            slot: 1
+          bronzor:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 5
+            slot: 8
+        white-2:
+          vulpix:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 3
+          petilil:
+            encounter_method: walk
+            max_level: 35
+            min_level: 35
+            rarity: 1
+            slot: 11
+          altaria:
+            encounter_method: walk
+            max_level: 36
+            min_level: 36
+            rarity: 1
+            slot: 12
+          marill:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 5
+          golduck:
+            encounter_method: walk
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 6
+          bronzong:
+            encounter_method: dark-grass
+            max_level: 36
+            min_level: 36
+            rarity: 5
+            slot: 8
+          audino:
+            encounter_method: grass-spots
+            max_level: 36
+            min_level: 36
+            rarity: 5
+            slot: 7
+          emolga:
+            encounter_method: grass-spots
+            max_level: 34
+            min_level: 34
+            rarity: 10
+            slot: 3
+          azumarill:
+            encounter_method: surf-spots
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          lilligant:
+            encounter_method: grass-spots
+            max_level: 36
+            min_level: 36
+            rarity: 1
+            slot: 11
+          ninetales:
+            encounter_method: grass-spots
+            max_level: 36
+            min_level: 36
+            rarity: 1
+            slot: 12
+          goldeen:
+            encounter_method: super-rod-spots
+            max_level: 60
+            min_level: 40
+            rarity: 40
+            slot: 1
+          basculin-blue-striped:
+            encounter_method: surf
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+          basculin-red-striped:
+            encounter_method: surf-spots
+            max_level: 40
+            min_level: 30
+            rarity: 5
+            slot: 3
+          seaking:
+            encounter_method: super-rod-spots
+            max_level: 70
+            min_level: 50
+            rarity: 1
+            slot: 5
+          swablu:
+            encounter_method: walk
+            max_level: 33
+            min_level: 33
+            rarity: 20
+            slot: 1
+          bronzor:
+            encounter_method: walk
+            max_level: 32
+            min_level: 32
+            rarity: 5
+            slot: 8
+      game_index: 105
+      name:
+        en: 'Main Area'
+  name:
+    ja-Hrkt: ほうじょうの社
+    en: 'Abundant Shrine'
+    fr: 'Autel Abondance'
+  region: unova
