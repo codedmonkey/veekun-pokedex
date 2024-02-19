@@ -81,7 +81,7 @@ trait ParsingTrait
         return $this;
     }
 
-    public function prefixIdentifier(string $prefix): static
+    function prefixIdentifier(string $prefix): static
     {
         $data = [];
 
@@ -90,6 +90,15 @@ trait ParsingTrait
         }
 
         $this->data = $data;
+
+        return $this;
+    }
+
+    function copy(string $from, string $to): static
+    {
+        foreach ($this->data as &$row) {
+            $row[$to] = $row[$from];
+        }
 
         return $this;
     }

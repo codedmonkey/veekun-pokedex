@@ -257,8 +257,10 @@ $moveMetaStatChanges
     ->parseInteger('change');
 
 $moves
+    ->copy('id', 'game_index')
     ->parseInteger('accuracy')
     ->parseInteger('effect_chance')
+    ->parseInteger('game_index')
     ->parseInteger('power')
     ->parseInteger('pp')
     ->parseInteger('priority');
