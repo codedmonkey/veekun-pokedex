@@ -11,14 +11,13 @@ which case it is replaced by the name of the thing linked to.
 """
 from __future__ import absolute_import
 
-import sys
 import re
 
 import markdown
 import six
 from sqlalchemy.orm.session import object_session
-from markdown.util import etree, AtomicString
-
+from markdown.util import AtomicString
+import xml.etree.ElementTree as etree 
 
 @six.python_2_unicode_compatible
 class MarkdownString(object):
@@ -63,7 +62,8 @@ class MarkdownString(object):
             extension = self.session.markdown_extension
 
         md = markdown.Markdown(
-            extensions=['markdown.extensions.extra', EscapeHtml(), extension],
+            extensions=['extra', extension],
+            safe_mode='escape',
             output_format='xhtml1',
         )
 
@@ -160,10 +160,7 @@ class PokedexLinkPattern(markdown.inlinepatterns.Pattern):
 
     Handles matches using factory
     """
-    if sys.version_info >= (3, 6):
-        regex = u'(?x: \\[ ([^]]*) \\] \\{ ([-a-z0-9]+) : ([-a-z0-9 ]+) \\} )'
-    else:
-        regex = u'(?x) \\[ ([^]]*) \\] \\{ ([-a-z0-9]+) : ([-a-z0-9 ]+) \\}'
+    regex = u'(?x) \\[ ([^]]*) \\] \\{ ([-a-z0-9]+) : ([-a-z0-9 ]+) \\}'
 
     def __init__(self, factory, session, string_language=None, game_language=None):
         markdown.inlinepatterns.Pattern.__init__(self, self.regex)
@@ -226,17 +223,6 @@ class PokedexLinkPattern(markdown.inlinepatterns.Pattern):
             el = etree.Element('span')
             el.text = AtomicString(label or name)
         return el
-
-class EscapeHtml(markdown.Extension):
-    u"""Markdown extension which escapes raw html elements.
-
-    This is the recommended replacement for safe_mode='escape',
-    which was deprecated in Markdown 2.5.
-    See https://python-markdown.github.io/change_log/release-2.5/
-    """
-    def extendMarkdown(self, md, md_globals):
-        del md.preprocessors['html_block']
-        del md.inlinePatterns['html']
 
 class PokedexLinkExtension(markdown.Extension):
     u"""Markdown extension that translates the syntax used in effect text:

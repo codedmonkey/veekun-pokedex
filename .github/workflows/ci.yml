@@ -1,0 +1,45 @@
+name: Pokédex CI
+
+on:
+  push:
+    branches: ["master-pokeapi"]
+  pull_request:
+    branches: ["master-pokeapi"]
+
+env:
+  ENABLE_TTY: 0
+
+jobs:
+  Docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup
+        run: |
+          bin/docker-pokedex setup -v
+      - name: Dump Pokédex
+        run: |
+          bin/docker-pokedex dump -l all
+
+  Python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.7", "3.8", "3.9", "3.10"]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+      - name: Run Setup
+        run: |
+          pokedex setup
+      - name: Dump DB
+        run: |
+          pokedex dump -l all

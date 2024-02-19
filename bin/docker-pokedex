@@ -2,6 +2,7 @@
 
 curr_dir="$(pwd)"
 log_file="${curr_dir}/bin/docker-pokedex.log"
+ENABLE_TTY=${ENABLE_TTY:-1}
 
 if [[ "${1}" = "rebuild" ]] || [[ ! -f "${log_file}" ]]; then
     docker build --rm -t veekun/pokedex ${curr_dir}
@@ -13,8 +14,16 @@ if [[ "${1}" = "rebuild" ]] || [[ ! -f "${log_file}" ]]; then
     fi;
 fi
 
-docker run -it --rm \
-    -e TERM=xterm-256color \
-    --name "pokedex-$(date +%Y%m%d-%H%M%S)" \
-    --mount type=bind,source="${curr_dir}/pokedex/data",target=/app/pokedex/data \
-    veekun/pokedex "${@}"
+options=(
+  run 
+  --rm 
+  -e TERM=xterm-256color 
+  --name "pokedex-$(date +%Y%m%d-%H%M%S)"
+  --mount type=bind,source="${curr_dir}/pokedex/data",target=/app/pokedex/data \
+  veekun/pokedex "${@}"
+)
+if [ "$ENABLE_TTY" -ne 0 ]; then
+  options+=(-it)
+fi
+
+docker ${options[@]}

@@ -2,6 +2,7 @@
 import re
 
 from sqlalchemy import engine_from_config, orm
+from sqlalchemy import event
 
 from ..defaults import get_default_db_uri
 from .tables import metadata
@@ -55,6 +56,20 @@ def connect(uri=None, session_args={}, engine_args={}, engine_prefix=''):
         default_language_id=ENGLISH_ID, **all_session_args)
     session = MultilangScopedSession(sm)
 
+    @event.listens_for(session, "do_orm_execute")
+    def bind_default_language_id(state):
+        # Set _default_language_id param if it hasn't been set by the time the query is executed.
+        # XXX This is really hacky and we should figure out a cleaner method.
+        if not state.statement.is_select:
+            return
+
+        if not state.parameters:
+            state.parameters = {}
+
+        if not '_default_language_id' in state.parameters or state.parameters['_default_language_id'] == 'dummy':
+            state.parameters.update(_default_language_id=state.session.default_language_id)
+
+        return state.invoke_statement()
     return session
 
 def identifier_from_name(name):
