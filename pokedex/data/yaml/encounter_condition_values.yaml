@@ -1,3 +1,97 @@
+first-party-pokemon-high-friendship:
+  encounter_condition: first-party-pokemon
+  is_default: false
+  name:
+    en: 'The first Pokémon in the player’s party has a high friendship stat'
+item-adamant-orb:
+  encounter_condition: item
+  is_default: false
+  name:
+    en: 'Have Adamant Orb in bag'
+item-claw-fossil:
+  encounter_condition: item
+  is_default: false
+  name:
+    en: 'Have Claw Fossil in bag'
+item-dome-fossil:
+  encounter_condition: item
+  is_default: false
+  name:
+    en: 'Have Dome Fossil in bag'
+item-helix-fossil:
+  encounter_condition: item
+  is_default: false
+  name:
+    en: 'Have Helix Fossil in bag'
+item-lustrous-orb:
+  encounter_condition: item
+  is_default: false
+  name:
+    en: 'Have Lustrous Orb in bag'
+item-none:
+  encounter_condition: item
+  is_default: true
+  name:
+    en: 'No item requirement'
+item-odd-keystone:
+  encounter_condition: item
+  is_default: false
+  name:
+    en: 'Have Odd Keystone in bag'
+item-old-amber:
+  encounter_condition: item
+  is_default: false
+  name:
+    en: 'Have Old Amber in bag'
+item-root-fossil:
+  encounter_condition: item
+  is_default: false
+  name:
+    en: 'Have Root Fossil in bag'
+other-correct-password:
+  encounter_condition: other
+  is_default: false
+  name:
+    en: 'Input correct password'
+other-event-arceus-in-party:
+  encounter_condition: other
+  is_default: false
+  name: {  }
+other-none:
+  encounter_condition: other
+  is_default: true
+  name:
+    en: None
+other-received-kanto-starter:
+  encounter_condition: other
+  is_default: false
+  name:
+    en: 'Received a Kanto Starter'
+other-regirock-regice-registeel-in-party:
+  encounter_condition: other
+  is_default: false
+  name:
+    en: 'Have Regirock, Regice and Registeel in the party'
+other-snorlax-11-beat-league:
+  encounter_condition: other
+  is_default: false
+  name:
+    en: 'Beat the Pokémon league after knocking out Snorlax at Route 11'
+other-talk-to-cynthias-grandmother:
+  encounter_condition: other
+  is_default: false
+  name:
+    en: 'Talk to Cynthia’s grandmother'
+other-talked-to-32-people-underground:
+  encounter_condition: other
+  is_default: false
+  name:
+    en: 'Has talked to at least 32 people in the underground'
+other-virtual-console:
+  encounter_condition: other
+  is_default: false
+  name:
+    en: 'Playing on the Virtual Console Release'
 radar-off:
   encounter_condition: radar
   is_default: true
@@ -86,8 +180,123 @@ slot2-sapphire:
   encounter_condition: slot2
   is_default: false
   name:
-    en: 'Sapphire in slot 2'
+    en: 'Have an Event Arceus in the party'
     de: 'Saphir in Slot 2'
+starter-bulbasaur:
+  encounter_condition: starter
+  is_default: false
+  name:
+    en: 'Bulbasaur as starter'
+starter-charmander:
+  encounter_condition: starter
+  is_default: false
+  name:
+    en: 'Charmander as starter'
+starter-chespin:
+  encounter_condition: starter
+  is_default: false
+  name:
+    en: 'Chespin as starter'
+starter-fennekin:
+  encounter_condition: starter
+  is_default: false
+  name:
+    en: 'Fennekin as starter'
+starter-froakie:
+  encounter_condition: starter
+  is_default: false
+  name:
+    en: 'Froakie as starter'
+starter-squirtle:
+  encounter_condition: starter
+  is_default: false
+  name:
+    en: 'Squirtle as starter'
+story-progress-awakened-beasts:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Awakened the legendary beasts at Burned Tower'
+story-progress-beat-elite-four-round-two:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Beat the Elite 4 for the second time'
+story-progress-beat-galactic-coronet:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Visited Lake Verity after defeating Team Galactic at Mt. Coronet'
+story-progress-beat-red:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Defeat Red'
+story-progress-beat-team-galactic-iron-island:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Defeat Team Galactic at Iron Island'
+story-progress-cure-eldritch-nightmares:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Cure the nightmares of Eldritch’s Son'
+story-progress-defeat-jupiter:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Defeat Jupiter'
+story-progress-defeat-mars:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Beat Mars for the first time'
+story-progress-hall-of-fame:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Enter the Hall of Fame'
+story-progress-met-tornadus-thundurus:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Met Tornadus or Thundurus in a cutscene'
+story-progress-national-dex:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Acquired National Pokédex'
+story-progress-none:
+  encounter_condition: story-progress
+  is_default: true
+  name:
+    en: None
+story-progress-oak-eterna-city:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Talked to Professor Oak at Eterna City'
+story-progress-receive-tm-from-claire:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Received TM59 From Claire'
+story-progress-returned-machine-part:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Returned Machine Part to Power Plant'
+story-progress-vermilion-copycat:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Visited the Pokémon Fan Club with Copycat’s doll'
+story-progress-zephyr-badge:
+  encounter_condition: story-progress
+  is_default: false
+  name:
+    en: 'Obtained Zephyr badge'
 swarm-no:
   encounter_condition: swarm
   is_default: true
@@ -122,3 +331,48 @@ time-night:
     en: 'At night'
     de: 'In der Nacht'
     cs: Rádio
+tv-option-blue:
+  encounter_condition: tv-option
+  is_default: true
+  name:
+    en: 'Chose ‘Blue’ on the TV news report'
+tv-option-red:
+  encounter_condition: tv-option
+  is_default: false
+  name:
+    en: 'Chose ‘Red’ on the TV news report'
+weekday-friday:
+  encounter_condition: weekday
+  is_default: false
+  name:
+    en: Friday
+weekday-monday:
+  encounter_condition: weekday
+  is_default: false
+  name:
+    en: Monday
+weekday-saturday:
+  encounter_condition: weekday
+  is_default: false
+  name:
+    en: Saturday
+weekday-sunday:
+  encounter_condition: weekday
+  is_default: false
+  name:
+    en: Sunday
+weekday-thursday:
+  encounter_condition: weekday
+  is_default: false
+  name:
+    en: Thursday
+weekday-tuesday:
+  encounter_condition: weekday
+  is_default: false
+  name:
+    en: Tuesday
+weekday-wednesday:
+  encounter_condition: weekday
+  is_default: false
+  name:
+    en: Wednesday

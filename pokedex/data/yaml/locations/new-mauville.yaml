@@ -62,11 +62,11 @@ new-mauville:
       encounters:
         ruby:
           voltorb:
-            encounter_method: walk
-            max_level: 22
-            min_level: 22
-            rarity: 4
-            slot: 9
+            encounter_method: only-one
+            max_level: 25
+            min_level: 25
+            rarity: 100
+            slot: ~
           magnemite:
             encounter_method: walk
             max_level: 22
@@ -74,11 +74,11 @@ new-mauville:
             rarity: 4
             slot: 10
           electrode:
-            encounter_method: walk
-            max_level: 26
-            min_level: 26
-            rarity: 1
-            slot: 11
+            encounter_method: only-one
+            max_level: 30
+            min_level: 30
+            rarity: 100
+            slot: ~
           magneton:
             encounter_method: walk
             max_level: 26
@@ -112,11 +112,11 @@ new-mauville:
             slot: 12
         emerald:
           voltorb:
-            encounter_method: walk
-            max_level: 22
-            min_level: 22
-            rarity: 4
-            slot: 9
+            encounter_method: only-one
+            max_level: 25
+            min_level: 25
+            rarity: 100
+            slot: ~
           magnemite:
             encounter_method: walk
             max_level: 22
@@ -124,17 +124,30 @@ new-mauville:
             rarity: 4
             slot: 10
           electrode:
-            encounter_method: walk
-            max_level: 26
-            min_level: 26
-            rarity: 1
-            slot: 11
+            encounter_method: only-one
+            max_level: 30
+            min_level: 30
+            rarity: 100
+            slot: ~
           magneton:
             encounter_method: walk
             max_level: 26
             min_level: 26
             rarity: 1
             slot: 12
+        sun:
+          voltorb:
+            encounter_method: only-one
+            max_level: 25
+            min_level: 25
+            rarity: 100
+            slot: ~
+          electrode:
+            encounter_method: only-one
+            max_level: 30
+            min_level: 30
+            rarity: 100
+            slot: ~
       game_index: 49
       name:
         en: 'Main Area'

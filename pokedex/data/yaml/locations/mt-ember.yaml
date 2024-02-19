@@ -403,6 +403,50 @@ mt-ember:
       game_index: 47
       name:
         en: B3F
+    summit:
+      encounter_rates: {  }
+      encounters:
+        firered:
+          moltres:
+            encounter_method: only-one
+            max_level: 50
+            min_level: 50
+            rarity: 100
+            slot: ~
+          geodude:
+            encounter_method: rock-smash
+            max_level: 30
+            min_level: 15
+            rarity: 5
+            slot: 3
+          graveler:
+            encounter_method: rock-smash
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+        leafgreen:
+          moltres:
+            encounter_method: only-one
+            max_level: 50
+            min_level: 50
+            rarity: 100
+            slot: ~
+          geodude:
+            encounter_method: rock-smash
+            max_level: 30
+            min_level: 15
+            rarity: 5
+            slot: 3
+          graveler:
+            encounter_method: rock-smash
+            max_level: 40
+            min_level: 30
+            rarity: 1
+            slot: 5
+      game_index: 0
+      name:
+        en: 'Mt. Ember Summit'
   name:
     en: 'Mt. Ember'
     fr: 'Mont Braise'

@@ -175,17 +175,17 @@ ilex-forest:
             slot: 4
         gold:
           caterpie:
-            encounter_method: walk
-            max_level: 5
-            min_level: 5
-            rarity: 20
-            slot: 3
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
           metapod:
-            encounter_method: walk
-            max_level: 6
-            min_level: 6
-            rarity: 30
-            slot: 2
+            encounter_method: headbutt-normal
+            max_level: 10
+            min_level: 10
+            rarity: 15
+            slot: 3
           zubat:
             encounter_method: walk
             max_level: 5
@@ -227,20 +227,38 @@ ilex-forest:
             max_level: 19
             min_level: 15
             rarity: 10
+            slot: 3
+          exeggcute:
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 5
+          butterfree:
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 6
+          pineco:
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 15
             slot: 3
         silver:
           weedle:
-            encounter_method: walk
-            max_level: 5
-            min_level: 5
-            rarity: 20
-            slot: 3
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 50
+            slot: 1
           kakuna:
-            encounter_method: walk
-            max_level: 6
-            min_level: 6
-            rarity: 30
-            slot: 2
+            encounter_method: headbutt-normal
+            max_level: 10
+            min_level: 10
+            rarity: 15
+            slot: 3
           zubat:
             encounter_method: walk
             max_level: 5
@@ -283,31 +301,49 @@ ilex-forest:
             min_level: 15
             rarity: 10
             slot: 3
+          exeggcute:
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 5
+          beedrill:
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 6
+          pineco:
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 15
+            slot: 3
         crystal:
           caterpie:
-            encounter_method: walk
-            max_level: 5
-            min_level: 5
-            rarity: 30
-            slot: 1
-          weedle:
-            encounter_method: walk
-            max_level: 5
-            min_level: 5
-            rarity: 30
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 15
             slot: 2
-          metapod:
-            encounter_method: walk
-            max_level: 7
-            min_level: 7
-            rarity: 20
+          weedle:
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 15
             slot: 3
+          metapod:
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 5
           kakuna:
-            encounter_method: walk
-            max_level: 7
-            min_level: 7
-            rarity: 10
-            slot: 4
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 6
           pidgey:
             encounter_method: walk
             max_level: 7
@@ -339,11 +375,11 @@ ilex-forest:
             rarity: 30
             slot: 2
           hoothoot:
-            encounter_method: walk
-            max_level: 7
-            min_level: 7
-            rarity: 5
-            slot: 5
+            encounter_method: headbutt-high
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 4
           magikarp:
             encounter_method: super-rod
             max_level: 40
@@ -362,6 +398,36 @@ ilex-forest:
             min_level: 15
             rarity: 10
             slot: 3
+          pineco:
+            encounter_method: headbutt-normal
+            max_level: 10
+            min_level: 10
+            rarity: 15
+            slot: 3
+          noctowl:
+            encounter_method: headbutt-normal
+            max_level: 10
+            min_level: 10
+            rarity: 10
+            slot: 4
+          butterfree:
+            encounter_method: headbutt-normal
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 5
+          beedrill:
+            encounter_method: headbutt-normal
+            max_level: 10
+            min_level: 10
+            rarity: 5
+            slot: 6
+          celebi:
+            encounter_method: only-one
+            max_level: 30
+            min_level: 30
+            rarity: 100
+            slot: ~
       game_index: 21
       name:
         en: 'Main Area'

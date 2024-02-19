@@ -1,5 +1,32 @@
 flower-paradise:
-  areas: {  }
+  areas:
+    main_area:
+      encounter_rates: {  }
+      encounters:
+        diamond:
+          shaymin-land:
+            encounter_method: only-one
+            max_level: 30
+            min_level: 30
+            rarity: 100
+            slot: ~
+        pearl:
+          shaymin-land:
+            encounter_method: only-one
+            max_level: 30
+            min_level: 30
+            rarity: 100
+            slot: ~
+        platinum:
+          shaymin-land:
+            encounter_method: only-one
+            max_level: 30
+            min_level: 30
+            rarity: 100
+            slot: ~
+      game_index: 0
+      name:
+        en: 'Main Area'
   name:
     en: 'Flower Paradise'
     fr: 'Paradis Fleuri'

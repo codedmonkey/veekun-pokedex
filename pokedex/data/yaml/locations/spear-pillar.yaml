@@ -1,5 +1,38 @@
 spear-pillar:
-  areas: {  }
+  areas:
+    area:
+      encounter_rates: {  }
+      encounters:
+        diamond:
+          dialga:
+            encounter_method: only-one
+            max_level: 47
+            min_level: 47
+            rarity: 100
+            slot: ~
+        pearl:
+          palkia:
+            encounter_method: only-one
+            max_level: 47
+            min_level: 47
+            rarity: 100
+            slot: ~
+        platinum:
+          dialga:
+            encounter_method: only-one
+            max_level: 70
+            min_level: 70
+            rarity: 100
+            slot: ~
+          palkia:
+            encounter_method: only-one
+            max_level: 70
+            min_level: 70
+            rarity: 100
+            slot: ~
+      game_index: 0
+      name:
+        en: 'Spear Pillar'
   name:
     en: 'Spear Pillar'
     fr: 'Colonnes Lances'

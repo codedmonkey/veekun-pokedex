@@ -1,5 +1,32 @@
 newmoon-island:
-  areas: {  }
+  areas:
+    main_area:
+      encounter_rates: {  }
+      encounters:
+        diamond:
+          darkrai:
+            encounter_method: only-one
+            max_level: 40
+            min_level: 40
+            rarity: 100
+            slot: ~
+        pearl:
+          darkrai:
+            encounter_method: only-one
+            max_level: 40
+            min_level: 40
+            rarity: 100
+            slot: ~
+        platinum:
+          darkrai:
+            encounter_method: only-one
+            max_level: 50
+            min_level: 50
+            rarity: 100
+            slot: ~
+      game_index: 0
+      name:
+        en: 'Main Area'
   name:
     en: 'Newmoon Island'
     fr: 'Ile Nouvellelune'

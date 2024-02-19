@@ -333,10 +333,10 @@ move-effect-46:
         en: 'If this move misses, the user takes 1 point of damage in recoil.'
     black-white:
       effect:
-        en: 'If this move misses, the user takes half of the damage it would have inflicted in recoil.'
+        en: 'If this move misses, the user takes damage equal to half of its max HP rounded down.'
   effect:
     en: |-
-      Inflicts [regular damage]{mechanic:regular-damage}.  If this move misses, is blocked by []{move:protect} or []{move:detect}, or has no effect, the user takes half the damage it would have inflicted in recoil.  This recoil damage will not exceed half the user's max HP.
+      Inflicts [regular damage]{mechanic:regular-damage}. If this move misses, is blocked by []{move:protect} or []{move:detect}, or has no effect, the user takes damage equal to half of its max HP rounded down.
 
       This move cannot be used while []{move:gravity} is in effect.
   short_effect:
@@ -3195,7 +3195,7 @@ move-effect-373:
 move-effect-374:
   changelog: {  }
   effect:
-    en: 'Inflicts regular damage.  Traps the target.  '
+    en: 'Inflicts regular damage.  Traps the target.'
   short_effect:
     en: 'Prevents the target from leaving battle.'
 move-effect-375:
@@ -3461,159 +3461,127 @@ move-effect-415:
 move-effect-416:
   changelog: {  }
   effect:
-    en: 'XXX new effect for light-that-burns-the-sky'
+    en: 'Inflicts damage using either [Attack]{mechanic:attack} or [Special Attack]{mechanic:special-attack} stat, whichever is higher. Determining which stat is used takes into account [stat changes]{mechanic:stage} but not held items or abilities.'
   short_effect:
-    en: 'XXX new effect for light-that-burns-the-sky'
+    en: 'Inflicts damage using either Attack or Special Attack stat, whichever is higher.'
 move-effect-417:
   changelog: {  }
   effect:
-    en: 'XXX new effect for lets-snuggle-forever'
+    en: 'After inflicting damage, all Normal-type moves become Electric-type for the remainder of the turn, including status moves. This effect is applied after move type-changing abilities, such as [Pixilate]{ability:pixilate} and [Normalize]{ability:normalize}.'
   short_effect:
-    en: 'XXX new effect for lets-snuggle-forever'
+    en: 'After inflicting damage, causes all Normal-type moves to become Electric-type for the remainder of the turn.'
 move-effect-418:
   changelog: {  }
   effect:
-    en: 'XXX new effect for splintered-stormshards'
+    en: 'Inflicts damage and removes any terrain present on the battlefield.'
   short_effect:
-    en: 'XXX new effect for splintered-stormshards'
+    en: 'Inflicts damage and removes any terrain present on the battlefield.'
 move-effect-419:
   changelog: {  }
   effect:
-    en: 'XXX new effect for clangorous-soulblaze'
+    en: "Inflicts sound-based damage to all opposing Pokémon and increases the user's [Attack]{mechanic:attack}, [Defense]{mechanic:defense}, [Special Attack]{mechanic:special-attack}, [Special Defense]{mechanic:special-defense}, and [Speed]{mechanic:speed} by one [stage]{mechanic:stage} each. The user's stats are not raised if the move fails to damage any opposing Pokémon."
   short_effect:
-    en: 'XXX new effect for clangorous-soulblaze'
+    en: "Inflicts damage to all opposing Pokémon and increases the user's Attack, Defense, Special Attack, Special Defense, and Speed by one stage each."
 move-effect-420:
   changelog: {  }
   effect:
-    en: 'XXX new effect for mind-blown'
+    en: 'Inflicts damage, and the user takes damage equal to half of its max [HP]{mechanic:hp}, rounded up. The user still takes damage if the move is blocked by [Protect]{move:protect} or [Substitute]{move:substitute}, misses, or if the target has [Flash Fire]{ability:flash-fire}.'
   short_effect:
-    en: 'XXX new effect for mind-blown'
+    en: 'Inflicts damage, and the user takes damage equal to half of its max HP, rounded up.'
 move-effect-421:
   changelog: {  }
   effect:
-    en: 'XXX new effect for dynamax-cannon'
+    en: "Inflicts [regular damage]{mechanic:regular-damage}, then (if successful) sets []{move:light-screen} on the user's side of the [field]{mechanic:field}."
   short_effect:
-    en: 'XXX new effect for dynamax-cannon'
+    en: "Sets [Light Screen]{move:light-screen} on the user's side of the field after inflicting damage."
 move-effect-422:
   changelog: {  }
   effect:
-    en: 'XXX new effect for snipe-shot'
+    en: "Inflicts [regular damage]{mechanic:regular-damage}, then (if successful) sets []{move:reflect} on the user's side of the [field]{mechanic:field}."
   short_effect:
-    en: 'XXX new effect for snipe-shot'
+    en: "Sets [Reflect]{move:reflect} on the user's side of the field after inflicting damage."
 move-effect-423:
   changelog: {  }
   effect:
-    en: 'XXX new effect for jaw-lock'
+    en: 'Inflicts [regular damage]{mechanic:regular-damage}, then (if successful) sets []{move:leech-seed} on the target.'
   short_effect:
-    en: 'XXX new effect for jaw-lock'
+    en: 'Seeds the target after inflicting damage.'
 move-effect-424:
   changelog: {  }
   effect:
-    en: 'XXX new effect for stuff-cheeks'
+    en: "Inflicts [regular damage]{mechanic:regular-damage}, then (if successful) removes [major status effects]{mechanic:major-status-effects} from every Pokémon in the user's party."
   short_effect:
-    en: 'XXX new effect for stuff-cheeks'
+    en: 'Cures the entire party of major status effects after inflicting damage.'
 move-effect-425:
   changelog: {  }
   effect:
-    en: 'XXX new effect for no-retreat'
+    en: ' with a $effect_chance% chance to make the target flinch.'
   short_effect:
-    en: 'XXX new effect for no-retreat'
+    en: 'Hits twice in one turn'
 move-effect-426:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for tar-shot'
-  short_effect:
-    en: 'XXX new effect for tar-shot'
+  effect: {  }
+  short_effect: {  }
 move-effect-427:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for magic-powder'
-  short_effect:
-    en: 'XXX new effect for magic-powder'
+  effect: {  }
+  short_effect: {  }
 move-effect-428:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for dragon-darts'
-  short_effect:
-    en: 'XXX new effect for dragon-darts'
+  effect: {  }
+  short_effect: {  }
 move-effect-429:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for teatime'
-  short_effect:
-    en: 'XXX new effect for teatime'
+  effect: {  }
+  short_effect: {  }
 move-effect-430:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for octolock'
-  short_effect:
-    en: 'XXX new effect for octolock'
+  effect: {  }
+  short_effect: {  }
 move-effect-431:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for bolt-beak'
-  short_effect:
-    en: 'XXX new effect for bolt-beak'
+  effect: {  }
+  short_effect: {  }
 move-effect-432:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for court-change'
-  short_effect:
-    en: 'XXX new effect for court-change'
+  effect: {  }
+  short_effect: {  }
 move-effect-433:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for clangorous-soul'
-  short_effect:
-    en: 'XXX new effect for clangorous-soul'
+  effect: {  }
+  short_effect: {  }
 move-effect-434:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for body-press'
-  short_effect:
-    en: 'XXX new effect for body-press'
+  effect: {  }
+  short_effect: {  }
 move-effect-435:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for decorate'
-  short_effect:
-    en: 'XXX new effect for decorate'
+  effect: {  }
+  short_effect: {  }
 move-effect-436:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for behemoth-blade'
-  short_effect:
-    en: 'XXX new effect for behemoth-blade'
+  effect: {  }
+  short_effect: {  }
 move-effect-437:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for aura-wheel'
-  short_effect:
-    en: 'XXX new effect for aura-wheel'
+  effect: {  }
+  short_effect: {  }
 move-effect-439:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for overdrive'
-  short_effect:
-    en: 'XXX new effect for overdrive'
+  effect: {  }
+  short_effect: {  }
 move-effect-440:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for apple-acid'
-  short_effect:
-    en: 'XXX new effect for apple-acid'
+  effect: {  }
+  short_effect: {  }
 move-effect-441:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for life-dew'
-  short_effect:
-    en: 'XXX new effect for life-dew'
+  effect: {  }
+  short_effect: {  }
 move-effect-442:
   changelog: {  }
-  effect:
-    en: 'XXX new effect for obstruct'
-  short_effect:
-    en: 'XXX new effect for obstruct'
+  effect: {  }
+  short_effect: {  }
 move-effect-10001:
   changelog: {  }
   effect:

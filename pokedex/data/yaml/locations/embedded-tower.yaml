@@ -1,5 +1,51 @@
 embedded-tower:
-  areas: {  }
+  areas:
+    kyogre-room:
+      encounter_rates: {  }
+      encounters:
+        heartgold:
+          kyogre:
+            encounter_method: only-one
+            max_level: 50
+            min_level: 50
+            rarity: 100
+            slot: ~
+      game_index: 0
+      name:
+        en: 'Kyogre’s Room'
+    groundon-room:
+      encounter_rates: {  }
+      encounters:
+        soulsilver:
+          groudon:
+            encounter_method: only-one
+            max_level: 50
+            min_level: 50
+            rarity: 100
+            slot: ~
+      game_index: 0
+      name:
+        en: 'Groudon’s Room'
+    rayquaza-room:
+      encounter_rates: {  }
+      encounters:
+        heartgold:
+          rayquaza:
+            encounter_method: only-one
+            max_level: 50
+            min_level: 50
+            rarity: 100
+            slot: ~
+        soulsilver:
+          rayquaza:
+            encounter_method: only-one
+            max_level: 50
+            min_level: 50
+            rarity: 100
+            slot: ~
+      game_index: 0
+      name:
+        en: 'Rayquaza’s Room'
   name:
     en: 'Embedded Tower'
     fr: 'Tour Enfouie'

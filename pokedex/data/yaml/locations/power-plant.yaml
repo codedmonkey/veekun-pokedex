@@ -9,11 +9,11 @@ power-plant:
       encounters:
         red:
           voltorb:
-            encounter_method: walk
-            max_level: 23
-            min_level: 23
-            rarity: 10
-            slot: 6
+            encounter_method: only-one
+            max_level: 40
+            min_level: 40
+            rarity: 100
+            slot: ~
           magnemite:
             encounter_method: walk
             max_level: 23
@@ -38,13 +38,25 @@ power-plant:
             min_level: 36
             rarity: 1
             slot: 10
+          zapdos:
+            encounter_method: only-one
+            max_level: 50
+            min_level: 50
+            rarity: 100
+            slot: ~
+          electrode:
+            encounter_method: only-one
+            max_level: 43
+            min_level: 43
+            rarity: 100
+            slot: ~
         blue:
           voltorb:
-            encounter_method: walk
-            max_level: 23
-            min_level: 23
-            rarity: 10
-            slot: 6
+            encounter_method: only-one
+            max_level: 40
+            min_level: 40
+            rarity: 100
+            slot: ~
           magnemite:
             encounter_method: walk
             max_level: 23
@@ -69,6 +81,18 @@ power-plant:
             min_level: 36
             rarity: 1
             slot: 10
+          zapdos:
+            encounter_method: only-one
+            max_level: 50
+            min_level: 50
+            rarity: 100
+            slot: ~
+          electrode:
+            encounter_method: only-one
+            max_level: 43
+            min_level: 43
+            rarity: 100
+            slot: ~
         yellow:
           magnemite:
             encounter_method: walk
@@ -83,11 +107,11 @@ power-plant:
             rarity: 5
             slot: 8
           voltorb:
-            encounter_method: walk
-            max_level: 37
-            min_level: 37
-            rarity: 10
-            slot: 5
+            encounter_method: only-one
+            max_level: 40
+            min_level: 40
+            rarity: 100
+            slot: ~
           grimer:
             encounter_method: walk
             max_level: 37
@@ -100,6 +124,18 @@ power-plant:
             min_level: 37
             rarity: 1
             slot: 10
+          zapdos:
+            encounter_method: only-one
+            max_level: 50
+            min_level: 50
+            rarity: 100
+            slot: ~
+          electrode:
+            encounter_method: only-one
+            max_level: 43
+            min_level: 43
+            rarity: 100
+            slot: ~
         firered:
           voltorb:
             encounter_method: walk
@@ -131,6 +167,18 @@ power-plant:
             min_level: 35
             rarity: 1
             slot: 12
+          zapdos:
+            encounter_method: only-one
+            max_level: 50
+            min_level: 50
+            rarity: 100
+            slot: ~
+          electrode:
+            encounter_method: only-one
+            max_level: 34
+            min_level: 34
+            rarity: 100
+            slot: ~
         leafgreen:
           voltorb:
             encounter_method: walk
@@ -156,6 +204,18 @@ power-plant:
             min_level: 34
             rarity: 1
             slot: 12
+          zapdos:
+            encounter_method: only-one
+            max_level: 50
+            min_level: 50
+            rarity: 100
+            slot: ~
+          electrode:
+            encounter_method: only-one
+            max_level: 34
+            min_level: 34
+            rarity: 100
+            slot: ~
       game_index: 0
       name:
         en: 'Main Area'
