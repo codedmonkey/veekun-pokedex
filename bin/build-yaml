@@ -61,6 +61,7 @@ $pokemonColors = new Collection('pokemon_colors');
 $pokemonEvolution = new Collection('pokemon_evolution', identifierField: null);
 $pokemonForms = new Collection('pokemon_forms', orderable: true);
 $pokemonHabitats = new Collection('pokemon_habitats');
+$pokemonItems = new Collection('pokemon_items', identifierField: null);
 $pokemonMoveMethods = new Collection('pokemon_move_methods');
 $pokemonMoves = new Collection('pokemon_moves', identifierField: null);
 $pokemonShapes = new Collection('pokemon_shapes');
@@ -324,6 +325,9 @@ $pokemonForms
 
 $pokemonGameIndices
     ->parseInteger('game_index');
+
+$pokemonItems
+    ->parseInteger('rarity');
 
 $pokemonMoves
     ->parseInteger('level')
@@ -724,6 +728,7 @@ $pokedexes
 $pokemon
     ->embedGroupedAssociation($pokemonAbilities, 'abilities', ['ability_id' => $abilities])
     ->embedGroupedCollection($pokemonMoves, 'moves', 'pokemon_id', ['version_group_id' => $versionGroups, 'move_id' => $moves])
+    ->embedGroupedCollection($pokemonItems, 'held_item', 'pokemon_id', ['version_id' => $versions, 'item_id' => $items])
     ->embedJoin($pokemonTypes, 'type');
 
 $pokemonForms
